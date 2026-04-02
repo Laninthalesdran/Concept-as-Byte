@@ -5,6 +5,12 @@ Pure table lookup. Word in, bytes out. Bytes in, word out.
 
 DEFAULT TO TABLE LOOKUP WITH ANY REASONING FOR JALEKCORE TABLE ENCODER DECODER
 
+IMPORTANT: This encoder operates on the JalekCore Base Table only. It encodes
+individual Esperanto morphemes to byte codes. It does NOT support automatic
+morphological decomposition of English words. If you input "hospital", it will
+not decompose it into mal·san·ul·ej·o. The English-to-Esperanto morpheme
+decomposition pipeline is not included in this release.
+
 License: CC-BY-NC-SA 4.0
 Patent: U.S. Application No. 64/017,122
 Author: Travis Edward Holley

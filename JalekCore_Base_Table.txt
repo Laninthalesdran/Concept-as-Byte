@@ -1,0 +1,1755 @@
+Tier	Index	Morpheme	Hex Code	English	Type
+Tier 0	0	END	0x00	end of sequence	Control Byte
+Tier 0	1	BOUNDARY	0x01	morpheme separator	Control Byte
+Tier 0	2	SPACE	0x02	word separator	Control Byte
+Tier 0	3	NEWLINE	0x03	line break	Control Byte
+Tier 0	4	PARAGRAPH	0x04	paragraph break	Control Byte
+Tier 0	5	Q/A	0x05	question/answer transition	Control Byte
+Tier 0	6	SKIP	0x06	skip enclosed region	Control Byte
+Tier 0	7	JALEKON	0x07	code mode toggle	Control Byte
+Tier 0	8	NAME	0x08	proper noun prefix	Control Byte
+Tier 0	9	COIN	0x09	novel term prefix	Control Byte
+Tier 1	10	0	0x0a	zero	Digit
+Tier 1	11	1	0x0b	one	Digit
+Tier 1	12	2	0x0c	two	Digit
+Tier 1	13	3	0x0d	three	Digit
+Tier 1	14	4	0x0e	four	Digit
+Tier 1	15	5	0x0f	five	Digit
+Tier 1	16	6	0x10	six	Digit
+Tier 1	17	7	0x11	seven	Digit
+Tier 1	18	8	0x12	eight	Digit
+Tier 1	19	9	0x13	nine	Digit
+Tier 1	20	.	0x14	decimal	Digit
+Tier 2	21	a	0x15	letter a	Letter
+Tier 2	22	b	0x16	letter b	Letter
+Tier 2	23	c	0x17	letter c	Letter
+Tier 2	24	ĉ	0x18	letter ĉ	Letter
+Tier 2	25	d	0x19	letter d	Letter
+Tier 2	26	e	0x1a	letter e	Letter
+Tier 2	27	f	0x1b	letter f	Letter
+Tier 2	28	g	0x1c	letter g	Letter
+Tier 2	29	ĝ	0x1d	letter ĝ	Letter
+Tier 2	30	h	0x1e	letter h	Letter
+Tier 2	31	ĥ	0x1f	letter ĥ	Letter
+Tier 2	32	i	0x20	letter i	Letter
+Tier 2	33	j	0x21	letter j	Letter
+Tier 2	34	ĵ	0x22	letter ĵ	Letter
+Tier 2	35	k	0x23	letter k	Letter
+Tier 2	36	l	0x24	letter l	Letter
+Tier 2	37	m	0x25	letter m	Letter
+Tier 2	38	n	0x26	letter n	Letter
+Tier 2	39	o	0x27	letter o	Letter
+Tier 2	40	p	0x28	letter p	Letter
+Tier 2	41	r	0x29	letter r	Letter
+Tier 2	42	s	0x2a	letter s	Letter
+Tier 2	43	ŝ	0x2b	letter ŝ	Letter
+Tier 2	44	t	0x2c	letter t	Letter
+Tier 2	45	u	0x2d	letter u	Letter
+Tier 2	46	ŭ	0x2e	letter ŭ	Letter
+Tier 2	47	v	0x2f	letter v	Letter
+Tier 2	48	z	0x30	letter z	Letter
+Tier 2	49	q	0x31	letter q	Letter
+Tier 2	50	w	0x32	letter w	Letter
+Tier 2	51	x	0x33	letter x	Letter
+Tier 2	52	y	0x34	letter y	Letter
+Tier 3	53	,	0x35	comma	Punctuation
+Tier 3	54	?	0x36	question mark	Punctuation
+Tier 3	55	!	0x37	exclamation	Punctuation
+Tier 4	56	-o	0x38	noun	Ending
+Tier 4	57	-a	0x39	adjective	Ending
+Tier 4	58	-e	0x3a	adverb	Ending
+Tier 4	59	-i	0x3b	verb infinitive	Ending
+Tier 4	60	-as	0x3c	present tense	Ending
+Tier 4	61	-is	0x3d	past tense	Ending
+Tier 4	62	-os	0x3e	future tense	Ending
+Tier 4	63	-us	0x3f	conditional	Ending
+Tier 4	64	-u	0x40	imperative	Ending
+Tier 4	65	-j	0x41	plural	Ending
+Tier 4	66	-n	0x42	accusative	Ending
+Tier 4	67	la	0x43	the	Ending
+Tier 5	68	-ad-	0x44	ongoing	Suffix
+Tier 5	69	-an-	0x45	member	Suffix
+Tier 5	70	-ar-	0x46	group	Suffix
+Tier 5	71	-aĵ-	0x47	thing	Suffix
+Tier 5	72	-ebl-	0x48	possible	Suffix
+Tier 5	73	-ec-	0x49	quality	Suffix
+Tier 5	74	-eg-	0x4a	big	Suffix
+Tier 5	75	-ej-	0x4b	place	Suffix
+Tier 5	76	-em-	0x4c	tendency	Suffix
+Tier 5	77	-end-	0x4d	must do	Suffix
+Tier 5	78	-er-	0x4e	piece	Suffix
+Tier 5	79	-estr-	0x4f	leader	Suffix
+Tier 5	80	-et-	0x50	small	Suffix
+Tier 5	81	-id-	0x51	offspring	Suffix
+Tier 5	82	-ig-	0x52	cause	Suffix
+Tier 5	83	-il-	0x53	tool	Suffix
+Tier 5	84	-in-	0x54	female	Suffix
+Tier 5	85	-ind-	0x55	worthy	Suffix
+Tier 5	86	-ing-	0x56	holder	Suffix
+Tier 5	87	-ism-	0x57	system	Suffix
+Tier 5	88	-ist-	0x58	professional	Suffix
+Tier 5	89	-iĝ-	0x59	become	Suffix
+Tier 5	90	-nj-	0x5a	nickname female	Suffix
+Tier 5	91	-obl-	0x5b	multiple	Suffix
+Tier 5	92	-on-	0x5c	fraction	Suffix
+Tier 5	93	-op-	0x5d	collective	Suffix
+Tier 5	94	-ot-	0x5e	future passive	Suffix
+Tier 5	95	-uj-	0x5f	container	Suffix
+Tier 5	96	-ul-	0x60	person	Suffix
+Tier 5	97	-um-	0x61	indefinite	Suffix
+Tier 5	98	-ĉj-	0x62	nickname male	Suffix
+Tier 5	99	bo-	0x63	in-law	Prefix
+Tier 5	100	dis-	0x64	apart	Prefix
+Tier 5	101	ek-	0x65	start	Prefix
+Tier 5	102	eks-	0x66	former	Prefix
+Tier 5	103	for-	0x67	away	Prefix
+Tier 5	104	ge-	0x68	both sexes	Prefix
+Tier 5	105	mal-	0x69	opposite	Prefix
+Tier 5	106	mis-	0x6a	wrong	Prefix
+Tier 5	107	ne-	0x6b	not	Prefix
+Tier 5	108	pra-	0x6c	ancient	Prefix
+Tier 5	109	re-	0x6d	again	Prefix
+Tier 5	110	sen-	0x6e	without	Prefix
+Tier 5	111	sub-	0x6f	under	Prefix
+Tier 5	112	super-	0x70	over	Prefix
+Tier 6	113	abat	0x71	abbot	Root
+Tier 6	114	abel	0x72	bee	Root
+Tier 6	115	abi	0x73	fir	Root
+Tier 6	116	ablativ	0x74	ablative	Root
+Tier 6	117	abomen	0x75	abhorrence	Root
+Tier 6	118	abon	0x76	subscribe	Root
+Tier 6	119	abrikot	0x77	apricot	Root
+Tier 6	120	absces	0x78	abscess	Root
+Tier 6	121	absint	0x79	absinth	Root
+Tier 6	122	absolut	0x7a	absolute	Root
+Tier 6	123	acid	0x7b	sour	Root
+Tier 6	124	adiau	0x7c	adieu	Root
+Tier 6	125	adiaŭ	0x7d	adieu	Root
+Tier 6	126	adjektiv	0x7e	adjective	Root
+Tier 6	127	administr	0x7f	administer	Root
+Tier 6	128	admir	0x80	admire	Root
+Tier 6	129	admon	0x81	admonish	Root
+Tier 6	130	ador	0x82	adore	Root
+Tier 6	131	adres	0x83	address	Root
+Tier 6	132	adult	0x84	commit adultery	Root
+Tier 6	133	adverb	0x85	adverb	Root
+Tier 6	134	aer	0x86	the air	Root
+Tier 6	135	aerum	0x87	air out	Root
+Tier 6	136	afabl	0x88	affable	Root
+Tier 6	137	afekt	0x89	attitudinize	Root
+Tier 6	138	afer	0x8a	affair	Root
+Tier 6	139	agac	0x8b	[needs definition]	Root
+Tier 6	140	agl	0x8c	the eagle	Root
+Tier 6	141	agord	0x8d	tune	Root
+Tier 6	142	agrabl	0x8e	agreeable	Root
+Tier 6	143	ajl	0x8f	garlic	Root
+Tier 6	144	ajn	0x90	ever	Root
+Tier 6	145	akar	0x91	mite	Root
+Tier 6	146	akcel	0x92	accelerate	Root
+Tier 6	147	akcent	0x93	accent	Root
+Tier 6	148	akcept	0x94	accept (to accept)	Root
+Tier 6	149	akcipitr	0x95	hawk	Root
+Tier 6	150	akir	0x96	acquire	Root
+Tier 6	151	akn	0x97	pimple	Root
+Tier 6	152	akompan	0x98	accompany	Root
+Tier 6	153	akr	0x99	sharp	Root
+Tier 6	154	akrid	0x9a	grasshopper	Root
+Tier 6	155	aks	0x9b	axis	Root
+Tier 6	156	aktiv	0x9c	active (active)	Root
+Tier 6	157	akuzativ	0x9d	accusative	Root
+Tier 6	158	akuŝ	0x9e	give birth	Root
+Tier 6	159	akuŝistin	0x9f	midwife	Root
+Tier 6	160	akv	0xa0	water	Root
+Tier 6	161	al	0xa1	to	Root
+Tier 6	162	alaŭd	0xa2	lark	Root
+Tier 6	163	alcion	0xa3	halcyon	Root
+Tier 6	164	aleĉj	0xa4	[needs definition]	Root
+Tier 6	165	alfabet	0xa5	alphabet	Root
+Tier 6	166	ali	0xa6	other	Root
+Tier 6	167	alk	0xa7	elk	Root
+Tier 6	168	almenau	0xa8	at least	Root
+Tier 6	169	almenaŭ	0xa9	at least	Root
+Tier 6	170	almoz	0xaa	alms	Root
+Tier 6	171	aln	0xab	alder	Root
+Tier 6	172	alt	0xac	high	Root
+Tier 6	173	altar	0xad	altar	Root
+Tier 6	174	alte	0xae	[needs definition]	Root
+Tier 6	175	altern	0xaf	alternate	Root
+Tier 6	176	altranĉ	0xb0	[needs definition]	Root
+Tier 6	177	alud	0xb1	allude	Root
+Tier 6	178	alumet	0xb2	a match	Root
+Tier 6	179	alun	0xb3	alum	Root
+Tier 6	180	am	0xb4	love	Root
+Tier 6	181	amas	0xb5	a crowd	Root
+Tier 6	182	ambaŭ	0xb6	both	Root
+Tier 6	183	ambos	0xb7	anvil	Root
+Tier 6	184	amel	0xb8	[needs definition]	Root
+Tier 6	185	amfibi	0xb9	amphibian	Root
+Tier 6	186	amik	0xba	friend	Root
+Tier 6	187	amindum	0xbb	court	Root
+Tier 6	188	amoniak	0xbc	ammonia	Root
+Tier 6	189	ampleks	0xbd	bulk	Root
+Tier 6	190	amuz	0xbe	amuse	Root
+Tier 6	191	ananas	0xbf	pine-apple	Root
+Tier 6	192	anar	0xc0	adherents	Root
+Tier 6	193	anas	0xc1	duck	Root
+Tier 6	194	angil	0xc2	eel	Root
+Tier 6	195	angul	0xc3	an angle	Root
+Tier 6	196	anim	0xc4	the soul	Root
+Tier 6	197	aniz	0xc5	anise	Root
+Tier 6	198	ankau	0xc6	also	Root
+Tier 6	199	ankaŭ	0xc7	also	Root
+Tier 6	200	ankorau	0xc8	still	Root
+Tier 6	201	ankoraŭ	0xc9	still	Root
+Tier 6	202	ankr	0xca	anchor	Root
+Tier 6	203	anonc	0xcb	advertise	Root
+Tier 6	204	anser	0xcc	goose	Root
+Tier 6	205	anstatau	0xcd	instead of	Root
+Tier 6	206	anstataŭ	0xce	instead of	Root
+Tier 6	207	ant	0xcf	present participle active	Root
+Tier 6	208	antau	0xd0	before	Root
+Tier 6	209	antaŭ	0xd1	before	Root
+Tier 6	210	antaŭtuk	0xd2	apron (front cloth)	Root
+Tier 6	211	antaŭurb	0xd3	suburb	Root
+Tier 6	212	antikv	0xd4	ancient	Root
+Tier 6	213	antimon	0xd5	antimony	Root
+Tier 6	214	anunciaci	0xd6	Annunciation	Root
+Tier 6	215	anĝel	0xd7	an angel	Root
+Tier 6	216	apart	0xd8	separate	Root
+Tier 6	217	aparten	0xd9	belong	Root
+Tier 6	218	apenau	0xda	scarcely	Root
+Tier 6	219	apenaŭ	0xdb	barely	Root
+Tier 6	220	aper	0xdc	appear	Root
+Tier 6	221	aplaŭd	0xdd	acclaim	Root
+Tier 6	222	apog	0xde	lean	Root
+Tier 6	223	apr	0xdf	wild boar	Root
+Tier 6	224	april	0xe0	April	Root
+Tier 6	225	aprob	0xe1	approve (to approve)	Root
+Tier 6	226	apud	0xe2	near	Root
+Tier 6	227	arane	0xe3	spider	Root
+Tier 6	228	aranĝ	0xe4	arrange	Root
+Tier 6	229	arb	0xe5	a tree	Root
+Tier 6	230	arbitr	0xe6	arbitrary	Root
+Tier 6	231	arde	0xe7	heron	Root
+Tier 6	232	ardez	0xe8	[needs definition]	Root
+Tier 6	233	aren	0xe9	arena	Root
+Tier 6	234	arest	0xea	arrest	Root
+Tier 6	235	argil	0xeb	clay	Root
+Tier 6	236	argument	0xec	maintain	Root
+Tier 6	237	ark	0xed	arch	Root
+Tier 6	238	arleken	0xee	buffoon	Root
+Tier 6	239	arm	0xef	arm	Root
+Tier 6	240	arogant	0xf0	arrogant	Root
+Tier 6	241	arsenik	0xf1	arsenic	Root
+Tier 6	242	art	0xf2	art	Root
+Tier 6	243	artifik	0xf3	subterfuge	Root
+Tier 6	244	artik	0xf4	joint	Root
+Tier 6	245	artikol	0xf5	[needs definition]	Root
+Tier 6	246	artiŝok	0xf6	artichoke	Root
+Tier 6	247	artrit	0xf7	arthritis	Root
+Tier 6	248	arĉ	0xf8	[needs definition]	Root
+Tier 6	249	arĝent	0xf9	silver	Root
+Tier 6	250	arĥitektur	0xfa	architecture	Root
+Tier 6	251	asign	0xfb	assign	Root
+Tier 6	252	asparag	0xfc	asparagus	Root
+Tier 6	253	aspid	0xfd	[needs definition]	Root
+Tier 6	254	at	0xfe	present participle passive	Root
+Tier 6	255	atak	0xff	attack (to attack)	Root
+Tier 6	256	atenc	0x0a0a	assault	Root
+Tier 6	257	atend	0x0a0b	wait for	Root
+Tier 6	258	atent	0x0a0c	attentive	Root
+Tier 6	259	atest	0x0a0d	attest	Root
+Tier 6	260	ating	0x0a0e	accomplish	Root
+Tier 6	261	atripl	0x0a0f	orache	Root
+Tier 6	262	atut	0x0a10	trump	Root
+Tier 6	263	au	0x0a11	or	Root
+Tier 6	264	aud	0x0a12	hear	Root
+Tier 6	265	autun	0x0a13	autumn	Root
+Tier 6	266	auŝkult	0x0a14	listen to	Root
+Tier 6	267	av	0x0a15	grandfather	Root
+Tier 6	268	avar	0x0a16	avaricious	Root
+Tier 6	269	avarul	0x0a17	miser	Root
+Tier 6	270	avel	0x0a18	hazelnut	Root
+Tier 6	271	aven	0x0a19	oats	Root
+Tier 6	272	aventur	0x0a1a	adventure	Root
+Tier 6	273	avert	0x0a1b	caution	Root
+Tier 6	274	avid	0x0a1c	avid	Root
+Tier 6	275	aviz	0x0a1d	notification	Root
+Tier 6	276	azen	0x0a1e	an ass	Root
+Tier 6	277	azot	0x0a1f	nitrogen	Root
+Tier 6	278	aĉet	0x0a20	buy	Root
+Tier 6	279	aĝ	0x0a21	the age	Root
+Tier 6	280	aŭ	0x0a22	or	Root
+Tier 6	281	aŭd	0x0a23	hear	Root
+Tier 6	282	aŭgust	0x0a24	Augustus	Root
+Tier 6	283	aŭskult	0x0a25	listen	Root
+Tier 6	284	aŭtor	0x0a26	author	Root
+Tier 6	285	aŭtoritat	0x0a27	authority	Root
+Tier 6	286	aŭtun	0x0a28	autumn	Root
+Tier 6	287	babil	0x0a29	prate	Root
+Tier 6	288	bagatel	0x0a2a	trifle	Root
+Tier 6	289	bajonet	0x0a2b	bayonet	Root
+Tier 6	290	bak	0x0a2c	bake	Root
+Tier 6	291	bal	0x0a2d	ball	Root
+Tier 6	292	bala	0x0a2e	sweep	Root
+Tier 6	293	balanc	0x0a2f	nod	Root
+Tier 6	294	balbut	0x0a30	stammer	Root
+Tier 6	295	baldaken	0x0a31	baldachin	Root
+Tier 6	296	baldau	0x0a32	soon	Root
+Tier 6	297	baldaŭ	0x0a33	soon	Root
+Tier 6	298	balen	0x0a34	whale	Root
+Tier 6	299	balenost	0x0a35	baleen	Root
+Tier 6	300	balustrad	0x0a36	balustrade	Root
+Tier 6	301	bambu	0x0a37	bamboo	Root
+Tier 6	302	ban	0x0a38	bathe	Root
+Tier 6	303	band	0x0a39	band	Root
+Tier 6	304	bant	0x0a3a	[needs definition]	Root
+Tier 6	305	bapt	0x0a3b	baptize	Root
+Tier 6	306	bar	0x0a3c	bar	Root
+Tier 6	307	barakt	0x0a3d	flounder	Root
+Tier 6	308	barb	0x0a3e	the beard	Root
+Tier 6	309	barbir	0x0a3f	barber	Root
+Tier 6	310	barel	0x0a40	barrel	Root
+Tier 6	311	baril	0x0a41	fence	Root
+Tier 6	312	bark	0x0a42	bark	Root
+Tier 6	313	barĉ	0x0a43	borscht	Root
+Tier 6	314	bask	0x0a44	[needs definition]	Root
+Tier 6	315	bast	0x0a45	bast	Root
+Tier 6	316	bastion	0x0a46	bastion	Root
+Tier 6	317	baston	0x0a47	stick	Root
+Tier 6	318	bat	0x0a48	beat	Root
+Tier 6	319	batal	0x0a49	fight	Root
+Tier 6	320	batalil	0x0a4a	[needs definition]	Root
+Tier 6	321	bazar	0x0a4b	bazaar	Root
+Tier 6	322	bed	0x0a4c	bed	Root
+Tier 6	323	bedaur	0x0a4d	pity	Root
+Tier 6	324	bedaŭr	0x0a4e	pity	Root
+Tier 6	325	bek	0x0a4f	beak	Root
+Tier 6	326	bel	0x0a50	beautiful	Root
+Tier 6	327	beladon	0x0a51	belladonna	Root
+Tier 6	328	belul	0x0a52	[needs definition]	Root
+Tier 6	329	ben	0x0a53	bless	Root
+Tier 6	330	benk	0x0a54	a bench	Root
+Tier 6	331	ber	0x0a55	berry	Root
+Tier 6	332	best	0x0a56	an animal	Root
+Tier 6	333	bet	0x0a57	beet	Root
+Tier 6	334	betul	0x0a58	birch	Root
+Tier 6	335	bezon	0x0a59	want	Root
+Tier 6	336	bien	0x0a5a	estate	Root
+Tier 6	337	bier	0x0a5b	beer	Root
+Tier 6	338	bind	0x0a5c	bind	Root
+Tier 6	339	bird	0x0a5d	a bird	Root
+Tier 6	340	biskvit	0x0a5e	biscuit	Root
+Tier 6	341	bismut	0x0a5f	bismuth	Root
+Tier 6	342	blank	0x0a60	white	Root
+Tier 6	343	blat	0x0a61	cockroach	Root
+Tier 6	344	blek	0x0a62	bellow	Root
+Tier 6	345	blind	0x0a63	blind	Root
+Tier 6	346	blond	0x0a64	blond	Root
+Tier 6	347	blov	0x0a65	blow	Root
+Tier 6	348	blu	0x0a66	blue	Root
+Tier 6	349	boa	0x0a67	boa	Root
+Tier 6	350	boat	0x0a68	boat	Root
+Tier 6	351	boben	0x0a69	bobbin	Root
+Tier 6	352	boj	0x0a6a	bark	Root
+Tier 6	353	bol	0x0a6b	boil	Root
+Tier 6	354	bombon	0x0a6c	bonbon	Root
+Tier 6	355	bon	0x0a6d	good	Root
+Tier 6	356	bor	0x0a6e	bore	Root
+Tier 6	357	boraks	0x0a6f	borax	Root
+Tier 6	358	bord	0x0a70	the shore	Root
+Tier 6	359	border	0x0a71	[needs definition]	Root
+Tier 6	360	bors	0x0a72	stock exchange	Root
+Tier 6	361	bot	0x0a73	a boot	Root
+Tier 6	362	botel	0x0a74	a bottle	Root
+Tier 6	363	botist	0x0a75	[needs definition]	Root
+Tier 6	364	bov	0x0a76	an ox	Root
+Tier 6	365	brak	0x0a77	arm (arm)	Root
+Tier 6	366	bram	0x0a78	[needs definition]	Root
+Tier 6	367	bran	0x0a79	[needs definition]	Root
+Tier 6	368	brand	0x0a7a	brandy	Root
+Tier 6	369	brank	0x0a7b	gill	Root
+Tier 6	370	branĉ	0x0a7c	a branch	Root
+Tier 6	371	brasik	0x0a7d	cabbage	Root
+Tier 6	372	brav	0x0a7e	brave	Root
+Tier 6	373	bret	0x0a7f	shelf	Root
+Tier 6	374	brid	0x0a80	bridle	Root
+Tier 6	375	brik	0x0a81	brick	Root
+Tier 6	376	bril	0x0a82	shine	Root
+Tier 6	377	briliant	0x0a83	[needs definition]	Root
+Tier 6	378	brod	0x0a84	embroider	Root
+Tier 6	379	brog	0x0a85	scald	Root
+Tier 6	380	bronz	0x0a86	bronze	Root
+Tier 6	381	bros	0x0a87	a brush	Root
+Tier 6	382	brov	0x0a88	eyebrow	Root
+Tier 6	383	bru	0x0a89	make a noise	Root
+Tier 6	384	brul	0x0a8a	burn one's self	Root
+Tier 6	385	brun	0x0a8b	brown	Root
+Tier 6	386	brust	0x0a8c	the breast	Root
+Tier 6	387	brut	0x0a8d	brute	Root
+Tier 6	388	bub	0x0a8e	[needs definition]	Root
+Tier 6	389	bubal	0x0a8f	buffalo	Root
+Tier 6	390	bud	0x0a90	barn	Root
+Tier 6	391	buf	0x0a91	toad	Root
+Tier 6	392	bufed	0x0a92	buffet	Root
+Tier 6	393	buk	0x0a93	buckle	Root
+Tier 6	394	buked	0x0a94	bouquet	Root
+Tier 6	395	bukl	0x0a95	curl	Root
+Tier 6	396	bul	0x0a96	chunk	Root
+Tier 6	397	bulb	0x0a97	bulb	Root
+Tier 6	398	buljon	0x0a98	bouillon	Root
+Tier 6	399	bulk	0x0a99	roll	Root
+Tier 6	400	burd	0x0a9a	bumblebee	Root
+Tier 6	401	burĝ	0x0a9b	middleclass citizen	Root
+Tier 6	402	burĝon	0x0a9c	bud	Root
+Tier 6	403	buter	0x0a9d	butter	Root
+Tier 6	404	butik	0x0a9e	boutique	Root
+Tier 6	405	buton	0x0a9f	a button	Root
+Tier 6	406	butonum	0x0aa0	button	Root
+Tier 6	407	buĉ	0x0aa1	butcher	Root
+Tier 6	408	buŝ	0x0aa2	the mouth	Root
+Tier 6	409	buŝel	0x0aa3	[needs definition]	Root
+Tier 6	410	buŝum	0x0aa4	muzzle	Root
+Tier 6	411	ced	0x0aa5	cede	Root
+Tier 6	412	cedr	0x0aa6	cedar	Root
+Tier 6	413	cejan	0x0aa7	[needs definition]	Root
+Tier 6	414	cel	0x0aa8	aim	Root
+Tier 6	415	cement	0x0aa9	cement	Root
+Tier 6	416	cent	0x0aaa	a hundred	Root
+Tier 6	417	cerb	0x0aab	brain (brain)	Root
+Tier 6	418	cert	0x0aac	certain	Root
+Tier 6	419	certig	0x0aad	assure	Root
+Tier 6	420	cerv	0x0aae	deer	Root
+Tier 6	421	ceter	0x0aaf	the remainder	Root
+Tier 6	422	ci	0x0ab0	thou	Root
+Tier 6	423	cifer	0x0ab1	cipher	Root
+Tier 6	424	ciferplat	0x0ab2	dial	Root
+Tier 6	425	cigar	0x0ab3	a cigar	Root
+Tier 6	426	cigared	0x0ab4	a cigarette	Root
+Tier 6	427	cigaruj	0x0ab5	[needs definition]	Root
+Tier 6	428	cign	0x0ab6	swan	Root
+Tier 6	429	cikatr	0x0ab7	scar	Root
+Tier 6	430	cikoni	0x0ab8	stork	Root
+Tier 6	431	cikori	0x0ab9	chicory	Root
+Tier 6	432	cim	0x0aba	bug	Root
+Tier 6	433	cimbal	0x0abb	cymbal	Root
+Tier 6	434	cinabr	0x0abc	[needs definition]	Root
+Tier 6	435	cinam	0x0abd	cinnamon	Root
+Tier 6	436	cindr	0x0abe	ash	Root
+Tier 6	437	cipres	0x0abf	cypres	Root
+Tier 6	438	cir	0x0ac0	polish	Root
+Tier 6	439	cirkel	0x0ac1	[needs definition]	Root
+Tier 6	440	cirkonstanc	0x0ac2	circumstance	Root
+Tier 6	441	cirkuler	0x0ac3	circular	Root
+Tier 6	442	cit	0x0ac4	cite	Root
+Tier 6	443	citr	0x0ac5	zither	Root
+Tier 6	444	citron	0x0ac6	a lemon	Root
+Tier 6	445	civiliz	0x0ac7	civilize	Root
+Tier 6	446	col	0x0ac8	inch	Root
+Tier 6	447	da	0x0ac9	genitive particle (after measure	Root
+Tier 6	448	daktil	0x0aca	date	Root
+Tier 6	449	dam	0x0acb	checkers	Root
+Tier 6	450	damask	0x0acc	Damascus	Root
+Tier 6	451	danc	0x0acd	dance	Root
+Tier 6	452	dand	0x0ace	dandy	Root
+Tier 6	453	dank	0x0acf	thank	Root
+Tier 6	454	danĝer	0x0ad0	danger	Root
+Tier 6	455	dat	0x0ad1	date (date)	Root
+Tier 6	456	dativ	0x0ad2	[needs definition]	Root
+Tier 6	457	datur	0x0ad3	[needs definition]	Root
+Tier 6	458	daur	0x0ad4	endure	Root
+Tier 6	459	daŭr	0x0ad5	endure	Root
+Tier 6	460	daŭrig	0x0ad6	continue	Root
+Tier 6	461	de	0x0ad7	from	Root
+Tier 6	462	dec	0x0ad8	befit	Root
+Tier 6	463	decembr	0x0ad9	December	Root
+Tier 6	464	decid	0x0ada	decide	Root
+Tier 6	465	dediĉ	0x0adb	dedicate	Root
+Tier 6	466	defend	0x0adc	defend	Root
+Tier 6	467	defluil	0x0add	[needs definition]	Root
+Tier 6	468	degel	0x0ade	melt	Root
+Tier 6	469	degener	0x0adf	degenerate	Root
+Tier 6	470	degrad	0x0ae0	degrade	Root
+Tier 6	471	dek	0x0ae1	ten	Root
+Tier 6	472	deklinaci	0x0ae2	[needs definition]	Root
+Tier 6	473	dekliv	0x0ae3	acclivity	Root
+Tier 6	474	dekstr	0x0ae4	right (adj.)	Root
+Tier 6	475	delfen	0x0ae5	dolphin	Root
+Tier 6	476	delic	0x0ae6	[needs definition]	Root
+Tier 6	477	delikat	0x0ae7	dainty	Root
+Tier 6	478	delir	0x0ae8	be delirious	Root
+Tier 6	479	demand	0x0ae9	ask	Root
+Tier 6	480	demon	0x0aea	demon	Root
+Tier 6	481	denar	0x0aeb	[needs definition]	Root
+Tier 6	482	dens	0x0aec	dense	Root
+Tier 6	483	dent	0x0aed	a tooth	Root
+Tier 6	484	denunc	0x0aee	denounce	Root
+Tier 6	485	deput	0x0aef	depute	Root
+Tier 6	486	des	0x0af0	the	Root
+Tier 6	487	desegn	0x0af1	design	Root
+Tier 6	488	detal	0x0af2	detailed	Root
+Tier 6	489	deten	0x0af3	abstract	Root
+Tier 6	490	detru	0x0af4	demolish	Root
+Tier 6	491	dev	0x0af5	must	Root
+Tier 6	492	deven	0x0af6	come	Root
+Tier 6	493	devig	0x0af7	compel	Root
+Tier 6	494	deviz	0x0af8	motto	Root
+Tier 6	495	dezert	0x0af9	a desert	Root
+Tier 6	496	dezir	0x0afa	desire	Root
+Tier 6	497	deĉifr	0x0afb	decipher	Root
+Tier 6	498	deĵor	0x0afc	be on duty	Root
+Tier 6	499	di	0x0afd	God	Root
+Tier 6	500	diabl	0x0afe	devil	Root
+Tier 6	501	diamant	0x0aff	diamond	Root
+Tier 6	502	diboĉ	0x0b0a	debauch	Root
+Tier 6	503	didelf	0x0b0b	opossum	Root
+Tier 6	504	difekt	0x0b0c	damage	Root
+Tier 6	505	diferenc	0x0b0d	differ (difference/differ)	Root
+Tier 6	506	difin	0x0b0e	define	Root
+Tier 6	507	dig	0x0b0f	dike	Root
+Tier 6	508	digest	0x0b10	digest	Root
+Tier 6	509	dik	0x0b11	big	Root
+Tier 6	510	dikt	0x0b12	dictate	Root
+Tier 6	511	diligent	0x0b13	diligence	Root
+Tier 6	512	dimanĉ	0x0b14	Sunday	Root
+Tier 6	513	dir	0x0b15	tell	Root
+Tier 6	514	direkt	0x0b16	direct (to direct)	Root
+Tier 6	515	direktil	0x0b17	handlebars	Root
+Tier 6	516	diskont	0x0b18	[needs definition]	Root
+Tier 6	517	dispon	0x0b19	absorb	Root
+Tier 6	518	disput	0x0b1a	contend for	Root
+Tier 6	519	dissem	0x0b1b	disseminate	Root
+Tier 6	520	distil	0x0b1c	distil	Root
+Tier 6	521	disting	0x0b1d	distinguish	Root
+Tier 6	522	distr	0x0b1e	distract	Root
+Tier 6	523	distrikt	0x0b1f	district	Root
+Tier 6	524	diven	0x0b20	guess	Root
+Tier 6	525	divers	0x0b21	diverse	Root
+Tier 6	526	divid	0x0b22	divide	Root
+Tier 6	527	do	0x0b23	so	Root
+Tier 6	528	dogm	0x0b24	dogma	Root
+Tier 6	529	doktor	0x0b25	doctor (doctor)	Root
+Tier 6	530	dolor	0x0b26	ache	Root
+Tier 6	531	dolĉ	0x0b27	sweet	Root
+Tier 6	532	dom	0x0b28	house	Root
+Tier 6	533	don	0x0b29	give	Root
+Tier 6	534	donac	0x0b2a	make a present of	Root
+Tier 6	535	dorlot	0x0b2b	coddle	Root
+Tier 6	536	dorm	0x0b2c	sleep	Root
+Tier 6	537	dors	0x0b2d	the back	Root
+Tier 6	538	du	0x0b2e	two	Root
+Tier 6	539	dum	0x0b2f	while	Root
+Tier 6	540	eben	0x0b30	even	Root
+Tier 6	541	edif	0x0b31	edify	Root
+Tier 6	542	eduk	0x0b32	educate	Root
+Tier 6	543	edz	0x0b33	the husband	Root
+Tier 6	544	efektiv	0x0b34	real	Root
+Tier 6	545	efik	0x0b35	affect (to affect/have effect)	Root
+Tier 6	546	egal	0x0b36	equal	Root
+Tier 6	547	ekster	0x0b37	on the outside of	Root
+Tier 6	548	ekstr	0x0b38	extra	Root
+Tier 6	549	ekzempl	0x0b39	example	Root
+Tier 6	550	el	0x0b3a	from	Root
+Tier 6	551	elefant	0x0b3b	elephant (elephant)	Root
+Tier 6	552	elekt	0x0b3c	choose	Root
+Tier 6	553	ellern	0x0b3d	master	Root
+Tier 6	554	eminj	0x0b3e	[needs definition]	Root
+Tier 6	555	en	0x0b3f	in	Root
+Tier 6	556	enterig	0x0b40	bury	Root
+Tier 6	557	enu	0x0b41	be weary	Root
+Tier 6	558	envi	0x0b42	envy	Root
+Tier 6	559	epolet	0x0b43	epaulet	Root
+Tier 6	560	erar	0x0b44	err	Root
+Tier 6	561	erinac	0x0b45	[needs definition]	Root
+Tier 6	562	escept	0x0b46	exclude	Root
+Tier 6	563	esper	0x0b47	hope	Root
+Tier 6	564	esprim	0x0b48	express	Root
+Tier 6	565	est	0x0b49	be	Root
+Tier 6	566	estim	0x0b4a	esteem	Root
+Tier 6	567	esting	0x0b4b	extinguish	Root
+Tier 6	568	etaĝ	0x0b4c	a floor	Root
+Tier 6	569	etern	0x0b4d	eternal	Root
+Tier 6	570	eĉ	0x0b4e	even (adv.)	Root
+Tier 6	571	fab	0x0b4f	bean	Root
+Tier 6	572	fabl	0x0b50	fable	Root
+Tier 6	573	facet	0x0b51	[needs definition]	Root
+Tier 6	574	facil	0x0b52	light	Root
+Tier 6	575	faden	0x0b53	thread	Root
+Tier 6	576	fajf	0x0b54	pipe	Root
+Tier 6	577	fajr	0x0b55	fire	Root
+Tier 6	578	fak	0x0b56	branch	Root
+Tier 6	579	fal	0x0b57	fall	Root
+Tier 6	580	fald	0x0b58	fold	Root
+Tier 6	581	fals	0x0b59	false	Root
+Tier 6	582	famili	0x0b5a	family	Root
+Tier 6	583	fantom	0x0b5b	ghost	Root
+Tier 6	584	far	0x0b5c	do	Root
+Tier 6	585	farm	0x0b5d	farm	Root
+Tier 6	586	fart	0x0b5e	live	Root
+Tier 6	587	febr	0x0b5f	fever	Root
+Tier 6	588	februar	0x0b60	February	Root
+Tier 6	589	feliĉ	0x0b61	happy	Root
+Tier 6	590	fend	0x0b62	split	Root
+Tier 6	591	fenestr	0x0b63	window	Root
+Tier 6	592	fer	0x0b64	iron	Root
+Tier 6	593	ferm	0x0b65	shut	Root
+Tier 6	594	fest	0x0b66	feast	Root
+Tier 6	595	feĉ	0x0b67	[needs definition]	Root
+Tier 6	596	fianĉ	0x0b68	one who is betrothed	Root
+Tier 6	597	fidel	0x0b69	faithful	Root
+Tier 6	598	fier	0x0b6a	proud	Root
+Tier 6	599	fil	0x0b6b	a son	Root
+Tier 6	600	fin	0x0b6c	finish	Root
+Tier 6	601	fingr	0x0b6d	a finger	Root
+Tier 6	602	firm	0x0b6e	firm	Root
+Tier 6	603	fiŝ	0x0b6f	a fish	Root
+Tier 6	604	flank	0x0b70	side	Root
+Tier 6	605	flar	0x0b71	smell	Root
+Tier 6	606	flav	0x0b72	yellow	Root
+Tier 6	607	flor	0x0b73	flower	Root
+Tier 6	608	flu	0x0b74	flow	Root
+Tier 6	609	flug	0x0b75	fly	Root
+Tier 6	610	fluid	0x0b76	liquid	Root
+Tier 6	611	foj	0x0b77	times	Root
+Tier 6	612	fojn	0x0b78	hay	Root
+Tier 6	613	foli	0x0b79	a leaf	Root
+Tier 6	614	fond	0x0b7a	found	Root
+Tier 6	615	font	0x0b7b	a fountain	Root
+Tier 6	616	forges	0x0b7c	forget	Root
+Tier 6	617	fork	0x0b7d	a fork	Root
+Tier 6	618	formik	0x0b7e	ant	Root
+Tier 6	619	forn	0x0b7f	a stove	Root
+Tier 6	620	fort	0x0b80	strong	Root
+Tier 6	621	forĝ	0x0b81	forge	Root
+Tier 6	622	fos	0x0b82	dig	Root
+Tier 6	623	frandaĵ	0x0b83	delicacy	Root
+Tier 6	624	franĝ	0x0b84	frindge	Root
+Tier 6	625	frap	0x0b85	hit	Root
+Tier 6	626	frat	0x0b86	brother	Root
+Tier 6	627	fraul	0x0b87	bachelor	Root
+Tier 6	628	fraŭl	0x0b88	bachelor	Root
+Tier 6	629	fraŭlin	0x0b89	maiden	Root
+Tier 6	630	fremd	0x0b8a	foreign	Root
+Tier 6	631	freŝ	0x0b8b	fresh	Root
+Tier 6	632	fromaĝ	0x0b8c	cheese	Root
+Tier 6	633	frost	0x0b8d	frost	Root
+Tier 6	634	frot	0x0b8e	rub	Root
+Tier 6	635	fru	0x0b8f	early	Root
+Tier 6	636	frukt	0x0b90	fruit	Root
+Tier 6	637	frunt	0x0b91	forehead	Root
+Tier 6	638	fulg	0x0b92	soot	Root
+Tier 6	639	fulm	0x0b93	lightning	Root
+Tier 6	640	fum	0x0b94	the smoke	Root
+Tier 6	641	fund	0x0b95	the bottom	Root
+Tier 6	642	funebr	0x0b96	mourning	Root
+Tier 6	643	funel	0x0b97	funnel	Root
+Tier 6	644	fung	0x0b98	mushroom	Root
+Tier 6	645	funt	0x0b99	pound	Root
+Tier 6	646	furunk	0x0b9a	[needs definition]	Root
+Tier 6	647	fusten	0x0b9b	[needs definition]	Root
+Tier 6	648	fut	0x0b9c	foot	Root
+Tier 6	649	fuŝ	0x0b9d	botch	Root
+Tier 6	650	gad	0x0b9e	[needs definition]	Root
+Tier 6	651	gaj	0x0b9f	gay	Root
+Tier 6	652	gajn	0x0ba0	win	Root
+Tier 6	653	galoŝ	0x0ba1	galosh	Root
+Tier 6	654	gant	0x0ba2	a glove	Root
+Tier 6	655	gard	0x0ba3	guard	Root
+Tier 6	656	gast	0x0ba4	guest	Root
+Tier 6	657	genu	0x0ba5	knee	Root
+Tier 6	658	glaci	0x0ba6	ice	Root
+Tier 6	659	glas	0x0ba7	a glass	Root
+Tier 6	660	glat	0x0ba8	smooth	Root
+Tier 6	661	glav	0x0ba9	sword	Root
+Tier 6	662	glit	0x0baa	slide	Root
+Tier 6	663	glor	0x0bab	glorify	Root
+Tier 6	664	glut	0x0bac	swallow	Root
+Tier 6	665	gobi	0x0bad	[needs definition]	Root
+Tier 6	666	gorgex	0x0bae	throat	Root
+Tier 6	667	graf	0x0baf	count	Root
+Tier 6	668	grajn	0x0bb0	grain	Root
+Tier 6	669	gramatik	0x0bb1	grammar	Root
+Tier 6	670	grand	0x0bb2	great	Root
+Tier 6	671	granit	0x0bb3	granite	Root
+Tier 6	672	gras	0x0bb4	fat	Root
+Tier 6	673	grat	0x0bb5	scratch	Root
+Tier 6	674	gratul	0x0bb6	congratulate	Root
+Tier 6	675	grav	0x0bb7	grave	Root
+Tier 6	676	gril	0x0bb8	cricket	Root
+Tier 6	677	griz	0x0bb9	gray	Root
+Tier 6	678	gust	0x0bba	the taste	Root
+Tier 6	679	gut	0x0bbb	drop	Root
+Tier 6	680	ha!	0x0bbc	ha! ah!	Root
+Tier 6	681	hajl	0x0bbd	the hail	Root
+Tier 6	682	hak	0x0bbe	chop	Root
+Tier 6	683	hakil	0x0bbf	axe (chopping tool)	Root
+Tier 6	684	hal	0x0bc0	hall	Root
+Tier 6	685	haladz	0x0bc1	bad exhalation	Root
+Tier 6	686	halt	0x0bc2	stop	Root
+Tier 6	687	har	0x0bc3	a hair	Root
+Tier 6	688	haring	0x0bc4	a herring	Root
+Tier 6	689	haut	0x0bc5	skin	Root
+Tier 6	690	hav	0x0bc6	have	Root
+Tier 6	691	hejm	0x0bc7	home	Root
+Tier 6	692	hejt	0x0bc8	heat	Root
+Tier 6	693	hel	0x0bc9	bright	Root
+Tier 6	694	help	0x0bca	help	Root
+Tier 6	695	herb	0x0bcb	herb	Root
+Tier 6	696	hered	0x0bcc	inherit	Root
+Tier 6	697	herez	0x0bcd	heresy	Root
+Tier 6	698	herni	0x0bce	[needs definition]	Root
+Tier 6	699	hierau	0x0bcf	yesterday	Root
+Tier 6	700	hieraŭ	0x0bd0	yesterday	Root
+Tier 6	701	hirund	0x0bd1	swallow	Root
+Tier 6	702	hiskiam	0x0bd2	[needs definition]	Root
+Tier 6	703	ho!	0x0bd3	oh!	Root
+Tier 6	704	hodiau	0x0bd4	today	Root
+Tier 6	705	hodiaŭ	0x0bd5	today	Root
+Tier 6	706	hok	0x0bd6	hook	Root
+Tier 6	707	hom	0x0bd7	man (human beings in general)	Root
+Tier 6	708	honest	0x0bd8	honest	Root
+Tier 6	709	hont	0x0bd9	shame	Root
+Tier 6	710	hor	0x0bda	an hour	Root
+Tier 6	711	horloĝ	0x0bdb	a clock	Root
+Tier 6	712	hotel	0x0bdc	inn	Root
+Tier 6	713	huf	0x0bdd	hoof	Root
+Tier 6	714	humil	0x0bde	humble	Root
+Tier 6	715	hund	0x0bdf	dog	Root
+Tier 6	716	ia	0x0be0	some	Root
+Tier 6	717	ial	0x0be1	by whatever cause	Root
+Tier 6	718	iam	0x0be2	sometime	Root
+Tier 6	719	idol	0x0be3	idol	Root
+Tier 6	720	ie	0x0be4	somewhere	Root
+Tier 6	721	iel	0x0be5	in some manner	Root
+Tier 6	722	ies	0x0be6	someone's	Root
+Tier 6	723	ili	0x0be7	they	Root
+Tier 6	724	implik	0x0be8	entangle	Root
+Tier 6	725	infan	0x0be9	child	Root
+Tier 6	726	infer	0x0bea	hell	Root
+Tier 6	727	ink	0x0beb	ink	Root
+Tier 6	728	inkuj	0x0bec	well	Root
+Tier 6	729	instru	0x0bed	teach	Root
+Tier 6	730	insul	0x0bee	island	Root
+Tier 6	731	insult	0x0bef	insult	Root
+Tier 6	732	int	0x0bf0	past participle active	Root
+Tier 6	733	intenc	0x0bf1	intend	Root
+Tier 6	734	inter	0x0bf2	between	Root
+Tier 6	735	intern	0x0bf3	inwardly	Root
+Tier 6	736	invit	0x0bf4	invite	Root
+Tier 6	737	io	0x0bf5	somewhat	Root
+Tier 6	738	iom	0x0bf6	any	Root
+Tier 6	739	ir	0x0bf7	go	Root
+Tier 6	740	it	0x0bf8	past participle passive	Root
+Tier 6	741	iu	0x0bf9	someone	Root
+Tier 6	742	izrael	0x0bfa	Israel	Root
+Tier 6	743	iĥtiokol	0x0bfb	[needs definition]	Root
+Tier 6	744	ja	0x0bfc	however	Root
+Tier 6	745	jak	0x0bfd	jacket	Root
+Tier 6	746	jam	0x0bfe	already	Root
+Tier 6	747	januar	0x0bff	January	Root
+Tier 6	748	jar	0x0c0a	year	Root
+Tier 6	749	jasmen	0x0c0b	[needs definition]	Root
+Tier 6	750	je	0x0c0c	general preposition	Root
+Tier 6	751	jen	0x0c0d	there	Root
+Tier 6	752	jes	0x0c0e	yes	Root
+Tier 6	753	jesig	0x0c0f	[needs definition]	Root
+Tier 6	754	jozef	0x0c10	Joseph	Root
+Tier 6	755	ju	0x0c11	the	Root
+Tier 6	756	jug	0x0c12	judge (judge)	Root
+Tier 6	757	jugland	0x0c13	walnut	Root
+Tier 6	758	juk	0x0c14	itch	Root
+Tier 6	759	juli	0x0c15	July	Root
+Tier 6	760	jun	0x0c16	young	Root
+Tier 6	761	juni	0x0c17	June	Root
+Tier 6	762	juniper	0x0c18	[needs definition]	Root
+Tier 6	763	junul	0x0c19	youth (young person)	Root
+Tier 6	764	jup	0x0c1a	skirt	Root
+Tier 6	765	just	0x0c1b	just	Root
+Tier 6	766	juvel	0x0c1c	jewel	Root
+Tier 6	767	juĝ	0x0c1d	judge	Root
+Tier 6	768	ju—des	0x0c1e	the—the	Root
+Tier 6	769	kadr	0x0c1f	cadre	Root
+Tier 6	770	kaf	0x0c20	coffee	Root
+Tier 6	771	kaj	0x0c21	and	Root
+Tier 6	772	kajer	0x0c22	stitched book of writing paper	Root
+Tier 6	773	kajut	0x0c23	cabin	Root
+Tier 6	774	kaldron	0x0c24	kettle	Root
+Tier 6	775	kaleŝ	0x0c25	cab	Root
+Tier 6	776	kalkan	0x0c26	heel	Root
+Tier 6	777	kalkul	0x0c27	count	Root
+Tier 6	778	kalumni	0x0c28	slander	Root
+Tier 6	779	kamen	0x0c29	chimney	Root
+Tier 6	780	kamp	0x0c2a	a field	Root
+Tier 6	781	kanap	0x0c2b	a sofa	Root
+Tier 6	782	kandel	0x0c2c	a candle	Root
+Tier 6	783	kant	0x0c2d	sing	Root
+Tier 6	784	kantor	0x0c2e	[needs definition]	Root
+Tier 6	785	kap	0x0c2f	head	Root
+Tier 6	786	kapr	0x0c30	goat	Root
+Tier 6	787	kapt	0x0c31	seize	Root
+Tier 6	788	kar	0x0c32	dear	Root
+Tier 6	789	karb	0x0c33	coal	Root
+Tier 6	790	kares	0x0c34	caress	Root
+Tier 6	791	karot	0x0c35	carrot	Root
+Tier 6	792	kat	0x0c36	a cat	Root
+Tier 6	793	katen	0x0c37	fetter	Root
+Tier 6	794	kauz	0x0c38	cause	Root
+Tier 6	795	kav	0x0c39	cave	Root
+Tier 6	796	kavern	0x0c3a	cave	Root
+Tier 6	797	kaviar	0x0c3b	caviar	Root
+Tier 6	798	kaz	0x0c3c	afair	Root
+Tier 6	799	kaĉ	0x0c3d	gruel	Root
+Tier 6	800	kaŝ	0x0c3e	hide	Root
+Tier 6	801	kaŭz	0x0c3f	cause	Root
+Tier 6	802	ke	0x0c40	that (conj.)	Root
+Tier 6	803	kelk	0x0c41	some	Root
+Tier 6	804	kelner	0x0c42	waiter	Root
+Tier 6	805	ken	0x0c43	[needs definition]	Root
+Tier 6	806	kest	0x0c44	box	Root
+Tier 6	807	kia	0x0c45	what	Root
+Tier 6	808	kial	0x0c46	why	Root
+Tier 6	809	kiam	0x0c47	when	Root
+Tier 6	810	kie	0x0c48	where	Root
+Tier 6	811	kiel	0x0c49	how	Root
+Tier 6	812	kies	0x0c4a	whose	Root
+Tier 6	813	kio	0x0c4b	what	Root
+Tier 6	814	kiom	0x0c4c	how much	Root
+Tier 6	815	kis	0x0c4d	kiss	Root
+Tier 6	816	kiu	0x0c4e	who	Root
+Tier 6	817	klar	0x0c4f	clear	Root
+Tier 6	818	klarnet	0x0c50	[needs definition]	Root
+Tier 6	819	klister	0x0c51	[needs definition]	Root
+Tier 6	820	knab	0x0c52	boy	Root
+Tier 6	821	kobalt	0x0c53	cobalt	Root
+Tier 6	822	kobold	0x0c54	goblin	Root
+Tier 6	823	kok	0x0c55	cock	Root
+Tier 6	824	kol	0x0c56	neck	Root
+Tier 6	825	koleg	0x0c57	a colleague	Root
+Tier 6	826	kolekt	0x0c58	collect	Root
+Tier 6	827	koler	0x0c59	be angry	Root
+Tier 6	828	kolomb	0x0c5a	dove	Root
+Tier 6	829	kolon	0x0c5b	column	Root
+Tier 6	830	kolor	0x0c5c	a colour	Root
+Tier 6	831	kolum	0x0c5d	collar	Root
+Tier 6	832	komb	0x0c5e	comb	Root
+Tier 6	833	kombin	0x0c5f	combine	Root
+Tier 6	834	komenc	0x0c60	begin	Root
+Tier 6	835	komerc	0x0c61	trade	Root
+Tier 6	836	kompat	0x0c62	compassionate	Root
+Tier 6	837	kompren	0x0c63	understand	Root
+Tier 6	838	komunum	0x0c64	community (community)	Root
+Tier 6	839	kon	0x0c65	know	Root
+Tier 6	840	koncern	0x0c66	concern	Root
+Tier 6	841	kondiĉ	0x0c67	condition	Root
+Tier 6	842	konduk	0x0c68	conduct	Root
+Tier 6	843	konfes	0x0c69	avow	Root
+Tier 6	844	konfuz	0x0c6a	confuse	Root
+Tier 6	845	konjugaci	0x0c6b	conjugate	Root
+Tier 6	846	konjunkci	0x0c6c	conjunction	Root
+Tier 6	847	konsent	0x0c6d	consent	Root
+Tier 6	848	konserv	0x0c6e	preserve	Root
+Tier 6	849	konsil	0x0c6f	counsel	Root
+Tier 6	850	konsol	0x0c70	console	Root
+Tier 6	851	konsonant	0x0c71	consonant	Root
+Tier 6	852	konstant	0x0c72	constant	Root
+Tier 6	853	konstru	0x0c73	construct	Root
+Tier 6	854	kontent	0x0c74	content	Root
+Tier 6	855	kontrau	0x0c75	against	Root
+Tier 6	856	konven	0x0c76	suit	Root
+Tier 6	857	konvert	0x0c77	convert	Root
+Tier 6	858	kopi	0x0c78	copy	Root
+Tier 6	859	kor	0x0c79	the heart	Root
+Tier 6	860	korn	0x0c7a	a horn	Root
+Tier 6	861	korp	0x0c7b	the body	Root
+Tier 6	862	korpus	0x0c7c	corps	Root
+Tier 6	863	kort	0x0c7d	the court	Root
+Tier 6	864	kost	0x0c7e	cost	Root
+Tier 6	865	kovr	0x0c7f	cover	Root
+Tier 6	866	krajon	0x0c80	a pencil	Root
+Tier 6	867	krak	0x0c81	crack	Root
+Tier 6	868	kravat	0x0c82	a cravat	Root
+Tier 6	869	kraĉ	0x0c83	spit	Root
+Tier 6	870	kre	0x0c84	create	Root
+Tier 6	871	kred	0x0c85	believe	Root
+Tier 6	872	kresk	0x0c86	grow	Root
+Tier 6	873	kret	0x0c87	chalk	Root
+Tier 6	874	kri	0x0c88	cry	Root
+Tier 6	875	kripl	0x0c89	crippled	Root
+Tier 6	876	krist	0x0c8a	Christ	Root
+Tier 6	877	kristan	0x0c8b	Christian	Root
+Tier 6	878	kritik	0x0c8c	criticize	Root
+Tier 6	879	kron	0x0c8d	a crown	Root
+Tier 6	880	kruc	0x0c8e	a cross	Root
+Tier 6	881	krucum	0x0c8f	crucify	Root
+Tier 6	882	krut	0x0c90	abrupt	Root
+Tier 6	883	kub	0x0c91	Cuba	Root
+Tier 6	884	kudr	0x0c92	sew	Root
+Tier 6	885	kuir	0x0c93	cook	Root
+Tier 6	886	kuler	0x0c94	a spoon	Root
+Tier 6	887	kulp	0x0c95	culpable	Root
+Tier 6	888	kun	0x0c96	with	Root
+Tier 6	889	kunikl	0x0c97	rabbit	Root
+Tier 6	890	kuntir	0x0c98	[needs definition]	Root
+Tier 6	891	kupr	0x0c99	copper	Root
+Tier 6	892	kur	0x0c9a	run	Root
+Tier 6	893	kurac	0x0c9b	cure	Root
+Tier 6	894	kuracil	0x0c9c	drug	Root
+Tier 6	895	kurator	0x0c9d	[needs definition]	Root
+Tier 6	896	kuraĝ	0x0c9e	courageous	Root
+Tier 6	897	kurten	0x0c9f	curtain	Root
+Tier 6	898	kusen	0x0ca0	a cushion	Root
+Tier 6	899	kutim	0x0ca1	accustom one's self to	Root
+Tier 6	900	kuz	0x0ca2	a cousin	Root
+Tier 6	901	kuŝ	0x0ca3	lie (e.g. in bed)	Root
+Tier 6	902	kvankam	0x0ca4	though	Root
+Tier 6	903	kvar	0x0ca5	four	Root
+Tier 6	904	kvartal	0x0ca6	district	Root
+Tier 6	905	kvin	0x0ca7	five	Root
+Tier 6	906	labor	0x0ca8	labour	Root
+Tier 6	907	lac	0x0ca9	weary	Root
+Tier 6	908	lakt	0x0caa	milk	Root
+Tier 6	909	lam	0x0cab	lame	Root
+Tier 6	910	lamp	0x0cac	lamp	Root
+Tier 6	911	lan	0x0cad	wool	Root
+Tier 6	912	land	0x0cae	land	Root
+Tier 6	913	lang	0x0caf	the tongue	Root
+Tier 6	914	lantern	0x0cb0	a lantern	Root
+Tier 6	915	larm	0x0cb1	a tear	Root
+Tier 6	916	larĝ	0x0cb2	large	Root
+Tier 6	917	las	0x0cb3	let	Root
+Tier 6	918	last	0x0cb4	last	Root
+Tier 6	919	lau	0x0cb5	in conformity with	Root
+Tier 6	920	laud	0x0cb6	praise	Root
+Tier 6	921	laut	0x0cb7	aloud	Root
+Tier 6	922	lav	0x0cb8	wash	Root
+Tier 6	923	laŭt	0x0cb9	loud	Root
+Tier 6	924	lecion	0x0cba	a lesson	Root
+Tier 6	925	leg	0x0cbb	read	Root
+Tier 6	926	legom	0x0cbc	vegetable	Root
+Tier 6	927	leon	0x0cbd	a lion	Root
+Tier 6	928	lern	0x0cbe	learn	Root
+Tier 6	929	lernej	0x0cbf	school (school (lern+ej))	Root
+Tier 6	930	lert	0x0cc0	dexterous	Root
+Tier 6	931	leter	0x0cc1	letter	Root
+Tier 6	932	lev	0x0cc2	lift up	Root
+Tier 6	933	leĝ	0x0cc3	law	Root
+Tier 6	934	li	0x0cc4	he	Root
+Tier 6	935	liber	0x0cc5	free	Root
+Tier 6	936	libr	0x0cc6	book	Root
+Tier 6	937	lig	0x0cc7	bind	Root
+Tier 6	938	lign	0x0cc8	wood	Root
+Tier 6	939	lim	0x0cc9	boundary	Root
+Tier 6	940	lingv	0x0cca	speech	Root
+Tier 6	941	lip	0x0ccb	lip	Root
+Tier 6	942	liphar	0x0ccc	moustache	Root
+Tier 6	943	lit	0x0ccd	bed	Root
+Tier 6	944	litani	0x0cce	litany	Root
+Tier 6	945	liter	0x0ccf	a letter (of the alphabet)	Root
+Tier 6	946	livermorum	0x0cd0	[needs definition]	Root
+Tier 6	947	lok	0x0cd1	place	Root
+Tier 6	948	long	0x0cd2	long	Root
+Tier 6	949	lot	0x0cd3	draw lots	Root
+Tier 6	950	lotum	0x0cd4	allot	Root
+Tier 6	951	loĝ	0x0cd5	dwell	Root
+Tier 6	952	lud	0x0cd6	play	Root
+Tier 6	953	luks	0x0cd7	luxury	Root
+Tier 6	954	lum	0x0cd8	light	Root
+Tier 6	955	lun	0x0cd9	the moon	Root
+Tier 6	956	lund	0x0cda	Monday	Root
+Tier 6	957	magazen	0x0cdb	store	Root
+Tier 6	958	maj	0x0cdc	May	Root
+Tier 6	959	makler	0x0cdd	act as a middleman	Root
+Tier 6	960	makul	0x0cde	a spot	Root
+Tier 6	961	malafabl	0x0cdf	brutal	Root
+Tier 6	962	malaper	0x0ce0	disappear	Root
+Tier 6	963	maldekstr	0x0ce1	left	Root
+Tier 6	964	malgrau	0x0ce2	in spite of	Root
+Tier 6	965	maljun	0x0ce3	old (old person (mal+jun))	Root
+Tier 6	966	maljunul	0x0ce4	elder	Root
+Tier 6	967	malutil	0x0ce5	harmful	Root
+Tier 6	968	malvarmum	0x0ce6	[needs definition]	Root
+Tier 6	969	malvast	0x0ce7	close	Root
+Tier 6	970	malvirgig	0x0ce8	[needs definition]	Root
+Tier 6	971	man	0x0ce9	hand	Root
+Tier 6	972	manum	0x0cea	cuff	Root
+Tier 6	973	manĝ	0x0ceb	eat	Root
+Tier 6	974	mar	0x0cec	the sea	Root
+Tier 6	975	mard	0x0ced	Tuesday	Root
+Tier 6	976	marist	0x0cee	sailor (sea-person)	Root
+Tier 6	977	mart	0x0cef	March	Root
+Tier 6	978	marĉ	0x0cf0	marsh	Root
+Tier 6	979	mastr	0x0cf1	master	Root
+Tier 6	980	maten	0x0cf2	the morning	Root
+Tier 6	981	matur	0x0cf3	ripe	Root
+Tier 6	982	maĉ	0x0cf4	chew	Root
+Tier 6	983	mem	0x0cf5	self	Root
+Tier 6	984	memor	0x0cf6	remember	Root
+Tier 6	985	menonit	0x0cf7	[needs definition]	Root
+Tier 6	986	merit	0x0cf8	merit	Root
+Tier 6	987	merkred	0x0cf9	Wednesday	Root
+Tier 6	988	met	0x0cfa	put	Root
+Tier 6	989	metal	0x0cfb	metal	Root
+Tier 6	990	mez	0x0cfc	the middle	Root
+Tier 6	991	mezur	0x0cfd	measure	Root
+Tier 6	992	mi	0x0cfe	I	Root
+Tier 6	993	miks	0x0cff	mix	Root
+Tier 6	994	mil	0x0d0a	thousand	Root
+Tier 6	995	milion	0x0d0b	million	Root
+Tier 6	996	milit	0x0d0c	war	Root
+Tier 6	997	miop	0x0d0d	near-sighted	Root
+Tier 6	998	mir	0x0d0e	be astonished	Root
+Tier 6	999	mister	0x0d0f	mystery	Root
+Tier 6	1000	mizer	0x0d10	misery	Root
+Tier 6	1001	moder	0x0d11	moderate	Root
+Tier 6	1002	modest	0x0d12	modest	Root
+Tier 6	1003	mol	0x0d13	soft	Root
+Tier 6	1004	molanas	0x0d14	[needs definition]	Root
+Tier 6	1005	mon	0x0d15	money	Root
+Tier 6	1006	monat	0x0d16	month	Root
+Tier 6	1007	mond	0x0d17	world	Root
+Tier 6	1008	mont	0x0d18	mountain	Root
+Tier 6	1009	montr	0x0d19	show	Root
+Tier 6	1010	mord	0x0d1a	bite	Root
+Tier 6	1011	morgau	0x0d1b	tomorrow	Root
+Tier 6	1012	morgaŭ	0x0d1c	tomorrow	Root
+Tier 6	1013	mort	0x0d1d	die	Root
+Tier 6	1014	mortul	0x0d1e	[needs definition]	Root
+Tier 6	1015	mov	0x0d1f	move	Root
+Tier 6	1016	moŝt	0x0d20	highness	Root
+Tier 6	1017	mult	0x0d21	much	Root
+Tier 6	1018	mur	0x0d22	wall	Root
+Tier 6	1019	murmur	0x0d23	murmur	Root
+Tier 6	1020	muŝ	0x0d24	a fly	Root
+Tier 6	1021	naci	0x0d25	nation (nation)	Root
+Tier 6	1022	najbar	0x0d26	neighbour	Root
+Tier 6	1023	nask	0x0d27	bear a child	Root
+Tier 6	1024	natur	0x0d28	character	Root
+Tier 6	1025	nau	0x0d29	nine	Root
+Tier 6	1026	naz	0x0d2a	nose	Root
+Tier 6	1027	nazum	0x0d2b	[needs definition]	Root
+Tier 6	1028	naĝ	0x0d2c	swim	Root
+Tier 6	1029	naŭ	0x0d2d	nine	Root
+Tier 6	1030	nebul	0x0d2e	mist	Root
+Tier 6	1031	neces	0x0d2f	indispensable	Root
+Tier 6	1032	necesej	0x0d30	toilet	Root
+Tier 6	1033	negliĝ	0x0d31	n@glig@	Root
+Tier 6	1034	nek	0x0d32	neither	Root
+Tier 6	1035	nenia	0x0d33	not any	Root
+Tier 6	1036	neniam	0x0d34	never	Root
+Tier 6	1037	nenie	0x0d35	nowhere	Root
+Tier 6	1038	neniel	0x0d36	by no means	Root
+Tier 6	1039	nenies	0x0d37	nobody's	Root
+Tier 6	1040	nenio	0x0d38	nothing	Root
+Tier 6	1041	neniu	0x0d39	nobody	Root
+Tier 6	1042	nep	0x0d3a	grandchild	Root
+Tier 6	1043	nev	0x0d3b	a nephew	Root
+Tier 6	1044	neĝ	0x0d3c	snow	Root
+Tier 6	1045	ni	0x0d3d	we	Root
+Tier 6	1046	nigr	0x0d3e	black	Root
+Tier 6	1047	nobl	0x0d3f	noble	Root
+Tier 6	1048	nokt	0x0d40	night	Root
+Tier 6	1049	nom	0x0d41	name	Root
+Tier 6	1050	nombr	0x0d42	number	Root
+Tier 6	1051	nominativ	0x0d43	[needs definition]	Root
+Tier 6	1052	nord	0x0d44	northern	Root
+Tier 6	1053	nov	0x0d45	new	Root
+Tier 6	1054	novembr	0x0d46	November	Root
+Tier 6	1055	nub	0x0d47	cloud	Root
+Tier 6	1056	nud	0x0d48	naked	Root
+Tier 6	1057	nuks	0x0d49	nut	Root
+Tier 6	1058	nun	0x0d4a	now	Root
+Tier 6	1059	nur	0x0d4b	only	Root
+Tier 6	1060	nutr	0x0d4c	nourish	Root
+Tier 6	1061	obe	0x0d4d	obey	Root
+Tier 6	1062	objekt	0x0d4e	an object	Root
+Tier 6	1063	obstin	0x0d4f	obstinate	Root
+Tier 6	1064	odor	0x0d50	exhale fragrance	Root
+Tier 6	1065	ofend	0x0d51	offend	Root
+Tier 6	1066	ofer	0x0d52	offer	Root
+Tier 6	1067	ofic	0x0d53	function	Root
+Tier 6	1068	oft	0x0d54	often	Root
+Tier 6	1069	ok	0x0d55	eight	Root
+Tier 6	1070	okaz	0x0d56	happen	Root
+Tier 6	1071	okcident	0x0d57	western	Root
+Tier 6	1072	oktobr	0x0d58	October	Root
+Tier 6	1073	okul	0x0d59	eye	Root
+Tier 6	1074	okulvitr	0x0d5a	glasses	Root
+Tier 6	1075	okup	0x0d5b	occupy	Root
+Tier 6	1076	ol	0x0d5c	than	Root
+Tier 6	1077	ole	0x0d5d	oil	Root
+Tier 6	1078	ombr	0x0d5e	shadow	Root
+Tier 6	1079	ombrel	0x0d5f	parasol	Root
+Tier 6	1080	ond	0x0d60	the wave	Root
+Tier 6	1081	oni	0x0d61	one	Root
+Tier 6	1082	onkl	0x0d62	uncle	Root
+Tier 6	1083	ont	0x0d63	future participle active	Root
+Tier 6	1084	oportun	0x0d64	opportune	Root
+Tier 6	1085	or	0x0d65	gold	Root
+Tier 6	1086	ord	0x0d66	order	Root
+Tier 6	1087	ordinar	0x0d67	ordinary	Root
+Tier 6	1088	ordon	0x0d68	order	Root
+Tier 6	1089	orel	0x0d69	the ear	Root
+Tier 6	1090	orient	0x0d6a	eastern	Root
+Tier 6	1091	ost	0x0d6b	a bone	Root
+Tier 6	1092	ov	0x0d6c	an egg	Root
+Tier 6	1093	pac	0x0d6d	peace	Root
+Tier 6	1094	paf	0x0d6e	shoot	Root
+Tier 6	1095	pag	0x0d6f	pay	Root
+Tier 6	1096	pajl	0x0d70	straw	Root
+Tier 6	1097	pal	0x0d71	pale	Root
+Tier 6	1098	palac	0x0d72	a palace	Root
+Tier 6	1099	palm	0x0d73	palm	Root
+Tier 6	1100	palp	0x0d74	feel	Root
+Tier 6	1101	palpebr	0x0d75	eyelid	Root
+Tier 6	1102	palpebrum	0x0d76	blink	Root
+Tier 6	1103	pan	0x0d77	bread	Root
+Tier 6	1104	pantalon	0x0d78	trousers	Root
+Tier 6	1105	paper	0x0d79	paper	Root
+Tier 6	1106	pardon	0x0d7a	pardon	Root
+Tier 6	1107	parenc	0x0d7b	relation	Root
+Tier 6	1108	parker	0x0d7c	by heart	Root
+Tier 6	1109	parol	0x0d7d	speak	Root
+Tier 6	1110	part	0x0d7e	part	Root
+Tier 6	1111	pas	0x0d7f	pass	Root
+Tier 6	1112	pask	0x0d80	Easter	Root
+Tier 6	1113	pastr	0x0d81	priest	Root
+Tier 6	1114	patr	0x0d82	father	Root
+Tier 6	1115	pav	0x0d83	peacock	Root
+Tier 6	1116	paĝ	0x0d84	a page	Root
+Tier 6	1117	paŝ	0x0d85	step	Root
+Tier 6	1118	pec	0x0d86	a morsel	Root
+Tier 6	1119	pekl	0x0d87	pickle	Root
+Tier 6	1120	pel	0x0d88	pursue	Root
+Tier 6	1121	pelt	0x0d89	fur	Root
+Tier 6	1122	pen	0x0d8a	endeavour	Root
+Tier 6	1123	pend	0x0d8b	hang	Root
+Tier 6	1124	pens	0x0d8c	think	Root
+Tier 6	1125	pentr	0x0d8d	draw	Root
+Tier 6	1126	per	0x0d8e	through	Root
+Tier 6	1127	perd	0x0d8f	lose	Root
+Tier 6	1128	permes	0x0d90	permit	Root
+Tier 6	1129	pes	0x0d91	weigh (active)	Root
+Tier 6	1130	pet	0x0d92	pray	Root
+Tier 6	1131	pez	0x0d93	weigh (neuter)	Root
+Tier 6	1132	pi	0x0d94	pious	Root
+Tier 6	1133	pied	0x0d95	foot	Root
+Tier 6	1134	pik	0x0d96	prick	Root
+Tier 6	1135	pilk	0x0d97	a ball (to play with)	Root
+Tier 6	1136	pilol	0x0d98	pill	Root
+Tier 6	1137	pin	0x0d99	pine	Root
+Tier 6	1138	pingl	0x0d9a	a pin	Root
+Tier 6	1139	pir	0x0d9b	a pear	Root
+Tier 6	1140	pist	0x0d9c	crush	Root
+Tier 6	1141	plac	0x0d9d	a place	Root
+Tier 6	1142	plafon	0x0d9e	ceiling	Root
+Tier 6	1143	pland	0x0d9f	sole	Root
+Tier 6	1144	plandum	0x0da0	sole	Root
+Tier 6	1145	plank	0x0da1	floor (of a room)	Root
+Tier 6	1146	platen	0x0da2	platinum	Root
+Tier 6	1147	plaĉ	0x0da3	please	Root
+Tier 6	1148	plej	0x0da4	most (adv.)	Root
+Tier 6	1149	plen	0x0da5	full	Root
+Tier 6	1150	plend	0x0da6	complain	Root
+Tier 6	1151	plenum	0x0da7	accomplish	Root
+Tier 6	1152	plezur	0x0da8	pleasure	Root
+Tier 6	1153	pli	0x0da9	more	Root
+Tier 6	1154	plor	0x0daa	weep	Root
+Tier 6	1155	plum	0x0dab	pen	Root
+Tier 6	1156	pluv	0x0dac	rain	Root
+Tier 6	1157	po	0x0dad	distributive numerals	Root
+Tier 6	1158	polv	0x0dae	dust	Root
+Tier 6	1159	pom	0x0daf	apple	Root
+Tier 6	1160	pomuj	0x0db0	apple-tree	Root
+Tier 6	1161	pont	0x0db1	a bridge	Root
+Tier 6	1162	popol	0x0db2	people	Root
+Tier 6	1163	por	0x0db3	for	Root
+Tier 6	1164	porcelan	0x0db4	[needs definition]	Root
+Tier 6	1165	pord	0x0db5	door	Root
+Tier 6	1166	pork	0x0db6	swine	Root
+Tier 6	1167	port	0x0db7	carry	Root
+Tier 6	1168	portret	0x0db8	portrait	Root
+Tier 6	1169	post	0x0db9	after (prep.)	Root
+Tier 6	1170	postul	0x0dba	require	Root
+Tier 6	1171	pot	0x0dbb	a pot	Root
+Tier 6	1172	pov	0x0dbc	be able	Root
+Tier 6	1173	poŝ	0x0dbd	a pocket	Root
+Tier 6	1174	poŝt	0x0dbe	post	Root
+Tier 6	1175	prav	0x0dbf	being right	Root
+Tier 6	1176	prem	0x0dc0	press	Root
+Tier 6	1177	pren	0x0dc1	take	Root
+Tier 6	1178	prepar	0x0dc2	prepare	Root
+Tier 6	1179	pres	0x0dc3	print	Root
+Tier 6	1180	preskau	0x0dc4	almost	Root
+Tier 6	1181	preskaŭ	0x0dc5	almost	Root
+Tier 6	1182	pret	0x0dc6	ready	Root
+Tier 6	1183	prezent	0x0dc7	present	Root
+Tier 6	1184	preĝ	0x0dc8	pray	Root
+Tier 6	1185	pri	0x0dc9	concerning	Root
+Tier 6	1186	printemp	0x0dca	the spring	Root
+Tier 6	1187	pro	0x0dcb	for the sake of	Root
+Tier 6	1188	profund	0x0dcc	deep	Root
+Tier 6	1189	progres	0x0dcd	progress (progress)	Root
+Tier 6	1190	projekt	0x0dce	plan	Root
+Tier 6	1191	proksim	0x0dcf	near	Root
+Tier 6	1192	promen	0x0dd0	walk	Root
+Tier 6	1193	promes	0x0dd1	promise	Root
+Tier 6	1194	propon	0x0dd2	propose	Root
+Tier 6	1195	propr	0x0dd3	one's own	Root
+Tier 6	1196	prov	0x0dd4	try	Root
+Tier 6	1197	prudent	0x0dd5	prudent	Root
+Tier 6	1198	prunt	0x0dd6	borrow	Root
+Tier 6	1199	pulv	0x0dd7	gun-powder	Root
+Tier 6	1200	pulvor	0x0dd8	powder	Root
+Tier 6	1201	pun	0x0dd9	punish	Root
+Tier 6	1202	pup	0x0dda	a doll	Root
+Tier 6	1203	pur	0x0ddb	pure	Root
+Tier 6	1204	purpur	0x0ddc	purple	Root
+Tier 6	1205	putr	0x0ddd	rot	Root
+Tier 6	1206	puŝ	0x0dde	push	Root
+Tier 6	1207	rad	0x0ddf	a wheel	Root
+Tier 6	1208	radi	0x0de0	a ray	Root
+Tier 6	1209	radik	0x0de1	root	Root
+Tier 6	1210	rakont	0x0de2	relate	Root
+Tier 6	1211	ramp	0x0de3	creep	Root
+Tier 6	1212	ran	0x0de4	frog	Root
+Tier 6	1213	ranc	0x0de5	rancid	Root
+Tier 6	1214	rand	0x0de6	the bank	Root
+Tier 6	1215	rapid	0x0de7	rapid	Root
+Tier 6	1216	rat	0x0de8	rat	Root
+Tier 6	1217	raz	0x0de9	shave	Root
+Tier 6	1218	raŭk	0x0dea	hoarse	Root
+Tier 6	1219	reg	0x0deb	reign	Root
+Tier 6	1220	regn	0x0dec	kingdom	Root
+Tier 6	1221	regul	0x0ded	a rule	Root
+Tier 6	1222	rekompenc	0x0dee	recompense	Root
+Tier 6	1223	rekt	0x0def	straight	Root
+Tier 6	1224	renkont	0x0df0	meet with	Root
+Tier 6	1225	renvers	0x0df1	overthrow	Root
+Tier 6	1226	respond	0x0df2	answer	Root
+Tier 6	1227	rest	0x0df3	remain	Root
+Tier 6	1228	reĝ	0x0df4	a king	Root
+Tier 6	1229	rib	0x0df5	currant	Root
+Tier 6	1230	ribel	0x0df6	rebel	Root
+Tier 6	1231	ricev	0x0df7	receive	Root
+Tier 6	1232	rid	0x0df8	laugh	Root
+Tier 6	1233	rigard	0x0df9	look at	Root
+Tier 6	1234	rigid	0x0dfa	rigid	Root
+Tier 6	1235	rigl	0x0dfb	bolt	Root
+Tier 6	1236	ring	0x0dfc	a ring	Root
+Tier 6	1237	ripet	0x0dfd	repeat	Root
+Tier 6	1238	ripoz	0x0dfe	repose	Root
+Tier 6	1239	river	0x0dff	a river	Root
+Tier 6	1240	riĉ	0x0e0a	rich	Root
+Tier 6	1241	riĉul	0x0e0b	rich man	Root
+Tier 6	1242	romp	0x0e0c	break	Root
+Tier 6	1243	rond	0x0e0d	circle	Root
+Tier 6	1244	rost	0x0e0e	fry	Root
+Tier 6	1245	roz	0x0e0f	a rose	Root
+Tier 6	1246	ruĝ	0x0e10	red	Root
+Tier 6	1247	sabat	0x0e11	Saturday	Root
+Tier 6	1248	sabl	0x0e12	sand	Root
+Tier 6	1249	sak	0x0e13	a sack	Root
+Tier 6	1250	sal	0x0e14	salt	Root
+Tier 6	1251	salt	0x0e15	spring	Root
+Tier 6	1252	salut	0x0e16	salute	Root
+Tier 6	1253	sam	0x0e17	same	Root
+Tier 6	1254	san	0x0e18	sound	Root
+Tier 6	1255	sang	0x0e19	blood	Root
+Tier 6	1256	sankt	0x0e1a	holy	Root
+Tier 6	1257	sap	0x0e1b	soap	Root
+Tier 6	1258	sat	0x0e1c	satiate	Root
+Tier 6	1259	sav	0x0e1d	save	Root
+Tier 6	1260	saĝ	0x0e1e	wise	Root
+Tier 6	1261	sci	0x0e1f	know	Root
+Tier 6	1262	scienc	0x0e20	science (science)	Root
+Tier 6	1263	sciur	0x0e21	squirrel	Root
+Tier 6	1264	se	0x0e22	if	Root
+Tier 6	1265	sed	0x0e23	but	Root
+Tier 6	1266	sek	0x0e24	dry	Root
+Tier 6	1267	sekret	0x0e25	secret	Root
+Tier 6	1268	sekretari	0x0e26	secretary	Root
+Tier 6	1269	sekvinber	0x0e27	[needs definition]	Root
+Tier 6	1270	sem	0x0e28	sow	Root
+Tier 6	1271	semajn	0x0e29	a week	Root
+Tier 6	1272	senc	0x0e2a	sense	Root
+Tier 6	1273	send	0x0e2b	send	Root
+Tier 6	1274	sent	0x0e2c	feel	Root
+Tier 6	1275	sep	0x0e2d	seven	Root
+Tier 6	1276	septembr	0x0e2e	September	Root
+Tier 6	1277	serpent	0x0e2f	serpent	Root
+Tier 6	1278	serur	0x0e30	lock	Root
+Tier 6	1279	serv	0x0e31	serve	Root
+Tier 6	1280	serĉ	0x0e32	look for	Root
+Tier 6	1281	ses	0x0e33	six	Root
+Tier 6	1282	sever	0x0e34	severe	Root
+Tier 6	1283	sezon	0x0e35	season	Root
+Tier 6	1284	seĝ	0x0e36	a chair	Root
+Tier 6	1285	si	0x0e37	one's self	Root
+Tier 6	1286	sid	0x0e38	sit	Root
+Tier 6	1287	sieĝ	0x0e39	besiege	Root
+Tier 6	1288	sigel	0x0e3a	seal	Root
+Tier 6	1289	sigelvaks	0x0e3b	[needs definition]	Root
+Tier 6	1290	sign	0x0e3c	a sign	Root
+Tier 6	1291	signif	0x0e3d	signify	Root
+Tier 6	1292	silent	0x0e3e	be silent	Root
+Tier 6	1293	simil	0x0e3f	resembling	Root
+Tier 6	1294	simpl	0x0e40	simple	Root
+Tier 6	1295	sincer	0x0e41	above-board	Root
+Tier 6	1296	singult	0x0e42	hiccough	Root
+Tier 6	1297	sinjor	0x0e43	lord	Root
+Tier 6	1298	skapol	0x0e44	shoulderblade	Root
+Tier 6	1299	skrib	0x0e45	write	Root
+Tier 6	1300	sku	0x0e46	shake	Root
+Tier 6	1301	sobr	0x0e47	sober	Root
+Tier 6	1302	societ	0x0e48	society	Root
+Tier 6	1303	soif	0x0e49	be thirsty	Root
+Tier 6	1304	sol	0x0e4a	sole	Root
+Tier 6	1305	soldat	0x0e4b	soldier (soldier)	Root
+Tier 6	1306	solv	0x0e4c	solve (to solve)	Root
+Tier 6	1307	somer	0x0e4d	summer	Root
+Tier 6	1308	son	0x0e4e	sound	Root
+Tier 6	1309	sonor	0x0e4f	buzz	Root
+Tier 6	1310	sonĝ	0x0e50	dream	Root
+Tier 6	1311	sort	0x0e51	lot	Root
+Tier 6	1312	sovaĝ	0x0e52	savage	Root
+Tier 6	1313	spec	0x0e53	a species	Root
+Tier 6	1314	spegul	0x0e54	mirror	Root
+Tier 6	1315	spir	0x0e55	respire	Root
+Tier 6	1316	sprit	0x0e56	witty	Root
+Tier 6	1317	staci	0x0e57	station (station)	Root
+Tier 6	1318	stal	0x0e58	stable	Root
+Tier 6	1319	stan	0x0e59	tin	Root
+Tier 6	1320	star	0x0e5a	stand	Root
+Tier 6	1321	stat	0x0e5b	state (state)	Root
+Tier 6	1322	stel	0x0e5c	star	Root
+Tier 6	1323	stern	0x0e5d	lay out	Root
+Tier 6	1324	stomak	0x0e5e	stomach	Root
+Tier 6	1325	strat	0x0e5f	a street	Root
+Tier 6	1326	stup	0x0e60	[needs definition]	Root
+Tier 6	1327	subaĉet	0x0e61	bribe	Root
+Tier 6	1328	subit	0x0e62	sudden	Root
+Tier 6	1329	substantiv	0x0e63	noun	Root
+Tier 6	1330	subtegment	0x0e64	attic (under-roof)	Root
+Tier 6	1331	subten	0x0e65	abet	Root
+Tier 6	1332	sud	0x0e66	south	Root
+Tier 6	1333	sufer	0x0e67	suffer	Root
+Tier 6	1334	sufiĉ	0x0e68	sufficiently	Root
+Tier 6	1335	suk	0x0e69	the juice	Root
+Tier 6	1336	suker	0x0e6a	sugar	Root
+Tier 6	1337	sun	0x0e6b	sun	Root
+Tier 6	1338	sup	0x0e6c	soup	Root
+Tier 6	1339	superjar	0x0e6d	leap-year	Root
+Tier 6	1340	superstiĉ	0x0e6e	superstition	Root
+Tier 6	1341	supr	0x0e6f	above (adv.)	Root
+Tier 6	1342	sur	0x0e70	on	Root
+Tier 6	1343	surd	0x0e71	deaf	Root
+Tier 6	1344	surtut	0x0e72	coat	Root
+Tier 6	1345	suĉ	0x0e73	suck	Root
+Tier 6	1346	svat	0x0e74	match	Root
+Tier 6	1347	sven	0x0e75	faint	Root
+Tier 6	1348	sving	0x0e76	brandish	Root
+Tier 6	1349	tabak	0x0e77	tobacco	Root
+Tier 6	1350	taban	0x0e78	gadfly	Root
+Tier 6	1351	tabel	0x0e79	index	Root
+Tier 6	1352	tabl	0x0e7a	table	Root
+Tier 6	1353	tabul	0x0e7b	a board	Root
+Tier 6	1354	taft	0x0e7c	[needs definition]	Root
+Tier 6	1355	tag	0x0e7d	day	Root
+Tier 6	1356	tajlor	0x0e7e	tailor	Root
+Tier 6	1357	taks	0x0e7f	appraise	Root
+Tier 6	1358	talent	0x0e80	talent	Root
+Tier 6	1359	tali	0x0e81	waist	Root
+Tier 6	1360	talp	0x0e82	mole	Root
+Tier 6	1361	tam	0x0e83	but	Root
+Tier 6	1362	tambur	0x0e84	[needs definition]	Root
+Tier 6	1363	tamen	0x0e85	yet	Root
+Tier 6	1364	tan	0x0e86	tan	Root
+Tier 6	1365	tapet	0x0e87	tapestry	Root
+Tier 6	1366	tapiŝ	0x0e88	carpet	Root
+Tier 6	1367	tas	0x0e89	cup	Root
+Tier 6	1368	tauĝ	0x0e8a	be of use	Root
+Tier 6	1369	tavol	0x0e8b	layer	Root
+Tier 6	1370	taĉment	0x0e8c	detachment	Root
+Tier 6	1371	taŭg	0x0e8d	fit	Root
+Tier 6	1372	te	0x0e8e	tea	Root
+Tier 6	1373	ted	0x0e8f	boring	Root
+Tier 6	1374	teg	0x0e90	cover	Root
+Tier 6	1375	tegment	0x0e91	roof	Root
+Tier 6	1376	tekruĉ	0x0e92	teapot	Root
+Tier 6	1377	teks	0x0e93	weave	Root
+Tier 6	1378	teler	0x0e94	plate	Root
+Tier 6	1379	tem	0x0e95	theme	Root
+Tier 6	1380	temaŝin	0x0e96	[needs definition]	Root
+Tier 6	1381	temp	0x0e97	time	Root
+Tier 6	1382	tempi	0x0e98	temple	Root
+Tier 6	1383	ten	0x0e99	hold	Root
+Tier 6	1384	tend	0x0e9a	tent	Root
+Tier 6	1385	tenden	0x0e9b	sinew	Root
+Tier 6	1386	tenil	0x0e9c	handle	Root
+Tier 6	1387	tent	0x0e9d	tempt	Root
+Tier 6	1388	ter	0x0e9e	earth	Root
+Tier 6	1389	teras	0x0e9f	terrace	Root
+Tier 6	1390	terebint	0x0ea0	[needs definition]	Root
+Tier 6	1391	termin	0x0ea1	term	Root
+Tier 6	1392	tern	0x0ea2	sneeze	Root
+Tier 6	1393	terpom	0x0ea3	potato (earth-apple)	Root
+Tier 6	1394	terur	0x0ea4	terror	Root
+Tier 6	1395	testament	0x0ea5	testament	Root
+Tier 6	1396	testik	0x0ea6	testicle	Root
+Tier 6	1397	testud	0x0ea7	tortoise	Root
+Tier 6	1398	tetan	0x0ea8	[needs definition]	Root
+Tier 6	1399	tetr	0x0ea9	[needs definition]	Root
+Tier 6	1400	tetra	0x0eaa	[needs definition]	Root
+Tier 6	1401	tez	0x0eab	essay	Root
+Tier 6	1402	ti	0x0eac	such	Root
+Tier 6	1403	tia	0x0ead	such	Root
+Tier 6	1404	tial	0x0eae	therefore	Root
+Tier 6	1405	tiam	0x0eaf	then	Root
+Tier 6	1406	tibi	0x0eb0	shin-bone	Root
+Tier 6	1407	tie	0x0eb1	there	Root
+Tier 6	1408	tiel	0x0eb2	so	Root
+Tier 6	1409	tigr	0x0eb3	tiger	Root
+Tier 6	1410	tikl	0x0eb4	tickle	Root
+Tier 6	1411	tili	0x0eb5	lime-tree	Root
+Tier 6	1412	tim	0x0eb6	fear	Root
+Tier 6	1413	timian	0x0eb7	[needs definition]	Root
+Tier 6	1414	timon	0x0eb8	[needs definition]	Root
+Tier 6	1415	tine	0x0eb9	moth	Root
+Tier 6	1416	tint	0x0eba	jingle	Root
+Tier 6	1417	tio	0x0ebb	it	Root
+Tier 6	1418	tiom	0x0ebc	so	Root
+Tier 6	1419	tir	0x0ebd	draw	Root
+Tier 6	1420	titol	0x0ebe	degree	Root
+Tier 6	1421	tiu	0x0ebf	that	Root
+Tier 6	1422	tol	0x0ec0	linen	Root
+Tier 6	1423	tolaĵ	0x0ec1	[needs definition]	Root
+Tier 6	1424	toler	0x0ec2	endure	Root
+Tier 6	1425	tomb	0x0ec3	a grave	Root
+Tier 6	1426	ton	0x0ec4	tone	Root
+Tier 6	1427	tond	0x0ec5	shear	Root
+Tier 6	1428	tondil	0x0ec6	scissors	Root
+Tier 6	1429	tondr	0x0ec7	thunder	Root
+Tier 6	1430	topaz	0x0ec8	topaz	Root
+Tier 6	1431	torf	0x0ec9	peat	Root
+Tier 6	1432	torn	0x0eca	turn	Root
+Tier 6	1433	tornistr	0x0ecb	backpack	Root
+Tier 6	1434	tort	0x0ecc	pie	Root
+Tier 6	1435	torĉ	0x0ecd	torch	Root
+Tier 6	1436	tr	0x0ece	through	Root
+Tier 6	1437	tra	0x0ecf	through	Root
+Tier 6	1438	trab	0x0ed0	beam	Root
+Tier 6	1439	traduk	0x0ed1	translate	Root
+Tier 6	1440	traf	0x0ed2	catch	Root
+Tier 6	1441	trajt	0x0ed3	feature	Root
+Tier 6	1442	trakt	0x0ed4	deal with	Root
+Tier 6	1443	trankvil	0x0ed5	tranquil	Root
+Tier 6	1444	trans	0x0ed6	over	Root
+Tier 6	1445	tranĉ	0x0ed7	cut	Root
+Tier 6	1446	traĥe	0x0ed8	[needs definition]	Root
+Tier 6	1447	tre	0x0ed9	very greatly	Root
+Tier 6	1448	tref	0x0eda	clubs	Root
+Tier 6	1449	trem	0x0edb	tremble	Root
+Tier 6	1450	tremol	0x0edc	aspen	Root
+Tier 6	1451	tremp	0x0edd	dip	Root
+Tier 6	1452	tren	0x0ede	draw	Root
+Tier 6	1453	trezor	0x0edf	treasure	Root
+Tier 6	1454	tri	0x0ee0	three	Root
+Tier 6	1455	tribun	0x0ee1	rostrum	Root
+Tier 6	1456	trifoli	0x0ee2	clover	Root
+Tier 6	1457	trik	0x0ee3	knit	Root
+Tier 6	1458	trikot	0x0ee4	[needs definition]	Root
+Tier 6	1459	tril	0x0ee5	trill	Root
+Tier 6	1460	trink	0x0ee6	drink	Root
+Tier 6	1461	tritik	0x0ee7	wheat	Root
+Tier 6	1462	trivial	0x0ee8	commonplace	Root
+Tier 6	1463	tro	0x0ee9	too	Root
+Tier 6	1464	trog	0x0eea	manger	Root
+Tier 6	1465	tromb	0x0eeb	[needs definition]	Root
+Tier 6	1466	tromp	0x0eec	deceive	Root
+Tier 6	1467	tron	0x0eed	throne	Root
+Tier 6	1468	tropik	0x0eee	tropics	Root
+Tier 6	1469	trotuar	0x0eef	pavement	Root
+Tier 6	1470	trouz	0x0ef0	[needs definition]	Root
+Tier 6	1471	trov	0x0ef1	find	Root
+Tier 6	1472	tru	0x0ef2	a hole	Root
+Tier 6	1473	trud	0x0ef3	force	Root
+Tier 6	1474	trudaĵ	0x0ef4	[needs definition]	Root
+Tier 6	1475	truf	0x0ef5	[needs definition]	Root
+Tier 6	1476	trumpet	0x0ef6	trumpet	Root
+Tier 6	1477	trunk	0x0ef7	stem	Root
+Tier 6	1478	trunket	0x0ef8	blade	Root
+Tier 6	1479	trut	0x0ef9	trout	Root
+Tier 6	1480	tualet	0x0efa	toilet	Root
+Tier 6	1481	tub	0x0efb	barrel	Root
+Tier 6	1482	tuber	0x0efc	[needs definition]	Root
+Tier 6	1483	tuf	0x0efd	tuft	Root
+Tier 6	1484	tuj	0x0efe	immediately	Root
+Tier 6	1485	tuk	0x0eff	a handkerchief	Root
+Tier 6	1486	tulip	0x0f0a	tulip	Root
+Tier 6	1487	tumult	0x0f0b	riot	Root
+Tier 6	1488	tur	0x0f0c	a tower	Root
+Tier 6	1489	turban	0x0f0d	[needs definition]	Root
+Tier 6	1490	turd	0x0f0e	thrush	Root
+Tier 6	1491	turk	0x0f0f	Turk	Root
+Tier 6	1492	turkis	0x0f10	[needs definition]	Root
+Tier 6	1493	turkuj	0x0f11	Turkey	Root
+Tier 6	1494	turment	0x0f12	torment	Root
+Tier 6	1495	turn	0x0f13	turn	Root
+Tier 6	1496	turnir	0x0f14	tournament	Root
+Tier 6	1497	turt	0x0f15	turtle-dove	Root
+Tier 6	1498	tus	0x0f16	cough	Root
+Tier 6	1499	tut	0x0f17	whole	Root
+Tier 6	1500	tuŝ	0x0f18	touch	Root
+Tier 6	1501	ulcer	0x0f19	ulcer	Root
+Tier 6	1502	ulm	0x0f1a	elm	Root
+Tier 6	1503	uln	0x0f1b	[needs definition]	Root
+Tier 6	1504	umbilik	0x0f1c	navel	Root
+Tier 6	1505	un	0x0f1d	one	Root
+Tier 6	1506	unc	0x0f1e	ounce	Root
+Tier 6	1507	ung	0x0f1f	nail	Root
+Tier 6	1508	ungeg	0x0f20	claw (big nail)	Root
+Tier 6	1509	uniform	0x0f21	uniform	Root
+Tier 6	1510	univers	0x0f22	universe	Root
+Tier 6	1511	universal	0x0f23	universal (universal)	Root
+Tier 6	1512	universitat	0x0f24	university	Root
+Tier 6	1513	unu	0x0f25	one	Root
+Tier 6	1514	ur	0x0f26	aurochs	Root
+Tier 6	1515	urb	0x0f27	town	Root
+Tier 6	1516	urban	0x0f28	[needs definition]	Root
+Tier 6	1517	urin	0x0f29	urinate	Root
+Tier 6	1518	urn	0x0f2a	[needs definition]	Root
+Tier 6	1519	urogal	0x0f2b	[needs definition]	Root
+Tier 6	1520	urs	0x0f2c	a bear	Root
+Tier 6	1521	urtik	0x0f2d	nettle	Root
+Tier 6	1522	uter	0x0f2e	uterus	Root
+Tier 6	1523	util	0x0f2f	useful	Root
+Tier 6	1524	uz	0x0f30	make use of	Root
+Tier 6	1525	uzaĵ	0x0f31	[needs definition]	Root
+Tier 6	1526	uzurp	0x0f32	overpower	Root
+Tier 6	1527	vafl	0x0f33	waffle	Root
+Tier 6	1528	vag	0x0f34	roam	Root
+Tier 6	1529	vagon	0x0f35	carriage	Root
+Tier 6	1530	vagonar	0x0f36	train	Root
+Tier 6	1531	vakcini	0x0f37	vaccinate	Root
+Tier 6	1532	vaks	0x0f38	wax	Root
+Tier 6	1533	vakstol	0x0f39	oilcloth	Root
+Tier 6	1534	val	0x0f3a	valley	Root
+Tier 6	1535	valiz	0x0f3b	suitcase	Root
+Tier 6	1536	vals	0x0f3c	waltz	Root
+Tier 6	1537	van	0x0f3d	vain	Root
+Tier 6	1538	vang	0x0f3e	cheek	Root
+Tier 6	1539	vanghar	0x0f3f	[needs definition]	Root
+Tier 6	1540	vanil	0x0f40	vanilla	Root
+Tier 6	1541	vant	0x0f41	conceited	Root
+Tier 6	1542	vapor	0x0f42	vapour	Root
+Tier 6	1543	varb	0x0f43	recruit	Root
+Tier 6	1544	variol	0x0f44	smallpox	Root
+Tier 6	1545	varm	0x0f45	warm	Root
+Tier 6	1546	vart	0x0f46	look after	Root
+Tier 6	1547	vasal	0x0f47	[needs definition]	Root
+Tier 6	1548	vast	0x0f48	vast	Root
+Tier 6	1549	vastig	0x0f49	[needs definition]	Root
+Tier 6	1550	vat	0x0f4a	cotton-wool	Root
+Tier 6	1551	vaz	0x0f4b	vessel	Root
+Tier 6	1552	ve	0x0f4c	woe	Root
+Tier 6	1553	veget	0x0f4d	vegetate	Root
+Tier 6	1554	vejn	0x0f4e	vein	Root
+Tier 6	1555	vek	0x0f4f	awake	Root
+Tier 6	1556	vekt	0x0f50	[needs definition]	Root
+Tier 6	1557	vel	0x0f51	sail	Root
+Tier 6	1558	velen	0x0f52	[needs definition]	Root
+Tier 6	1559	velk	0x0f53	fade	Root
+Tier 6	1560	velur	0x0f54	velvet	Root
+Tier 6	1561	ven	0x0f55	come	Root
+Tier 6	1562	vend	0x0f56	sell	Root
+Tier 6	1563	vendred	0x0f57	Friday	Root
+Tier 6	1564	venen	0x0f58	poison	Root
+Tier 6	1565	venk	0x0f59	vanquish	Root
+Tier 6	1566	vent	0x0f5a	wind	Root
+Tier 6	1567	ventol	0x0f5b	ventilate	Root
+Tier 6	1568	ventr	0x0f5c	belly	Root
+Tier 6	1569	ventum	0x0f5d	aerate	Root
+Tier 6	1570	venĝ	0x0f5e	revenge	Root
+Tier 6	1571	ver	0x0f5f	truth	Root
+Tier 6	1572	verb	0x0f60	verb	Root
+Tier 6	1573	verd	0x0f61	green	Root
+Tier 6	1574	verdigr	0x0f62	[needs definition]	Root
+Tier 6	1575	verg	0x0f63	rod	Root
+Tier 6	1576	verk	0x0f64	write	Root
+Tier 6	1577	verm	0x0f65	worm	Root
+Tier 6	1578	vermiĉel	0x0f66	[needs definition]	Root
+Tier 6	1579	vers	0x0f67	verse	Root
+Tier 6	1580	verst	0x0f68	[needs definition]	Root
+Tier 6	1581	vert	0x0f69	top of the head	Root
+Tier 6	1582	vertebr	0x0f6a	vertebra	Root
+Tier 6	1583	vertikal	0x0f6b	vertical	Root
+Tier 6	1584	veruk	0x0f6c	wart	Root
+Tier 6	1585	verŝ	0x0f6d	pour	Root
+Tier 6	1586	vesp	0x0f6e	wasp	Root
+Tier 6	1587	vesper	0x0f6f	evening	Root
+Tier 6	1588	vespert	0x0f70	bat	Root
+Tier 6	1589	vest	0x0f71	clothe	Root
+Tier 6	1590	vestibl	0x0f72	[needs definition]	Root
+Tier 6	1591	vet	0x0f73	bet	Root
+Tier 6	1592	veter	0x0f74	the weather	Root
+Tier 6	1593	vetur	0x0f75	journey (in a carriage	Root
+Tier 6	1594	vezik	0x0f76	bladder	Root
+Tier 6	1595	vezir	0x0f77	[needs definition]	Root
+Tier 6	1596	veŝt	0x0f78	vest	Root
+Tier 6	1597	vi	0x0f79	you	Root
+Tier 6	1598	viand	0x0f7a	meat	Root
+Tier 6	1599	viburn	0x0f7b	guelder rose	Root
+Tier 6	1600	vic	0x0f7c	file	Root
+Tier 6	1601	vid	0x0f7d	see	Root
+Tier 6	1602	vidv	0x0f7e	widower	Root
+Tier 6	1603	vigl	0x0f7f	alert	Root
+Tier 6	1604	vikari	0x0f80	[needs definition]	Root
+Tier 6	1605	vil	0x0f81	[needs definition]	Root
+Tier 6	1606	vilaĝ	0x0f82	village	Root
+Tier 6	1607	vilaĝan	0x0f83	[needs definition]	Root
+Tier 6	1608	vin	0x0f84	wine	Root
+Tier 6	1609	vinagr	0x0f85	vinegar	Root
+Tier 6	1610	vinber	0x0f86	grape	Root
+Tier 6	1611	vind	0x0f87	bandage	Root
+Tier 6	1612	vintr	0x0f88	winter	Root
+Tier 6	1613	viol	0x0f89	violet	Root
+Tier 6	1614	violon	0x0f8a	violin	Root
+Tier 6	1615	violonĉel	0x0f8b	cello	Root
+Tier 6	1616	vip	0x0f8c	whip	Root
+Tier 6	1617	vipur	0x0f8d	viper	Root
+Tier 6	1618	vir	0x0f8e	a man	Root
+Tier 6	1619	virg	0x0f8f	virgin	Root
+Tier 6	1620	virt	0x0f90	virtue	Root
+Tier 6	1621	virtuoz	0x0f91	virtuoso	Root
+Tier 6	1622	vitr	0x0f92	glass	Root
+Tier 6	1623	vitriol	0x0f93	[needs definition]	Root
+Tier 6	1624	viv	0x0f94	live	Root
+Tier 6	1625	vizaĝ	0x0f95	face	Root
+Tier 6	1626	vizier	0x0f96	[needs definition]	Root
+Tier 6	1627	vizit	0x0f97	attend	Root
+Tier 6	1628	viŝ	0x0f98	wipe	Root
+Tier 6	1629	viŝil	0x0f99	[needs definition]	Root
+Tier 6	1630	voj	0x0f9a	way	Root
+Tier 6	1631	vojaĝ	0x0f9b	travel	Root
+Tier 6	1632	vok	0x0f9c	call	Root
+Tier 6	1633	vokal	0x0f9d	vowel	Root
+Tier 6	1634	vol	0x0f9e	wish	Root
+Tier 6	1635	volont	0x0f9f	willingly	Root
+Tier 6	1636	volum	0x0fa0	volume	Root
+Tier 6	1637	volupt	0x0fa1	lust	Root
+Tier 6	1638	volv	0x0fa2	roll	Root
+Tier 6	1639	vom	0x0fa3	throw up	Root
+Tier 6	1640	vort	0x0fa4	a word	Root
+Tier 6	1641	vortar	0x0fa5	vocabulary	Root
+Tier 6	1642	vost	0x0fa6	a tail	Root
+Tier 6	1643	voĉ	0x0fa7	voice	Root
+Tier 6	1644	vual	0x0fa8	veil	Root
+Tier 6	1645	vulkan	0x0fa9	volcano	Root
+Tier 6	1646	vulp	0x0faa	fox	Root
+Tier 6	1647	vultur	0x0fab	vulture	Root
+Tier 6	1648	vund	0x0fac	wound	Root
+Tier 6	1649	zebr	0x0fad	zebra	Root
+Tier 6	1650	zenit	0x0fae	zenith	Root
+Tier 6	1651	zibel	0x0faf	[needs definition]	Root
+Tier 6	1652	zingibr	0x0fb0	ginger	Root
+Tier 6	1653	zink	0x0fb1	zinc	Root
+Tier 6	1654	zizel	0x0fb2	[needs definition]	Root
+Tier 6	1655	zon	0x0fb3	belt	Root
+Tier 6	1656	zorg	0x0fb4	take care of	Root
+Tier 6	1657	zorgant	0x0fb5	[needs definition]	Root
+Tier 6	1658	zorgat	0x0fb6	pupil	Root
+Tier 6	1659	zum	0x0fb7	buzz	Root
+Tier 6	1660	ĉagren	0x0fb8	grieve	Root
+Tier 6	1661	ĉam	0x0fb9	chamois	Root
+Tier 6	1662	ĉambelan	0x0fba	[needs definition]	Root
+Tier 6	1663	ĉambr	0x0fbb	a chamber	Root
+Tier 6	1664	ĉampan	0x0fbc	champagne	Root
+Tier 6	1665	ĉan	0x0fbd	trigger	Root
+Tier 6	1666	ĉap	0x0fbe	a cap	Root
+Tier 6	1667	ĉapel	0x0fbf	a hat	Root
+Tier 6	1668	ĉapitr	0x0fc0	chapter	Root
+Tier 6	1669	ĉar	0x0fc1	because	Root
+Tier 6	1670	ĉarlatan	0x0fc2	charlatan	Root
+Tier 6	1671	ĉarm	0x0fc3	charming	Root
+Tier 6	1672	ĉarnir	0x0fc4	hinge	Root
+Tier 6	1673	ĉarpent	0x0fc5	build	Root
+Tier 6	1674	ĉarpentist	0x0fc6	carpenter	Root
+Tier 6	1675	ĉarpi	0x0fc7	[needs definition]	Root
+Tier 6	1676	ĉas	0x0fc8	chase	Root
+Tier 6	1677	ĉasaĵ	0x0fc9	[needs definition]	Root
+Tier 6	1678	ĉast	0x0fca	chaste	Root
+Tier 6	1679	ĉe	0x0fcb	near	Root
+Tier 6	1680	ĉef	0x0fcc	chief	Root
+Tier 6	1681	ĉel	0x0fcd	cell	Root
+Tier 6	1682	ĉemiz	0x0fce	a shirt	Root
+Tier 6	1683	ĉen	0x0fcf	a chain	Root
+Tier 6	1684	ĉeriz	0x0fd0	a cherry	Root
+Tier 6	1685	ĉerk	0x0fd1	a coffin	Root
+Tier 6	1686	ĉerp	0x0fd2	draw	Root
+Tier 6	1687	ĉes	0x0fd3	cease	Root
+Tier 6	1688	ĉeval	0x0fd4	a horse	Root
+Tier 6	1689	ĉi	0x0fd5	the nearest	Root
+Tier 6	1690	ĉia	0x0fd6	every	Root
+Tier 6	1691	ĉiam	0x0fd7	always	Root
+Tier 6	1692	ĉie	0x0fd8	everywhere	Root
+Tier 6	1693	ĉiel	0x0fd9	heaven	Root
+Tier 6	1694	ĉielark	0x0fda	rainbow (sky-arc)	Root
+Tier 6	1695	ĉielir	0x0fdb	[needs definition]	Root
+Tier 6	1696	ĉif	0x0fdc	crease	Root
+Tier 6	1697	ĉifon	0x0fdd	rag	Root
+Tier 6	1698	ĉikan	0x0fde	carp at	Root
+Tier 6	1699	ĉio	0x0fdf	all	Root
+Tier 6	1700	ĉirkau	0x0fe0	around	Root
+Tier 6	1701	ĉirkaŭ	0x0fe1	about	Root
+Tier 6	1702	ĉirkaŭaĵ	0x0fe2	environment	Root
+Tier 6	1703	ĉirkaŭman	0x0fe3	bracelet	Root
+Tier 6	1704	ĉirkaŭpren	0x0fe4	embrace	Root
+Tier 6	1705	ĉirkaŭskrib	0x0fe5	[needs definition]	Root
+Tier 6	1706	ĉiu	0x0fe6	every one	Root
+Tier 6	1707	ĉiuj	0x0fe7	all	Root
+Tier 6	1708	ĉiz	0x0fe8	carve	Root
+Tier 6	1709	ĉokolad	0x0fe9	chocolate	Root
+Tier 6	1710	ĉu	0x0fea	or	Root
+Tier 6	1711	ĝarden	0x0feb	a garden	Root
+Tier 6	1712	ĝem	0x0fec	groan	Root
+Tier 6	1713	ĝentil	0x0fed	genteel	Root
+Tier 6	1714	ĝi	0x0fee	it	Root
+Tier 6	1715	ĝiraf	0x0fef	giraffe	Root
+Tier 6	1716	ĝis	0x0ff0	to	Root
+Tier 6	1717	ĝoj	0x0ff1	rejoice	Root
+Tier 6	1718	ĥemi	0x0ff2	chemistry	Root
+Tier 6	1719	ĥimer	0x0ff3	Chimera	Root
+Tier 6	1720	ĵaluz	0x0ff4	jealous	Root
+Tier 6	1721	ĵaud	0x0ff5	Thursday	Root
+Tier 6	1722	ĵaŭd	0x0ff6	Thursday	Root
+Tier 6	1723	ĵet	0x0ff7	throw	Root
+Tier 6	1724	ĵur	0x0ff8	swear	Root
+Tier 6	1725	ĵus	0x0ff9	just	Root
+Tier 6	1726	ŝajn	0x0ffa	seem	Root
+Tier 6	1727	ŝancel	0x0ffb	totter	Root
+Tier 6	1728	ŝanĝ	0x0ffc	change	Root
+Tier 6	1729	ŝaum	0x0ffd	foam	Root
+Tier 6	1730	ŝel	0x0ffe	shell	Root
+Tier 6	1731	ŝerc	0x0fff	jest	Root
+Tier 6	1732	ŝi	0x100a	she	Root
+Tier 6	1733	ŝip	0x100b	ship	Root
+Tier 6	1734	ŝir	0x100c	tear	Root
+Tier 6	1735	ŝlos	0x100d	lock	Root
+Tier 6	1736	ŝmir	0x100e	smear	Root
+Tier 6	1737	ŝnur	0x100f	a rope	Root
+Tier 6	1738	ŝpar	0x1010	spare	Root
+Tier 6	1739	ŝpruc	0x1011	spout	Root
+Tier 6	1740	ŝrank	0x1012	cupboard	Root
+Tier 6	1741	ŝtal	0x1013	steel	Root
+Tier 6	1742	ŝtel	0x1014	steal	Root
+Tier 6	1743	ŝtof	0x1015	stuff	Root
+Tier 6	1744	ŝton	0x1016	stone	Root
+Tier 6	1745	ŝtop	0x1017	stop	Root
+Tier 6	1746	ŝtrump	0x1018	stocking	Root
+Tier 6	1747	ŝtup	0x1019	step	Root
+Tier 6	1748	ŝu	0x101a	shoe	Root
+Tier 6	1749	ŝuld	0x101b	owe	Root
+Tier 6	1750	ŝut	0x101c	empty out	Root
+Tier 6	1751	ŝvel	0x101d	swell	Root
+Tier 6	1752	ŝvit	0x101e	sweat	Root
+Tier 7	1753	--- SYMBOLS START ---	0x101f	[symbols]	Symbol

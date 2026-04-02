@@ -1,0 +1,10 @@
+{
+  "vocab_size": 256,
+  "hidden_size": 576,
+  "intermediate_size": 1536,
+  "num_layers": 38,
+  "num_heads": 9,
+  "num_kv_heads": 3,
+  "max_seq_len": 2048,
+  "architecture": "JalekForCausalLM"
+}

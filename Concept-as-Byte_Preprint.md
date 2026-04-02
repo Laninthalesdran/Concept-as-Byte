@@ -19,6 +19,8 @@ Commercial licensing is available by contacting the author.
 
 The methods described herein are the subject of U.S. Patent Application No. 64/017,122, "Dense Byte-Level Semantic Encoding for AI Model Training and Inference," filed March 25, 2026, assigned to Travis Edward Holley. Application currently undergoing preexam processing at the United States Patent and Trademark Office.
 
+**Clarification of rights:** The CC-BY-NC-SA 4.0 license applies to the published materials (paper, code, table). Implementation of the patented method (U.S. Application No. 64/017,122) for commercial purposes requires a separate commercial license regardless of the publication license.
+
 ---
 
 ## 1. Summary

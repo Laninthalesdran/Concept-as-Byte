@@ -35,7 +35,7 @@ The components of this system are named in their honor:
 |------|-----------|-------------|
 | **LLZ** | Translator model (coming soon) | **Ludwik Lejzer Zamenhof** — creator of Esperanto |
 | **AdamZ** | 13.2M reasoning model | **Adam Zamenhof** — his son, physician, shot by Nazis 1940 |
-| **LidiaZ** | Smaller model (in design) | **Lidia Zamenhof** — his daughter, murdered at Treblinka 1942 |
+| **LidiaZ** | Bridge/lookup between AdamZ and LLZ | **Lidia Zamenhof** — his daughter, murdered at Treblinka 1942 |
 | **.ZofiaZ** | Encoded file format (coming soon) | **Zofia Zamenhof** — his daughter, physician, chose to accompany her young patients to Treblinka 1942 |
 | **KlaraZ** | Orchestrator/functionary program (in design) | **Klara Zilbernik-Zamenhof** — his wife |
 
@@ -61,7 +61,7 @@ The components of this system are named in their honor:
 
 **The .ZofiaZ Format:** Encoded data files will use the `.ZofiaZ` extension — honoring Zofia Zamenhof, who chose to stay with her patients. The encoded data stays with the model, just as Zofia stayed with those who needed her.
 
-**LidiaZ:** A smaller, more focused reasoning model currently in design. Named after Lidia Zamenhof.
+**LidiaZ:** The bridge between AdamZ and the LLZ. Takes each Esperanto byte code from AdamZ, looks up all possible English word translations, and provides the full candidate list to the LLZ as byte codes. No reasoning — pure table lookup fan-out. The LLZ then selects the contextually correct English word from the candidates. Named after Lidia Zamenhof, who bridged languages and cultures as a translator and Esperanto advocate.
 
 **KlaraZ:** The functionary program that manages multiple models and interfaces between the reasoning model, the translator, and external programs. The orchestrator that holds the family together. Named after Klara Zilbernik-Zamenhof.
 

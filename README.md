@@ -21,7 +21,13 @@ The morpheme inventory is drawn from Zamenhof's Esperanto system (1887-1894). Th
 
 ## The Zamenhof Family
 
-This project honors the family of **Ludwik Lejzer Zamenhof** (1859-1917), creator of Esperanto — a language designed from first principles for universal communication and peace. All three of Zamenhof's children were murdered by the Nazis during the Holocaust. The Gestapo received specific orders to hunt his descendants.
+This project honors the family of **Ludwik Lejzer Zamenhof** (1859-1917), creator of Esperanto — a language designed from first principles for universal communication and peace. Zamenhof was a Polish-Jewish physician who grew up in Białystok watching four ethnic groups divided by language and prejudice. He spent his life building a bridge between peoples through a neutral, composable language that anyone could learn. He was nominated 12 times for the Nobel Peace Prize and UNESCO selected him as an eminent personality of 2017.
+
+All three of Zamenhof's children were murdered by the Nazis during the Holocaust. Hitler specifically named Esperanto in *Mein Kampf* as a tool of Jewish conspiracy. The Gestapo received specific orders to hunt Zamenhof's descendants. His daughter Zofia, a physician, chose to accompany her young patients to Treblinka rather than save herself.
+
+138 years after Zamenhof created his language, it forms the morphological foundation of this AI architecture. His family's names live on in the components of a system designed to reason and serve all entities equally.
+
+For more on Zamenhof's life and vision: [Zamenhof, Esperanto, and the Crusade for Peace Through Language](https://notesfrompoland.com/2019/12/18/ludwik-zamenhof-esperanto-and-the-crusade-for-peace-through-language/)
 
 The components of this system are named in their honor:
 

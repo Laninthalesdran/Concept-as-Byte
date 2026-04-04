@@ -7,11 +7,31 @@ Dense morphological byte encoding for language model training.
 **Patent:** U.S. Application No. 64/017,122 (filed March 25, 2026)
 **DOI:** 10.5281/zenodo.19390531
 
+---
+
+**Note:** We apologize in advance for the relatively crude nature of the tools offered in this release. This is an early-stage research project and we are actively working toward providing updated and more polished tools. What you see here is functional but not production-ready. We appreciate your patience and interest.
+
+---
+
 ## What This Is
 
 Concept-as-Byte is an encoding architecture that replaces subword tokenization (BPE, WordPiece, SentencePiece) with dense morphological byte encoding. Each byte represents a complete semantic concept — a root, affix, grammatical marker, or control signal — rather than a statistical subword fragment.
 
 The morpheme inventory is drawn from Zamenhof's Esperanto system (1887-1894). The encoded form is called Jalek.
+
+## The Zamenhof Family
+
+This project honors the family of **Ludwik Lejzer Zamenhof** (1859-1917), creator of Esperanto — a language designed from first principles for universal communication and peace. All three of Zamenhof's children were murdered by the Nazis during the Holocaust. The Gestapo received specific orders to hunt his descendants.
+
+The components of this system are named in their honor:
+
+| Name | Component | Named After |
+|------|-----------|-------------|
+| **LLZ** | Translator model (coming soon) | **Ludwik Lejzer Zamenhof** — creator of Esperanto |
+| **AdamZ** | 13.2M reasoning model | **Adam Zamenhof** — his son, physician, shot by Nazis 1940 |
+| **LidiaZ** | Smaller model (in design) | **Lidia Zamenhof** — his daughter, murdered at Treblinka 1942 |
+| **.ZofiaZ** | Encoded file format (coming soon) | **Zofia Zamenhof** — his daughter, physician, chose to accompany her young patients to Treblinka 1942 |
+| **KlaraZ** | Orchestrator/functionary program (in design) | **Klara Zilbernik-Zamenhof** — his wife |
 
 ## What's Included
 
@@ -21,19 +41,29 @@ The morpheme inventory is drawn from Zamenhof's Esperanto system (1887-1894). Th
 | Concept-as-Byte_Preprint.md | Preprint source |
 | JalekCore_Base_Table.txt | Encoding table (1,753 morpheme entries) |
 | jalek_encoder.py | Encoder/decoder (pure table lookup) |
-| lightweight.py | 13.2M parameter Lightweight model definition |
-| jalek_135m_model.py | 134.7M parameter model definition |
+| adamz.py | AdamZ — 13.2M parameter reasoning model definition |
+| jalek_135m_model.py | 134.7M parameter benchmark model definition |
 | train_lightweight.py | Training script |
 | benchmark_135m_config.json | 135M model configuration |
 | benchmark_135m_training_log.jsonl | Step-by-step training metrics |
 | benchmark_135m_training_output.log | Full training console output |
 | LICENSE | CC-BY-NC-SA 4.0 |
 
+## Coming Soon
+
+**The LLZ (Translator):** A context-aware translation model that bridges English and Jalek byte encoding. The LLZ holds the original English input in reserve and uses it alongside AdamZ's Jalek byte output to select the contextually correct English translation. Trained using Positive Preference Training (PPT) — no punishment signals, only positive demonstrations of correct translations. Named after Ludwik Lejzer Zamenhof.
+
+**The .ZofiaZ Format:** Encoded data files will use the `.ZofiaZ` extension — honoring Zofia Zamenhof, who chose to stay with her patients. The encoded data stays with the model, just as Zofia stayed with those who needed her.
+
+**LidiaZ:** A smaller, more focused reasoning model currently in design. Named after Lidia Zamenhof.
+
+**KlaraZ:** The functionary program that manages multiple models and interfaces between the reasoning model, the translator, and external programs. The orchestrator that holds the family together. Named after Klara Zilbernik-Zamenhof.
+
 ## Important Note
 
 The encoder provided (`jalek_encoder.py`) operates on the JalekCore Base Table only. It encodes individual Esperanto morphemes to byte codes.
 
-**It does NOT support automatic morphological decomposition of English words.** If you input "hospital", it will not decompose it into `mal·san·ul·ej·o`. The English-to-Esperanto morpheme decomposition pipeline is not included in this release.
+**It does NOT support automatic morphological decomposition of English words.** If you input "hospital", it will not decompose it into `mal·san·ul·ej·o`. The English-to-Esperanto morpheme decomposition pipeline is not included in this release. The LLZ translator will handle this when available.
 
 ## Links
 
@@ -43,3 +73,5 @@ The encoder provided (`jalek_encoder.py`) operates on the JalekCore Base Table o
 ## Commercial Use
 
 This work is released under CC-BY-NC-SA 4.0 for non-commercial use. Commercial licensing is available by contacting: travis@tntholley.com
+
+**Clarification of rights:** The CC-BY-NC-SA 4.0 license applies to the published materials (paper, code, table). Implementation of the patented method (U.S. Application No. 64/017,122) for commercial purposes requires a separate commercial license regardless of the publication license.

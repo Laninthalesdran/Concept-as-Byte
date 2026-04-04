@@ -99,8 +99,15 @@ class JalekEncoder:
             for word_idx, word in enumerate(words):
                 word_lower = word.lower().strip()
 
+                # Numbers: encode as digit bytes directly
+                if word_lower.replace('.', '').isdigit():
+                    for ci, char in enumerate(word_lower):
+                        if char in self.encode_table:
+                            result.extend(self.encode_table[char])
+                        if ci < len(word_lower) - 1:
+                            result.append(BOUNDARY)
                 # Try table lookup (greedy longest match for multi-word)
-                if word_lower in self.encode_table:
+                elif word_lower in self.encode_table:
                     result.extend(self.encode_table[word_lower])
                 else:
                     # COIN: spell letter by letter
@@ -122,12 +129,29 @@ class JalekEncoder:
         result.append(END)
         return bytes(result)
 
+    def _flush_acc(self, accumulator, current_word):
+        """Look up accumulator in decode table, append to current word."""
+        if accumulator:
+            key = bytes(accumulator)
+            if key in self.decode_table:
+                current_word.append(self.decode_table[key])
+            else:
+                current_word.append(f"[0x{key.hex()}]")
+
     def decode(self, data):
         """
         Decode Jalek byte stream back to text.
 
-        Reads content bytes until a control byte is hit,
-        looks up in decode table, outputs text.
+        Simple rules:
+        - Content byte → accumulate
+        - BOUNDARY → flush accumulator as morpheme lookup, stay in same word
+        - SPACE → flush accumulator, dump whole word, start new word
+        - END → flush everything, done
+        - All other control bytes → flush accumulator
+
+        No special digit handling. No NOT gate. Digits are in the decode
+        table like any other morpheme. The decoder just accumulates between
+        control bytes and looks up what it collected.
         """
         if isinstance(data, (bytes, bytearray)):
             data = list(data)
@@ -135,56 +159,45 @@ class JalekEncoder:
         result = []
         current_word = []
         accumulator = bytearray()
-        coin_mode = False
 
         for byte in data:
-            if byte in CONTROL_BYTES:
-                # Flush accumulator
-                if accumulator:
-                    key = bytes(accumulator)
-                    if key in self.decode_table:
-                        current_word.append(self.decode_table[key])
-                    else:
-                        current_word.append(f"[0x{key.hex()}]")
-                    accumulator = bytearray()
+            if byte == SPACE:
+                # Dump: look up everything accumulated, output the word
+                self._flush_acc(accumulator, current_word)
+                accumulator = bytearray()
+                if current_word:
+                    result.append(''.join(current_word))
+                    current_word = []
 
-                if byte == END:
-                    if current_word:
-                        result.append(''.join(current_word))
-                        current_word = []
-                    break
+            elif byte == END:
+                self._flush_acc(accumulator, current_word)
+                accumulator = bytearray()
+                if current_word:
+                    result.append(''.join(current_word))
+                    current_word = []
+                break
 
-                elif byte == SPACE:
-                    if current_word:
-                        result.append(''.join(current_word))
-                        current_word = []
+            elif byte == NEWLINE:
+                self._flush_acc(accumulator, current_word)
+                accumulator = bytearray()
+                if current_word:
+                    result.append(''.join(current_word))
+                    current_word = []
+                result.append('\n')
 
-                elif byte == NEWLINE:
-                    if current_word:
-                        result.append(''.join(current_word))
-                        current_word = []
-                    result.append('\n')
-
-                elif byte == BOUNDARY:
-                    # Morpheme boundary within a word — continue building word
-                    pass
-
-                elif byte == COIN:
-                    coin_mode = True
-
-                elif byte == NAME:
-                    pass  # next content bytes are the name
+            elif byte == QA:
+                self._flush_acc(accumulator, current_word)
+                accumulator = bytearray()
+                if current_word:
+                    result.append(''.join(current_word))
+                    current_word = []
 
             else:
+                # Everything else — content bytes AND boundary bytes — accumulate
                 accumulator.append(byte)
 
-        # Flush remaining
-        if accumulator:
-            key = bytes(accumulator)
-            if key in self.decode_table:
-                current_word.append(self.decode_table[key])
-            else:
-                current_word.append(f"[0x{key.hex()}]")
+        # Flush anything remaining
+        self._flush_acc(accumulator, current_word)
         if current_word:
             result.append(''.join(current_word))
 

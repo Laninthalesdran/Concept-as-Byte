@@ -1,16 +1,6 @@
 # How It Was Built
 
-We are trying to find the floor of model size. The goal is for a teenager to watch a video, download the tools, build and train their own model, and use it in ways we intend to work toward laying out. How small can the models be. How small are the smallest training files that AdamZ and LidiaZ can learn on.
-
-We understand that technology lowers cognitive capability by replacing aspects of learning that were fundamental prior to the AI revolution. The research is clear:
-
-- The "Google Effect" demonstrated that people stop encoding information into memory when they believe it is accessible online, instead remembering WHERE to find it rather than WHAT it is (Sparrow, Liu & Wegner, 2011, *Science*).
-- The mere presence of a smartphone — not using it, just having it nearby — measurably reduces available working memory and fluid intelligence (Ward et al., 2017, *Journal of the Association for Consumer Research*; Hartanto et al., 2023, *Scientific Reports*).
-- Screen time in children is associated with reduced cortical thickness in brain regions supporting executive function and language, reduced white matter integrity in literacy-related areas, and decreased adult-child verbal interaction — the conversational environment critical for cognitive growth (Hutton et al., 2020; Nagata et al., 2023; *Nature, Translational Psychiatry*).
-
-Technology is replacing the cognitive work that BUILDS cognitive capability. Search replaces memory. Autocomplete replaces spelling. GPS replaces spatial reasoning. The tools that make life easier also make the brain weaker.
-
-We are trying to find a way to use AI to build NEW cognitive pathways — not by replacing thinking, but by giving people tools small enough to understand, build, and own themselves. A teenager who downloads this, builds their own model, trains it on their own data, and understands what every byte means — that teenager is building cognition, not outsourcing it.
+We are trying to find the floor of model size. It is above 7M parameters.
 
 ## The Complete Build Log — Concept-as-Byte Architecture
 ## April 4-5, 2026

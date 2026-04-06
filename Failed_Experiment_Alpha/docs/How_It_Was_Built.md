@@ -394,6 +394,16 @@ Experiment Beta starts with clean data.
 
 ---
 
+## Where to Find Everything
+
+Large files (tables, training data) exceed GitHub's file size limit. The complete repository including all large files is hosted on HuggingFace:
+
+**https://huggingface.co/tntholley/Concept-as-Byte**
+
+GitHub has all code, model definitions, training scripts, logs, weights, and documentation. HuggingFace has everything GitHub has plus the large pipeline files (ValidatedEnglishTable.json, wiktionary_full_esperanto.json).
+
+---
+
 *Travis Edward Holley*
 *TNT Holley, Inc.*
 *April 5, 2026*

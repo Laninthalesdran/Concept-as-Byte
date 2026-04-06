@@ -2,7 +2,7 @@
 
 **Proposed:** April 6, 2026
 **Proposed by:** Travis Holley
-**Status:** Under consideration
+**Status:** REJECTED — see addendum below
 
 ---
 
@@ -60,6 +60,18 @@ The model never sees "bytes." It sees token IDs from a vocabulary of 4096. Token
 4. How does this interact with the SKIP routing to Mathlete? SKIP regions contain tokens from the math vocabulary — do those share the same 4096 space or are they a separate vocabulary?
 
 5. Is this testable as a Project Theta variable? Same 8 models, same data, 256 vocab vs 4096 vocab. The difference measures the impact of vocabulary size on the scaling curve.
+
+---
+
+---
+
+## ADDENDUM: Rejected (Travis Holley, April 6, 2026)
+
+This approach solves the wrong problem. Giving roots their own token IDs lets the model memorize numbers. Spelling roots letter by letter forces the model to LEARN what the letter patterns mean from context. The spelling is the cipher. The model cracking the cipher is the learning.
+
+LidiaZ 10M proved this in Experiment Alpha — it decoded "hundo" into "dog" by cracking the byte patterns across thousands of contexts. It didn't memorize a mapping. It figured out the relationship. That's the mechanism we want. Giving it a shortcut token would skip the learning that makes the model actually understand.
+
+All roots get spelled. That's the architecture. The 256 single-byte table contains control bytes, digits, letters, punctuation, endings, affixes, and function words — the structural pieces. Every root is spelled with COIN + letters. The model earns its understanding by decoding letter patterns in context.
 
 ---
 

@@ -384,26 +384,6 @@ Travis: "100% or nothing. We said it. And we missed 'I'."
 
 ---
 
-## You Can Read the Model's Thoughts
-
-In a BPE-tokenized model, the internal representation is opaque. Token 14923 means nothing to a human reader. You cannot inspect what the model is processing without a decoder that maps tokens back to text fragments — and even then, the fragments are statistical subwords, not meaningful units.
-
-In concept byte encoding, every byte is a readable concept. When we fed LidiaZ the Esperanto reasoning chain for "he has ten apples and uses three apples daily and after three days he has one apple," we could decode the input byte-by-byte:
-
-```
-li hav'-as dek pom'-o'-j'-n , kaj uz'-as tri pom'-o'-j'-n ĉiu'tag'-e , kaj post tri tag'-o'-j li hav'-as unu pom'-o'-n
-```
-
-Every morpheme is visible. Every grammatical relationship is explicit. `hav'-as` is the root "have" with present tense ending. `pom'-o'-j'-n` is the root "apple" with noun ending, plural marker, and accusative case. The BOUNDARY bytes (') show exactly where one concept ends and another begins.
-
-This means you can watch the model think. Not metaphorically — literally. The bytes flowing through the network are concepts, and each concept has a human-readable label in the table. When the model makes a wrong prediction, you can see exactly which concept it confused with which other concept. When it makes a right prediction, you can see exactly why.
-
-We used this during testing. When LidiaZ produced "want you to love you" instead of "I love you," we could see that the model received `mi` (I/me) in the input but had no byte code for "I" in the output vocabulary — because "I" was missing from the table. The bug was visible in the bytes. In a BPE system, the same bug would have been invisible inside the token statistics.
-
-Concept byte encoding is not just a compression scheme. It is a transparent representation of meaning that humans can read, verify, and debug by inspection. Every byte is a concept. Every concept has a name. The model's internal state is not a black box — it is a labeled diagram.
-
----
-
 ## What This Proves
 
 Nothing, yet. The experiment was flawed. The data wasn't clean. The comparison wasn't fair. The model can say "dog" but can't say "I."

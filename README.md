@@ -80,6 +80,6 @@ The encoder provided (`jalek_encoder.py`) operates on the JalekCore Base Table o
 
 This work is released under CC-BY-NC-SA 4.0 for non-commercial use.
 
-**Commercial licensing** available at no more than 5% of gross revenue derived from products using the patented method. Contact travis@tntholley.com. Statement made April 5, 2026. Further reduction of royalty through negotiation is welcomed.
+**Commercial licensing** available at no more than 5% of gross revenue derived from products or services using the patented method. Contact travis@tntholley.com. Statement made April 5, 2026. Further reduction of royalty through negotiation is welcomed.
 
 **Clarification of rights:** The CC-BY-NC-SA 4.0 license applies to the published materials (paper, code, table). Implementation of the patented method (U.S. Application No. 64/017,122) for commercial purposes requires a separate commercial license regardless of the publication license.

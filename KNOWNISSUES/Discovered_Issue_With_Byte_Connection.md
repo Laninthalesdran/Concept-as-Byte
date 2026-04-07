@@ -61,5 +61,4 @@ Everything beyond the 256 single-byte concepts gets spelled letter by letter.
 ---
 
 *Travis Edward Holley*
-*TNT Holley, Inc.*
 *April 6, 2026*

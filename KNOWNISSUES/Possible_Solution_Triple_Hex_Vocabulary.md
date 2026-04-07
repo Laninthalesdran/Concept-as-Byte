@@ -76,5 +76,4 @@ All roots get spelled. That's the architecture. The 256 single-byte table contai
 ---
 
 *Travis Edward Holley*
-*TNT Holley, Inc.*
 *April 6, 2026*

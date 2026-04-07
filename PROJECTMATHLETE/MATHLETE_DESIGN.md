@@ -189,5 +189,4 @@ sin div pi 2 Q/A 1 END
 ---
 
 *Travis Edward Holley*
-*TNT Holley, Inc.*
 *April 6, 2026*

@@ -516,5 +516,4 @@ Research (2024) shows tokenization significantly impacts arithmetic performance.
 ---
 
 *Travis Edward Holley*
-*TNT Holley, Inc.*
 *April 6, 2026*

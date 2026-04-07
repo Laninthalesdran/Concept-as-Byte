@@ -609,5 +609,4 @@ det vec_start 1 2 dim_sep 3 4 vec_end Q/A negate 2 END
 ---
 
 *Travis Edward Holley*
-*TNT Holley, Inc.*
 *April 6, 2026*

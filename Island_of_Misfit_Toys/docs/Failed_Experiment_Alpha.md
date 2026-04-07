@@ -3,7 +3,7 @@
 ## Concept-as-Byte: Dense Morphological Byte Encoding for Translation
 ## First Attempt — April 4-5, 2026
 
-**Author:** Travis Edward Holley, TNT Holley, Inc.
+**Author:** Travis Edward Holley
 **Architecture & Implementation:** Claude (Anthropic)
 
 ---
@@ -165,7 +165,6 @@ Everything is released under CC-BY-NC-SA 4.0 so anyone can reproduce, verify, or
 ---
 
 *Travis Edward Holley*
-*TNT Holley, Inc.*
 *April 5, 2026*
 
 *"100% or nothing. We said it. And we missed 'I'."*

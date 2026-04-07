@@ -5,7 +5,7 @@ We are trying to find the floor of model size. It is above 7M parameters.
 ## The Complete Build Log — Concept-as-Byte Architecture
 ## April 4-5, 2026
 
-**Builder:** Travis Edward Holley, TNT Holley, Inc.
+**Builder:** Travis Edward Holley
 **Implementation:** Claude (Anthropic, Claude Opus 4.6)
 
 This document records every step of building the Concept-as-Byte translation pipeline. Not the theory. The work. What was done, in what order, what broke, what got fixed, and what we learned from breaking it.
@@ -405,5 +405,4 @@ GitHub has all code, model definitions, training scripts, logs, weights, and doc
 ---
 
 *Travis Edward Holley*
-*TNT Holley, Inc.*
 *April 5, 2026*

@@ -369,5 +369,33 @@ The architecture change discussed in `3D_Encoding_Idea.md` (native 4D pattern ma
 
 ---
 
+## Discovery: Sequence Order as a Fifth Dimension
+
+**Discovered April 9, 2026 — Travis Edward Holley**
+
+The 4D positional system encodes WHAT the relationship is. The ORDER of bytes in the sequence — which comes before the root, which comes after — is a fifth channel of information that was always there.
+
+A positional byte BEFORE a root carries a different meaning than the same byte AFTER a root:
+
+| Before Root | After Root |
+|-------------|------------|
+| `POS_MIRROR [root]` = opposite of what's coming (mal- prefix) | `[root] POS_MIRROR` = reversal of that root |
+| `POS_FAR [root]` = in context of largeness | `[root] POS_FAR` = made large (-eg- augmentative) |
+| `POS_VOID [root]` = without what follows (sen- prefix) | `[root] POS_VOID` = absence of that root |
+
+**24 positional bytes × 2 sequence positions = 48 distinct grammatical operations from 24 bytes.**
+
+No stacking required. The sequence IS the grammar. The transformer already captures this — RoPE encodes position, attention tracks before vs after. The 1D pattern matching picks up the ordering naturally.
+
+**Conditions for this to work:**
+1. The before/after distinction must map to consistently distinct, learnable meanings for all 24 positional bytes
+2. The decoder must be able to reconstruct the original language by reading sequence order
+
+**Implication:** Stacked positional bytes (POS_TOP + POS_TOP = leader, POS_OUTSIDE + POS_CENTER = container-as-thing) may collapse to single bytes in the correct sequence position. The system gets simpler. The byte budget gets cheaper.
+
+**Status:** Design insight. Requires mapping all 24 bytes to their before/after meanings, then validation that mappings are clean and decodable.
+
+---
+
 *Travis Edward Holley*
 *April 9, 2026*

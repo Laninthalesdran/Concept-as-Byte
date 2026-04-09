@@ -160,6 +160,41 @@ If programming constructs can be expressed as root + positional bytes, then Jale
 
 ---
 
+## Question 8: Sequence Order as a Fifth Dimension
+
+**Discovered April 9, 2026 — Travis Edward Holley**
+
+The 4D positional system (composition, hierarchy, causation, time) encodes WHAT the relationship between concepts is. But the ORDER of bytes in the sequence — which comes before and which comes after — carries additional information that the positional bytes themselves don't encode.
+
+A positional byte BEFORE a root has a different meaning than the same byte AFTER a root:
+
+| Encoding | Meaning | Zamenhof Equivalent |
+|----------|---------|-------------------|
+| `POS_MIRROR [root]` | Opposite of what's coming (prefix) | mal- (prefix) |
+| `[root] POS_MIRROR` | Reversal of that root (suffix) | Different operation |
+| `POS_FAR [root]` | In the context of largeness | Prefix modifier |
+| `[root] POS_FAR` | Made large (augmentative) | -eg- (suffix) |
+| `POS_VOID [root]` | Without what follows | sen- (prefix) |
+| `[root] POS_VOID` | Absence of that root | Different operation |
+
+**This doubles the positional vocabulary without adding bytes:**
+
+24 positional bytes × 2 sequence positions = **48 distinct grammatical operations from 24 bytes.**
+
+No stacking needed. No doubling up. The sequence IS the grammar. The model already captures this natively — RoPE encodes position, attention tracks what came before vs after. The 1D stream isn't just carrying 4D structure. The ordering itself is a fifth channel that was always there.
+
+**Two conditions must hold for this to work:**
+
+1. **Clean pattern.** The before/after distinction must map to consistently distinct, learnable meanings for every positional byte. Not arbitrary — the semantic logic must be generalizable. If `POS_X [root]` and `[root] POS_X` don't carry a clean, consistent distinction across all roots, the model can't learn the pattern.
+
+2. **Decodable.** The decoder must unambiguously reconstruct the original language from the byte stream. If the same byte means different things based on position, the decoder needs to read the sequence order to pick the correct output word. This is solvable — the decoder reads left to right just like the model — but the mapping table needs to encode both directions.
+
+**Implication:** The SuperZ table may need revision. Every prefix/suffix pair that was mapped to stacked positional bytes (like POS_TOP + POS_TOP = leader) might collapse to a single byte in the correct sequence position. The table gets simpler, the byte budget gets cheaper, and the model gets a cleaner pattern to learn.
+
+**Status:** Insight documented. Requires design work to map all 24 positional bytes to their before/after meanings, then validation that the mappings are clean and decodable. No implementation until the mappings are agreed on.
+
+---
+
 ## Summary
 
 | Question | Core Issue | Resolution Method |
@@ -171,6 +206,7 @@ If programming constructs can be expressed as root + positional bytes, then Jale
 | 5. SKIP routing for math | Architecture decision | Design discussion |
 | 6. Toggle boundary behavior | Mixed prose/code handling | Design discussion |
 | 7. SuperZ subsumes keywords | One encoding for everything? | Testing required |
+| 8. Sequence order as 5th dimension | Before/after root doubles positional vocabulary | Design + testing |
 
 **None of these should be resolved by argument alone. Where testing is indicated, test. Where discussion is indicated, discuss. No unilateral changes.**
 

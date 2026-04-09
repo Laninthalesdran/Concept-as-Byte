@@ -393,7 +393,32 @@ No stacking required. The sequence IS the grammar. The transformer already captu
 
 **Implication:** Stacked positional bytes (POS_TOP + POS_TOP = leader, POS_OUTSIDE + POS_CENTER = container-as-thing) may collapse to single bytes in the correct sequence position. The system gets simpler. The byte budget gets cheaper.
 
-**Status:** Design insight. Requires mapping all 24 bytes to their before/after meanings, then validation that mappings are clean and decodable.
+**Status:** Resolved. The before/after distinction IS the domain signal. See below.
+
+---
+
+## The Fifth Dimension: Sequence Order IS the Domain
+
+**Discovered April 9, 2026 — Travis Edward Holley**
+
+The sequence order discovery resolves to a design principle:
+
+- **JalekCore** (natural language): `[root] POS_X` — content first, position after. Suffix-like.
+- **Jalekon** (programming): `POS_X [concept]` — position first, content after. Prefix-like.
+
+One table. Two reading directions. The ordering convention IS the domain signal. No toggle byte needed. No separate byte space. The model sees position-before-content and knows it's code. Content-before-position and knows it's language. The pattern teaches itself.
+
+**The five dimensions of the concept byte system:**
+
+| Dimension | Axis | Encodes |
+|-----------|------|---------|
+| X | Composition | What combines with what |
+| Y | Hierarchy | What modifies what |
+| Z | Causation | What causes what |
+| T | Time | When, rate, duration, decay |
+| S | Sequence | Position-before = code. Position-after = language. |
+
+59 base bytes. 24 positional bytes. Two directions. Five dimensions. One table. Everything.
 
 ---
 

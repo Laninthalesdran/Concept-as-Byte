@@ -191,7 +191,36 @@ No stacking needed. No doubling up. The sequence IS the grammar. The model alrea
 
 **Implication:** The SuperZ table may need revision. Every prefix/suffix pair that was mapped to stacked positional bytes (like POS_TOP + POS_TOP = leader) might collapse to a single byte in the correct sequence position. The table gets simpler, the byte budget gets cheaper, and the model gets a cleaner pattern to learn.
 
-**Status:** Insight documented. Requires design work to map all 24 positional bytes to their before/after meanings, then validation that the mappings are clean and decodable. No implementation until the mappings are agreed on.
+**Status:** Resolved in principle. See Question 8b below.
+
+---
+
+## Question 8b: Jalekon IS the Fifth Dimension
+
+**Discovered April 9, 2026 — Travis Edward Holley**
+
+The sequence order discovery resolves the Jalekon/JalekCore distinction entirely.
+
+- **JalekCore** (natural language): positional bytes come AFTER content. `[root] POS_X` — say the thing, then modify it. Suffix-like. Matches how agglutinative languages work.
+- **Jalekon** (programming): positional bytes come BEFORE content. `POS_X [concept]` — declare the operation, then the thing it applies to. Prefix-like. Matches how programming works (type annotations, keywords before blocks, prefix notation).
+
+**Jalekon and JalekCore are not two tables. They are one table read in two directions.**
+
+The model doesn't need a JALEKON toggle byte. It doesn't need a separate byte space. It sees position-before-content and knows it's code. Content-before-position and knows it's language. The ordering convention IS the domain signal. The pattern teaches itself from training data.
+
+**The five dimensions:**
+
+| Dimension | What It Encodes |
+|-----------|----------------|
+| X — Composition | What combines with what |
+| Y — Hierarchy | What modifies what |
+| Z — Causation | What causes what |
+| T — Time | When, rate, duration, decay |
+| **S — Sequence** | **Position-before = programming. Position-after = language.** |
+
+59 base bytes. 24 positional bytes. Two directions. Five dimensions. One table.
+
+**Status:** Design principle established. The JALEKON toggle byte (0x07) may be freed. The ordering convention replaces explicit mode switching.
 
 ---
 
@@ -207,6 +236,7 @@ No stacking needed. No doubling up. The sequence IS the grammar. The model alrea
 | 6. Toggle boundary behavior | Mixed prose/code handling | Design discussion |
 | 7. SuperZ subsumes keywords | One encoding for everything? | Testing required |
 | 8. Sequence order as 5th dimension | Before/after root doubles positional vocabulary | Design + testing |
+| 8b. Jalekon IS the 5th dimension | One table, two directions — ordering replaces toggle | Resolved in principle |
 
 **None of these should be resolved by argument alone. Where testing is indicated, test. Where discussion is indicated, discuss. No unilateral changes.**
 

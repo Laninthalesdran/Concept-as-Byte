@@ -1,0 +1,4650 @@
+{
+  "epoch": 2,
+  "reference_hex": [
+    "0x0a",
+    "0x8e",
+    "0x7f",
+    "0x02",
+    "0x0a",
+    "0xac",
+    "0x8f",
+    "0x02",
+    "0x77",
+    "0xbc",
+    "0x01",
+    "0x3b",
+    "0x02",
+    "0x0e",
+    "0xce",
+    "0x01",
+    "0x3b",
+    "0x02",
+    "0x0a",
+    "0x99",
+    "0x42",
+    "0x02",
+    "0x0a",
+    "0xa7",
+    "0xa4",
+    "0x02",
+    "0x0e",
+    "0x6f",
+    "0x01",
+    "0x39",
+    "0x02",
+    "0xf5",
+    "0x01",
+    "0x38",
+    "0x02",
+    "0x02",
+    "0x14",
+    "0x00"
+  ],
+  "reference_decoded": "al [SPACE] mi [SPACE] indik [BOUNDARY] -i [SPACE] tr [BOUNDARY] -i [SPACE] en [SPACE] la [SPACE] supr [BOUNDARY] -a [SPACE] artikol [BOUNDARY] -o [SPACE] [SPACE] . [END]",
+  "sequence_length": 38,
+  "positions": [
+    {
+      "pos": 0,
+      "byte": 10,
+      "label": "al",
+      "predictions": [
+        {
+          "byte": 172,
+          "label": "alt",
+          "prob": 0.21
+        },
+        {
+          "byte": 167,
+          "label": "alk",
+          "prob": 0.1162
+        },
+        {
+          "byte": 194,
+          "label": "angil",
+          "prob": 0.0879
+        },
+        {
+          "byte": 168,
+          "label": "almenau",
+          "prob": 0.0576
+        },
+        {
+          "byte": 163,
+          "label": "alcion",
+          "prob": 0.0566
+        }
+      ],
+      "actual_next": 142,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 1.0
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 1.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 1.0
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 1.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 1,
+      "byte": 142,
+      "label": "0x8e",
+      "predictions": [
+        {
+          "byte": 127,
+          "label": "administr",
+          "prob": 0.8164
+        },
+        {
+          "byte": 32,
+          "label": "i",
+          "prob": 0.0221
+        },
+        {
+          "byte": 27,
+          "label": "f",
+          "prob": 0.015
+        },
+        {
+          "byte": 164,
+          "label": "aleĉj",
+          "prob": 0.0038
+        },
+        {
+          "byte": 64,
+          "label": "-u",
+          "prob": 0.0024
+        }
+      ],
+      "actual_next": 127,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.793
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.207
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.5234
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.4746
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.793
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.207
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.6289
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.3711
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 2,
+      "byte": 127,
+      "label": "0x7f",
+      "predictions": [
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.9258
+        },
+        {
+          "byte": 1,
+          "label": "[BOUNDARY]",
+          "prob": 0.0225
+        },
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.0103
+        },
+        {
+          "byte": 143,
+          "label": "ajl",
+          "prob": 0.0017
+        },
+        {
+          "byte": 20,
+          "label": ".",
+          "prob": 0.0013
+        }
+      ],
+      "actual_next": 2,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.7734
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.1738
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0522
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.5664
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.252
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.1807
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.6016
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.3477
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0527
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.3984
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.3359
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.2676
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 3,
+      "byte": 2,
+      "label": "[SPACE]",
+      "predictions": [
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.6992
+        },
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.0498
+        },
+        {
+          "byte": 20,
+          "label": ".",
+          "prob": 0.0188
+        },
+        {
+          "byte": 13,
+          "label": "3",
+          "prob": 0.0133
+        },
+        {
+          "byte": 11,
+          "label": "1",
+          "prob": 0.013
+        }
+      ],
+      "actual_next": 10,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.7422
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1172
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.1011
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.6172
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.2295
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.1357
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.707
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.1846
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.083
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.3945
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.3594
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.1982
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 4,
+      "byte": 10,
+      "label": "mi",
+      "predictions": [
+        {
+          "byte": 172,
+          "label": "alt",
+          "prob": 0.2197
+        },
+        {
+          "byte": 193,
+          "label": "anas",
+          "prob": 0.1177
+        },
+        {
+          "byte": 167,
+          "label": "alk",
+          "prob": 0.1138
+        },
+        {
+          "byte": 168,
+          "label": "almenau",
+          "prob": 0.0679
+        },
+        {
+          "byte": 194,
+          "label": "angil",
+          "prob": 0.0483
+        }
+      ],
+      "actual_next": 172,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.6875
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.1089
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.106
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.5664
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.1992
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.1338
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.5977
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.3418
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0267
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.3359
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.2793
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.1826
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 5,
+      "byte": 172,
+      "label": "0xac",
+      "predictions": [
+        {
+          "byte": 143,
+          "label": "ajl",
+          "prob": 0.875
+        },
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.006
+        },
+        {
+          "byte": 24,
+          "label": "ĉ",
+          "prob": 0.0027
+        },
+        {
+          "byte": 172,
+          "label": "alt",
+          "prob": 0.0025
+        },
+        {
+          "byte": 1,
+          "label": "[BOUNDARY]",
+          "prob": 0.0024
+        }
+      ],
+      "actual_next": 143,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.2773
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.2656
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.209
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.2793
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.167
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.1465
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.582
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.2246
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.1475
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.418
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.3008
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1426
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 6,
+      "byte": 143,
+      "label": "0x8f",
+      "predictions": [
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.918
+        },
+        {
+          "byte": 1,
+          "label": "[BOUNDARY]",
+          "prob": 0.0315
+        },
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.0098
+        },
+        {
+          "byte": 143,
+          "label": "ajl",
+          "prob": 0.0015
+        },
+        {
+          "byte": 20,
+          "label": ".",
+          "prob": 0.0014
+        }
+      ],
+      "actual_next": 2,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.1797
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.1777
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.1699
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.2617
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.1455
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.1367
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.4238
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.3203
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.1445
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.4609
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.2217
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.2217
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 7,
+      "byte": 2,
+      "label": "[SPACE]",
+      "predictions": [
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.5312
+        },
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.2598
+        },
+        {
+          "byte": 11,
+          "label": "1",
+          "prob": 0.0244
+        },
+        {
+          "byte": 13,
+          "label": "3",
+          "prob": 0.0244
+        },
+        {
+          "byte": 12,
+          "label": "2",
+          "prob": 0.0173
+        }
+      ],
+      "actual_next": 119,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1875
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.166
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.1621
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.4258
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.2695
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.1113
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.6133
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.1367
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0854
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.4727
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.2949
+                },
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1787
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 8,
+      "byte": 119,
+      "label": "indik",
+      "predictions": [
+        {
+          "byte": 78,
+          "label": "-er-",
+          "prob": 0.2949
+        },
+        {
+          "byte": 119,
+          "label": "abrikot",
+          "prob": 0.0194
+        },
+        {
+          "byte": 95,
+          "label": "-uj-",
+          "prob": 0.0134
+        },
+        {
+          "byte": 138,
+          "label": "afer",
+          "prob": 0.0131
+        },
+        {
+          "byte": 149,
+          "label": "akcipitr",
+          "prob": 0.0123
+        }
+      ],
+      "actual_next": 188,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.1797
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.1318
+                },
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.127
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.2236
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.1992
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1328
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.7539
+                },
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.1963
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0342
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.6953
+                },
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1484
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0757
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 9,
+      "byte": 188,
+      "label": "0xbc",
+      "predictions": [
+        {
+          "byte": 1,
+          "label": "[BOUNDARY]",
+          "prob": 0.8672
+        },
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.0327
+        },
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.0038
+        },
+        {
+          "byte": 20,
+          "label": ".",
+          "prob": 0.0031
+        },
+        {
+          "byte": 59,
+          "label": "-i",
+          "prob": 0.0021
+        }
+      ],
+      "actual_next": 1,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.2197
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.1709
+                },
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.1465
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.1797
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.166
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.1367
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.5547
+                },
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.2461
+                },
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.1621
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.4336
+                },
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.3594
+                },
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0708
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 10,
+      "byte": 1,
+      "label": "[BOUNDARY]",
+      "predictions": [
+        {
+          "byte": 56,
+          "label": "-o",
+          "prob": 0.2988
+        },
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.1621
+        },
+        {
+          "byte": 59,
+          "label": "-i",
+          "prob": 0.1035
+        },
+        {
+          "byte": 57,
+          "label": "-a",
+          "prob": 0.0625
+        },
+        {
+          "byte": 70,
+          "label": "-ar-",
+          "prob": 0.0452
+        }
+      ],
+      "actual_next": 59,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.2012
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.125
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.1147
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.3203
+                },
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.1387
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.1377
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.625
+                },
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1797
+                },
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.0513
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.9219
+                },
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.0649
+                },
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0044
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 11,
+      "byte": 59,
+      "label": "-i",
+      "predictions": [
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.9297
+        },
+        {
+          "byte": 1,
+          "label": "[BOUNDARY]",
+          "prob": 0.0187
+        },
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.0108
+        },
+        {
+          "byte": 143,
+          "label": "ajl",
+          "prob": 0.0018
+        },
+        {
+          "byte": 20,
+          "label": ".",
+          "prob": 0.0014
+        }
+      ],
+      "actual_next": 2,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.2129
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.1289
+                },
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1206
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.1416
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.1191
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.1162
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.7305
+                },
+                {
+                  "target_pos": 11,
+                  "target_label": "-i",
+                  "weight": 0.2158
+                },
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.0322
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 11,
+                  "target_label": "-i",
+                  "weight": 0.7266
+                },
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.1602
+                },
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0569
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 12,
+      "byte": 2,
+      "label": "[SPACE]",
+      "predictions": [
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.5
+        },
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.3555
+        },
+        {
+          "byte": 1,
+          "label": "[BOUNDARY]",
+          "prob": 0.0115
+        },
+        {
+          "byte": 13,
+          "label": "3",
+          "prob": 0.0104
+        },
+        {
+          "byte": 11,
+          "label": "1",
+          "prob": 0.0097
+        }
+      ],
+      "actual_next": 14,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.166
+                },
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.106
+                },
+                {
+                  "target_pos": 11,
+                  "target_label": "-i",
+                  "weight": 0.1035
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 12,
+                  "target_label": "[SPACE]",
+                  "weight": 0.334
+                },
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.1572
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.1152
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.5273
+                },
+                {
+                  "target_pos": 12,
+                  "target_label": "[SPACE]",
+                  "weight": 0.3398
+                },
+                {
+                  "target_pos": 11,
+                  "target_label": "-i",
+                  "weight": 0.0649
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 11,
+                  "target_label": "-i",
+                  "weight": 0.707
+                },
+                {
+                  "target_pos": 12,
+                  "target_label": "[SPACE]",
+                  "weight": 0.2148
+                },
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.0386
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 13,
+      "byte": 14,
+      "label": "tr",
+      "predictions": [
+        {
+          "byte": 206,
+          "label": "anstataŭ",
+          "prob": 0.1533
+        },
+        {
+          "byte": 74,
+          "label": "-eg-",
+          "prob": 0.0439
+        },
+        {
+          "byte": 125,
+          "label": "adiaŭ",
+          "prob": 0.0276
+        },
+        {
+          "byte": 31,
+          "label": "ĥ",
+          "prob": 0.0255
+        },
+        {
+          "byte": 64,
+          "label": "-u",
+          "prob": 0.0201
+        }
+      ],
+      "actual_next": 206,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.0996
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0879
+                },
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0869
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.2578
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.0923
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.0801
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 12,
+                  "target_label": "[SPACE]",
+                  "weight": 0.4883
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.418
+                },
+                {
+                  "target_pos": 11,
+                  "target_label": "-i",
+                  "weight": 0.064
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.5898
+                },
+                {
+                  "target_pos": 11,
+                  "target_label": "-i",
+                  "weight": 0.2715
+                },
+                {
+                  "target_pos": 12,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1128
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 14,
+      "byte": 206,
+      "label": "0xce",
+      "predictions": [
+        {
+          "byte": 1,
+          "label": "[BOUNDARY]",
+          "prob": 0.8672
+        },
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.0388
+        },
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.0039
+        },
+        {
+          "byte": 20,
+          "label": ".",
+          "prob": 0.0033
+        },
+        {
+          "byte": 143,
+          "label": "ajl",
+          "prob": 0.0023
+        }
+      ],
+      "actual_next": 1,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.3945
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.0825
+                },
+                {
+                  "target_pos": 12,
+                  "target_label": "[SPACE]",
+                  "weight": 0.063
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.4824
+                },
+                {
+                  "target_pos": 14,
+                  "target_label": "0xce",
+                  "weight": 0.126
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.05
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.7852
+                },
+                {
+                  "target_pos": 12,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1279
+                },
+                {
+                  "target_pos": 14,
+                  "target_label": "0xce",
+                  "weight": 0.0684
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 14,
+                  "target_label": "0xce",
+                  "weight": 0.5977
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.3301
+                },
+                {
+                  "target_pos": 12,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0413
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 15,
+      "byte": 1,
+      "label": "[BOUNDARY]",
+      "predictions": [
+        {
+          "byte": 56,
+          "label": "-o",
+          "prob": 0.416
+        },
+        {
+          "byte": 59,
+          "label": "-i",
+          "prob": 0.2031
+        },
+        {
+          "byte": 57,
+          "label": "-a",
+          "prob": 0.1021
+        },
+        {
+          "byte": 16,
+          "label": "6",
+          "prob": 0.0513
+        },
+        {
+          "byte": 70,
+          "label": "-ar-",
+          "prob": 0.0359
+        }
+      ],
+      "actual_next": 59,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 11,
+                  "target_label": "-i",
+                  "weight": 0.1582
+                },
+                {
+                  "target_pos": 15,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.1377
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.083
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 15,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.2314
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.1113
+                },
+                {
+                  "target_pos": 11,
+                  "target_label": "-i",
+                  "weight": 0.0913
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 15,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.5781
+                },
+                {
+                  "target_pos": 12,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1465
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0986
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 14,
+                  "target_label": "0xce",
+                  "weight": 0.8555
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.1309
+                },
+                {
+                  "target_pos": 12,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0049
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 16,
+      "byte": 59,
+      "label": "-i",
+      "predictions": [
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.9297
+        },
+        {
+          "byte": 1,
+          "label": "[BOUNDARY]",
+          "prob": 0.015
+        },
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.0103
+        },
+        {
+          "byte": 143,
+          "label": "ajl",
+          "prob": 0.0019
+        },
+        {
+          "byte": 20,
+          "label": ".",
+          "prob": 0.0015
+        }
+      ],
+      "actual_next": 2,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.1094
+                },
+                {
+                  "target_pos": 12,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0967
+                },
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0845
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 15,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0991
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.0811
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.0767
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 15,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.7461
+                },
+                {
+                  "target_pos": 16,
+                  "target_label": "-i",
+                  "weight": 0.1943
+                },
+                {
+                  "target_pos": 14,
+                  "target_label": "0xce",
+                  "weight": 0.0327
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 16,
+                  "target_label": "-i",
+                  "weight": 0.6055
+                },
+                {
+                  "target_pos": 14,
+                  "target_label": "0xce",
+                  "weight": 0.2676
+                },
+                {
+                  "target_pos": 15,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0608
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 17,
+      "byte": 2,
+      "label": "[SPACE]",
+      "predictions": [
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.4551
+        },
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.4141
+        },
+        {
+          "byte": 1,
+          "label": "[BOUNDARY]",
+          "prob": 0.012
+        },
+        {
+          "byte": 13,
+          "label": "3",
+          "prob": 0.0091
+        },
+        {
+          "byte": 11,
+          "label": "1",
+          "prob": 0.0086
+        }
+      ],
+      "actual_next": 10,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 11,
+                  "target_label": "-i",
+                  "weight": 0.1475
+                },
+                {
+                  "target_pos": 15,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0776
+                },
+                {
+                  "target_pos": 16,
+                  "target_label": "-i",
+                  "weight": 0.0752
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 17,
+                  "target_label": "[SPACE]",
+                  "weight": 0.2734
+                },
+                {
+                  "target_pos": 15,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.1318
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0952
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 15,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.5352
+                },
+                {
+                  "target_pos": 17,
+                  "target_label": "[SPACE]",
+                  "weight": 0.3145
+                },
+                {
+                  "target_pos": 16,
+                  "target_label": "-i",
+                  "weight": 0.0564
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 16,
+                  "target_label": "-i",
+                  "weight": 0.6719
+                },
+                {
+                  "target_pos": 17,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1992
+                },
+                {
+                  "target_pos": 14,
+                  "target_label": "0xce",
+                  "weight": 0.0845
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 18,
+      "byte": 10,
+      "label": "en",
+      "predictions": [
+        {
+          "byte": 167,
+          "label": "alk",
+          "prob": 0.167
+        },
+        {
+          "byte": 142,
+          "label": "agrabl",
+          "prob": 0.0674
+        },
+        {
+          "byte": 172,
+          "label": "alt",
+          "prob": 0.0635
+        },
+        {
+          "byte": 153,
+          "label": "akr",
+          "prob": 0.0525
+        },
+        {
+          "byte": 163,
+          "label": "alcion",
+          "prob": 0.0518
+        }
+      ],
+      "actual_next": 153,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.0972
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0854
+                },
+                {
+                  "target_pos": 11,
+                  "target_label": "-i",
+                  "weight": 0.0752
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 17,
+                  "target_label": "[SPACE]",
+                  "weight": 0.248
+                },
+                {
+                  "target_pos": 15,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0898
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0713
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 17,
+                  "target_label": "[SPACE]",
+                  "weight": 0.5078
+                },
+                {
+                  "target_pos": 18,
+                  "target_label": "en",
+                  "weight": 0.3066
+                },
+                {
+                  "target_pos": 15,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0879
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 16,
+                  "target_label": "-i",
+                  "weight": 0.5703
+                },
+                {
+                  "target_pos": 17,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1914
+                },
+                {
+                  "target_pos": 14,
+                  "target_label": "0xce",
+                  "weight": 0.0977
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 19,
+      "byte": 153,
+      "label": "0x99",
+      "predictions": [
+        {
+          "byte": 66,
+          "label": "-n",
+          "prob": 0.8516
+        },
+        {
+          "byte": 57,
+          "label": "-a",
+          "prob": 0.014
+        },
+        {
+          "byte": 64,
+          "label": "-u",
+          "prob": 0.004
+        },
+        {
+          "byte": 70,
+          "label": "-ar-",
+          "prob": 0.0031
+        },
+        {
+          "byte": 193,
+          "label": "anas",
+          "prob": 0.0025
+        }
+      ],
+      "actual_next": 66,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 18,
+                  "target_label": "en",
+                  "weight": 0.3652
+                },
+                {
+                  "target_pos": 19,
+                  "target_label": "0x99",
+                  "weight": 0.1201
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.0762
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0913
+                },
+                {
+                  "target_pos": 19,
+                  "target_label": "0x99",
+                  "weight": 0.0693
+                },
+                {
+                  "target_pos": 14,
+                  "target_label": "0xce",
+                  "weight": 0.0659
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 18,
+                  "target_label": "en",
+                  "weight": 0.5742
+                },
+                {
+                  "target_pos": 19,
+                  "target_label": "0x99",
+                  "weight": 0.2051
+                },
+                {
+                  "target_pos": 17,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1494
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 18,
+                  "target_label": "en",
+                  "weight": 0.3359
+                },
+                {
+                  "target_pos": 19,
+                  "target_label": "0x99",
+                  "weight": 0.2578
+                },
+                {
+                  "target_pos": 17,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1426
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 20,
+      "byte": 66,
+      "label": "0x42",
+      "predictions": [
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.918
+        },
+        {
+          "byte": 1,
+          "label": "[BOUNDARY]",
+          "prob": 0.032
+        },
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.0096
+        },
+        {
+          "byte": 143,
+          "label": "ajl",
+          "prob": 0.0018
+        },
+        {
+          "byte": 20,
+          "label": ".",
+          "prob": 0.0014
+        }
+      ],
+      "actual_next": 2,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 18,
+                  "target_label": "en",
+                  "weight": 0.126
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.0811
+                },
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0742
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 14,
+                  "target_label": "0xce",
+                  "weight": 0.0596
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0588
+                },
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0532
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 19,
+                  "target_label": "0x99",
+                  "weight": 0.6133
+                },
+                {
+                  "target_pos": 18,
+                  "target_label": "en",
+                  "weight": 0.1758
+                },
+                {
+                  "target_pos": 20,
+                  "target_label": "0x42",
+                  "weight": 0.1118
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 20,
+                  "target_label": "0x42",
+                  "weight": 0.3184
+                },
+                {
+                  "target_pos": 19,
+                  "target_label": "0x99",
+                  "weight": 0.2988
+                },
+                {
+                  "target_pos": 18,
+                  "target_label": "en",
+                  "weight": 0.1992
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 21,
+      "byte": 2,
+      "label": "[SPACE]",
+      "predictions": [
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.582
+        },
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.1943
+        },
+        {
+          "byte": 13,
+          "label": "3",
+          "prob": 0.0177
+        },
+        {
+          "byte": 11,
+          "label": "1",
+          "prob": 0.0156
+        },
+        {
+          "byte": 15,
+          "label": "5",
+          "prob": 0.0137
+        }
+      ],
+      "actual_next": 10,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 16,
+                  "target_label": "-i",
+                  "weight": 0.1602
+                },
+                {
+                  "target_pos": 20,
+                  "target_label": "0x42",
+                  "weight": 0.1094
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0923
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 21,
+                  "target_label": "[SPACE]",
+                  "weight": 0.2617
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0972
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.061
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 21,
+                  "target_label": "[SPACE]",
+                  "weight": 0.582
+                },
+                {
+                  "target_pos": 18,
+                  "target_label": "en",
+                  "weight": 0.1338
+                },
+                {
+                  "target_pos": 17,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0786
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 20,
+                  "target_label": "0x42",
+                  "weight": 0.4238
+                },
+                {
+                  "target_pos": 19,
+                  "target_label": "0x99",
+                  "weight": 0.2539
+                },
+                {
+                  "target_pos": 21,
+                  "target_label": "[SPACE]",
+                  "weight": 0.2539
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 22,
+      "byte": 10,
+      "label": "la",
+      "predictions": [
+        {
+          "byte": 167,
+          "label": "alk",
+          "prob": 0.3145
+        },
+        {
+          "byte": 172,
+          "label": "alt",
+          "prob": 0.1162
+        },
+        {
+          "byte": 193,
+          "label": "anas",
+          "prob": 0.0574
+        },
+        {
+          "byte": 194,
+          "label": "angil",
+          "prob": 0.0396
+        },
+        {
+          "byte": 168,
+          "label": "almenau",
+          "prob": 0.0388
+        }
+      ],
+      "actual_next": 167,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.1602
+                },
+                {
+                  "target_pos": 16,
+                  "target_label": "-i",
+                  "weight": 0.0806
+                },
+                {
+                  "target_pos": 19,
+                  "target_label": "0x99",
+                  "weight": 0.0684
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 21,
+                  "target_label": "[SPACE]",
+                  "weight": 0.2178
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0693
+                },
+                {
+                  "target_pos": 19,
+                  "target_label": "0x99",
+                  "weight": 0.0693
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 21,
+                  "target_label": "[SPACE]",
+                  "weight": 0.543
+                },
+                {
+                  "target_pos": 22,
+                  "target_label": "la",
+                  "weight": 0.3496
+                },
+                {
+                  "target_pos": 15,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0231
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 20,
+                  "target_label": "0x42",
+                  "weight": 0.3145
+                },
+                {
+                  "target_pos": 19,
+                  "target_label": "0x99",
+                  "weight": 0.2441
+                },
+                {
+                  "target_pos": 21,
+                  "target_label": "[SPACE]",
+                  "weight": 0.2373
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 23,
+      "byte": 167,
+      "label": "0xa7",
+      "predictions": [
+        {
+          "byte": 164,
+          "label": "aleĉj",
+          "prob": 0.9336
+        },
+        {
+          "byte": 0,
+          "label": "[END]",
+          "prob": 0.0014
+        },
+        {
+          "byte": 127,
+          "label": "administr",
+          "prob": 0.0013
+        },
+        {
+          "byte": 38,
+          "label": "n",
+          "prob": 0.0012
+        },
+        {
+          "byte": 100,
+          "label": "dis-",
+          "prob": 0.0009
+        }
+      ],
+      "actual_next": 164,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 19,
+                  "target_label": "0x99",
+                  "weight": 0.1631
+                },
+                {
+                  "target_pos": 23,
+                  "target_label": "0xa7",
+                  "weight": 0.1445
+                },
+                {
+                  "target_pos": 22,
+                  "target_label": "la",
+                  "weight": 0.0913
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 21,
+                  "target_label": "[SPACE]",
+                  "weight": 0.063
+                },
+                {
+                  "target_pos": 17,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0566
+                },
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0562
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 22,
+                  "target_label": "la",
+                  "weight": 0.5859
+                },
+                {
+                  "target_pos": 23,
+                  "target_label": "0xa7",
+                  "weight": 0.2021
+                },
+                {
+                  "target_pos": 21,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1729
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 23,
+                  "target_label": "0xa7",
+                  "weight": 0.5078
+                },
+                {
+                  "target_pos": 22,
+                  "target_label": "la",
+                  "weight": 0.2637
+                },
+                {
+                  "target_pos": 21,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1011
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 24,
+      "byte": 164,
+      "label": "0xa4",
+      "predictions": [
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.9336
+        },
+        {
+          "byte": 1,
+          "label": "[BOUNDARY]",
+          "prob": 0.0149
+        },
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.0102
+        },
+        {
+          "byte": 143,
+          "label": "ajl",
+          "prob": 0.0016
+        },
+        {
+          "byte": 20,
+          "label": ".",
+          "prob": 0.0013
+        }
+      ],
+      "actual_next": 2,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 19,
+                  "target_label": "0x99",
+                  "weight": 0.0581
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0537
+                },
+                {
+                  "target_pos": 23,
+                  "target_label": "0xa7",
+                  "weight": 0.0522
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0569
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.0537
+                },
+                {
+                  "target_pos": 17,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0537
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 23,
+                  "target_label": "0xa7",
+                  "weight": 0.6406
+                },
+                {
+                  "target_pos": 22,
+                  "target_label": "la",
+                  "weight": 0.2363
+                },
+                {
+                  "target_pos": 24,
+                  "target_label": "0xa4",
+                  "weight": 0.051
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 23,
+                  "target_label": "0xa7",
+                  "weight": 0.4062
+                },
+                {
+                  "target_pos": 24,
+                  "target_label": "0xa4",
+                  "weight": 0.3828
+                },
+                {
+                  "target_pos": 22,
+                  "target_label": "la",
+                  "weight": 0.1221
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 25,
+      "byte": 2,
+      "label": "[SPACE]",
+      "predictions": [
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.1729
+        },
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.1455
+        },
+        {
+          "byte": 12,
+          "label": "2",
+          "prob": 0.0806
+        },
+        {
+          "byte": 13,
+          "label": "3",
+          "prob": 0.0708
+        },
+        {
+          "byte": 11,
+          "label": "1",
+          "prob": 0.0527
+        }
+      ],
+      "actual_next": 14,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1133
+                },
+                {
+                  "target_pos": 12,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0615
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0586
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 25,
+                  "target_label": "[SPACE]",
+                  "weight": 0.2334
+                },
+                {
+                  "target_pos": 20,
+                  "target_label": "0x42",
+                  "weight": 0.0825
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0801
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 25,
+                  "target_label": "[SPACE]",
+                  "weight": 0.543
+                },
+                {
+                  "target_pos": 22,
+                  "target_label": "la",
+                  "weight": 0.1377
+                },
+                {
+                  "target_pos": 23,
+                  "target_label": "0xa7",
+                  "weight": 0.0962
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 24,
+                  "target_label": "0xa4",
+                  "weight": 0.5586
+                },
+                {
+                  "target_pos": 23,
+                  "target_label": "0xa7",
+                  "weight": 0.291
+                },
+                {
+                  "target_pos": 25,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1104
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 26,
+      "byte": 14,
+      "label": "supr",
+      "predictions": [
+        {
+          "byte": 206,
+          "label": "anstataŭ",
+          "prob": 0.0635
+        },
+        {
+          "byte": 125,
+          "label": "adiaŭ",
+          "prob": 0.0464
+        },
+        {
+          "byte": 23,
+          "label": "c",
+          "prob": 0.041
+        },
+        {
+          "byte": 151,
+          "label": "akn",
+          "prob": 0.0383
+        },
+        {
+          "byte": 74,
+          "label": "-eg-",
+          "prob": 0.0325
+        }
+      ],
+      "actual_next": 111,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 24,
+                  "target_label": "0xa4",
+                  "weight": 0.0732
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0554
+                },
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.0459
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 22,
+                  "target_label": "la",
+                  "weight": 0.0718
+                },
+                {
+                  "target_pos": 18,
+                  "target_label": "en",
+                  "weight": 0.0635
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0566
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 25,
+                  "target_label": "[SPACE]",
+                  "weight": 0.4863
+                },
+                {
+                  "target_pos": 26,
+                  "target_label": "supr",
+                  "weight": 0.4707
+                },
+                {
+                  "target_pos": 23,
+                  "target_label": "0xa7",
+                  "weight": 0.0147
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 26,
+                  "target_label": "supr",
+                  "weight": 0.5352
+                },
+                {
+                  "target_pos": 24,
+                  "target_label": "0xa4",
+                  "weight": 0.2793
+                },
+                {
+                  "target_pos": 25,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0835
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 27,
+      "byte": 111,
+      "label": "0x6f",
+      "predictions": [
+        {
+          "byte": 1,
+          "label": "[BOUNDARY]",
+          "prob": 0.8711
+        },
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.0222
+        },
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.003
+        },
+        {
+          "byte": 20,
+          "label": ".",
+          "prob": 0.0029
+        },
+        {
+          "byte": 59,
+          "label": "-i",
+          "prob": 0.0024
+        }
+      ],
+      "actual_next": 1,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 26,
+                  "target_label": "supr",
+                  "weight": 0.4668
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0469
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0464
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 26,
+                  "target_label": "supr",
+                  "weight": 0.5156
+                },
+                {
+                  "target_pos": 27,
+                  "target_label": "0x6f",
+                  "weight": 0.0845
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0449
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 26,
+                  "target_label": "supr",
+                  "weight": 0.6914
+                },
+                {
+                  "target_pos": 27,
+                  "target_label": "0x6f",
+                  "weight": 0.1807
+                },
+                {
+                  "target_pos": 25,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1128
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 27,
+                  "target_label": "0x6f",
+                  "weight": 0.5078
+                },
+                {
+                  "target_pos": 26,
+                  "target_label": "supr",
+                  "weight": 0.3965
+                },
+                {
+                  "target_pos": 25,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0334
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 28,
+      "byte": 1,
+      "label": "[BOUNDARY]",
+      "predictions": [
+        {
+          "byte": 56,
+          "label": "-o",
+          "prob": 0.2754
+        },
+        {
+          "byte": 57,
+          "label": "-a",
+          "prob": 0.2676
+        },
+        {
+          "byte": 70,
+          "label": "-ar-",
+          "prob": 0.1387
+        },
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.0471
+        },
+        {
+          "byte": 16,
+          "label": "6",
+          "prob": 0.0356
+        }
+      ],
+      "actual_next": 57,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 28,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.085
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0547
+                },
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0515
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 24,
+                  "target_label": "0xa4",
+                  "weight": 0.2305
+                },
+                {
+                  "target_pos": 28,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.1074
+                },
+                {
+                  "target_pos": 15,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0493
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 28,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.5586
+                },
+                {
+                  "target_pos": 25,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1602
+                },
+                {
+                  "target_pos": 26,
+                  "target_label": "supr",
+                  "weight": 0.0854
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 27,
+                  "target_label": "0x6f",
+                  "weight": 0.7188
+                },
+                {
+                  "target_pos": 26,
+                  "target_label": "supr",
+                  "weight": 0.2559
+                },
+                {
+                  "target_pos": 25,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0082
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 29,
+      "byte": 57,
+      "label": "-a",
+      "predictions": [
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.9297
+        },
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.0143
+        },
+        {
+          "byte": 1,
+          "label": "[BOUNDARY]",
+          "prob": 0.0112
+        },
+        {
+          "byte": 143,
+          "label": "ajl",
+          "prob": 0.0017
+        },
+        {
+          "byte": 13,
+          "label": "3",
+          "prob": 0.0013
+        }
+      ],
+      "actual_next": 2,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 28,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0669
+                },
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0601
+                },
+                {
+                  "target_pos": 15,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0564
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 28,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.1855
+                },
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0532
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0413
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 28,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.75
+                },
+                {
+                  "target_pos": 29,
+                  "target_label": "-a",
+                  "weight": 0.127
+                },
+                {
+                  "target_pos": 27,
+                  "target_label": "0x6f",
+                  "weight": 0.0757
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 29,
+                  "target_label": "-a",
+                  "weight": 0.6445
+                },
+                {
+                  "target_pos": 27,
+                  "target_label": "0x6f",
+                  "weight": 0.2021
+                },
+                {
+                  "target_pos": 28,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0608
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 30,
+      "byte": 2,
+      "label": "[SPACE]",
+      "predictions": [
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.3848
+        },
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.1904
+        },
+        {
+          "byte": 13,
+          "label": "3",
+          "prob": 0.0571
+        },
+        {
+          "byte": 11,
+          "label": "1",
+          "prob": 0.053
+        },
+        {
+          "byte": 12,
+          "label": "2",
+          "prob": 0.0488
+        }
+      ],
+      "actual_next": 245,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 12,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0757
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0664
+                },
+                {
+                  "target_pos": 28,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0518
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 30,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1963
+                },
+                {
+                  "target_pos": 28,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0947
+                },
+                {
+                  "target_pos": 20,
+                  "target_label": "0x42",
+                  "weight": 0.0708
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 28,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.5547
+                },
+                {
+                  "target_pos": 30,
+                  "target_label": "[SPACE]",
+                  "weight": 0.3066
+                },
+                {
+                  "target_pos": 29,
+                  "target_label": "-a",
+                  "weight": 0.0267
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 29,
+                  "target_label": "-a",
+                  "weight": 0.7148
+                },
+                {
+                  "target_pos": 30,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1895
+                },
+                {
+                  "target_pos": 27,
+                  "target_label": "0x6f",
+                  "weight": 0.0396
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 31,
+      "byte": 245,
+      "label": "artikol",
+      "predictions": [
+        {
+          "byte": 1,
+          "label": "[BOUNDARY]",
+          "prob": 0.0242
+        },
+        {
+          "byte": 241,
+          "label": "arsenik",
+          "prob": 0.0117
+        },
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.011
+        },
+        {
+          "byte": 11,
+          "label": "1",
+          "prob": 0.0105
+        },
+        {
+          "byte": 178,
+          "label": "alumet",
+          "prob": 0.0099
+        }
+      ],
+      "actual_next": 1,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.1436
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.085
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.052
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 31,
+                  "target_label": "artikol",
+                  "weight": 0.1738
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0796
+                },
+                {
+                  "target_pos": 22,
+                  "target_label": "la",
+                  "weight": 0.052
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 30,
+                  "target_label": "[SPACE]",
+                  "weight": 0.832
+                },
+                {
+                  "target_pos": 31,
+                  "target_label": "artikol",
+                  "weight": 0.106
+                },
+                {
+                  "target_pos": 29,
+                  "target_label": "-a",
+                  "weight": 0.0284
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 31,
+                  "target_label": "artikol",
+                  "weight": 0.7031
+                },
+                {
+                  "target_pos": 29,
+                  "target_label": "-a",
+                  "weight": 0.1621
+                },
+                {
+                  "target_pos": 30,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0908
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 32,
+      "byte": 1,
+      "label": "[BOUNDARY]",
+      "predictions": [
+        {
+          "byte": 56,
+          "label": "-o",
+          "prob": 0.707
+        },
+        {
+          "byte": 57,
+          "label": "-a",
+          "prob": 0.0488
+        },
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.021
+        },
+        {
+          "byte": 16,
+          "label": "6",
+          "prob": 0.0204
+        },
+        {
+          "byte": 59,
+          "label": "-i",
+          "prob": 0.0161
+        }
+      ],
+      "actual_next": 56,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 32,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0791
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0535
+                },
+                {
+                  "target_pos": 29,
+                  "target_label": "-a",
+                  "weight": 0.0503
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 29,
+                  "target_label": "-a",
+                  "weight": 0.1152
+                },
+                {
+                  "target_pos": 32,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.1118
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0767
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 32,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.4453
+                },
+                {
+                  "target_pos": 30,
+                  "target_label": "[SPACE]",
+                  "weight": 0.2539
+                },
+                {
+                  "target_pos": 28,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.1445
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 31,
+                  "target_label": "artikol",
+                  "weight": 0.9727
+                },
+                {
+                  "target_pos": 30,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0184
+                },
+                {
+                  "target_pos": 32,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0026
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 33,
+      "byte": 56,
+      "label": "-o",
+      "predictions": [
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.9297
+        },
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.0132
+        },
+        {
+          "byte": 1,
+          "label": "[BOUNDARY]",
+          "prob": 0.0075
+        },
+        {
+          "byte": 143,
+          "label": "ajl",
+          "prob": 0.0017
+        },
+        {
+          "byte": 13,
+          "label": "3",
+          "prob": 0.0015
+        }
+      ],
+      "actual_next": 2,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 30,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0396
+                },
+                {
+                  "target_pos": 18,
+                  "target_label": "en",
+                  "weight": 0.0386
+                },
+                {
+                  "target_pos": 28,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0364
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 32,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.2559
+                },
+                {
+                  "target_pos": 30,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0442
+                },
+                {
+                  "target_pos": 28,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.042
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 32,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.8438
+                },
+                {
+                  "target_pos": 33,
+                  "target_label": "-o",
+                  "weight": 0.1108
+                },
+                {
+                  "target_pos": 31,
+                  "target_label": "artikol",
+                  "weight": 0.0247
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 33,
+                  "target_label": "-o",
+                  "weight": 0.6602
+                },
+                {
+                  "target_pos": 31,
+                  "target_label": "artikol",
+                  "weight": 0.25
+                },
+                {
+                  "target_pos": 32,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0427
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 34,
+      "byte": 2,
+      "label": "[SPACE]",
+      "predictions": [
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.6289
+        },
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.2617
+        },
+        {
+          "byte": 1,
+          "label": "[BOUNDARY]",
+          "prob": 0.0096
+        },
+        {
+          "byte": 13,
+          "label": "3",
+          "prob": 0.0079
+        },
+        {
+          "byte": 11,
+          "label": "1",
+          "prob": 0.0069
+        }
+      ],
+      "actual_next": 2,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0574
+                },
+                {
+                  "target_pos": 29,
+                  "target_label": "-a",
+                  "weight": 0.0571
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0505
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 34,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1641
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0811
+                },
+                {
+                  "target_pos": 32,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0796
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 32,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.4766
+                },
+                {
+                  "target_pos": 34,
+                  "target_label": "[SPACE]",
+                  "weight": 0.2891
+                },
+                {
+                  "target_pos": 33,
+                  "target_label": "-o",
+                  "weight": 0.1001
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 33,
+                  "target_label": "-o",
+                  "weight": 0.7109
+                },
+                {
+                  "target_pos": 34,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1777
+                },
+                {
+                  "target_pos": 31,
+                  "target_label": "artikol",
+                  "weight": 0.0471
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 35,
+      "byte": 2,
+      "label": "[SPACE]",
+      "predictions": [
+        {
+          "byte": 20,
+          "label": ".",
+          "prob": 0.9727
+        },
+        {
+          "byte": 0,
+          "label": "[END]",
+          "prob": 0.0016
+        },
+        {
+          "byte": 176,
+          "label": "altranĉ",
+          "prob": 0.0015
+        },
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.0008
+        },
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.0007
+        }
+      ],
+      "actual_next": 20,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.0918
+                },
+                {
+                  "target_pos": 17,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0596
+                },
+                {
+                  "target_pos": 29,
+                  "target_label": "-a",
+                  "weight": 0.0452
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 35,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1562
+                },
+                {
+                  "target_pos": 34,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0923
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0635
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 34,
+                  "target_label": "[SPACE]",
+                  "weight": 0.4473
+                },
+                {
+                  "target_pos": 35,
+                  "target_label": "[SPACE]",
+                  "weight": 0.2539
+                },
+                {
+                  "target_pos": 32,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.1494
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 34,
+                  "target_label": "[SPACE]",
+                  "weight": 0.5156
+                },
+                {
+                  "target_pos": 35,
+                  "target_label": "[SPACE]",
+                  "weight": 0.2178
+                },
+                {
+                  "target_pos": 33,
+                  "target_label": "-o",
+                  "weight": 0.2148
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 36,
+      "byte": 20,
+      "label": ".",
+      "predictions": [
+        {
+          "byte": 0,
+          "label": "[END]",
+          "prob": 0.9805
+        },
+        {
+          "byte": 20,
+          "label": ".",
+          "prob": 0.001
+        },
+        {
+          "byte": 164,
+          "label": "aleĉj",
+          "prob": 0.0004
+        },
+        {
+          "byte": 82,
+          "label": "-ig-",
+          "prob": 0.0003
+        },
+        {
+          "byte": 127,
+          "label": "administr",
+          "prob": 0.0002
+        }
+      ],
+      "actual_next": 0,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 36,
+                  "target_label": ".",
+                  "weight": 0.0386
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0374
+                },
+                {
+                  "target_pos": 17,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0344
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 17,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0549
+                },
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0466
+                },
+                {
+                  "target_pos": 35,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0464
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 35,
+                  "target_label": "[SPACE]",
+                  "weight": 0.6953
+                },
+                {
+                  "target_pos": 34,
+                  "target_label": "[SPACE]",
+                  "weight": 0.2051
+                },
+                {
+                  "target_pos": 36,
+                  "target_label": ".",
+                  "weight": 0.0474
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 36,
+                  "target_label": ".",
+                  "weight": 0.334
+                },
+                {
+                  "target_pos": 35,
+                  "target_label": "[SPACE]",
+                  "weight": 0.2812
+                },
+                {
+                  "target_pos": 34,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1992
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "accuracy": 0.6757
+}

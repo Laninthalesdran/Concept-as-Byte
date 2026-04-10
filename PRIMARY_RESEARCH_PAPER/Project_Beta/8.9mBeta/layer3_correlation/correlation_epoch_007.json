@@ -1,0 +1,155 @@
+{
+  "epoch": 7,
+  "spearman_correlation": -0.3013,
+  "interpretation": "relevance_overrides_frequency",
+  "n_bytes_analyzed": 21,
+  "per_byte": [
+    {
+      "byte": 2,
+      "hex": "0x02",
+      "label": "[SPACE]",
+      "training_frequency": 2129675,
+      "avg_attention_received": 0.712595
+    },
+    {
+      "byte": 10,
+      "hex": "0x0a",
+      "label": "0",
+      "training_frequency": 1339500,
+      "avg_attention_received": 1.656114
+    },
+    {
+      "byte": 1,
+      "hex": "0x01",
+      "label": "[BOUNDARY]",
+      "training_frequency": 769402,
+      "avg_attention_received": 0.700071
+    },
+    {
+      "byte": 20,
+      "hex": "0x14",
+      "label": ".",
+      "training_frequency": 429112,
+      "avg_attention_received": 0.07426
+    },
+    {
+      "byte": 56,
+      "hex": "0x38",
+      "label": "-o",
+      "training_frequency": 243120,
+      "avg_attention_received": 0.284535
+    },
+    {
+      "byte": 143,
+      "hex": "0x8f",
+      "label": "ajl",
+      "training_frequency": 186511,
+      "avg_attention_received": 1.470584
+    },
+    {
+      "byte": 172,
+      "hex": "0xac",
+      "label": "alt",
+      "training_frequency": 160820,
+      "avg_attention_received": 1.385882
+    },
+    {
+      "byte": 167,
+      "hex": "0xa7",
+      "label": "alk",
+      "training_frequency": 145495,
+      "avg_attention_received": 0.533253
+    },
+    {
+      "byte": 164,
+      "hex": "0xa4",
+      "label": "aleĉj",
+      "training_frequency": 143924,
+      "avg_attention_received": 0.524329
+    },
+    {
+      "byte": 57,
+      "hex": "0x39",
+      "label": "-a",
+      "training_frequency": 143171,
+      "avg_attention_received": 0.490872
+    },
+    {
+      "byte": 59,
+      "hex": "0x3b",
+      "label": "-i",
+      "training_frequency": 94043,
+      "avg_attention_received": 1.233727
+    },
+    {
+      "byte": 66,
+      "hex": "0x42",
+      "label": "-n",
+      "training_frequency": 70160,
+      "avg_attention_received": 0.824478
+    },
+    {
+      "byte": 142,
+      "hex": "0x8e",
+      "label": "agrabl",
+      "training_frequency": 57428,
+      "avg_attention_received": 2.51124
+    },
+    {
+      "byte": 14,
+      "hex": "0x0e",
+      "label": "4",
+      "training_frequency": 48718,
+      "avg_attention_received": 0.656449
+    },
+    {
+      "byte": 127,
+      "hex": "0x7f",
+      "label": "administr",
+      "training_frequency": 44469,
+      "avg_attention_received": 2.395448
+    },
+    {
+      "byte": 153,
+      "hex": "0x99",
+      "label": "akr",
+      "training_frequency": 43160,
+      "avg_attention_received": 0.927316
+    },
+    {
+      "byte": 188,
+      "hex": "0xbc",
+      "label": "amoniak",
+      "training_frequency": 14162,
+      "avg_attention_received": 1.400271
+    },
+    {
+      "byte": 119,
+      "hex": "0x77",
+      "label": "abrikot",
+      "training_frequency": 14118,
+      "avg_attention_received": 1.580277
+    },
+    {
+      "byte": 206,
+      "hex": "0xce",
+      "label": "anstataŭ",
+      "training_frequency": 9074,
+      "avg_attention_received": 1.199498
+    },
+    {
+      "byte": 111,
+      "hex": "0x6f",
+      "label": "sub-",
+      "training_frequency": 3882,
+      "avg_attention_received": 1.022491
+    },
+    {
+      "byte": 245,
+      "hex": "0xf5",
+      "label": "artikol",
+      "training_frequency": 3653,
+      "avg_attention_received": 0.75582
+    }
+  ]
+}

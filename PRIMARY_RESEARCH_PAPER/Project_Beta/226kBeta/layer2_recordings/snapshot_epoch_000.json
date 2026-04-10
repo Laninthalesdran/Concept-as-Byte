@@ -1,0 +1,4650 @@
+{
+  "epoch": 0,
+  "reference_hex": [
+    "0x0a",
+    "0x8e",
+    "0x7f",
+    "0x02",
+    "0x0a",
+    "0xac",
+    "0x8f",
+    "0x02",
+    "0x77",
+    "0xbc",
+    "0x01",
+    "0x3b",
+    "0x02",
+    "0x0e",
+    "0xce",
+    "0x01",
+    "0x3b",
+    "0x02",
+    "0x0a",
+    "0x99",
+    "0x42",
+    "0x02",
+    "0x0a",
+    "0xa7",
+    "0xa4",
+    "0x02",
+    "0x0e",
+    "0x6f",
+    "0x01",
+    "0x39",
+    "0x02",
+    "0xf5",
+    "0x01",
+    "0x38",
+    "0x02",
+    "0x02",
+    "0x14",
+    "0x00"
+  ],
+  "reference_decoded": "al [SPACE] mi [SPACE] indik [BOUNDARY] -i [SPACE] tr [BOUNDARY] -i [SPACE] en [SPACE] la [SPACE] supr [BOUNDARY] -a [SPACE] artikol [BOUNDARY] -o [SPACE] [SPACE] . [END]",
+  "sequence_length": 38,
+  "positions": [
+    {
+      "pos": 0,
+      "byte": 10,
+      "label": "al",
+      "predictions": [
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.0075
+        },
+        {
+          "byte": 24,
+          "label": "ĉ",
+          "prob": 0.006
+        },
+        {
+          "byte": 85,
+          "label": "-ind-",
+          "prob": 0.0058
+        },
+        {
+          "byte": 145,
+          "label": "akar",
+          "prob": 0.0055
+        },
+        {
+          "byte": 252,
+          "label": "asparag",
+          "prob": 0.0054
+        }
+      ],
+      "actual_next": 142,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 1.0
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 1.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 1.0
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 1.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 1,
+      "byte": 142,
+      "label": "0x8e",
+      "predictions": [
+        {
+          "byte": 142,
+          "label": "agrabl",
+          "prob": 0.0095
+        },
+        {
+          "byte": 13,
+          "label": "3",
+          "prob": 0.0059
+        },
+        {
+          "byte": 88,
+          "label": "-ist-",
+          "prob": 0.0056
+        },
+        {
+          "byte": 130,
+          "label": "ador",
+          "prob": 0.0056
+        },
+        {
+          "byte": 115,
+          "label": "abi",
+          "prob": 0.0055
+        }
+      ],
+      "actual_next": 127,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.5039
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.4961
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.5
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.5039
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.4961
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.5156
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.4824
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 2,
+      "byte": 127,
+      "label": "0x7f",
+      "predictions": [
+        {
+          "byte": 127,
+          "label": "administr",
+          "prob": 0.0068
+        },
+        {
+          "byte": 165,
+          "label": "alfabet",
+          "prob": 0.006
+        },
+        {
+          "byte": 88,
+          "label": "-ist-",
+          "prob": 0.0059
+        },
+        {
+          "byte": 211,
+          "label": "antaŭurb",
+          "prob": 0.0056
+        },
+        {
+          "byte": 130,
+          "label": "ador",
+          "prob": 0.0056
+        }
+      ],
+      "actual_next": 2,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.3398
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.332
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.3281
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.3438
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.3301
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.3262
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.3379
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.332
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.3301
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.3379
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.332
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.3301
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 3,
+      "byte": 2,
+      "label": "[SPACE]",
+      "predictions": [
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.0113
+        },
+        {
+          "byte": 5,
+          "label": "[Q/A]",
+          "prob": 0.0064
+        },
+        {
+          "byte": 81,
+          "label": "-id-",
+          "prob": 0.0062
+        },
+        {
+          "byte": 137,
+          "label": "afekt",
+          "prob": 0.0059
+        },
+        {
+          "byte": 215,
+          "label": "anĝel",
+          "prob": 0.0057
+        }
+      ],
+      "actual_next": 10,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.2578
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.252
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.252
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.2559
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.249
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.248
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.2559
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.252
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.2471
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.2539
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.249
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.249
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 4,
+      "byte": 10,
+      "label": "mi",
+      "predictions": [
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.0099
+        },
+        {
+          "byte": 211,
+          "label": "antaŭurb",
+          "prob": 0.006
+        },
+        {
+          "byte": 13,
+          "label": "3",
+          "prob": 0.0059
+        },
+        {
+          "byte": 198,
+          "label": "ankau",
+          "prob": 0.0056
+        },
+        {
+          "byte": 5,
+          "label": "[Q/A]",
+          "prob": 0.0055
+        }
+      ],
+      "actual_next": 172,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.207
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.2031
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.2012
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.209
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.2002
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.2002
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.2041
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.2031
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1992
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.2051
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.2041
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1992
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 5,
+      "byte": 172,
+      "label": "0xac",
+      "predictions": [
+        {
+          "byte": 172,
+          "label": "alt",
+          "prob": 0.0095
+        },
+        {
+          "byte": 88,
+          "label": "-ist-",
+          "prob": 0.0073
+        },
+        {
+          "byte": 247,
+          "label": "artrit",
+          "prob": 0.0056
+        },
+        {
+          "byte": 39,
+          "label": "o",
+          "prob": 0.0054
+        },
+        {
+          "byte": 5,
+          "label": "[Q/A]",
+          "prob": 0.0054
+        }
+      ],
+      "actual_next": 143,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.1729
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.1689
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.1689
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.1748
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.1729
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.1689
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.1738
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.1689
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.168
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.1699
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.1689
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.1689
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 6,
+      "byte": 143,
+      "label": "0x8f",
+      "predictions": [
+        {
+          "byte": 143,
+          "label": "ajl",
+          "prob": 0.0102
+        },
+        {
+          "byte": 137,
+          "label": "afekt",
+          "prob": 0.0056
+        },
+        {
+          "byte": 89,
+          "label": "-iĝ-",
+          "prob": 0.0056
+        },
+        {
+          "byte": 58,
+          "label": "-e",
+          "prob": 0.0054
+        },
+        {
+          "byte": 251,
+          "label": "asign",
+          "prob": 0.0053
+        }
+      ],
+      "actual_next": 2,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.1465
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.1455
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.1445
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.1475
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.1465
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.1465
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.1475
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.1445
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1436
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.1455
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.1445
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.1445
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 7,
+      "byte": 2,
+      "label": "[SPACE]",
+      "predictions": [
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.0121
+        },
+        {
+          "byte": 5,
+          "label": "[Q/A]",
+          "prob": 0.0065
+        },
+        {
+          "byte": 81,
+          "label": "-id-",
+          "prob": 0.0058
+        },
+        {
+          "byte": 133,
+          "label": "adverb",
+          "prob": 0.0057
+        },
+        {
+          "byte": 215,
+          "label": "anĝel",
+          "prob": 0.0056
+        }
+      ],
+      "actual_next": 119,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.1357
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.1289
+                },
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.127
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.1279
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.1279
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.127
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.1299
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.1279
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.1245
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.127
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.126
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.125
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 8,
+      "byte": 119,
+      "label": "indik",
+      "predictions": [
+        {
+          "byte": 119,
+          "label": "abrikot",
+          "prob": 0.0085
+        },
+        {
+          "byte": 152,
+          "label": "akompan",
+          "prob": 0.0064
+        },
+        {
+          "byte": 187,
+          "label": "amindum",
+          "prob": 0.0061
+        },
+        {
+          "byte": 39,
+          "label": "o",
+          "prob": 0.0056
+        },
+        {
+          "byte": 165,
+          "label": "alfabet",
+          "prob": 0.0056
+        }
+      ],
+      "actual_next": 188,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.1167
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1152
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.1128
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.1172
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.1167
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1152
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.1162
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.1143
+                },
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1128
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.1147
+                },
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.1128
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.1123
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 9,
+      "byte": 188,
+      "label": "0xbc",
+      "predictions": [
+        {
+          "byte": 188,
+          "label": "amoniak",
+          "prob": 0.0108
+        },
+        {
+          "byte": 88,
+          "label": "-ist-",
+          "prob": 0.0066
+        },
+        {
+          "byte": 198,
+          "label": "ankau",
+          "prob": 0.0058
+        },
+        {
+          "byte": 196,
+          "label": "anim",
+          "prob": 0.0055
+        },
+        {
+          "byte": 252,
+          "label": "asparag",
+          "prob": 0.0055
+        }
+      ],
+      "actual_next": 1,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1035
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.1025
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.1016
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.1021
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.1016
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.1016
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.105
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.104
+                },
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.1016
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.1064
+                },
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.105
+                },
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.1045
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 10,
+      "byte": 1,
+      "label": "[BOUNDARY]",
+      "predictions": [
+        {
+          "byte": 1,
+          "label": "[BOUNDARY]",
+          "prob": 0.0112
+        },
+        {
+          "byte": 13,
+          "label": "3",
+          "prob": 0.0067
+        },
+        {
+          "byte": 39,
+          "label": "o",
+          "prob": 0.0059
+        },
+        {
+          "byte": 5,
+          "label": "[Q/A]",
+          "prob": 0.0057
+        },
+        {
+          "byte": 199,
+          "label": "ankaŭ",
+          "prob": 0.0057
+        }
+      ],
+      "actual_next": 59,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0977
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0947
+                },
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0947
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0947
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.0938
+                },
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.0933
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0947
+                },
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.0942
+                },
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.0923
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0942
+                },
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0933
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.0928
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 11,
+      "byte": 59,
+      "label": "-i",
+      "predictions": [
+        {
+          "byte": 59,
+          "label": "-i",
+          "prob": 0.0101
+        },
+        {
+          "byte": 247,
+          "label": "artrit",
+          "prob": 0.0063
+        },
+        {
+          "byte": 88,
+          "label": "-ist-",
+          "prob": 0.0059
+        },
+        {
+          "byte": 186,
+          "label": "amik",
+          "prob": 0.0054
+        },
+        {
+          "byte": 139,
+          "label": "agac",
+          "prob": 0.0054
+        }
+      ],
+      "actual_next": 2,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0884
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0879
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0854
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.0879
+                },
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.0854
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0845
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0864
+                },
+                {
+                  "target_pos": 11,
+                  "target_label": "-i",
+                  "weight": 0.0854
+                },
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.085
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0869
+                },
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.0864
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0859
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 12,
+      "byte": 2,
+      "label": "[SPACE]",
+      "predictions": [
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.013
+        },
+        {
+          "byte": 5,
+          "label": "[Q/A]",
+          "prob": 0.0067
+        },
+        {
+          "byte": 215,
+          "label": "anĝel",
+          "prob": 0.0058
+        },
+        {
+          "byte": 173,
+          "label": "altar",
+          "prob": 0.0057
+        },
+        {
+          "byte": 24,
+          "label": "ĉ",
+          "prob": 0.0057
+        }
+      ],
+      "actual_next": 14,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.082
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0796
+                },
+                {
+                  "target_pos": 11,
+                  "target_label": "-i",
+                  "weight": 0.0796
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0801
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.0786
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.0786
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.082
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0781
+                },
+                {
+                  "target_pos": 11,
+                  "target_label": "-i",
+                  "weight": 0.0781
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.0811
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.0786
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0781
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 13,
+      "byte": 14,
+      "label": "tr",
+      "predictions": [
+        {
+          "byte": 14,
+          "label": "4",
+          "prob": 0.0087
+        },
+        {
+          "byte": 88,
+          "label": "-ist-",
+          "prob": 0.0063
+        },
+        {
+          "byte": 5,
+          "label": "[Q/A]",
+          "prob": 0.0059
+        },
+        {
+          "byte": 13,
+          "label": "3",
+          "prob": 0.0059
+        },
+        {
+          "byte": 39,
+          "label": "o",
+          "prob": 0.0058
+        }
+      ],
+      "actual_next": 206,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0747
+                },
+                {
+                  "target_pos": 12,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0737
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0732
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0757
+                },
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0742
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0737
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0737
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0737
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0723
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0757
+                },
+                {
+                  "target_pos": 12,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0752
+                },
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.0747
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 14,
+      "byte": 206,
+      "label": "0xce",
+      "predictions": [
+        {
+          "byte": 206,
+          "label": "anstataŭ",
+          "prob": 0.0109
+        },
+        {
+          "byte": 188,
+          "label": "amoniak",
+          "prob": 0.0061
+        },
+        {
+          "byte": 187,
+          "label": "amindum",
+          "prob": 0.0059
+        },
+        {
+          "byte": 88,
+          "label": "-ist-",
+          "prob": 0.0058
+        },
+        {
+          "byte": 211,
+          "label": "antaŭurb",
+          "prob": 0.0055
+        }
+      ],
+      "actual_next": 1,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0698
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0693
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.0688
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0718
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.0698
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0688
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0698
+                },
+                {
+                  "target_pos": 14,
+                  "target_label": "0xce",
+                  "weight": 0.0698
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0684
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0718
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.0684
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0684
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 15,
+      "byte": 1,
+      "label": "[BOUNDARY]",
+      "predictions": [
+        {
+          "byte": 1,
+          "label": "[BOUNDARY]",
+          "prob": 0.0118
+        },
+        {
+          "byte": 13,
+          "label": "3",
+          "prob": 0.0067
+        },
+        {
+          "byte": 5,
+          "label": "[Q/A]",
+          "prob": 0.0059
+        },
+        {
+          "byte": 39,
+          "label": "o",
+          "prob": 0.0057
+        },
+        {
+          "byte": 23,
+          "label": "c",
+          "prob": 0.0055
+        }
+      ],
+      "actual_next": 59,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0659
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0654
+                },
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0654
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 14,
+                  "target_label": "0xce",
+                  "weight": 0.064
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.0635
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0635
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0654
+                },
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.0645
+                },
+                {
+                  "target_pos": 14,
+                  "target_label": "0xce",
+                  "weight": 0.0645
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0654
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0654
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.0649
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 16,
+      "byte": 59,
+      "label": "-i",
+      "predictions": [
+        {
+          "byte": 59,
+          "label": "-i",
+          "prob": 0.0106
+        },
+        {
+          "byte": 247,
+          "label": "artrit",
+          "prob": 0.0062
+        },
+        {
+          "byte": 88,
+          "label": "-ist-",
+          "prob": 0.006
+        },
+        {
+          "byte": 228,
+          "label": "aranĝ",
+          "prob": 0.0056
+        },
+        {
+          "byte": 89,
+          "label": "-iĝ-",
+          "prob": 0.0055
+        }
+      ],
+      "actual_next": 2,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.062
+                },
+                {
+                  "target_pos": 15,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.062
+                },
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0613
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.0615
+                },
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.0608
+                },
+                {
+                  "target_pos": 11,
+                  "target_label": "-i",
+                  "weight": 0.0608
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0613
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.061
+                },
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.0608
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0613
+                },
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0613
+                },
+                {
+                  "target_pos": 12,
+                  "target_label": "[SPACE]",
+                  "weight": 0.061
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 17,
+      "byte": 2,
+      "label": "[SPACE]",
+      "predictions": [
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.0138
+        },
+        {
+          "byte": 5,
+          "label": "[Q/A]",
+          "prob": 0.0068
+        },
+        {
+          "byte": 215,
+          "label": "anĝel",
+          "prob": 0.006
+        },
+        {
+          "byte": 173,
+          "label": "altar",
+          "prob": 0.006
+        },
+        {
+          "byte": 137,
+          "label": "afekt",
+          "prob": 0.0057
+        }
+      ],
+      "actual_next": 10,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0588
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0586
+                },
+                {
+                  "target_pos": 16,
+                  "target_label": "-i",
+                  "weight": 0.0579
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0579
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.0569
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.0569
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0605
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0569
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0569
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0574
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0571
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.0569
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 18,
+      "byte": 10,
+      "label": "en",
+      "predictions": [
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.0112
+        },
+        {
+          "byte": 30,
+          "label": "h",
+          "prob": 0.006
+        },
+        {
+          "byte": 5,
+          "label": "[Q/A]",
+          "prob": 0.0059
+        },
+        {
+          "byte": 13,
+          "label": "3",
+          "prob": 0.0059
+        },
+        {
+          "byte": 69,
+          "label": "-an-",
+          "prob": 0.0058
+        }
+      ],
+      "actual_next": 153,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 15,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0569
+                },
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0564
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0544
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 17,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0554
+                },
+                {
+                  "target_pos": 12,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0544
+                },
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0542
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0554
+                },
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0544
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.054
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.0549
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0547
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.054
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 19,
+      "byte": 153,
+      "label": "0x99",
+      "predictions": [
+        {
+          "byte": 153,
+          "label": "akr",
+          "prob": 0.0102
+        },
+        {
+          "byte": 5,
+          "label": "[Q/A]",
+          "prob": 0.0069
+        },
+        {
+          "byte": 13,
+          "label": "3",
+          "prob": 0.0059
+        },
+        {
+          "byte": 191,
+          "label": "ananas",
+          "prob": 0.0056
+        },
+        {
+          "byte": 36,
+          "label": "l",
+          "prob": 0.0054
+        }
+      ],
+      "actual_next": 66,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 19,
+                  "target_label": "0x99",
+                  "weight": 0.054
+                },
+                {
+                  "target_pos": 11,
+                  "target_label": "-i",
+                  "weight": 0.0513
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0508
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.053
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.0527
+                },
+                {
+                  "target_pos": 18,
+                  "target_label": "en",
+                  "weight": 0.0525
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.054
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0522
+                },
+                {
+                  "target_pos": 11,
+                  "target_label": "-i",
+                  "weight": 0.052
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0525
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0522
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.052
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 20,
+      "byte": 66,
+      "label": "0x42",
+      "predictions": [
+        {
+          "byte": 66,
+          "label": "-n",
+          "prob": 0.0106
+        },
+        {
+          "byte": 88,
+          "label": "-ist-",
+          "prob": 0.0066
+        },
+        {
+          "byte": 251,
+          "label": "asign",
+          "prob": 0.0058
+        },
+        {
+          "byte": 170,
+          "label": "almoz",
+          "prob": 0.0055
+        },
+        {
+          "byte": 196,
+          "label": "anim",
+          "prob": 0.0053
+        }
+      ],
+      "actual_next": 2,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0508
+                },
+                {
+                  "target_pos": 16,
+                  "target_label": "-i",
+                  "weight": 0.0505
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.0496
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.051
+                },
+                {
+                  "target_pos": 18,
+                  "target_label": "en",
+                  "weight": 0.0498
+                },
+                {
+                  "target_pos": 12,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0493
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0508
+                },
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0496
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0488
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.0503
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0488
+                },
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.0486
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 21,
+      "byte": 2,
+      "label": "[SPACE]",
+      "predictions": [
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.0137
+        },
+        {
+          "byte": 5,
+          "label": "[Q/A]",
+          "prob": 0.0067
+        },
+        {
+          "byte": 215,
+          "label": "anĝel",
+          "prob": 0.006
+        },
+        {
+          "byte": 173,
+          "label": "altar",
+          "prob": 0.006
+        },
+        {
+          "byte": 24,
+          "label": "ĉ",
+          "prob": 0.0057
+        }
+      ],
+      "actual_next": 10,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0493
+                },
+                {
+                  "target_pos": 11,
+                  "target_label": "-i",
+                  "weight": 0.0481
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0479
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0476
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.0471
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.0469
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0496
+                },
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.0474
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0466
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0476
+                },
+                {
+                  "target_pos": 18,
+                  "target_label": "en",
+                  "weight": 0.0466
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0464
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 22,
+      "byte": 10,
+      "label": "la",
+      "predictions": [
+        {
+          "byte": 10,
+          "label": "0",
+          "prob": 0.0112
+        },
+        {
+          "byte": 30,
+          "label": "h",
+          "prob": 0.006
+        },
+        {
+          "byte": 13,
+          "label": "3",
+          "prob": 0.0058
+        },
+        {
+          "byte": 198,
+          "label": "ankau",
+          "prob": 0.0057
+        },
+        {
+          "byte": 5,
+          "label": "[Q/A]",
+          "prob": 0.0057
+        }
+      ],
+      "actual_next": 167,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 15,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0466
+                },
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0459
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0452
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0457
+                },
+                {
+                  "target_pos": 21,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0457
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0449
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0454
+                },
+                {
+                  "target_pos": 15,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0454
+                },
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.0449
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.0469
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0454
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0452
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 23,
+      "byte": 167,
+      "label": "0xa7",
+      "predictions": [
+        {
+          "byte": 167,
+          "label": "alk",
+          "prob": 0.0106
+        },
+        {
+          "byte": 247,
+          "label": "artrit",
+          "prob": 0.0062
+        },
+        {
+          "byte": 77,
+          "label": "-end-",
+          "prob": 0.0057
+        },
+        {
+          "byte": 187,
+          "label": "amindum",
+          "prob": 0.0057
+        },
+        {
+          "byte": 211,
+          "label": "antaŭurb",
+          "prob": 0.0056
+        }
+      ],
+      "actual_next": 164,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0447
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0432
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.043
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 16,
+                  "target_label": "-i",
+                  "weight": 0.0444
+                },
+                {
+                  "target_pos": 11,
+                  "target_label": "-i",
+                  "weight": 0.043
+                },
+                {
+                  "target_pos": 15,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.043
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0444
+                },
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.0442
+                },
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0437
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 15,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0444
+                },
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0435
+                },
+                {
+                  "target_pos": 19,
+                  "target_label": "0x99",
+                  "weight": 0.0435
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 24,
+      "byte": 164,
+      "label": "0xa4",
+      "predictions": [
+        {
+          "byte": 164,
+          "label": "aleĉj",
+          "prob": 0.0137
+        },
+        {
+          "byte": 119,
+          "label": "abrikot",
+          "prob": 0.006
+        },
+        {
+          "byte": 142,
+          "label": "agrabl",
+          "prob": 0.0058
+        },
+        {
+          "byte": 5,
+          "label": "[Q/A]",
+          "prob": 0.0058
+        },
+        {
+          "byte": 124,
+          "label": "adiau",
+          "prob": 0.0055
+        }
+      ],
+      "actual_next": 2,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0422
+                },
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.042
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.0417
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 16,
+                  "target_label": "-i",
+                  "weight": 0.0427
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0422
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0422
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0427
+                },
+                {
+                  "target_pos": 23,
+                  "target_label": "0xa7",
+                  "weight": 0.0427
+                },
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.0415
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.0417
+                },
+                {
+                  "target_pos": 24,
+                  "target_label": "0xa4",
+                  "weight": 0.0417
+                },
+                {
+                  "target_pos": 23,
+                  "target_label": "0xa7",
+                  "weight": 0.041
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 25,
+      "byte": 2,
+      "label": "[SPACE]",
+      "predictions": [
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.0135
+        },
+        {
+          "byte": 5,
+          "label": "[Q/A]",
+          "prob": 0.0066
+        },
+        {
+          "byte": 215,
+          "label": "anĝel",
+          "prob": 0.006
+        },
+        {
+          "byte": 24,
+          "label": "ĉ",
+          "prob": 0.0059
+        },
+        {
+          "byte": 173,
+          "label": "altar",
+          "prob": 0.0059
+        }
+      ],
+      "actual_next": 14,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 14,
+                  "target_label": "0xce",
+                  "weight": 0.0417
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.041
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.041
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.0398
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0398
+                },
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.0398
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0417
+                },
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.0408
+                },
+                {
+                  "target_pos": 23,
+                  "target_label": "0xa7",
+                  "weight": 0.0396
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0408
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0398
+                },
+                {
+                  "target_pos": 23,
+                  "target_label": "0xa7",
+                  "weight": 0.0396
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 26,
+      "byte": 14,
+      "label": "supr",
+      "predictions": [
+        {
+          "byte": 14,
+          "label": "4",
+          "prob": 0.0091
+        },
+        {
+          "byte": 88,
+          "label": "-ist-",
+          "prob": 0.0062
+        },
+        {
+          "byte": 85,
+          "label": "-ind-",
+          "prob": 0.0057
+        },
+        {
+          "byte": 211,
+          "label": "antaŭurb",
+          "prob": 0.0056
+        },
+        {
+          "byte": 13,
+          "label": "3",
+          "prob": 0.0056
+        }
+      ],
+      "actual_next": 111,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 21,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0388
+                },
+                {
+                  "target_pos": 20,
+                  "target_label": "0x42",
+                  "weight": 0.0386
+                },
+                {
+                  "target_pos": 17,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0381
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 16,
+                  "target_label": "-i",
+                  "weight": 0.0393
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0386
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0378
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 20,
+                  "target_label": "0x42",
+                  "weight": 0.0393
+                },
+                {
+                  "target_pos": 15,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0386
+                },
+                {
+                  "target_pos": 19,
+                  "target_label": "0x99",
+                  "weight": 0.0386
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.0391
+                },
+                {
+                  "target_pos": 26,
+                  "target_label": "supr",
+                  "weight": 0.0388
+                },
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0383
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 27,
+      "byte": 111,
+      "label": "0x6f",
+      "predictions": [
+        {
+          "byte": 111,
+          "label": "sub-",
+          "prob": 0.0104
+        },
+        {
+          "byte": 196,
+          "label": "anim",
+          "prob": 0.0066
+        },
+        {
+          "byte": 152,
+          "label": "akompan",
+          "prob": 0.0065
+        },
+        {
+          "byte": 191,
+          "label": "ananas",
+          "prob": 0.0059
+        },
+        {
+          "byte": 186,
+          "label": "amik",
+          "prob": 0.0056
+        }
+      ],
+      "actual_next": 1,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0378
+                },
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0378
+                },
+                {
+                  "target_pos": 12,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0374
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0383
+                },
+                {
+                  "target_pos": 7,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0374
+                },
+                {
+                  "target_pos": 12,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0371
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 11,
+                  "target_label": "-i",
+                  "weight": 0.0369
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0366
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0366
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0376
+                },
+                {
+                  "target_pos": 26,
+                  "target_label": "supr",
+                  "weight": 0.0376
+                },
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.0369
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 28,
+      "byte": 1,
+      "label": "[BOUNDARY]",
+      "predictions": [
+        {
+          "byte": 1,
+          "label": "[BOUNDARY]",
+          "prob": 0.0115
+        },
+        {
+          "byte": 13,
+          "label": "3",
+          "prob": 0.0063
+        },
+        {
+          "byte": 199,
+          "label": "ankaŭ",
+          "prob": 0.0056
+        },
+        {
+          "byte": 5,
+          "label": "[Q/A]",
+          "prob": 0.0056
+        },
+        {
+          "byte": 196,
+          "label": "anim",
+          "prob": 0.0055
+        }
+      ],
+      "actual_next": 57,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0369
+                },
+                {
+                  "target_pos": 28,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0361
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0359
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.0371
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0359
+                },
+                {
+                  "target_pos": 16,
+                  "target_label": "-i",
+                  "weight": 0.0356
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0366
+                },
+                {
+                  "target_pos": 27,
+                  "target_label": "0x6f",
+                  "weight": 0.0364
+                },
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.0361
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0364
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0364
+                },
+                {
+                  "target_pos": 26,
+                  "target_label": "supr",
+                  "weight": 0.0359
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 29,
+      "byte": 57,
+      "label": "-a",
+      "predictions": [
+        {
+          "byte": 57,
+          "label": "-a",
+          "prob": 0.0113
+        },
+        {
+          "byte": 173,
+          "label": "altar",
+          "prob": 0.0061
+        },
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.0057
+        },
+        {
+          "byte": 251,
+          "label": "asign",
+          "prob": 0.0055
+        },
+        {
+          "byte": 30,
+          "label": "h",
+          "prob": 0.0055
+        }
+      ],
+      "actual_next": 2,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 20,
+                  "target_label": "0x42",
+                  "weight": 0.0366
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0359
+                },
+                {
+                  "target_pos": 14,
+                  "target_label": "0xce",
+                  "weight": 0.0359
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0349
+                },
+                {
+                  "target_pos": 10,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0349
+                },
+                {
+                  "target_pos": 23,
+                  "target_label": "0xa7",
+                  "weight": 0.0349
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.0352
+                },
+                {
+                  "target_pos": 18,
+                  "target_label": "en",
+                  "weight": 0.0349
+                },
+                {
+                  "target_pos": 22,
+                  "target_label": "la",
+                  "weight": 0.0349
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 23,
+                  "target_label": "0xa7",
+                  "weight": 0.0347
+                },
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.0344
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0344
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 30,
+      "byte": 2,
+      "label": "[SPACE]",
+      "predictions": [
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.0136
+        },
+        {
+          "byte": 5,
+          "label": "[Q/A]",
+          "prob": 0.0067
+        },
+        {
+          "byte": 173,
+          "label": "altar",
+          "prob": 0.006
+        },
+        {
+          "byte": 133,
+          "label": "adverb",
+          "prob": 0.0058
+        },
+        {
+          "byte": 215,
+          "label": "anĝel",
+          "prob": 0.0058
+        }
+      ],
+      "actual_next": 245,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 11,
+                  "target_label": "-i",
+                  "weight": 0.0349
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0347
+                },
+                {
+                  "target_pos": 19,
+                  "target_label": "0x99",
+                  "weight": 0.0344
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0334
+                },
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.0334
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.0332
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0347
+                },
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.0342
+                },
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0337
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0337
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0337
+                },
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.0332
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 31,
+      "byte": 245,
+      "label": "artikol",
+      "predictions": [
+        {
+          "byte": 245,
+          "label": "artikol",
+          "prob": 0.0114
+        },
+        {
+          "byte": 186,
+          "label": "amik",
+          "prob": 0.006
+        },
+        {
+          "byte": 83,
+          "label": "-il-",
+          "prob": 0.006
+        },
+        {
+          "byte": 191,
+          "label": "ananas",
+          "prob": 0.0058
+        },
+        {
+          "byte": 222,
+          "label": "apog",
+          "prob": 0.0058
+        }
+      ],
+      "actual_next": 1,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 14,
+                  "target_label": "0xce",
+                  "weight": 0.0325
+                },
+                {
+                  "target_pos": 18,
+                  "target_label": "en",
+                  "weight": 0.0325
+                },
+                {
+                  "target_pos": 22,
+                  "target_label": "la",
+                  "weight": 0.0325
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.0334
+                },
+                {
+                  "target_pos": 19,
+                  "target_label": "0x99",
+                  "weight": 0.0334
+                },
+                {
+                  "target_pos": 21,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0334
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 23,
+                  "target_label": "0xa7",
+                  "weight": 0.0327
+                },
+                {
+                  "target_pos": 9,
+                  "target_label": "0xbc",
+                  "weight": 0.0325
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0325
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 0,
+                  "target_label": "al",
+                  "weight": 0.0334
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.0327
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.0325
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 32,
+      "byte": 1,
+      "label": "[BOUNDARY]",
+      "predictions": [
+        {
+          "byte": 1,
+          "label": "[BOUNDARY]",
+          "prob": 0.0117
+        },
+        {
+          "byte": 13,
+          "label": "3",
+          "prob": 0.006
+        },
+        {
+          "byte": 199,
+          "label": "ankaŭ",
+          "prob": 0.0057
+        },
+        {
+          "byte": 40,
+          "label": "p",
+          "prob": 0.0057
+        },
+        {
+          "byte": 5,
+          "label": "[Q/A]",
+          "prob": 0.0055
+        }
+      ],
+      "actual_next": 56,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0327
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0322
+                },
+                {
+                  "target_pos": 2,
+                  "target_label": "0x7f",
+                  "weight": 0.032
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 19,
+                  "target_label": "0x99",
+                  "weight": 0.0322
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0315
+                },
+                {
+                  "target_pos": 18,
+                  "target_label": "en",
+                  "weight": 0.0315
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0317
+                },
+                {
+                  "target_pos": 27,
+                  "target_label": "0x6f",
+                  "weight": 0.0317
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0315
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0317
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0315
+                },
+                {
+                  "target_pos": 26,
+                  "target_label": "supr",
+                  "weight": 0.0315
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 33,
+      "byte": 56,
+      "label": "-o",
+      "predictions": [
+        {
+          "byte": 56,
+          "label": "-o",
+          "prob": 0.0112
+        },
+        {
+          "byte": 187,
+          "label": "amindum",
+          "prob": 0.0062
+        },
+        {
+          "byte": 165,
+          "label": "alfabet",
+          "prob": 0.006
+        },
+        {
+          "byte": 228,
+          "label": "aranĝ",
+          "prob": 0.0059
+        },
+        {
+          "byte": 236,
+          "label": "argument",
+          "prob": 0.0059
+        }
+      ],
+      "actual_next": 2,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 3,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0315
+                },
+                {
+                  "target_pos": 17,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0308
+                },
+                {
+                  "target_pos": 21,
+                  "target_label": "[SPACE]",
+                  "weight": 0.0308
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 29,
+                  "target_label": "-a",
+                  "weight": 0.0317
+                },
+                {
+                  "target_pos": 28,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0308
+                },
+                {
+                  "target_pos": 32,
+                  "target_label": "[BOUNDARY]",
+                  "weight": 0.0306
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 33,
+                  "target_label": "-o",
+                  "weight": 0.0312
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0304
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0304
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 33,
+                  "target_label": "-o",
+                  "weight": 0.0303
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.0303
+                },
+                {
+                  "target_pos": 31,
+                  "target_label": "artikol",
+                  "weight": 0.0303
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 34,
+      "byte": 2,
+      "label": "[SPACE]",
+      "predictions": [
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.0138
+        },
+        {
+          "byte": 5,
+          "label": "[Q/A]",
+          "prob": 0.0066
+        },
+        {
+          "byte": 173,
+          "label": "altar",
+          "prob": 0.006
+        },
+        {
+          "byte": 133,
+          "label": "adverb",
+          "prob": 0.0059
+        },
+        {
+          "byte": 215,
+          "label": "anĝel",
+          "prob": 0.0057
+        }
+      ],
+      "actual_next": 2,
+      "correct": true,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0315
+                },
+                {
+                  "target_pos": 31,
+                  "target_label": "artikol",
+                  "weight": 0.0315
+                },
+                {
+                  "target_pos": 16,
+                  "target_label": "-i",
+                  "weight": 0.0305
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0299
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0297
+                },
+                {
+                  "target_pos": 18,
+                  "target_label": "en",
+                  "weight": 0.0295
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.0303
+                },
+                {
+                  "target_pos": 20,
+                  "target_label": "0x42",
+                  "weight": 0.0299
+                },
+                {
+                  "target_pos": 31,
+                  "target_label": "artikol",
+                  "weight": 0.0299
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.0299
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0298
+                },
+                {
+                  "target_pos": 13,
+                  "target_label": "tr",
+                  "weight": 0.0297
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 35,
+      "byte": 2,
+      "label": "[SPACE]",
+      "predictions": [
+        {
+          "byte": 2,
+          "label": "[SPACE]",
+          "prob": 0.0136
+        },
+        {
+          "byte": 5,
+          "label": "[Q/A]",
+          "prob": 0.0065
+        },
+        {
+          "byte": 133,
+          "label": "adverb",
+          "prob": 0.006
+        },
+        {
+          "byte": 173,
+          "label": "altar",
+          "prob": 0.006
+        },
+        {
+          "byte": 215,
+          "label": "anĝel",
+          "prob": 0.0057
+        }
+      ],
+      "actual_next": 20,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0306
+                },
+                {
+                  "target_pos": 31,
+                  "target_label": "artikol",
+                  "weight": 0.0304
+                },
+                {
+                  "target_pos": 16,
+                  "target_label": "-i",
+                  "weight": 0.0299
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0292
+                },
+                {
+                  "target_pos": 18,
+                  "target_label": "en",
+                  "weight": 0.0287
+                },
+                {
+                  "target_pos": 31,
+                  "target_label": "artikol",
+                  "weight": 0.0287
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 8,
+                  "target_label": "indik",
+                  "weight": 0.0295
+                },
+                {
+                  "target_pos": 31,
+                  "target_label": "artikol",
+                  "weight": 0.0293
+                },
+                {
+                  "target_pos": 33,
+                  "target_label": "-o",
+                  "weight": 0.0289
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0291
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.0289
+                },
+                {
+                  "target_pos": 6,
+                  "target_label": "0x8f",
+                  "weight": 0.0288
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": 36,
+      "byte": 20,
+      "label": ".",
+      "predictions": [
+        {
+          "byte": 20,
+          "label": ".",
+          "prob": 0.0107
+        },
+        {
+          "byte": 156,
+          "label": "aktiv",
+          "prob": 0.0069
+        },
+        {
+          "byte": 222,
+          "label": "apog",
+          "prob": 0.0063
+        },
+        {
+          "byte": 39,
+          "label": "o",
+          "prob": 0.0061
+        },
+        {
+          "byte": 152,
+          "label": "akompan",
+          "prob": 0.006
+        }
+      ],
+      "actual_next": 0,
+      "correct": false,
+      "attention": [
+        {
+          "layer": 0,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 24,
+                  "target_label": "0xa4",
+                  "weight": 0.0286
+                },
+                {
+                  "target_pos": 36,
+                  "target_label": ".",
+                  "weight": 0.0282
+                },
+                {
+                  "target_pos": 5,
+                  "target_label": "0xac",
+                  "weight": 0.0281
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0286
+                },
+                {
+                  "target_pos": 11,
+                  "target_label": "-i",
+                  "weight": 0.0286
+                },
+                {
+                  "target_pos": 18,
+                  "target_label": "en",
+                  "weight": 0.0281
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "heads": [
+            {
+              "head": 0,
+              "top_attended": [
+                {
+                  "target_pos": 14,
+                  "target_label": "0xce",
+                  "weight": 0.0286
+                },
+                {
+                  "target_pos": 16,
+                  "target_label": "-i",
+                  "weight": 0.0282
+                },
+                {
+                  "target_pos": 11,
+                  "target_label": "-i",
+                  "weight": 0.0281
+                }
+              ]
+            },
+            {
+              "head": 1,
+              "top_attended": [
+                {
+                  "target_pos": 18,
+                  "target_label": "en",
+                  "weight": 0.0292
+                },
+                {
+                  "target_pos": 1,
+                  "target_label": "0x8e",
+                  "weight": 0.0291
+                },
+                {
+                  "target_pos": 4,
+                  "target_label": "mi",
+                  "weight": 0.0283
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "accuracy": 0.027
+}

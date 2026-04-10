@@ -1,0 +1,14 @@
+{
+  "config_num": 3,
+  "params_label": "1.7M",
+  "params": 1680800,
+  "d_model": 160,
+  "n_layers": 4,
+  "n_heads": 4,
+  "d_ff": 640,
+  "best_eval_loss": 0.988658,
+  "best_perplexity": 2.6876,
+  "epochs_trained": 10,
+  "total_time_minutes": 103.28,
+  "device": "cuda"
+}

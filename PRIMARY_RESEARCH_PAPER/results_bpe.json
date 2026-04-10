@@ -1,0 +1,78 @@
+{
+  "model": "bpe_baseline",
+  "vocab_size": 2000,
+  "d_model": 384,
+  "n_layers": 3,
+  "n_heads": 8,
+  "d_ff": 1344,
+  "parameters": 7185024,
+  "best_eval_loss": 2.573659,
+  "best_ppl": 13.1137,
+  "epochs_trained": 9,
+  "training_sentences": 414515,
+  "results": [
+    {
+      "epoch": 1,
+      "train_loss": 4.160639,
+      "eval_loss": 3.049622,
+      "perplexity": 21.1074,
+      "elapsed": 765.4
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.85731,
+      "eval_loss": 2.783981,
+      "perplexity": 16.1833,
+      "elapsed": 1530.9
+    },
+    {
+      "epoch": 3,
+      "train_loss": 2.636905,
+      "eval_loss": 2.67674,
+      "perplexity": 14.5376,
+      "elapsed": 2296.8
+    },
+    {
+      "epoch": 4,
+      "train_loss": 2.488837,
+      "eval_loss": 2.617571,
+      "perplexity": 13.7024,
+      "elapsed": 3061.7
+    },
+    {
+      "epoch": 5,
+      "train_loss": 2.35559,
+      "eval_loss": 2.584343,
+      "perplexity": 13.2546,
+      "elapsed": 3826.1
+    },
+    {
+      "epoch": 6,
+      "train_loss": 2.225197,
+      "eval_loss": 2.573659,
+      "perplexity": 13.1137,
+      "elapsed": 4590.8
+    },
+    {
+      "epoch": 7,
+      "train_loss": 2.099483,
+      "eval_loss": 2.577472,
+      "perplexity": 13.1638,
+      "elapsed": 5323.6
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.98829,
+      "eval_loss": 2.59495,
+      "perplexity": 13.3959,
+      "elapsed": 5670.3
+    },
+    {
+      "epoch": 9,
+      "train_loss": 1.905555,
+      "eval_loss": 2.611431,
+      "perplexity": 13.6185,
+      "elapsed": 6017.1
+    }
+  ]
+}

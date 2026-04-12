@@ -51,6 +51,23 @@ Concept byte encoding extracts 48% more learning from identical training data at
 - d_ff: 1536 (concept byte) vs 1344 (BPE) — compensates for BPE's larger embedding layer to match total param count
 - Sequence representation: concept bytes average 22.8 bytes/sentence vs BPE's 12.2 tokens/sentence
 
+## Known Limitations and Honest Accounting
+
+### 1. Duplicate Sentences in Training Data
+The Tatoeba TSV contains multiple English translations per Esperanto sentence. The build script encodes every line independently, meaning some Esperanto sentences appear more than once. Of 426,359 total lines, 381,809 are unique Esperanto sentences (44,550 duplicates, 10.4% duplication rate). After encoding, the 414,515 successfully encoded sentences contain a proportional duplicate rate. Both models train on the same duplicates, so the comparison remains fair — but the effective unique sentence count is approximately 370K, not 414K.
+
+### 2. BPE Feedforward Reduction
+To match total parameter count, the BPE model's d_ff was reduced from 1536 to 1344. The feedforward network is where the model does most of its computation. A critic could argue this handicaps BPE. The counter-argument: BPE spent its parameter budget on a larger embedding table (2,000 entries × 384 dimensions = 768,000 params vs concept bytes' 256 × 384 = 98,304 params). That embedding tax is precisely what the experiment measures — BPE must allocate parameters to vocabulary representation that concept bytes can allocate to reasoning depth.
+
+### 3. BPE Vocabulary Size
+The BPE tokenizer uses a 2,000-token vocabulary. Production BPE models typically use 32,000-50,000 tokens. The small vocabulary was chosen to keep total parameter count matched. A larger BPE vocabulary might achieve lower loss per token — but would require proportionally more parameters in the embedding layer, which is the fundamental tradeoff this experiment is designed to expose.
+
+### 4. Reproduction Data
+The training binaries (`concept_byte_training.bin`, `bpe_training.bin`) are not included in this repository due to size. The Esperanto encoder table (`wiktionary_full_esperanto.json`, 74MB) is also not included. To reproduce, you need:
+- Tatoeba Esperanto-English sentence pairs: download from https://tatoeba.org/en/downloads (select Esperanto-English, downloaded April 3, 2026, 426,359 lines)
+- The Esperanto encoder table: available in the project's working directory (not published in this repo)
+- SentencePiece: `pip install sentencepiece`
+
 ## Files
 
 | File | Description |

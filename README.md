@@ -9,7 +9,7 @@ Dense morphological byte encoding for language model training.
 
 ---
 
-**Note:** We apologize in advance for the relatively crude nature of the tools offered in this release. This is an early-stage research project and we are actively working toward providing updated and more polished tools. What you see here is functional but not production-ready. We appreciate your patience and interest.
+**Note on the author:** Travis Edward Holley is an independent researcher and U.S. Navy veteran, not an academic. He holds no PhD and has no university affiliation. This work was conducted independently using personal hardware, a RunPod GPU rental, and Claude (Anthropic) as a collaborative partner. The methods, formatting, and experimental style reflect that background — they are functional and honest, not polished to academic convention. The results are reproducible, the code is public, and the limitations are documented. If something looks rough, it probably is. If something looks wrong, open an issue.
 
 ---
 

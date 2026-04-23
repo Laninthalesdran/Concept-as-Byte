@@ -1,2 +1,12 @@
+# Large pipeline artifacts — exceed GitHub's 100 MB file limit
+# (Folder was renamed from Failed_Experiment_Alpha to Island_of_Misfit_Toys on April 5, 2026)
+Island_of_Misfit_Toys/pipeline/ValidatedEnglishTable.json
+Island_of_Misfit_Toys/pipeline/wiktionary_full_esperanto.json
 Failed_Experiment_Alpha/pipeline/ValidatedEnglishTable.json
 Failed_Experiment_Alpha/pipeline/wiktionary_full_esperanto.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd

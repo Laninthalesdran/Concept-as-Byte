@@ -3,7 +3,7 @@
 **Technical Preprint**
 
 **Travis Edward Holley**
-South Carolina, USA
+Fort Mill, SC
 travis@tntholley.com
 
 **Date:** April 2, 2026

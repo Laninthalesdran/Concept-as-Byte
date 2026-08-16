@@ -13,10 +13,30 @@
 > of the gross revenue attributable to your use of them.** Most will
 > cost less. You will never be surprised.
 >
-> Everything else in this document is the careful version of those two
+> **USING IT MEANS YOU AGREE.** Downloading, running, copying, or
+> building with any of this is acceptance of these terms — it binds
+> you the way a signature would. Don't agree? Don't use it.
+>
+> Everything else in this document is the careful version of those
 > paragraphs.
 
 ---
+
+## 0. Acceptance — Use Is Agreement
+
+By downloading, installing, copying, running, modifying,
+redistributing, or otherwise using the Materials — any of them, in
+whole or in part, through any interface including the Talkit
+application, the command line, or the HTTP server — **you accept this
+license and agree to be bound by its terms, with the same force and
+effect as if you had signed it.** No other permission to use the
+Materials exists; if you do not agree to these terms, do not use the
+Materials.
+
+If you use the Materials on behalf of an organization, you represent
+that you have authority to bind that organization, and "you" includes
+it (§10). Continued use after any breach-and-cure under §7 is renewed
+acceptance of these same terms.
 
 ## 1. The Materials
 

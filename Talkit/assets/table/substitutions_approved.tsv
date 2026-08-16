@@ -1,0 +1,59 @@
+oov	replacement	approved_by	note
+ought	should	fable-v0	VOA's own style guidance prefers should
+impossible	not possible	fable-v0	negation paraphrase, meaning-safe
+unable	not able	fable-v0	negation paraphrase, meaning-safe
+unhappy	not happy	fable-v0	negation paraphrase, meaning-safe
+huge	very big	fable-v0	degree paraphrase, meaning-safe
+enormous	very big	fable-v0	degree paraphrase, meaning-safe
+tiny	very small	fable-v0	degree paraphrase, meaning-safe
+awful	very bad	fable-v0	degree paraphrase, meaning-safe
+terrible	very bad	fable-v0	degree paraphrase, meaning-safe
+phone	telephone	fable-v0.2	exact synonym, VOA headword
+glad	happy	fable-v0.2	tight synonym
+scared	frightened	fable-v0.2	frighten+PPART, tight synonym
+actually	really	fable-v0.2	discourse adverb pair
+doubt	question	fable-v0.2	verb and noun both hold
+dangerous	not safe	fable-v0.2	negation paraphrase
+kids	children	fable-v0.2	register swap, child+PL
+kid	child	fable-v0.2	register swap
+mom	mother	fable-v0.2	register swap
+dad	father	fable-v0.2	register swap
+guy	man	fable-v0.2	register swap
+guys	men	fable-v0.2	register swap, man+PL
+moment	second	fable-v0.2	wait-a-moment class; acceptable narrowing
+asleep	sleeping	fable-v0.2	is asleep -> is sleeping
+homework	school work	fable-v0.2	compositional truth
+allowed	permitted	fable-v0.2	tight synonym
+allow	permit	fable-v0.2	tight synonym
+allows	permits	fable-v0.2	tight synonym
+allowing	permitting	fable-v0.2	tight synonym
+girlfriend	girl friend	fable-v0.2	compositional truth
+boyfriend	boy friend	fable-v0.2	compositional truth
+eleven	11	fable-v0.2	number word VOA aliases lack
+twelve	12	fable-v0.2	number word VOA aliases lack
+thirteen	13	fable-v0.2	number word VOA aliases lack
+fourteen	14	fable-v0.2	number word VOA aliases lack
+fifteen	15	fable-v0.2	number word VOA aliases lack
+sixteen	16	fable-v0.2	number word VOA aliases lack
+seventeen	17	fable-v0.2	number word VOA aliases lack
+eighteen	18	fable-v0.2	number word VOA aliases lack
+nineteen	19	fable-v0.2	number word VOA aliases lack
+thirty	30	fable-v0.2	number word VOA aliases lack
+forty	40	fable-v0.2	number word VOA aliases lack
+sixty	60	fable-v0.2	number word VOA aliases lack
+seventy	70	fable-v0.2	number word VOA aliases lack
+eighty	80	fable-v0.2	number word VOA aliases lack
+ninety	90	fable-v0.2	number word VOA aliases lack
+hundred	100	fable-v0.2	bare form of the one_hundred alias
+thousand	1000	fable-v0.3	bare form, digits canonical
+million	1000000	fable-v0.3	bare form, digits canonical
+billion	1000000000	fable-v0.3	bare form, digits canonical
+exam	examination	fable-v0.3	clipping -> examine+ACTION derivation
+exams	examinations	fable-v0.3	clipping plural
+further	more	fable-v0.3	suppletive comparative; meaning-safe widening
+math	mathematics	fable-v0.4	clipping
+photo	photograph	fable-v0.4	clipping, VOA headword
+photos	photographs	fable-v0.4	clipping plural
+highly	very	fable-v0.4	figurative -ly; degree paraphrase
+totally	completely	fable-v0.4	complete+LY is generated; tight synonym
+rather	quite	fable-v0.4	degree adverb; rather-than/would-rather handled as phrases

@@ -110,6 +110,15 @@ Materials, not what you make with them — though selling a product
 whose operation *incorporates or depends on* the Materials remains
 Commercial Use of the Materials themselves.
 
+**For clarity — models are not Outputs.** An Output is content
+produced by running the Materials: text, renderings, translations,
+corpora built from your own files. A model, checkpoint, or set of
+parameters that is trained on, initialized from, fine-tuned from,
+merged with, or knowledge-distilled from the Materials (in whole or
+in part) is **not** an Output; it is a modified version of the
+Materials, and §5 (including same-terms redistribution) and §6 apply
+to it in full.
+
 ## 5. Conditions on Every Use
 
 1. **Keep the notices.** Redistributions of the Materials, whole or
@@ -158,8 +167,8 @@ This license continues as long as you comply. If you breach it
 unknowingly with a Noncommercial Use, your license is reinstated if
 you cure the breach within **32 days** of learning of it. Knowing
 breach, Commercial Use without a §6 license, or a violation of §5(5)
-terminates immediately. Sections 4, 8, 9, and the CREDITS obligation
-survive termination.
+terminates immediately. Sections 4, 8, 9, 11, and the CREDITS
+obligation survive termination.
 
 ## 8. No Warranty
 
@@ -219,6 +228,43 @@ supersede it for their scope. "You" includes the organization you use
 the Materials for and its affiliates. Failure to enforce a term is
 not a waiver of it.
 
+## 11. Reservations, Remedies, and Limits
+
+1. **Reservation of rights.** All rights in the Materials not
+   expressly granted by this license are reserved by the Licensor.
+   **No rights are granted by implication, estoppel, exhaustion, or
+   otherwise.** The permissions in §3 are the whole of the grant.
+2. **No sublicensing; no assignment.** This license is not
+   sublicensable: every person who receives the Materials receives
+   this license directly from the Licensor. You may not assign or
+   transfer this license or any right under it, by operation of law,
+   merger, or otherwise, without the Licensor's prior written
+   consent; any attempted assignment without consent is void. The
+   Licensor may assign freely.
+3. **Irreparable harm; equitable relief.** You acknowledge that a
+   breach of §3, §5, or §6 would cause the Licensor irreparable harm
+   for which money damages are an inadequate remedy, and that the
+   Licensor is entitled to seek injunctive and other equitable
+   relief — without posting bond or proving actual damages — in
+   addition to every other available remedy.
+4. **Indemnity on breach.** If you use the Materials in breach of
+   this license and any third-party claim against the Licensor
+   arises from that use, you will defend, indemnify, and hold the
+   Licensor harmless from the resulting damages, losses, costs, and
+   reasonable attorneys' fees.
+5. **High-risk uses.** The Materials are a research artifact (§8).
+   They are not designed, validated, or licensed for use as the sole
+   or controlling basis of decisions in medical, legal, financial,
+   insurance, employment, safety-critical, or law-enforcement
+   contexts, or in any setting where failure could lead to death,
+   personal injury, or severe physical, environmental, or economic
+   damage. Any such deployment is at your sole risk, and §§8–9 apply
+   with full force.
+6. **Interpretation.** Headings are for convenience and do not
+   affect meaning. "Including" means "including without limitation."
+   The singular includes the plural and the reverse. This license is
+   not to be construed against its drafter.
+
 ---
 
 ## CREDITS (must accompany every redistribution)
@@ -238,5 +284,6 @@ not a waiver of it.
 *Holley Community License 1.0 (Noncommercial) — August 2026.
 Worldwide text of August 16, 2026: acceptance-by-use (§0), sui generis
 database rights in the grant (§3), worldwide patent covenant (§5),
-consumer statutory rights (§8), and the §10 worldwide-application
-provisions.*
+consumer statutory rights (§8), the §10 worldwide-application
+provisions, the §4 models-are-not-Outputs clarification, and the §11
+reservations, remedies, and limits.*

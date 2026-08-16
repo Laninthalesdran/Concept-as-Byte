@@ -95,6 +95,23 @@ All published materials — including the preprint, source code, encoding tables
 
 **Clarification of rights:** The CC-BY-NC-SA 4.0 license applies to the published materials (paper, code, table). Implementation of the patented method (U.S. Application No. 64/017,122) for commercial purposes requires a separate commercial license regardless of the publication license.
 
+### License scope map — read this before reusing anything
+
+This repository contains components under **two different licenses**,
+and the more specific license always governs:
+
+| path | license |
+|---|---|
+| **`/Talkit/`** — the Talkit application, the ZophiaE model weights, the LidiaE translator, the ZofiaE codec, the dictionary tables, and everything else in that folder | **[Holley Community License 1.0](Talkit/LICENSE.md)** — noncommercial free with acceptance-by-use, commercial by written license capped at 6% of gross. **The repository's root CC-BY-NC-SA-4.0 license does NOT apply to this folder.** |
+| everything else (preprint, research code, encoding tables, experiment archives) | CC-BY-NC-SA 4.0, as stated above |
+
+The two licenses impose **different share-alike obligations**:
+derivatives of `/Talkit/` materials (including models trained on,
+fine-tuned from, or distilled from the weights) must be distributed
+under the Holley Community License, not CC. If you are unsure which
+license covers what you're using: **travis@tntholley.com** — asking
+is free and answered plainly.
+
 *This document constitutes a public, binding statement of licensing terms by the patent holder.*
 
 *Travis Edward Holley*

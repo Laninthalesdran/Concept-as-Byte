@@ -69,7 +69,11 @@ a party.
 Subject to §5, the Licensor grants you a worldwide, royalty-free,
 non-exclusive license to use, run, copy, modify, and redistribute the
 Materials, and to build and share things with them, **for any
-Noncommercial Purpose**.
+Noncommercial Purpose**. This grant is made under copyright and — to
+the extent such rights exist in your jurisdiction — under sui generis
+database rights, catalogue rights, and similar neighboring rights in
+the Materials, in every jurisdiction and for the full term of those
+rights.
 
 **Noncommercial Purpose** means any purpose *other than* seeking
 commercial advantage or monetary compensation. It includes, without
@@ -123,9 +127,11 @@ Commercial Use of the Materials themselves.
    endorsement is not.
 5. **Patent peace.** For Noncommercial Use in compliance with this
    license, the Licensor covenants not to assert its patent
-   applications or resulting patents against you. That covenant — and
-   this license — end immediately if you or your affiliate initiate a
-   patent claim alleging that the Materials infringe.
+   applications or resulting patents — **in any jurisdiction,
+   including counterparts and continuations anywhere in the world** —
+   against you. That covenant — and this license — end immediately if
+   you or your affiliate initiate a patent claim alleging that the
+   Materials infringe.
 
 ## 6. Commercial Licensing — and the 6% Cap
 
@@ -163,6 +169,11 @@ FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. THE MODEL IS A
 25-MILLION-PARAMETER RESEARCH ARTIFACT: ITS ANSWERS CAN BE WRONG, AND
 NO OUTPUT IS ADVICE OF ANY KIND.
 
+Some jurisdictions do not allow the exclusion of implied warranties or
+conditions. If you are a consumer with statutory rights that this
+section cannot lawfully exclude, those rights are not affected; the
+exclusions above apply to the maximum extent your law permits.
+
 ## 9. Limitation of Liability
 
 TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE LICENSOR WILL NOT BE
@@ -172,13 +183,41 @@ JURISDICTION DOES NOT PERMIT THIS EXCLUSION, LIABILITY IS LIMITED TO
 THE AMOUNT YOU PAID THE LICENSOR FOR THE MATERIALS (FOR NONCOMMERCIAL
 USE: ZERO).
 
-## 10. Miscellany
+## 10. Miscellany — Worldwide Application
 
-Governing law: South Carolina, USA, excluding its conflicts rules. If
-a term is unenforceable, the rest stand. This is the entire agreement
-for Noncommercial Use; commercial licenses supersede it for their
-scope. "You" includes the organization you use the Materials for and
-its affiliates.
+**Moral rights.** To the extent permitted by applicable law, the
+Licensor waives, and agrees not to assert, moral rights in the
+Materials to the extent necessary for you to exercise the rights
+granted here. Where such rights are non-waivable, the Licensor agrees
+not to assert them against uses this license authorizes — and nothing
+in this license requires you to violate non-waivable rights of
+authorship. §5(3) (no misrepresentation, mark your changes) states
+everything the Licensor always requires.
+
+**Governing law and forum.** This license is governed by the law of
+South Carolina, USA, excluding its conflicts rules. **The United
+Nations Convention on Contracts for the International Sale of Goods
+does not apply.** Disputes arising under it are subject to the
+exclusive jurisdiction and venue of the state and federal courts
+sitting in South Carolina, and each party consents to personal
+jurisdiction there — except that the Licensor may seek injunctive
+relief against infringement or misuse of the Materials in any court
+of competent jurisdiction, and except where the law of your habitual
+residence gives you a non-waivable right to another forum.
+
+**Export and sanctions.** You are responsible for complying with
+applicable export-control and sanctions laws in your acquisition and
+use of the Materials.
+
+**Language.** This license is drafted in English. Translations are
+for convenience only; the English text controls.
+
+**The rest.** If a term is unenforceable, the rest stand, and the
+unenforceable term is enforced to the maximum extent permitted. This
+is the entire agreement for Noncommercial Use; commercial licenses
+supersede it for their scope. "You" includes the organization you use
+the Materials for and its affiliates. Failure to enforce a term is
+not a waiver of it.
 
 ---
 
@@ -196,4 +235,8 @@ its affiliates.
 - Patents pending (Travis E. Holley). Commercial licensing
   administered with TNT Holley, Inc., Tega Cay, South Carolina.
 
-*Holley Community License 1.0 (Noncommercial) — August 2026.*
+*Holley Community License 1.0 (Noncommercial) — August 2026.
+Worldwide text of August 16, 2026: acceptance-by-use (§0), sui generis
+database rights in the grant (§3), worldwide patent covenant (§5),
+consumer statutory rights (§8), and the §10 worldwide-application
+provisions.*

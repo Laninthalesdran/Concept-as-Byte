@@ -293,6 +293,15 @@ println!("{}", lid.codec.render(&lid.codec.decode(&out)?)?);
 For **per-token reasoning traces**, use `model::generate_traced`; for
 **sampling with per-step probabilities**, `model::generate_opts`.
 
+**Watching it think, in Python:** the Hugging Face model repo
+(`tntholley/zophiae-strawweight`) ships two labeled-interpretability
+instruments — `watch_it_think.py` (per-byte candidates + explicitly
+recomputed attention, every position named by its dictionary word)
+and `read_weights.py` (cosine-explore the learned concept space by
+name). Because every byte is a labeled concept, attention here is a
+readable relationship — interpretability is a property of the
+encoding, not a bolted-on research rig.
+
 ### The contract (what will bite you)
 
 - **`END` (0x00) is NOT a safe delimiter.** It also appears as the

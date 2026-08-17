@@ -76,27 +76,46 @@ the Materials, in every jurisdiction and for the full term of those
 rights.
 
 **Noncommercial Purpose** means any purpose *other than* seeking
-commercial advantage or monetary compensation. It includes, without
-needing anyone's permission:
+commercial advantage or monetary compensation. The categories below
+are included **only insofar as the use is not itself, and does not
+serve, a Commercial Use**: they describe *conduct*, and no
+organizational form, tax status, or source of funding converts a
+commercial activity into a noncommercial one.
 
 - personal use, study, experiment, hobby projects, and amusement;
-- research, whether or not published, by anyone;
-- teaching, coursework, and educational materials;
+- research, whether or not published — except that research conducted
+  by or for a for-profit entity in furtherance of commercial ends is
+  licensed only within the evaluation window below;
+- teaching, coursework, and educational materials at nonprofit
+  educational institutions, and personal learning by anyone;
 - journalism, review, criticism, and benchmarking;
-- use by charitable organizations, educational institutions, public
-  research organizations, public safety, health, and environmental
-  organizations, and government institutions, regardless of their
-  source of funding;
+- use by charitable organizations, **in direct furtherance of their
+  charitable mission** — not in or for any revenue-generating
+  activity, and not for the benefit of any for-profit Affiliate;
+- use by public research organizations, public safety, health, and
+  environmental organizations, and government institutions, **acting
+  in a governmental or public-service capacity** and not in
+  commercial operations (a state-owned or nonprofit-owned enterprise
+  operating commercially does not qualify);
 - **evaluation and trial by anyone, including commercial entities,
-  for up to 90 days**, to decide whether to seek a commercial
+  for up to 90 days** — available once per organization (including
+  its Affiliates), non-renewable, and limited to internal,
+  non-production use — to decide whether to seek a commercial
   license.
 
-**Commercial Use** is everything else — including selling or renting
-the Materials or access to them, shipping them inside a paid or
-revenue-generating product or service, using them in the internal
-operations of a for-profit business beyond the evaluation window, or
-offering them as a hosted service. Commercial Use requires a
-commercial license under §6.
+**Commercial Use** means any use of the Materials in, for, or in
+connection with any activity for which any party receives or expects
+revenue, fees, or other consideration — **by any entity, regardless
+of its legal form, tax status, or source of funding**. It includes,
+without limitation: selling or renting the Materials or access to
+them; shipping them inside a paid or revenue-generating product or
+service; using them in the internal operations of any business or
+revenue-generating undertaking beyond the evaluation window; offering
+them as a hosted service; and using them to produce assets intended
+for sale or commercial deployment — Commercial Use occurring at the
+time of production, whatever the setting. Everything that is not a
+Noncommercial Purpose is Commercial Use and requires a commercial
+license under §6.
 
 If you are unsure which side of the line you are on, ask:
 **travis@tntholley.com**. Asking is free and answered plainly.
@@ -109,6 +128,11 @@ The Licensor claims nothing in them. This license restricts the
 Materials, not what you make with them — though selling a product
 whose operation *incorporates or depends on* the Materials remains
 Commercial Use of the Materials themselves.
+
+Producing Outputs as assets intended for sale or commercial
+deployment is itself Commercial Use of the Materials, at the time of
+production (§3) — the Outputs remain yours; the *activity* is what
+requires the license.
 
 **For clarity — models are not Outputs.** An Output is content
 produced by running the Materials: text, renderings, translations,
@@ -221,12 +245,20 @@ use of the Materials.
 **Language.** This license is drafted in English. Translations are
 for convenience only; the English text controls.
 
+**Affiliates; qualification is per entity.** "Affiliate" means an
+entity that controls, is controlled by, or is under common control
+with a party — control meaning majority ownership or the power to
+direct management. "You" includes the organization you use the
+Materials for and its Affiliates. **But qualification for any
+free-use category in §3 is assessed per entity:** a qualifying
+entity's free use does not extend to, run for the benefit of, or pass
+through to any Affiliate that does not itself qualify.
+
 **The rest.** If a term is unenforceable, the rest stand, and the
 unenforceable term is enforced to the maximum extent permitted. This
 is the entire agreement for Noncommercial Use; commercial licenses
-supersede it for their scope. "You" includes the organization you use
-the Materials for and its affiliates. Failure to enforce a term is
-not a waiver of it.
+supersede it for their scope. Failure to enforce a term is not a
+waiver of it.
 
 ## 11. Reservations, Remedies, and Limits
 
@@ -286,4 +318,7 @@ Worldwide text of August 16, 2026: acceptance-by-use (§0), sui generis
 database rights in the grant (§3), worldwide patent covenant (§5),
 consumer statutory rights (§8), the §10 worldwide-application
 provisions, the §4 models-are-not-Outputs clarification, and the §11
-reservations, remedies, and limits.*
+reservations, remedies, and limits. Loophole-hardening revision, same
+day: conduct-keyed free-use categories and activity-based Commercial
+Use (§3), asset-production timing (§§3–4), and the Affiliates
+definition with per-entity qualification (§10).*

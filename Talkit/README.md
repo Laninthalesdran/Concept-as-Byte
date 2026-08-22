@@ -154,6 +154,22 @@ delimited — training-ready input for the next model. **Never split it
 on 0x00 yourself** (see the contract below); walk it with the width
 rules.
 
+## It's a pretrain — continue training on your data
+
+The shipped model is a **base model**; the intended use is to keep
+training it on your own corpus and see whether it works for your
+problem. The loop, proven end to end: build `corpus.bin` here (records
+under 2,560 bytes each) → resume the published weights with the
+training script from the Hugging Face repo
+(`tntholley/zophiae-strawweight`: `python train_25m.py --resume
+model.safetensors --corpus-glob corpus.bin`, with `ZOFIAE_CORPUS` and
+`ZOFIAE_RUNS` pointing at your folders) → export the checkpoint into
+this app's picker (`export_talkit_assets.py <best.pt> <name>` with
+`TALKIT_ASSETS_DIR=<this folder>\assets`) → compare before/after with
+**A/B**. Full commands in the Hugging Face model card. A model
+continued from these weights is a modified version of the Materials
+and carries the same license (LICENSE.md §4).
+
 ## The HTTP server
 
 `talkit serve` binds **127.0.0.1 only** — your machine's processes

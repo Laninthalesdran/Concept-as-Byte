@@ -1,0 +1,3 @@
+family       n    kind   exact  wording   const
+pairs     1200    51.8     0.0     49.3    25.0
+ALL       1200    51.8     0.0     49.3    25.0

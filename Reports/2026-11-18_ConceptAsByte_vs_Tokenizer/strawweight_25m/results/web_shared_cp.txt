@@ -1,0 +1,1 @@
+cp_v2: 1.1855 bits per original character (630,114 bytes, 1.5205 per unit)

@@ -1,0 +1,271 @@
+{
+ "model": "tok:../strawweight/runs/tok_v2/final.pt",
+ "layout": "none",
+ "limit": null,
+ "bos": null,
+ "date": "2026-11-17 09:30",
+ "headline_metric": "acc_norm (multiple choice), qem (generation)",
+ "table": [
+  {
+   "task": "hellaswag",
+   "ours": 25.43,
+   "published": 42.1,
+   "diff": -16.67,
+   "n": 10042
+  },
+  {
+   "task": "piqa",
+   "ours": 52.5,
+   "published": 68.4,
+   "diff": -15.9,
+   "n": 1838
+  },
+  {
+   "task": "mmlu_cloze",
+   "ours": 25.78,
+   "published": 31.5,
+   "diff": -5.72,
+   "n": 14042
+  },
+  {
+   "task": "commonsense_qa",
+   "ours": 23.51,
+   "published": 33.9,
+   "diff": -10.39,
+   "n": 1221
+  },
+  {
+   "task": "trivia_qa",
+   "ours": 0.0,
+   "published": 4.1,
+   "diff": -4.1,
+   "n": 17944
+  },
+  {
+   "task": "winogrande",
+   "ours": 49.49,
+   "published": 51.3,
+   "diff": -1.81,
+   "n": 1267
+  },
+  {
+   "task": "openbookqa",
+   "ours": 27.8,
+   "published": 34.6,
+   "diff": -6.8,
+   "n": 500
+  },
+  {
+   "task": "gsm8k",
+   "ours": 0.0,
+   "published": 1.4,
+   "diff": -1.4,
+   "n": 1319
+  },
+  {
+   "task": "arc",
+   "ours": 29.07,
+   "published": 43.9,
+   "diff": -14.83,
+   "n": null
+  }
+ ],
+ "tasks": {
+  "hellaswag": {
+   "n": 10042,
+   "n_full": 10042,
+   "metric_published": "acc_norm",
+   "score": 25.43,
+   "published": 42.1,
+   "scores": {
+    "acc": 26.37,
+    "acc_norm": 25.43,
+    "acc_norm_char": 25.49,
+    "acc_norm_unit": 25.04
+   },
+   "truncated_inputs": 0,
+   "secs": 20.8,
+   "paths": {
+    "prefix": 40168
+   }
+  },
+  "arc_easy": {
+   "n": 2376,
+   "n_full": 2376,
+   "metric_published": "acc_norm",
+   "score": 34.85,
+   "published": null,
+   "scores": {
+    "acc": 38.68,
+    "acc_norm": 34.85,
+    "acc_norm_char": 35.4,
+    "acc_norm_unit": 36.83
+   },
+   "truncated_inputs": 0,
+   "secs": 2.8,
+   "paths": {
+    "prefix": 9501
+   }
+  },
+  "arc_challenge": {
+   "n": 1172,
+   "n_full": 1172,
+   "metric_published": "acc_norm",
+   "score": 23.29,
+   "published": null,
+   "scores": {
+    "acc": 18.17,
+    "acc_norm": 23.29,
+    "acc_norm_char": 22.78,
+    "acc_norm_unit": 23.55
+   },
+   "truncated_inputs": 0,
+   "secs": 1.6,
+   "paths": {
+    "prefix": 4687
+   }
+  },
+  "piqa": {
+   "n": 1838,
+   "n_full": 1838,
+   "metric_published": "acc_norm",
+   "score": 52.5,
+   "published": 68.4,
+   "scores": {
+    "acc": 54.9,
+    "acc_norm": 52.5,
+    "acc_norm_char": 52.77,
+    "acc_norm_unit": 54.13
+   },
+   "truncated_inputs": 0,
+   "secs": 3.0,
+   "paths": {
+    "prefix": 3676
+   }
+  },
+  "mmlu_cloze": {
+   "n": 14042,
+   "n_full": 14042,
+   "metric_published": "acc_norm",
+   "score": 25.78,
+   "published": 31.5,
+   "scores": {
+    "acc": 24.11,
+    "acc_norm": 25.78,
+    "acc_norm_char": 25.68,
+    "acc_norm_unit": 26.63
+   },
+   "truncated_inputs": 0,
+   "secs": 249.8,
+   "paths": {
+    "prefix": 56168
+   }
+  },
+  "commonsense_qa": {
+   "n": 1221,
+   "n_full": 1221,
+   "metric_published": "acc_norm",
+   "score": 23.51,
+   "published": 33.9,
+   "scores": {
+    "acc": 19.16,
+    "acc_norm": 23.51,
+    "acc_norm_char": 23.67,
+    "acc_norm_unit": 21.46
+   },
+   "truncated_inputs": 0,
+   "secs": 1.4,
+   "paths": {
+    "prefix": 6105
+   }
+  },
+  "trivia_qa": {
+   "n": 17944,
+   "n_full": 17944,
+   "metric_published": "qem",
+   "score": 0.0,
+   "published": 4.1,
+   "scores": {
+    "qem": 0.0,
+    "qem_tasks_py_stops": 0.0
+   },
+   "truncated_inputs": 0,
+   "secs": 124.4,
+   "max_new": 20,
+   "stop": [
+    "\n",
+    ".",
+    ","
+   ]
+  },
+  "winogrande": {
+   "n": 1267,
+   "n_full": 1267,
+   "metric_published": "acc_norm",
+   "score": 49.49,
+   "published": 51.3,
+   "scores": {
+    "acc": 50.75,
+    "acc_norm": 49.49,
+    "acc_norm_char": 49.49,
+    "acc_norm_unit": 51.38
+   },
+   "truncated_inputs": 0,
+   "secs": 0.8,
+   "paths": {
+    "prefix": 2534
+   }
+  },
+  "openbookqa": {
+   "n": 500,
+   "n_full": 500,
+   "metric_published": "acc_norm",
+   "score": 27.8,
+   "published": 34.6,
+   "scores": {
+    "acc": 14.4,
+    "acc_norm": 27.8,
+    "acc_norm_char": 26.2,
+    "acc_norm_unit": 22.4
+   },
+   "truncated_inputs": 0,
+   "secs": 0.5,
+   "paths": {
+    "prefix": 2000
+   }
+  },
+  "gsm8k": {
+   "n": 1319,
+   "n_full": 1319,
+   "metric_published": "qem",
+   "score": 0.0,
+   "published": 1.4,
+   "scores": {
+    "qem": 0.0
+   },
+   "truncated_inputs": 972,
+   "secs": 119.5,
+   "max_new": 256,
+   "stop": [
+    "Question:",
+    "Question"
+   ]
+  },
+  "arc": {
+   "members": [
+    "arc_easy",
+    "arc_challenge"
+   ],
+   "metric_published": "acc_norm",
+   "score": 29.07,
+   "published": 43.9,
+   "scores": {
+    "acc": 28.43,
+    "acc_norm": 29.07,
+    "acc_norm_char": 29.09,
+    "acc_norm_unit": 30.19
+   },
+   "note": "unweighted mean of the members (model card: ARC average)"
+  }
+ }
+}

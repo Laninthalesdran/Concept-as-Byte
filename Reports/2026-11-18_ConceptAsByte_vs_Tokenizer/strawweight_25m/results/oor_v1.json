@@ -1,0 +1,20 @@
+{
+ "layout": "v1",
+ "checkpoint": "runs/sw2_v1/final.pt",
+ "families": {
+  "pairs": {
+   "kind": 50.2,
+   "exact": 0.0,
+   "wording": 49.3,
+   "constant": 25.0,
+   "n": 1200
+  }
+ },
+ "all": {
+  "kind": 50.2,
+  "exact": 0.0,
+  "wording": 49.3,
+  "constant": 25.0,
+  "n": 1200
+ }
+}

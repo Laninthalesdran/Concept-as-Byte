@@ -1,0 +1,89 @@
+{
+ "idle_W": 13.47012048192771,
+ "read_characters": 1165941,
+ "questions": 500,
+ "v2": {
+  "read_seconds_each_run": [
+   9.324406623840332,
+   9.46636176109314
+  ],
+  "read_joules_each_run": [
+   722.9453528711913,
+   707.3243221758073
+  ],
+  "write_seconds_each_run": [
+   24.869114875793457,
+   24.67489981651306
+  ],
+  "write_joules_each_run": [
+   1819.6494149205103,
+   1824.4602162156937
+  ],
+  "read_seconds": 9.395384192466736,
+  "read_joules": 715.1348375234993,
+  "read_chars_per_s": 124097.21370786062,
+  "read_mJ_per_char": 0.6133542242047404,
+  "write_seconds": 24.77200734615326,
+  "write_joules": 1822.054815568102,
+  "write_chars": 69831,
+  "write_units": 43653,
+  "write_chars_per_s": 2818.947977215248,
+  "write_mJ_per_char": 26.092348893301
+ },
+ "v2ns": {
+  "read_seconds_each_run": [
+   8.924440383911133,
+   9.047597646713257
+  ],
+  "read_joules_each_run": [
+   557.268190997337,
+   593.2333371394826
+  ],
+  "write_seconds_each_run": [
+   15.104942560195923,
+   15.429451704025269
+  ],
+  "write_joules_each_run": [
+   760.7082623631361,
+   806.7286648059087
+  ],
+  "read_seconds": 8.986019015312195,
+  "read_joules": 575.2507640684098,
+  "read_chars_per_s": 129750.56006594624,
+  "read_mJ_per_char": 0.493378965203565,
+  "write_seconds": 15.267197132110596,
+  "write_joules": 783.7184635845224,
+  "write_chars": 68673,
+  "write_units": 24702,
+  "write_chars_per_s": 4498.075148028588,
+  "write_mJ_per_char": 11.412323090363351
+ },
+ "tok": {
+  "read_seconds_each_run": [
+   9.14605712890625,
+   9.320364236831665
+  ],
+  "read_joules_each_run": [
+   510.8028829110387,
+   502.3423861341047
+  ],
+  "write_seconds_each_run": [
+   11.034867763519287,
+   12.213401079177856
+  ],
+  "write_joules_each_run": [
+   509.50364404633353,
+   576.5887922282666
+  ],
+  "read_seconds": 9.233210682868958,
+  "read_joules": 506.57263452257166,
+  "read_chars_per_s": 126276.87594774096,
+  "read_mJ_per_char": 0.43447535897834594,
+  "write_seconds": 11.624134421348572,
+  "write_joules": 543.0462181373,
+  "write_chars": 70433,
+  "write_units": 18144,
+  "write_chars_per_s": 6059.203846666179,
+  "write_mJ_per_char": 7.710110575118198
+ }
+}

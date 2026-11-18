@@ -1,0 +1,29 @@
+{
+ "idle_W": 12.924939759036144,
+ "read_characters": 1165941,
+ "questions": 500,
+ "byte": {
+  "read_seconds": 9.28927993774414,
+  "read_joules": 713.8591290333932,
+  "read_chars_per_s": 125514.6801274183,
+  "read_mJ_per_char": 0.6122600792264731,
+  "write_seconds": 24.125955820083618,
+  "write_joules": 1713.1888638410019,
+  "write_chars": 69831,
+  "write_units": 43653,
+  "write_chars_per_s": 2894.4345467908583,
+  "write_mJ_per_char": 24.53335716001492
+ },
+ "tok": {
+  "read_seconds": 9.08331048488617,
+  "read_joules": 452.5738165293301,
+  "read_chars_per_s": 128360.79994623363,
+  "read_mJ_per_char": 0.3881618508392192,
+  "write_seconds": 10.805312037467957,
+  "write_joules": 461.0864107958322,
+  "write_chars": 70433,
+  "write_units": 18144,
+  "write_chars_per_s": 6518.367980098129,
+  "write_mJ_per_char": 6.546454230202209
+ }
+}

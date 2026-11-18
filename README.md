@@ -55,6 +55,10 @@ The encoder provided (`jalek_encoder.py`) operates on the JalekCore Base Table o
 
 **It does NOT support automatic morphological decomposition of English words.** If you input "hospital", it will not decompose it into `mal·san·ul·ej·o`. The English-to-Esperanto morpheme decomposition pipeline is not included in this release. The LLZ translator will handle this when available.
 
+## Reports
+
+- **[Concept bytes vs. a tokenizer, November 18, 2026](Reports/2026-11-18_ConceptAsByte_vs_Tokenizer/)**: a 10-page PDF plus every score file and training log behind it. Five 25M concept-byte models and a 63M tokenizer twin were trained on identical documents. The byte models are better on never-seen reasoning and web text at 2.5x fewer parameters, and the tokenizer is cheaper per character to run (measured, every run listed). The 132.5M Lightweight scores 0.1439 on nanochat CORE (GPT-2 124M: 0.1139).
+
 ## Links
 
 - **Zenodo:** https://zenodo.org/records/19390531

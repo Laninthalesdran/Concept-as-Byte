@@ -1,0 +1,26 @@
+253,240 prompts, 253,202 unique texts -> encoder
+encoder: 249,980 new texts (301,224 cached) -> comp2p1 encode
+encoder: {"annotate_errors":0,"bytes":330356758,"chars":676938774,"docs":249980,"encode_errors":72,"file":"in.parquet","first_errors":["encode: no letter code for §𑄸 (spelling 𑄸)","encode: no letter code for §𑄸 (spelling 𑄸)","encode: no letter code for §𑄸 (spelling 𑄸)","encode: no letter code for §𑄸 (spelling 𑄸)","encode: no letter code for §𑄹 (spelling 𑄹)"],"roundtrip_failures":0,"secs":12.47,"threads":16
+hellaswag_zeroshot                 acc 0.3469  centered +0.1293  n  10042  wrong-by-encoder 0  spelled 360  137s
+jeopardy                           acc 0.0057  centered +0.0057  n   2117  wrong-by-encoder 0  spelled 100  28s
+bigbench_qa_wikidata               acc 0.0626  centered +0.0626  n  20321  wrong-by-encoder 0  spelled 254  293s
+arc_easy                           acc 0.5854  centered +0.4473  n   2376  wrong-by-encoder 0  spelled 0  70s
+arc_challenge                      acc 0.3080  centered +0.0774  n   1172  wrong-by-encoder 0  spelled 11  40s
+copa                               acc 0.5900  centered +0.1800  n    100  wrong-by-encoder 0  spelled 0  1s
+commonsense_qa                     acc 0.3964  centered +0.2455  n   1221  wrong-by-encoder 0  spelled 37  44s
+piqa                               acc 0.5952  centered +0.1904  n   1838  wrong-by-encoder 0  spelled 70  35s
+openbook_qa                        acc 0.2600  centered +0.0133  n    500  wrong-by-encoder 0  spelled 0  7s
+lambada_openai                     acc 0.2193  centered +0.2193  n   5153  wrong-by-encoder 295  spelled 268  66s
+hellaswag                          acc 0.3383  centered +0.1177  n  10042  wrong-by-encoder 0  spelled 807  691s
+winograd                           acc 0.5165  centered +0.0330  n    273  wrong-by-encoder 0  spelled 0  4s
+winogrande                         acc 0.4980  centered -0.0039  n   1267  wrong-by-encoder 0  spelled 0  18s
+bigbench_dyck_languages            acc 0.2730  centered +0.2730  n   1000  wrong-by-encoder 0  spelled 0  16s
+agi_eval_lsat_ar                   acc 0.2696  centered +0.0870  n    230  wrong-by-encoder 0  spelled 77  16s
+bigbench_cs_algorithms             acc 0.4356  centered +0.4356  n   1320  wrong-by-encoder 0  spelled 1258  19s
+bigbench_operators                 acc 0.2095  centered +0.2095  n    210  wrong-by-encoder 0  spelled 0  3s
+bigbench_repeat_copy_logic         acc 0.0312  centered +0.0312  n     32  wrong-by-encoder 0  spelled 0  0s
+squad                              acc 0.0947  centered +0.0947  n  10570  wrong-by-encoder 0  spelled 1989  209s
+coqa                               acc 0.1489  centered +0.1489  n   7983  wrong-by-encoder 0  spelled 1169  159s
+boolq                              acc 0.6162  centered -0.0100  n   3270  wrong-by-encoder 0  spelled 796  114s
+bigbench_language_identification   acc 0.2534  centered +0.1787  n  10000  wrong-by-encoder 18  spelled 9982  706s
+CORE 0.1439   (GPT-2 124M 0.1139, GPT-2 XL 0.2565, nanochat record 0.2626)

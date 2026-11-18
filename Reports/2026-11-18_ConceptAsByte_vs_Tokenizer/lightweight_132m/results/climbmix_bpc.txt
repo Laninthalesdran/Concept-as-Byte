@@ -1,0 +1,4 @@
+2,000 climbmix documents, 4,566,535 characters
+lightweight_135m: 1.0123 bits/char | loss 1.2620 per byte | perplexity 3.53 | 2,538,942 units
+strawweight_v1_25m: 1.3827 bits/char | loss 1.7238 per byte | perplexity 5.61 | 2,538,942 units
+tokenizer_63m: 1.4963 bits/char | loss 4.8581 per token | perplexity 128.78 | 974,883 units

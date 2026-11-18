@@ -1,0 +1,615 @@
+C:\bigfiles\competition\train\stream.py:38: SyntaxWarning: "\s" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\s"? A raw string is also an option.
+  Separated layout (train\sep.py): cut right after the last SPACE / NEWLINE / PARAGRAPH / QA that
+11-16 16:50:10  sources: web 201 files, math 0, logic 16 (0.500 GB = 59.08% of the run)
+11-16 16:50:10  shares: web 40.92%, logic 59.08%
+11-16 16:50:10  plan: 0.8 GB in 25,824 steps of 16 x 2048 x 1 GPU(s)
+11-16 16:50:13  model 25m: 25,377,152 parameters | peak rate 0.0003 | window 2048
+11-16 16:50:14  eval_web: 120 held-out documents, 0.14 MB
+11-16 16:50:16  eval_logic: 947 held-out documents, 0.25 MB
+11-16 16:50:16  eval_unseen_singles: 4,189 never-trained documents, 1.09 MB
+11-16 16:50:16  eval_unseen_pairs: 1,996 never-trained documents, 0.57 MB
+11-16 16:50:16  eval_oor: 1,200 never-trained documents, 0.36 MB
+11-16 16:50:16  GUARD on: {'logic': 0.02, 'web': 0.02, 'unseen_singles': 0.05, 'unseen_pairs': 0.05, 'oor': 0.05}, patience 3
+11-16 16:50:24  eval  eval_web 5.7267  eval_logic 5.7232  eval_unseen_singles 5.7369  eval_unseen_pairs 5.7041  eval_oor 5.6783
+11-16 16:50:40  step 50/25,824  0.002 GB  loss 3.5152  rate 1.19e-04  101,063 B/s
+11-16 16:50:56  step 100/25,824  0.003 GB  loss 2.5404  rate 2.35e-04  105,338 B/s
+11-16 16:51:12  step 150/25,824  0.005 GB  loss 2.2124  rate 3.00e-04  104,388 B/s
+11-16 16:51:27  step 200/25,824  0.007 GB  loss 1.8659  rate 3.00e-04  104,783 B/s
+11-16 16:51:43  step 250/25,824  0.008 GB  loss 1.6339  rate 3.00e-04  104,646 B/s
+11-16 16:51:59  step 300/25,824  0.010 GB  loss 1.4702  rate 3.00e-04  104,461 B/s
+11-16 16:52:15  step 350/25,824  0.011 GB  loss 1.3645  rate 3.00e-04  105,007 B/s
+11-16 16:52:30  step 400/25,824  0.013 GB  loss 1.3278  rate 3.00e-04  105,485 B/s
+11-16 16:52:46  step 450/25,824  0.015 GB  loss 1.2659  rate 3.00e-04  105,495 B/s
+11-16 16:53:02  step 500/25,824  0.016 GB  loss 1.2228  rate 3.00e-04  105,394 B/s
+11-16 16:53:18  step 550/25,824  0.018 GB  loss 1.1816  rate 3.00e-04  104,798 B/s
+11-16 16:53:33  step 600/25,824  0.020 GB  loss 1.1526  rate 3.00e-04  104,420 B/s
+11-16 16:53:44  eval  eval_web 2.2792  eval_logic 0.3553  eval_unseen_singles 0.4470  eval_unseen_pairs 0.2141  eval_oor 0.3853
+11-16 16:53:57  step 650/25,824  0.021 GB  loss 1.1207  rate 3.00e-04  105,795 B/s
+11-16 16:54:12  step 700/25,824  0.023 GB  loss 1.0957  rate 3.00e-04  105,686 B/s
+11-16 16:54:28  step 750/25,824  0.025 GB  loss 1.0763  rate 3.00e-04  105,528 B/s
+11-16 16:54:44  step 800/25,824  0.026 GB  loss 1.0321  rate 3.00e-04  105,538 B/s
+11-16 16:54:59  step 850/25,824  0.028 GB  loss 1.0220  rate 2.99e-04  105,566 B/s
+11-16 16:55:15  step 900/25,824  0.029 GB  loss 1.0052  rate 2.99e-04  105,450 B/s
+11-16 16:55:31  step 950/25,824  0.031 GB  loss 0.9796  rate 2.99e-04  105,466 B/s
+11-16 16:55:46  step 1,000/25,824  0.033 GB  loss 0.9796  rate 2.99e-04  105,557 B/s
+11-16 16:56:02  step 1,050/25,824  0.034 GB  loss 0.9499  rate 2.99e-04  105,478 B/s
+11-16 16:56:18  step 1,100/25,824  0.036 GB  loss 0.9351  rate 2.99e-04  105,424 B/s
+11-16 16:56:33  step 1,150/25,824  0.038 GB  loss 0.9471  rate 2.99e-04  104,508 B/s
+11-16 16:56:49  step 1,200/25,824  0.039 GB  loss 0.9241  rate 2.99e-04  105,571 B/s
+11-16 16:57:03  eval  eval_web 2.1110  eval_logic 0.2084  eval_unseen_singles 0.2584  eval_unseen_pairs 0.1373  eval_oor 0.3395
+11-16 16:57:12  step 1,250/25,824  0.041 GB  loss 0.9121  rate 2.99e-04  106,198 B/s
+11-16 16:57:28  step 1,300/25,824  0.043 GB  loss 0.9206  rate 2.99e-04  105,267 B/s
+11-16 16:57:44  step 1,350/25,824  0.044 GB  loss 0.9002  rate 2.98e-04  105,456 B/s
+11-16 16:57:59  step 1,400/25,824  0.046 GB  loss 0.8910  rate 2.98e-04  105,512 B/s
+11-16 16:58:15  step 1,450/25,824  0.047 GB  loss 0.9091  rate 2.98e-04  105,351 B/s
+11-16 16:58:31  step 1,500/25,824  0.049 GB  loss 0.9833  rate 2.98e-04  105,422 B/s
+11-16 16:58:39  checkpoint at step 1,525 (0.050 GB)
+11-16 16:58:47  step 1,550/25,824  0.051 GB  loss 0.9634  rate 2.98e-04  102,747 B/s
+11-16 16:59:06  step 1,600/25,824  0.052 GB  loss 0.9492  rate 2.98e-04  86,809 B/s
+11-16 16:59:32  step 1,650/25,824  0.054 GB  loss 0.9259  rate 2.98e-04  62,107 B/s
+11-16 16:59:58  step 1,700/25,824  0.056 GB  loss 0.9086  rate 2.98e-04  63,747 B/s
+11-16 17:00:23  step 1,750/25,824  0.057 GB  loss 0.8750  rate 2.97e-04  65,825 B/s
+11-16 17:00:49  step 1,800/25,824  0.059 GB  loss 0.8645  rate 2.97e-04  65,887 B/s
+11-16 17:01:16  eval  eval_web 1.9546  eval_logic 0.1794  eval_unseen_singles 0.2141  eval_unseen_pairs 0.1287  eval_oor 0.2960
+11-16 17:01:26  step 1,850/25,824  0.061 GB  loss 0.8628  rate 2.97e-04  67,084 B/s
+11-16 17:01:49  step 1,900/25,824  0.062 GB  loss 0.8429  rate 2.97e-04  71,647 B/s
+11-16 17:02:04  step 1,950/25,824  0.064 GB  loss 0.8503  rate 2.97e-04  105,683 B/s
+11-16 17:02:20  step 2,000/25,824  0.066 GB  loss 0.8620  rate 2.96e-04  105,520 B/s
+11-16 17:02:36  step 2,050/25,824  0.067 GB  loss 0.9057  rate 2.96e-04  105,593 B/s
+11-16 17:02:51  step 2,100/25,824  0.069 GB  loss 0.8962  rate 2.96e-04  105,220 B/s
+11-16 17:03:07  step 2,150/25,824  0.070 GB  loss 0.8816  rate 2.96e-04  105,166 B/s
+11-16 17:03:23  step 2,200/25,824  0.072 GB  loss 0.8746  rate 2.96e-04  105,389 B/s
+11-16 17:03:38  step 2,250/25,824  0.074 GB  loss 0.8060  rate 2.95e-04  105,490 B/s
+11-16 17:03:54  step 2,300/25,824  0.075 GB  loss 0.7940  rate 2.95e-04  105,576 B/s
+11-16 17:04:10  step 2,350/25,824  0.077 GB  loss 0.7821  rate 2.95e-04  104,883 B/s
+11-16 17:04:26  step 2,400/25,824  0.079 GB  loss 0.7805  rate 2.95e-04  104,593 B/s
+11-16 17:04:46  eval  eval_web 1.8501  eval_logic 0.1670  eval_unseen_singles 0.1954  eval_unseen_pairs 0.1247  eval_oor 0.2940
+11-16 17:04:49  step 2,450/25,824  0.080 GB  loss 0.7843  rate 2.95e-04  109,740 B/s
+11-16 17:05:04  step 2,500/25,824  0.082 GB  loss 0.7752  rate 2.94e-04  105,838 B/s
+11-16 17:05:20  step 2,550/25,824  0.084 GB  loss 0.7611  rate 2.94e-04  105,856 B/s
+11-16 17:05:36  step 2,600/25,824  0.085 GB  loss 0.7567  rate 2.94e-04  105,859 B/s
+11-16 17:05:51  step 2,650/25,824  0.087 GB  loss 0.7621  rate 2.94e-04  105,862 B/s
+11-16 17:06:07  step 2,700/25,824  0.088 GB  loss 0.7642  rate 2.93e-04  105,844 B/s
+11-16 17:06:22  step 2,750/25,824  0.090 GB  loss 0.7370  rate 2.93e-04  105,792 B/s
+11-16 17:06:38  step 2,800/25,824  0.092 GB  loss 0.7539  rate 2.93e-04  105,811 B/s
+11-16 17:06:54  step 2,850/25,824  0.093 GB  loss 0.7519  rate 2.93e-04  105,868 B/s
+11-16 17:07:09  step 2,900/25,824  0.095 GB  loss 0.7563  rate 2.92e-04  105,867 B/s
+11-16 17:07:25  step 2,950/25,824  0.097 GB  loss 0.7716  rate 2.92e-04  105,854 B/s
+11-16 17:07:41  step 3,000/25,824  0.098 GB  loss 0.8206  rate 2.92e-04  105,817 B/s
+11-16 17:07:56  step 3,050/25,824  0.100 GB  loss 0.8178  rate 2.91e-04  105,866 B/s
+11-16 17:08:04  eval  eval_web 1.7723  eval_logic 0.1604  eval_unseen_singles 0.1867  eval_unseen_pairs 0.1245  eval_oor 0.3191
+11-16 17:08:04  checkpoint at step 3,050 (0.100 GB)
+11-16 17:08:27  step 3,100/25,824  0.102 GB  loss 0.8307  rate 2.91e-04  69,878 B/s
+11-16 17:08:53  step 3,150/25,824  0.103 GB  loss 0.8205  rate 2.91e-04  63,557 B/s
+11-16 17:09:19  step 3,200/25,824  0.105 GB  loss 0.8136  rate 2.91e-04  65,276 B/s
+11-16 17:09:44  step 3,250/25,824  0.106 GB  loss 0.8263  rate 2.90e-04  65,492 B/s
+11-16 17:10:09  step 3,300/25,824  0.108 GB  loss 0.8191  rate 2.90e-04  65,763 B/s
+11-16 17:10:34  step 3,350/25,824  0.110 GB  loss 0.8146  rate 2.90e-04  65,970 B/s
+11-16 17:10:55  step 3,400/25,824  0.111 GB  loss 0.8103  rate 2.89e-04  77,080 B/s
+11-16 17:11:11  step 3,450/25,824  0.113 GB  loss 0.8127  rate 2.89e-04  105,759 B/s
+11-16 17:11:27  step 3,500/25,824  0.115 GB  loss 0.8144  rate 2.89e-04  105,862 B/s
+11-16 17:11:42  step 3,550/25,824  0.116 GB  loss 0.8024  rate 2.88e-04  105,854 B/s
+11-16 17:11:58  step 3,600/25,824  0.118 GB  loss 0.8009  rate 2.88e-04  105,826 B/s
+11-16 17:12:13  step 3,650/25,824  0.120 GB  loss 0.8072  rate 2.88e-04  105,814 B/s
+11-16 17:12:24  eval  eval_web 1.7392  eval_logic 0.1548  eval_unseen_singles 0.1777  eval_unseen_pairs 0.1224  eval_oor 0.3474
+11-16 17:12:24  GUARD watch: oor 0.3474 (best 0.2940, band 0.05, 1/3 in a row)
+11-16 17:12:37  step 3,700/25,824  0.121 GB  loss 0.8059  rate 2.87e-04  106,010 B/s
+11-16 17:12:52  step 3,750/25,824  0.123 GB  loss 0.7958  rate 2.87e-04  105,789 B/s
+11-16 17:13:08  step 3,800/25,824  0.124 GB  loss 0.7965  rate 2.87e-04  105,810 B/s
+11-16 17:13:23  step 3,850/25,824  0.126 GB  loss 0.7926  rate 2.86e-04  105,782 B/s
+11-16 17:13:39  step 3,900/25,824  0.128 GB  loss 0.7983  rate 2.86e-04  105,820 B/s
+11-16 17:13:55  step 3,950/25,824  0.129 GB  loss 0.7580  rate 2.86e-04  105,817 B/s
+11-16 17:14:10  step 4,000/25,824  0.131 GB  loss 0.7182  rate 2.85e-04  105,787 B/s
+11-16 17:14:26  step 4,050/25,824  0.133 GB  loss 0.7084  rate 2.85e-04  105,766 B/s
+11-16 17:14:41  step 4,100/25,824  0.134 GB  loss 0.7211  rate 2.84e-04  105,867 B/s
+11-16 17:14:57  step 4,150/25,824  0.136 GB  loss 0.7056  rate 2.84e-04  105,846 B/s
+11-16 17:15:13  step 4,200/25,824  0.138 GB  loss 0.7144  rate 2.84e-04  105,790 B/s
+11-16 17:15:28  step 4,250/25,824  0.139 GB  loss 0.6964  rate 2.83e-04  105,830 B/s
+11-16 17:15:42  eval  eval_web 1.6843  eval_logic 0.1489  eval_unseen_singles 0.1704  eval_unseen_pairs 0.1211  eval_oor 0.3108
+11-16 17:15:51  step 4,300/25,824  0.141 GB  loss 0.6992  rate 2.83e-04  106,485 B/s
+11-16 17:16:07  step 4,350/25,824  0.142 GB  loss 0.7027  rate 2.82e-04  105,727 B/s
+11-16 17:16:23  step 4,400/25,824  0.144 GB  loss 0.7911  rate 2.82e-04  105,827 B/s
+11-16 17:16:38  step 4,450/25,824  0.146 GB  loss 0.7787  rate 2.82e-04  105,858 B/s
+11-16 17:16:54  step 4,500/25,824  0.147 GB  loss 0.7816  rate 2.81e-04  105,845 B/s
+11-16 17:17:09  step 4,550/25,824  0.149 GB  loss 0.7761  rate 2.81e-04  105,852 B/s
+11-16 17:17:18  checkpoint at step 4,575 (0.150 GB)
+11-16 17:17:25  step 4,600/25,824  0.151 GB  loss 0.7773  rate 2.80e-04  104,252 B/s
+11-16 17:17:48  step 4,650/25,824  0.152 GB  loss 0.7662  rate 2.80e-04  73,357 B/s
+11-16 17:18:14  step 4,700/25,824  0.154 GB  loss 0.7192  rate 2.79e-04  62,346 B/s
+11-16 17:18:40  step 4,750/25,824  0.156 GB  loss 0.6969  rate 2.79e-04  64,595 B/s
+11-16 17:19:05  step 4,800/25,824  0.157 GB  loss 0.7015  rate 2.79e-04  65,403 B/s
+11-16 17:19:30  step 4,850/25,824  0.159 GB  loss 0.7003  rate 2.78e-04  65,665 B/s
+11-16 17:19:57  eval  eval_web 1.6592  eval_logic 0.1471  eval_unseen_singles 0.1671  eval_unseen_pairs 0.1201  eval_oor 0.3249
+11-16 17:20:08  step 4,900/25,824  0.160 GB  loss 0.6982  rate 2.78e-04  67,266 B/s
+11-16 17:20:27  step 4,950/25,824  0.162 GB  loss 0.6874  rate 2.77e-04  83,248 B/s
+11-16 17:20:43  step 5,000/25,824  0.164 GB  loss 0.6965  rate 2.77e-04  105,851 B/s
+11-16 17:20:59  step 5,050/25,824  0.165 GB  loss 0.6969  rate 2.76e-04  105,868 B/s
+11-16 17:21:14  step 5,100/25,824  0.167 GB  loss 0.6802  rate 2.76e-04  105,872 B/s
+11-16 17:21:30  step 5,150/25,824  0.169 GB  loss 0.7706  rate 2.75e-04  105,878 B/s
+11-16 17:21:45  step 5,200/25,824  0.170 GB  loss 0.7694  rate 2.75e-04  105,868 B/s
+11-16 17:22:01  step 5,250/25,824  0.172 GB  loss 0.7854  rate 2.74e-04  105,881 B/s
+11-16 17:22:17  step 5,300/25,824  0.174 GB  loss 0.7198  rate 2.74e-04  105,832 B/s
+11-16 17:22:32  step 5,350/25,824  0.175 GB  loss 0.6791  rate 2.73e-04  105,900 B/s
+11-16 17:22:48  step 5,400/25,824  0.177 GB  loss 0.6708  rate 2.73e-04  105,799 B/s
+11-16 17:23:03  step 5,450/25,824  0.178 GB  loss 0.6722  rate 2.72e-04  105,873 B/s
+11-16 17:23:23  eval  eval_web 1.6239  eval_logic 0.1456  eval_unseen_singles 0.1645  eval_unseen_pairs 0.1193  eval_oor 0.3386
+11-16 17:23:27  step 5,500/25,824  0.180 GB  loss 0.6671  rate 2.72e-04  109,491 B/s
+11-16 17:23:42  step 5,550/25,824  0.182 GB  loss 0.6532  rate 2.71e-04  105,879 B/s
+11-16 17:23:58  step 5,600/25,824  0.183 GB  loss 0.6621  rate 2.71e-04  105,819 B/s
+11-16 17:24:13  step 5,650/25,824  0.185 GB  loss 0.6521  rate 2.70e-04  105,744 B/s
+11-16 17:24:29  step 5,700/25,824  0.187 GB  loss 0.6596  rate 2.70e-04  105,880 B/s
+11-16 17:24:45  step 5,750/25,824  0.188 GB  loss 0.6618  rate 2.69e-04  105,821 B/s
+11-16 17:25:00  step 5,800/25,824  0.190 GB  loss 0.7721  rate 2.69e-04  105,848 B/s
+11-16 17:25:16  step 5,850/25,824  0.192 GB  loss 0.7423  rate 2.68e-04  105,835 B/s
+11-16 17:25:31  step 5,900/25,824  0.193 GB  loss 0.6757  rate 2.68e-04  105,818 B/s
+11-16 17:25:47  step 5,950/25,824  0.195 GB  loss 0.6483  rate 2.67e-04  105,861 B/s
+11-16 17:26:03  step 6,000/25,824  0.197 GB  loss 0.6511  rate 2.67e-04  105,901 B/s
+11-16 17:26:18  step 6,050/25,824  0.198 GB  loss 0.6602  rate 2.66e-04  105,824 B/s
+11-16 17:26:34  step 6,100/25,824  0.200 GB  loss 0.6560  rate 2.66e-04  105,874 B/s
+11-16 17:26:41  eval  eval_web 1.6067  eval_logic 0.1434  eval_unseen_singles 0.1628  eval_unseen_pairs 0.1188  eval_oor 0.3399
+11-16 17:26:42  checkpoint at step 6,100 (0.200 GB)
+11-16 17:26:57  step 6,150/25,824  0.201 GB  loss 0.6442  rate 2.65e-04  104,274 B/s
+11-16 17:27:21  step 6,200/25,824  0.203 GB  loss 0.6459  rate 2.64e-04  68,284 B/s
+11-16 17:27:47  step 6,250/25,824  0.205 GB  loss 0.6440  rate 2.64e-04  63,984 B/s
+11-16 17:28:12  step 6,300/25,824  0.206 GB  loss 0.6547  rate 2.63e-04  65,259 B/s
+11-16 17:28:38  step 6,350/25,824  0.208 GB  loss 0.6588  rate 2.63e-04  65,592 B/s
+11-16 17:29:03  step 6,400/25,824  0.210 GB  loss 0.7280  rate 2.62e-04  65,743 B/s
+11-16 17:29:28  step 6,450/25,824  0.211 GB  loss 0.6549  rate 2.62e-04  65,974 B/s
+11-16 17:29:48  step 6,500/25,824  0.213 GB  loss 0.6419  rate 2.61e-04  81,583 B/s
+11-16 17:30:04  step 6,550/25,824  0.215 GB  loss 0.6292  rate 2.60e-04  105,815 B/s
+11-16 17:30:19  step 6,600/25,824  0.216 GB  loss 0.6448  rate 2.60e-04  105,831 B/s
+11-16 17:30:35  step 6,650/25,824  0.218 GB  loss 0.6348  rate 2.59e-04  105,869 B/s
+11-16 17:30:50  step 6,700/25,824  0.219 GB  loss 0.6265  rate 2.59e-04  105,863 B/s
+11-16 17:31:01  eval  eval_web 1.5785  eval_logic 0.1421  eval_unseen_singles 0.1602  eval_unseen_pairs 0.1184  eval_oor 0.3407
+11-16 17:31:14  step 6,750/25,824  0.221 GB  loss 0.7208  rate 2.58e-04  106,084 B/s
+11-16 17:31:29  step 6,800/25,824  0.223 GB  loss 0.7611  rate 2.58e-04  105,849 B/s
+11-16 17:31:45  step 6,850/25,824  0.224 GB  loss 0.7609  rate 2.57e-04  105,811 B/s
+11-16 17:32:00  step 6,900/25,824  0.226 GB  loss 0.7568  rate 2.56e-04  105,778 B/s
+11-16 17:32:16  step 6,950/25,824  0.228 GB  loss 0.6753  rate 2.56e-04  105,852 B/s
+11-16 17:32:32  step 7,000/25,824  0.229 GB  loss 0.6450  rate 2.55e-04  105,834 B/s
+11-16 17:32:47  step 7,050/25,824  0.231 GB  loss 0.6334  rate 2.54e-04  105,882 B/s
+11-16 17:33:03  step 7,100/25,824  0.233 GB  loss 0.6401  rate 2.54e-04  105,833 B/s
+11-16 17:33:18  step 7,150/25,824  0.234 GB  loss 0.6474  rate 2.53e-04  105,862 B/s
+11-16 17:33:34  step 7,200/25,824  0.236 GB  loss 0.6420  rate 2.53e-04  105,822 B/s
+11-16 17:33:50  step 7,250/25,824  0.237 GB  loss 0.6656  rate 2.52e-04  105,863 B/s
+11-16 17:34:05  step 7,300/25,824  0.239 GB  loss 0.7482  rate 2.51e-04  105,870 B/s
+11-16 17:34:19  eval  eval_web 1.5616  eval_logic 0.1428  eval_unseen_singles 0.1608  eval_unseen_pairs 0.1194  eval_oor 0.3315
+11-16 17:34:28  step 7,350/25,824  0.241 GB  loss 0.7578  rate 2.51e-04  106,401 B/s
+11-16 17:34:44  step 7,400/25,824  0.242 GB  loss 0.7529  rate 2.50e-04  105,827 B/s
+11-16 17:35:00  step 7,450/25,824  0.244 GB  loss 0.6930  rate 2.49e-04  105,814 B/s
+11-16 17:35:15  step 7,500/25,824  0.246 GB  loss 0.6524  rate 2.49e-04  105,780 B/s
+11-16 17:35:31  step 7,550/25,824  0.247 GB  loss 0.6528  rate 2.48e-04  105,784 B/s
+11-16 17:35:47  step 7,600/25,824  0.249 GB  loss 0.6492  rate 2.47e-04  105,798 B/s
+11-16 17:35:55  checkpoint at step 7,625 (0.250 GB)
+11-16 17:36:02  step 7,650/25,824  0.251 GB  loss 0.6584  rate 2.47e-04  104,341 B/s
+11-16 17:36:29  step 7,700/25,824  0.252 GB  loss 0.6487  rate 2.46e-04  62,900 B/s
+11-16 17:36:54  step 7,750/25,824  0.254 GB  loss 0.6419  rate 2.46e-04  63,929 B/s
+11-16 17:37:20  step 7,800/25,824  0.255 GB  loss 0.6288  rate 2.45e-04  65,156 B/s
+11-16 17:37:45  step 7,850/25,824  0.257 GB  loss 0.6294  rate 2.44e-04  65,731 B/s
+11-16 17:38:10  step 7,900/25,824  0.259 GB  loss 0.6402  rate 2.44e-04  65,919 B/s
+11-16 17:38:37  eval  eval_web 1.5364  eval_logic 0.1407  eval_unseen_singles 0.1577  eval_unseen_pairs 0.1192  eval_oor 0.3518
+11-16 17:38:37  GUARD watch: oor 0.3518 (best 0.2940, band 0.05, 1/3 in a row)
+11-16 17:38:47  step 7,950/25,824  0.260 GB  loss 0.6221  rate 2.43e-04  67,807 B/s
+11-16 17:39:03  step 8,000/25,824  0.262 GB  loss 0.6265  rate 2.42e-04  103,884 B/s
+11-16 17:39:18  step 8,050/25,824  0.264 GB  loss 0.7201  rate 2.41e-04  105,847 B/s
+11-16 17:39:34  step 8,100/25,824  0.265 GB  loss 0.6536  rate 2.41e-04  105,774 B/s
+11-16 17:39:50  step 8,150/25,824  0.267 GB  loss 0.6306  rate 2.40e-04  105,718 B/s
+11-16 17:40:05  step 8,200/25,824  0.269 GB  loss 0.6230  rate 2.39e-04  105,708 B/s
+11-16 17:40:21  step 8,250/25,824  0.270 GB  loss 0.6403  rate 2.39e-04  105,731 B/s
+11-16 17:40:37  step 8,300/25,824  0.272 GB  loss 0.6279  rate 2.38e-04  105,758 B/s
+11-16 17:40:52  step 8,350/25,824  0.273 GB  loss 0.6313  rate 2.37e-04  105,744 B/s
+11-16 17:41:08  step 8,400/25,824  0.275 GB  loss 0.6218  rate 2.37e-04  105,737 B/s
+11-16 17:41:23  step 8,450/25,824  0.277 GB  loss 0.6856  rate 2.36e-04  105,717 B/s
+11-16 17:41:39  step 8,500/25,824  0.278 GB  loss 0.7490  rate 2.35e-04  105,763 B/s
+11-16 17:41:59  eval  eval_web 1.5292  eval_logic 0.1409  eval_unseen_singles 0.1576  eval_unseen_pairs 0.1188  eval_oor 0.3463
+11-16 17:41:59  GUARD watch: oor 0.3463 (best 0.2940, band 0.05, 2/3 in a row)
+11-16 17:42:02  step 8,550/25,824  0.280 GB  loss 0.7535  rate 2.35e-04  109,781 B/s
+11-16 17:42:18  step 8,600/25,824  0.282 GB  loss 0.7536  rate 2.34e-04  105,727 B/s
+11-16 17:42:33  step 8,650/25,824  0.283 GB  loss 0.7320  rate 2.33e-04  105,728 B/s
+11-16 17:42:49  step 8,700/25,824  0.285 GB  loss 0.7450  rate 2.32e-04  105,724 B/s
+11-16 17:43:05  step 8,750/25,824  0.287 GB  loss 0.7335  rate 2.32e-04  105,633 B/s
+11-16 17:43:20  step 8,800/25,824  0.288 GB  loss 0.7250  rate 2.31e-04  105,733 B/s
+11-16 17:43:36  step 8,850/25,824  0.290 GB  loss 0.7349  rate 2.30e-04  105,773 B/s
+11-16 17:43:51  step 8,900/25,824  0.291 GB  loss 0.6827  rate 2.30e-04  105,718 B/s
+11-16 17:44:07  step 8,950/25,824  0.293 GB  loss 0.6137  rate 2.29e-04  105,737 B/s
+11-16 17:44:23  step 9,000/25,824  0.295 GB  loss 0.6073  rate 2.28e-04  105,738 B/s
+11-16 17:44:38  step 9,050/25,824  0.296 GB  loss 0.6211  rate 2.27e-04  105,757 B/s
+11-16 17:44:54  step 9,100/25,824  0.298 GB  loss 0.6116  rate 2.27e-04  105,755 B/s
+11-16 17:45:10  step 9,150/25,824  0.300 GB  loss 0.6209  rate 2.26e-04  105,750 B/s
+11-16 17:45:17  eval  eval_web 1.5064  eval_logic 0.1392  eval_unseen_singles 0.1546  eval_unseen_pairs 0.1184  eval_oor 0.3482
+11-16 17:45:17  GUARD watch: oor 0.3482 (best 0.2940, band 0.05, 3/3 in a row)
+11-16 17:45:17  checkpoint at step 9,150 (0.300 GB)
+11-16 17:45:34  step 9,200/25,824  0.301 GB  loss 0.6065  rate 2.25e-04  96,148 B/s
+11-16 17:46:01  step 9,250/25,824  0.303 GB  loss 0.6214  rate 2.24e-04  61,136 B/s
+11-16 17:46:27  step 9,300/25,824  0.305 GB  loss 0.6135  rate 2.24e-04  64,916 B/s
+11-16 17:46:52  step 9,350/25,824  0.306 GB  loss 0.6183  rate 2.23e-04  65,341 B/s
+11-16 17:47:17  step 9,400/25,824  0.308 GB  loss 0.6176  rate 2.22e-04  65,539 B/s
+11-16 17:47:42  step 9,450/25,824  0.309 GB  loss 0.6100  rate 2.21e-04  65,686 B/s
+11-16 17:48:07  step 9,500/25,824  0.311 GB  loss 0.6191  rate 2.21e-04  66,220 B/s
+11-16 17:48:24  step 9,550/25,824  0.313 GB  loss 0.6322  rate 2.20e-04  98,077 B/s
+11-16 17:48:40  step 9,600/25,824  0.314 GB  loss 0.6193  rate 2.19e-04  105,803 B/s
+11-16 17:48:56  step 9,650/25,824  0.316 GB  loss 0.6092  rate 2.18e-04  105,722 B/s
+11-16 17:49:11  step 9,700/25,824  0.318 GB  loss 0.6439  rate 2.18e-04  105,778 B/s
+11-16 17:49:27  step 9,750/25,824  0.319 GB  loss 0.7335  rate 2.17e-04  105,757 B/s
+11-16 17:49:37  eval  eval_web 1.5043  eval_logic 0.1389  eval_unseen_singles 0.1543  eval_unseen_pairs 0.1190  eval_oor 0.3427
+11-16 17:49:50  step 9,800/25,824  0.321 GB  loss 0.6978  rate 2.16e-04  105,933 B/s
+11-16 17:50:06  step 9,850/25,824  0.323 GB  loss 0.6090  rate 2.15e-04  105,768 B/s
+11-16 17:50:21  step 9,900/25,824  0.324 GB  loss 0.6097  rate 2.15e-04  105,773 B/s
+11-16 17:50:37  step 9,950/25,824  0.326 GB  loss 0.6162  rate 2.14e-04  105,725 B/s
+11-16 17:50:52  step 10,000/25,824  0.328 GB  loss 0.6010  rate 2.13e-04  105,731 B/s
+11-16 17:51:08  step 10,050/25,824  0.329 GB  loss 0.5960  rate 2.12e-04  105,637 B/s
+11-16 17:51:24  step 10,100/25,824  0.331 GB  loss 0.6035  rate 2.12e-04  105,732 B/s
+11-16 17:51:39  step 10,150/25,824  0.332 GB  loss 0.6020  rate 2.11e-04  105,761 B/s
+11-16 17:51:55  step 10,200/25,824  0.334 GB  loss 0.5936  rate 2.10e-04  105,782 B/s
+11-16 17:52:11  step 10,250/25,824  0.336 GB  loss 0.6039  rate 2.09e-04  105,721 B/s
+11-16 17:52:26  step 10,300/25,824  0.337 GB  loss 0.6083  rate 2.08e-04  105,767 B/s
+11-16 17:52:42  step 10,350/25,824  0.339 GB  loss 0.6186  rate 2.08e-04  105,718 B/s
+11-16 17:52:55  eval  eval_web 1.4936  eval_logic 0.1373  eval_unseen_singles 0.1528  eval_unseen_pairs 0.1177  eval_oor 0.3342
+11-16 17:53:05  step 10,400/25,824  0.341 GB  loss 0.5908  rate 2.07e-04  106,462 B/s
+11-16 17:53:21  step 10,450/25,824  0.342 GB  loss 0.6120  rate 2.06e-04  105,756 B/s
+11-16 17:53:36  step 10,500/25,824  0.344 GB  loss 0.6280  rate 2.05e-04  105,731 B/s
+11-16 17:53:52  step 10,550/25,824  0.346 GB  loss 0.6030  rate 2.04e-04  105,717 B/s
+11-16 17:54:07  step 10,600/25,824  0.347 GB  loss 0.6102  rate 2.04e-04  105,700 B/s
+11-16 17:54:23  step 10,650/25,824  0.349 GB  loss 0.6758  rate 2.03e-04  105,733 B/s
+11-16 17:54:31  checkpoint at step 10,675 (0.350 GB)
+11-16 17:54:39  step 10,700/25,824  0.350 GB  loss 0.7177  rate 2.02e-04  104,304 B/s
+11-16 17:54:56  step 10,750/25,824  0.352 GB  loss 0.7222  rate 2.01e-04  98,057 B/s
+11-16 17:55:23  step 10,800/25,824  0.354 GB  loss 0.7254  rate 2.00e-04  61,573 B/s
+11-16 17:55:48  step 10,850/25,824  0.355 GB  loss 0.7307  rate 2.00e-04  64,862 B/s
+11-16 17:56:13  step 10,900/25,824  0.357 GB  loss 0.7265  rate 1.99e-04  65,290 B/s
+11-16 17:56:39  step 10,950/25,824  0.359 GB  loss 0.6420  rate 1.98e-04  65,502 B/s
+11-16 17:57:06  eval  eval_web 1.4764  eval_logic 0.1371  eval_unseen_singles 0.1522  eval_unseen_pairs 0.1180  eval_oor 0.3687
+11-16 17:57:06  GUARD watch: oor 0.3687 (best 0.2940, band 0.05, 1/3 in a row)
+11-16 17:57:16  step 11,000/25,824  0.360 GB  loss 0.6140  rate 1.97e-04  66,922 B/s
+11-16 17:57:38  step 11,050/25,824  0.362 GB  loss 0.5876  rate 1.97e-04  75,892 B/s
+11-16 17:57:53  step 11,100/25,824  0.364 GB  loss 0.6020  rate 1.96e-04  105,783 B/s
+11-16 17:58:09  step 11,150/25,824  0.365 GB  loss 0.5996  rate 1.95e-04  105,773 B/s
+11-16 17:58:24  step 11,200/25,824  0.367 GB  loss 0.5906  rate 1.94e-04  105,761 B/s
+11-16 17:58:40  step 11,250/25,824  0.368 GB  loss 0.5924  rate 1.93e-04  105,771 B/s
+11-16 17:58:56  step 11,300/25,824  0.370 GB  loss 0.6366  rate 1.92e-04  105,789 B/s
+11-16 17:59:11  step 11,350/25,824  0.372 GB  loss 0.7320  rate 1.92e-04  105,720 B/s
+11-16 17:59:27  step 11,400/25,824  0.373 GB  loss 0.7255  rate 1.91e-04  105,791 B/s
+11-16 17:59:42  step 11,450/25,824  0.375 GB  loss 0.7173  rate 1.90e-04  105,759 B/s
+11-16 17:59:58  step 11,500/25,824  0.377 GB  loss 0.7156  rate 1.89e-04  105,760 B/s
+11-16 18:00:14  step 11,550/25,824  0.378 GB  loss 0.7143  rate 1.88e-04  105,625 B/s
+11-16 18:00:34  eval  eval_web 1.4652  eval_logic 0.1370  eval_unseen_singles 0.1514  eval_unseen_pairs 0.1178  eval_oor 0.3537
+11-16 18:00:34  GUARD watch: oor 0.3537 (best 0.2940, band 0.05, 2/3 in a row)
+11-16 18:00:37  step 11,600/25,824  0.380 GB  loss 0.6275  rate 1.88e-04  109,624 B/s
+11-16 18:00:52  step 11,650/25,824  0.382 GB  loss 0.5932  rate 1.87e-04  105,738 B/s
+11-16 18:01:08  step 11,700/25,824  0.383 GB  loss 0.6038  rate 1.86e-04  105,739 B/s
+11-16 18:01:24  step 11,750/25,824  0.385 GB  loss 0.6077  rate 1.85e-04  105,703 B/s
+11-16 18:01:39  step 11,800/25,824  0.386 GB  loss 0.6009  rate 1.84e-04  105,718 B/s
+11-16 18:01:55  step 11,850/25,824  0.388 GB  loss 0.5967  rate 1.84e-04  105,788 B/s
+11-16 18:02:11  step 11,900/25,824  0.390 GB  loss 0.5864  rate 1.83e-04  105,726 B/s
+11-16 18:02:26  step 11,950/25,824  0.391 GB  loss 0.7241  rate 1.82e-04  105,793 B/s
+11-16 18:02:42  step 12,000/25,824  0.393 GB  loss 0.7193  rate 1.81e-04  105,739 B/s
+11-16 18:02:57  step 12,050/25,824  0.395 GB  loss 0.7201  rate 1.80e-04  105,804 B/s
+11-16 18:03:13  step 12,100/25,824  0.396 GB  loss 0.7203  rate 1.79e-04  105,789 B/s
+11-16 18:03:29  step 12,150/25,824  0.398 GB  loss 0.7075  rate 1.79e-04  105,731 B/s
+11-16 18:03:44  step 12,200/25,824  0.400 GB  loss 0.7220  rate 1.78e-04  105,748 B/s
+11-16 18:03:52  eval  eval_web 1.4617  eval_logic 0.1372  eval_unseen_singles 0.1514  eval_unseen_pairs 0.1183  eval_oor 0.3461
+11-16 18:03:52  GUARD watch: oor 0.3461 (best 0.2940, band 0.05, 3/3 in a row)
+11-16 18:03:52  checkpoint at step 12,200 (0.400 GB)
+11-16 18:04:17  step 12,250/25,824  0.401 GB  loss 0.7076  rate 1.77e-04  66,555 B/s
+11-16 18:04:42  step 12,300/25,824  0.403 GB  loss 0.7066  rate 1.76e-04  63,918 B/s
+11-16 18:05:08  step 12,350/25,824  0.404 GB  loss 0.7200  rate 1.75e-04  65,190 B/s
+11-16 18:05:33  step 12,400/25,824  0.406 GB  loss 0.7139  rate 1.75e-04  65,495 B/s
+11-16 18:05:58  step 12,450/25,824  0.408 GB  loss 0.7121  rate 1.74e-04  65,892 B/s
+11-16 18:06:23  step 12,500/25,824  0.409 GB  loss 0.7162  rate 1.73e-04  66,103 B/s
+11-16 18:06:44  step 12,550/25,824  0.411 GB  loss 0.7125  rate 1.72e-04  80,448 B/s
+11-16 18:06:59  step 12,600/25,824  0.413 GB  loss 0.6973  rate 1.71e-04  105,799 B/s
+11-16 18:07:15  step 12,650/25,824  0.414 GB  loss 0.7004  rate 1.70e-04  105,734 B/s
+11-16 18:07:30  step 12,700/25,824  0.416 GB  loss 0.7042  rate 1.70e-04  105,797 B/s
+11-16 18:07:46  step 12,750/25,824  0.418 GB  loss 0.7146  rate 1.69e-04  105,732 B/s
+11-16 18:08:02  step 12,800/25,824  0.419 GB  loss 0.7104  rate 1.68e-04  105,779 B/s
+11-16 18:08:12  eval  eval_web 1.4630  eval_logic 0.1370  eval_unseen_singles 0.1514  eval_unseen_pairs 0.1179  eval_oor 0.3602
+11-16 18:08:12  GUARD watch: oor 0.3602 (best 0.2940, band 0.05, 4/3 in a row)
+11-16 18:08:25  step 12,850/25,824  0.421 GB  loss 0.7087  rate 1.67e-04  106,045 B/s
+11-16 18:08:40  step 12,900/25,824  0.422 GB  loss 0.7006  rate 1.66e-04  105,764 B/s
+11-16 18:08:56  step 12,950/25,824  0.424 GB  loss 0.7065  rate 1.65e-04  105,779 B/s
+11-16 18:09:12  step 13,000/25,824  0.426 GB  loss 0.7008  rate 1.65e-04  105,690 B/s
+11-16 18:09:27  step 13,050/25,824  0.427 GB  loss 0.6997  rate 1.64e-04  105,797 B/s
+11-16 18:09:43  step 13,100/25,824  0.429 GB  loss 0.7046  rate 1.63e-04  105,788 B/s
+11-16 18:09:58  step 13,150/25,824  0.431 GB  loss 0.7020  rate 1.62e-04  105,720 B/s
+11-16 18:10:14  step 13,200/25,824  0.432 GB  loss 0.6452  rate 1.61e-04  105,632 B/s
+11-16 18:10:30  step 13,250/25,824  0.434 GB  loss 0.6103  rate 1.60e-04  105,771 B/s
+11-16 18:10:45  step 13,300/25,824  0.436 GB  loss 0.6074  rate 1.60e-04  105,801 B/s
+11-16 18:11:01  step 13,350/25,824  0.437 GB  loss 0.6213  rate 1.59e-04  105,628 B/s
+11-16 18:11:17  step 13,400/25,824  0.439 GB  loss 0.6058  rate 1.58e-04  105,719 B/s
+11-16 18:11:30  eval  eval_web 1.4383  eval_logic 0.1356  eval_unseen_singles 0.1491  eval_unseen_pairs 0.1173  eval_oor 0.3708
+11-16 18:11:30  GUARD watch: oor 0.3708 (best 0.2940, band 0.05, 5/3 in a row)
+11-16 18:11:30  GUARD STOP: oor 0.3708 (best 0.2940, band 0.05, 5/3 in a row)
+11-16 18:11:31  checkpoint at step 13,420 (0.440 GB)
+11-16 18:11:31  stopped by the guard; best.pt is the last checkpoint with nothing over its band
+C:\bigfiles\competition\train\stream.py:38: SyntaxWarning: "\s" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\s"? A raw string is also an option.
+  Separated layout (train\sep.py): cut right after the last SPACE / NEWLINE / PARAGRAPH / QA that
+11-16 20:50:15  sources: web 201 files, math 0, logic 16 (0.500 GB = 59.08% of the run)
+11-16 20:50:15  shares: web 40.92%, logic 59.08%
+11-16 20:50:15  plan: 0.8 GB in 25,824 steps of 16 x 2048 x 1 GPU(s)
+11-16 20:50:17  resumed at step 13,420 (0.440 GB)
+11-16 20:50:17  model 25m: 25,377,152 parameters | peak rate 0.0003 | window 2048
+11-16 20:50:17  eval_web: 120 held-out documents, 0.14 MB
+11-16 20:50:20  eval_logic: 947 held-out documents, 0.25 MB
+11-16 20:50:20  eval_unseen_singles: 4,189 never-trained documents, 1.09 MB
+11-16 20:50:20  eval_unseen_pairs: 1,996 never-trained documents, 0.57 MB
+11-16 20:50:20  eval_oor: 1,200 never-trained documents, 0.36 MB
+11-16 20:50:20  GUARD on: {'logic': 0.02, 'web': 0.02, 'unseen_singles': 0.05, 'unseen_pairs': 0.05, 'oor': 0.05}, patience 1000000
+11-16 20:50:35  step 13,450/25,824  0.440 GB  loss 0.6088  rate 1.57e-04  64,976 B/s
+11-16 20:51:01  step 13,500/25,824  0.442 GB  loss 0.6206  rate 1.56e-04  62,659 B/s
+11-16 20:51:27  step 13,550/25,824  0.444 GB  loss 0.6165  rate 1.56e-04  65,000 B/s
+11-16 20:51:52  step 13,600/25,824  0.445 GB  loss 0.6118  rate 1.55e-04  65,386 B/s
+11-16 20:52:17  step 13,650/25,824  0.447 GB  loss 0.6141  rate 1.54e-04  65,695 B/s
+11-16 20:52:42  step 13,700/25,824  0.449 GB  loss 0.6055  rate 1.53e-04  65,626 B/s
+11-16 20:52:55  checkpoint at step 13,725 (0.449 GB)
+11-16 20:53:08  step 13,750/25,824  0.450 GB  loss 0.6443  rate 1.52e-04  65,385 B/s
+11-16 20:53:32  step 13,800/25,824  0.452 GB  loss 0.7023  rate 1.51e-04  66,970 B/s
+11-16 20:53:58  step 13,850/25,824  0.454 GB  loss 0.7054  rate 1.51e-04  63,255 B/s
+11-16 20:54:24  step 13,900/25,824  0.455 GB  loss 0.7189  rate 1.50e-04  65,328 B/s
+11-16 20:54:49  step 13,950/25,824  0.457 GB  loss 0.6014  rate 1.49e-04  65,767 B/s
+11-16 20:55:14  step 14,000/25,824  0.459 GB  loss 0.5916  rate 1.48e-04  65,261 B/s
+11-16 20:58:26  eval  eval_web 1.4307  eval_logic 0.1343  eval_unseen_singles 0.1477  eval_unseen_pairs 0.1174  eval_oor 0.3608
+11-16 20:58:32  step 14,050/25,824  0.460 GB  loss 0.5929  rate 1.47e-04  105,984 B/s
+11-16 20:58:48  step 14,100/25,824  0.462 GB  loss 0.5888  rate 1.47e-04  105,486 B/s
+11-16 20:59:04  step 14,150/25,824  0.463 GB  loss 0.5879  rate 1.46e-04  104,528 B/s
+11-16 20:59:19  step 14,200/25,824  0.465 GB  loss 0.5995  rate 1.45e-04  104,288 B/s
+11-16 20:59:35  step 14,250/25,824  0.467 GB  loss 0.5797  rate 1.44e-04  104,162 B/s
+11-16 20:59:51  step 14,300/25,824  0.468 GB  loss 0.5758  rate 1.43e-04  104,597 B/s
+11-16 21:00:07  step 14,350/25,824  0.470 GB  loss 0.5825  rate 1.42e-04  105,091 B/s
+11-16 21:00:22  step 14,400/25,824  0.472 GB  loss 0.5830  rate 1.42e-04  105,507 B/s
+11-16 21:00:38  step 14,450/25,824  0.473 GB  loss 0.6951  rate 1.41e-04  105,339 B/s
+11-16 21:00:54  step 14,500/25,824  0.475 GB  loss 0.7014  rate 1.40e-04  104,808 B/s
+11-16 21:01:10  step 14,550/25,824  0.477 GB  loss 0.6182  rate 1.39e-04  104,346 B/s
+11-16 21:01:26  step 14,600/25,824  0.478 GB  loss 0.5949  rate 1.38e-04  102,787 B/s
+11-16 21:01:46  eval  eval_web 1.4232  eval_logic 0.1342  eval_unseen_singles 0.1472  eval_unseen_pairs 0.1170  eval_oor 0.3757
+11-16 21:01:50  step 14,650/25,824  0.480 GB  loss 0.5705  rate 1.38e-04  107,727 B/s
+11-16 21:02:05  step 14,700/25,824  0.481 GB  loss 0.5815  rate 1.37e-04  103,584 B/s
+11-16 21:02:21  step 14,750/25,824  0.483 GB  loss 0.5838  rate 1.36e-04  103,709 B/s
+11-16 21:02:37  step 14,800/25,824  0.485 GB  loss 0.5957  rate 1.35e-04  103,429 B/s
+11-16 21:02:53  step 14,850/25,824  0.486 GB  loss 0.5949  rate 1.34e-04  102,872 B/s
+11-16 21:03:09  step 14,900/25,824  0.488 GB  loss 0.7047  rate 1.34e-04  103,004 B/s
+11-16 21:03:25  step 14,950/25,824  0.490 GB  loss 0.6922  rate 1.33e-04  103,765 B/s
+11-16 21:03:41  step 15,000/25,824  0.491 GB  loss 0.6958  rate 1.32e-04  103,721 B/s
+11-16 21:03:57  step 15,050/25,824  0.493 GB  loss 0.6972  rate 1.31e-04  103,743 B/s
+11-16 21:04:13  step 15,100/25,824  0.495 GB  loss 0.6813  rate 1.30e-04  103,772 B/s
+11-16 21:04:29  step 15,150/25,824  0.496 GB  loss 0.6009  rate 1.30e-04  103,700 B/s
+11-16 21:04:45  step 15,200/25,824  0.498 GB  loss 0.5985  rate 1.29e-04  103,712 B/s
+11-16 21:05:01  step 15,250/25,824  0.499 GB  loss 0.6050  rate 1.28e-04  103,718 B/s
+11-16 21:05:09  eval  eval_web 1.4153  eval_logic 0.1343  eval_unseen_singles 0.1472  eval_unseen_pairs 0.1175  eval_oor 0.3659
+11-16 21:05:09  checkpoint at step 15,250 (0.499 GB)
+11-16 21:05:28  step 15,300/25,824  0.501 GB  loss 0.6137  rate 1.27e-04  84,567 B/s
+11-16 21:05:55  step 15,350/25,824  0.503 GB  loss 0.5831  rate 1.26e-04  61,311 B/s
+11-16 21:06:21  step 15,400/25,824  0.504 GB  loss 0.5854  rate 1.26e-04  64,034 B/s
+11-16 21:06:46  step 15,450/25,824  0.506 GB  loss 0.5820  rate 1.25e-04  64,805 B/s
+11-16 21:07:12  step 15,500/25,824  0.508 GB  loss 0.5759  rate 1.24e-04  65,088 B/s
+11-16 21:07:37  step 15,550/25,824  0.509 GB  loss 0.5898  rate 1.23e-04  65,354 B/s
+11-16 21:08:02  step 15,600/25,824  0.511 GB  loss 0.5548  rate 1.22e-04  65,553 B/s
+11-16 21:08:20  step 15,650/25,824  0.513 GB  loss 0.5796  rate 1.22e-04  92,358 B/s
+11-16 21:08:36  step 15,700/25,824  0.514 GB  loss 0.5860  rate 1.21e-04  103,246 B/s
+11-16 21:08:52  step 15,750/25,824  0.516 GB  loss 0.5726  rate 1.20e-04  103,816 B/s
+11-16 21:09:08  step 15,800/25,824  0.517 GB  loss 0.5787  rate 1.19e-04  103,829 B/s
+11-16 21:09:24  step 15,850/25,824  0.519 GB  loss 0.5768  rate 1.19e-04  103,761 B/s
+11-16 21:09:35  eval  eval_web 1.4137  eval_logic 0.1338  eval_unseen_singles 0.1466  eval_unseen_pairs 0.1175  eval_oor 0.3712
+11-16 21:09:48  step 15,900/25,824  0.521 GB  loss 0.6964  rate 1.18e-04  104,006 B/s
+11-16 21:10:03  step 15,950/25,824  0.522 GB  loss 0.6918  rate 1.17e-04  103,714 B/s
+11-16 21:10:19  step 16,000/25,824  0.524 GB  loss 0.6891  rate 1.16e-04  103,767 B/s
+11-16 21:10:35  step 16,050/25,824  0.526 GB  loss 0.6934  rate 1.15e-04  103,749 B/s
+11-16 21:10:51  step 16,100/25,824  0.527 GB  loss 0.6954  rate 1.15e-04  103,743 B/s
+11-16 21:11:07  step 16,150/25,824  0.529 GB  loss 0.6587  rate 1.14e-04  103,753 B/s
+11-16 21:11:23  step 16,200/25,824  0.531 GB  loss 0.5766  rate 1.13e-04  103,752 B/s
+11-16 21:11:39  step 16,250/25,824  0.532 GB  loss 0.5627  rate 1.12e-04  103,763 B/s
+11-16 21:11:55  step 16,300/25,824  0.534 GB  loss 0.5801  rate 1.12e-04  103,729 B/s
+11-16 21:12:11  step 16,350/25,824  0.535 GB  loss 0.5739  rate 1.11e-04  103,694 B/s
+11-16 21:12:27  step 16,400/25,824  0.537 GB  loss 0.5763  rate 1.10e-04  103,705 B/s
+11-16 21:12:43  step 16,450/25,824  0.539 GB  loss 0.5584  rate 1.09e-04  103,726 B/s
+11-16 21:12:57  eval  eval_web 1.4099  eval_logic 0.1332  eval_unseen_singles 0.1454  eval_unseen_pairs 0.1168  eval_oor 0.3746
+11-16 21:13:06  step 16,500/25,824  0.540 GB  loss 0.5665  rate 1.09e-04  104,439 B/s
+11-16 21:13:22  step 16,550/25,824  0.542 GB  loss 0.5701  rate 1.08e-04  103,727 B/s
+11-16 21:13:38  step 16,600/25,824  0.544 GB  loss 0.5711  rate 1.07e-04  103,754 B/s
+11-16 21:13:54  step 16,650/25,824  0.545 GB  loss 0.6019  rate 1.06e-04  103,733 B/s
+11-16 21:14:10  step 16,700/25,824  0.547 GB  loss 0.6959  rate 1.06e-04  103,780 B/s
+11-16 21:14:26  step 16,750/25,824  0.549 GB  loss 0.7045  rate 1.05e-04  103,692 B/s
+11-16 21:14:34  checkpoint at step 16,775 (0.549 GB)
+11-16 21:14:42  step 16,800/25,824  0.550 GB  loss 0.6933  rate 1.04e-04  102,337 B/s
+11-16 21:15:04  step 16,850/25,824  0.552 GB  loss 0.6893  rate 1.03e-04  75,411 B/s
+11-16 21:15:31  step 16,900/25,824  0.553 GB  loss 0.6931  rate 1.03e-04  61,680 B/s
+11-16 21:15:57  step 16,950/25,824  0.555 GB  loss 0.6831  rate 1.02e-04  64,247 B/s
+11-16 21:16:22  step 17,000/25,824  0.557 GB  loss 0.6870  rate 1.01e-04  64,730 B/s
+11-16 21:16:47  step 17,050/25,824  0.558 GB  loss 0.5696  rate 1.01e-04  65,183 B/s
+11-16 21:17:15  eval  eval_web 1.4017  eval_logic 0.1327  eval_unseen_singles 0.1450  eval_unseen_pairs 0.1169  eval_oor 0.3645
+11-16 21:17:25  step 17,100/25,824  0.560 GB  loss 0.5656  rate 9.98e-05  66,608 B/s
+11-16 21:17:48  step 17,150/25,824  0.562 GB  loss 0.5682  rate 9.91e-05  70,462 B/s
+11-16 21:18:04  step 17,200/25,824  0.563 GB  loss 0.5728  rate 9.84e-05  103,835 B/s
+11-16 21:18:20  step 17,250/25,824  0.565 GB  loss 0.5605  rate 9.76e-05  103,699 B/s
+11-16 21:18:36  step 17,300/25,824  0.567 GB  loss 0.5794  rate 9.69e-05  103,334 B/s
+11-16 21:18:52  step 17,350/25,824  0.568 GB  loss 0.5830  rate 9.62e-05  103,540 B/s
+11-16 21:19:08  step 17,400/25,824  0.570 GB  loss 0.5701  rate 9.55e-05  103,755 B/s
+11-16 21:19:24  step 17,450/25,824  0.571 GB  loss 0.5651  rate 9.48e-05  103,772 B/s
+11-16 21:19:40  step 17,500/25,824  0.573 GB  loss 0.6323  rate 9.41e-05  103,714 B/s
+11-16 21:19:56  step 17,550/25,824  0.575 GB  loss 0.6890  rate 9.34e-05  103,739 B/s
+11-16 21:20:12  step 17,600/25,824  0.576 GB  loss 0.6932  rate 9.27e-05  103,748 B/s
+11-16 21:20:28  step 17,650/25,824  0.578 GB  loss 0.6868  rate 9.20e-05  103,733 B/s
+11-16 21:20:48  eval  eval_web 1.4033  eval_logic 0.1330  eval_unseen_singles 0.1454  eval_unseen_pairs 0.1171  eval_oor 0.3858
+11-16 21:20:51  step 17,700/25,824  0.580 GB  loss 0.6869  rate 9.13e-05  105,909 B/s
+11-16 21:21:07  step 17,750/25,824  0.581 GB  loss 0.6693  rate 9.06e-05  103,320 B/s
+11-16 21:21:23  step 17,800/25,824  0.583 GB  loss 0.6752  rate 8.99e-05  103,785 B/s
+11-16 21:21:39  step 17,850/25,824  0.585 GB  loss 0.6295  rate 8.92e-05  103,755 B/s
+11-16 21:21:55  step 17,900/25,824  0.586 GB  loss 0.5745  rate 8.85e-05  103,750 B/s
+11-16 21:22:11  step 17,950/25,824  0.588 GB  loss 0.5604  rate 8.79e-05  103,701 B/s
+11-16 21:22:27  step 18,000/25,824  0.590 GB  loss 0.5663  rate 8.72e-05  103,703 B/s
+11-16 21:22:43  step 18,050/25,824  0.591 GB  loss 0.5501  rate 8.65e-05  103,722 B/s
+11-16 21:22:59  step 18,100/25,824  0.593 GB  loss 0.5673  rate 8.59e-05  103,737 B/s
+11-16 21:23:15  step 18,150/25,824  0.594 GB  loss 0.5666  rate 8.52e-05  103,708 B/s
+11-16 21:23:31  step 18,200/25,824  0.596 GB  loss 0.5553  rate 8.45e-05  103,739 B/s
+11-16 21:23:47  step 18,250/25,824  0.598 GB  loss 0.5632  rate 8.39e-05  103,795 B/s
+11-16 21:24:02  step 18,300/25,824  0.599 GB  loss 0.5589  rate 8.32e-05  103,789 B/s
+11-16 21:24:10  eval  eval_web 1.3848  eval_logic 0.1322  eval_unseen_singles 0.1441  eval_unseen_pairs 0.1166  eval_oor 0.3773
+11-16 21:24:10  checkpoint at step 18,300 (0.599 GB)
+11-16 21:24:26  step 18,350/25,824  0.601 GB  loss 0.5671  rate 8.26e-05  102,319 B/s
+11-16 21:28:20  step 18,400/25,824  0.603 GB  loss 0.5664  rate 8.19e-05  7,028 B/s
+11-16 21:28:55  step 18,450/25,824  0.604 GB  loss 0.5555  rate 8.12e-05  45,887 B/s
+11-16 21:29:21  step 18,500/25,824  0.606 GB  loss 0.5485  rate 8.06e-05  64,361 B/s
+11-16 21:29:47  step 18,550/25,824  0.608 GB  loss 0.5494  rate 8.00e-05  64,374 B/s
+11-16 21:30:12  step 18,600/25,824  0.609 GB  loss 0.5393  rate 7.93e-05  65,571 B/s
+11-16 21:30:37  step 18,650/25,824  0.611 GB  loss 0.5461  rate 7.87e-05  65,620 B/s
+11-16 21:30:57  step 18,700/25,824  0.612 GB  loss 0.5508  rate 7.80e-05  81,180 B/s
+11-16 21:31:13  step 18,750/25,824  0.614 GB  loss 0.5611  rate 7.74e-05  105,158 B/s
+11-16 21:31:29  step 18,800/25,824  0.616 GB  loss 0.5545  rate 7.68e-05  105,344 B/s
+11-16 21:31:44  step 18,850/25,824  0.617 GB  loss 0.5429  rate 7.62e-05  105,443 B/s
+11-16 21:32:00  step 18,900/25,824  0.619 GB  loss 0.6879  rate 7.55e-05  105,708 B/s
+11-16 21:32:11  eval  eval_web 1.3825  eval_logic 0.1328  eval_unseen_singles 0.1448  eval_unseen_pairs 0.1172  eval_oor 0.3799
+11-16 21:32:23  step 18,950/25,824  0.621 GB  loss 0.6868  rate 7.49e-05  105,988 B/s
+11-16 21:32:39  step 19,000/25,824  0.622 GB  loss 0.6842  rate 7.43e-05  105,781 B/s
+11-16 21:32:55  step 19,050/25,824  0.624 GB  loss 0.6533  rate 7.37e-05  104,431 B/s
+11-16 21:33:11  step 19,100/25,824  0.626 GB  loss 0.5524  rate 7.31e-05  104,056 B/s
+11-16 21:33:26  step 19,150/25,824  0.627 GB  loss 0.5490  rate 7.25e-05  105,208 B/s
+11-16 21:33:42  step 19,200/25,824  0.629 GB  loss 0.5678  rate 7.19e-05  105,374 B/s
+11-16 21:33:58  step 19,250/25,824  0.630 GB  loss 0.5519  rate 7.13e-05  104,555 B/s
+11-16 21:34:14  step 19,300/25,824  0.632 GB  loss 0.5494  rate 7.07e-05  103,460 B/s
+11-16 21:34:30  step 19,350/25,824  0.634 GB  loss 0.5701  rate 7.01e-05  103,574 B/s
+11-16 21:34:46  step 19,400/25,824  0.635 GB  loss 0.6107  rate 6.95e-05  103,597 B/s
+11-16 21:35:02  step 19,450/25,824  0.637 GB  loss 0.6996  rate 6.90e-05  103,339 B/s
+11-16 21:35:18  step 19,500/25,824  0.639 GB  loss 0.6875  rate 6.84e-05  102,953 B/s
+11-16 21:35:31  eval  eval_web 1.3785  eval_logic 0.1321  eval_unseen_singles 0.1440  eval_unseen_pairs 0.1167  eval_oor 0.3822
+11-16 21:35:41  step 19,550/25,824  0.640 GB  loss 0.6794  rate 6.78e-05  105,745 B/s
+11-16 21:35:57  step 19,600/25,824  0.642 GB  loss 0.6804  rate 6.72e-05  105,247 B/s
+11-16 21:36:13  step 19,650/25,824  0.644 GB  loss 0.6813  rate 6.67e-05  104,131 B/s
+11-16 21:36:29  step 19,700/25,824  0.645 GB  loss 0.6838  rate 6.61e-05  102,576 B/s
+11-16 21:36:45  step 19,750/25,824  0.647 GB  loss 0.6659  rate 6.55e-05  103,036 B/s
+11-16 21:37:01  step 19,800/25,824  0.648 GB  loss 0.6746  rate 6.50e-05  103,737 B/s
+11-16 21:37:09  checkpoint at step 19,825 (0.649 GB)
+11-16 21:37:27  step 19,850/25,824  0.650 GB  loss 0.6801  rate 6.44e-05  62,474 B/s
+11-16 21:37:54  step 19,900/25,824  0.652 GB  loss 0.5662  rate 6.39e-05  61,852 B/s
+11-16 21:38:19  step 19,950/25,824  0.653 GB  loss 0.5635  rate 6.33e-05  64,733 B/s
+11-16 21:38:45  step 20,000/25,824  0.655 GB  loss 0.5580  rate 6.28e-05  64,935 B/s
+11-16 21:39:10  step 20,050/25,824  0.657 GB  loss 0.5595  rate 6.23e-05  64,816 B/s
+11-16 21:39:35  step 20,100/25,824  0.658 GB  loss 0.5678  rate 6.17e-05  65,561 B/s
+11-16 21:40:02  eval  eval_web 1.3739  eval_logic 0.1314  eval_unseen_singles 0.1429  eval_unseen_pairs 0.1163  eval_oor 0.3950
+11-16 21:40:09  step 20,150/25,824  0.660 GB  loss 0.5696  rate 6.12e-05  101,922 B/s
+11-16 21:40:25  step 20,200/25,824  0.662 GB  loss 0.5482  rate 6.07e-05  103,705 B/s
+11-16 21:40:41  step 20,250/25,824  0.663 GB  loss 0.5661  rate 6.02e-05  103,699 B/s
+11-16 21:40:57  step 20,300/25,824  0.665 GB  loss 0.5543  rate 5.96e-05  103,805 B/s
+11-16 21:41:13  step 20,350/25,824  0.666 GB  loss 0.5563  rate 5.91e-05  103,796 B/s
+11-16 21:41:29  step 20,400/25,824  0.668 GB  loss 0.5606  rate 5.86e-05  103,741 B/s
+11-16 21:41:45  step 20,450/25,824  0.670 GB  loss 0.5618  rate 5.81e-05  103,780 B/s
+11-16 21:42:01  step 20,500/25,824  0.671 GB  loss 0.5588  rate 5.76e-05  103,782 B/s
+11-16 21:42:17  step 20,550/25,824  0.673 GB  loss 0.5495  rate 5.71e-05  103,710 B/s
+11-16 21:42:32  step 20,600/25,824  0.675 GB  loss 0.5474  rate 5.66e-05  103,712 B/s
+11-16 21:42:48  step 20,650/25,824  0.676 GB  loss 0.5569  rate 5.61e-05  103,740 B/s
+11-16 21:43:04  step 20,700/25,824  0.678 GB  loss 0.6597  rate 5.56e-05  103,718 B/s
+11-16 21:43:25  eval  eval_web 1.3705  eval_logic 0.1321  eval_unseen_singles 0.1438  eval_unseen_pairs 0.1171  eval_oor 0.4029
+11-16 21:43:28  step 20,750/25,824  0.680 GB  loss 0.6551  rate 5.52e-05  107,556 B/s
+11-16 21:43:44  step 20,800/25,824  0.681 GB  loss 0.5576  rate 5.47e-05  103,713 B/s
+11-16 21:44:00  step 20,850/25,824  0.683 GB  loss 0.5515  rate 5.42e-05  103,724 B/s
+11-16 21:44:16  step 20,900/25,824  0.684 GB  loss 0.5580  rate 5.37e-05  103,746 B/s
+11-16 21:44:32  step 20,950/25,824  0.686 GB  loss 0.5655  rate 5.33e-05  103,755 B/s
+11-16 21:44:48  step 21,000/25,824  0.688 GB  loss 0.5442  rate 5.28e-05  103,749 B/s
+11-16 21:45:03  step 21,050/25,824  0.689 GB  loss 0.5520  rate 5.23e-05  103,729 B/s
+11-16 21:45:19  step 21,100/25,824  0.691 GB  loss 0.6771  rate 5.19e-05  103,739 B/s
+11-16 21:45:35  step 21,150/25,824  0.693 GB  loss 0.6744  rate 5.14e-05  103,729 B/s
+11-16 21:45:51  step 21,200/25,824  0.694 GB  loss 0.6780  rate 5.10e-05  103,732 B/s
+11-16 21:46:07  step 21,250/25,824  0.696 GB  loss 0.6887  rate 5.06e-05  103,778 B/s
+11-16 21:46:23  step 21,300/25,824  0.698 GB  loss 0.6791  rate 5.01e-05  103,743 B/s
+11-16 21:46:39  step 21,350/25,824  0.699 GB  loss 0.6807  rate 4.97e-05  103,851 B/s
+11-16 21:46:47  eval  eval_web 1.3700  eval_logic 0.1319  eval_unseen_singles 0.1434  eval_unseen_pairs 0.1166  eval_oor 0.3892
+11-16 21:46:47  checkpoint at step 21,350 (0.699 GB)
+11-16 21:47:03  step 21,400/25,824  0.701 GB  loss 0.6504  rate 4.93e-05  102,326 B/s
+11-16 22:03:37  step 21,450/25,824  0.702 GB  loss 0.5435  rate 4.89e-05  1,647 B/s
+11-16 22:03:53  step 21,500/25,824  0.704 GB  loss 0.5591  rate 4.84e-05  104,865 B/s
+11-16 22:04:09  step 21,550/25,824  0.706 GB  loss 0.5678  rate 4.80e-05  104,524 B/s
+11-16 22:04:25  step 21,600/25,824  0.707 GB  loss 0.5510  rate 4.76e-05  104,664 B/s
+11-16 22:04:40  step 21,650/25,824  0.709 GB  loss 0.5620  rate 4.72e-05  104,356 B/s
+11-16 22:05:00  step 21,700/25,824  0.711 GB  loss 0.6028  rate 4.68e-05  83,120 B/s
+11-16 22:05:27  step 21,750/25,824  0.712 GB  loss 0.6823  rate 4.64e-05  62,292 B/s
+11-16 22:05:53  step 21,800/25,824  0.714 GB  loss 0.6696  rate 4.60e-05  63,974 B/s
+11-16 22:06:18  step 21,850/25,824  0.716 GB  loss 0.6675  rate 4.56e-05  64,953 B/s
+11-16 22:06:43  step 21,900/25,824  0.717 GB  loss 0.6783  rate 4.52e-05  65,523 B/s
+11-16 22:07:08  step 21,950/25,824  0.719 GB  loss 0.6822  rate 4.49e-05  65,936 B/s
+11-16 22:07:25  eval  eval_web 1.3661  eval_logic 0.1316  eval_unseen_singles 0.1431  eval_unseen_pairs 0.1164  eval_oor 0.3939
+11-16 22:07:43  step 22,000/25,824  0.721 GB  loss 0.6869  rate 4.45e-05  75,258 B/s
+11-16 22:07:59  step 22,050/25,824  0.722 GB  loss 0.6800  rate 4.41e-05  104,871 B/s
+11-16 22:08:15  step 22,100/25,824  0.724 GB  loss 0.6172  rate 4.37e-05  104,614 B/s
+11-16 22:08:30  step 22,150/25,824  0.725 GB  loss 0.5634  rate 4.34e-05  104,644 B/s
+11-16 22:08:46  step 22,200/25,824  0.727 GB  loss 0.5492  rate 4.30e-05  104,534 B/s
+11-16 22:09:02  step 22,250/25,824  0.729 GB  loss 0.5535  rate 4.27e-05  105,537 B/s
+11-16 22:09:18  step 22,300/25,824  0.730 GB  loss 0.5548  rate 4.23e-05  104,496 B/s
+11-16 22:09:33  step 22,350/25,824  0.732 GB  loss 0.5371  rate 4.20e-05  105,908 B/s
+11-16 22:09:49  step 22,400/25,824  0.734 GB  loss 0.5455  rate 4.17e-05  105,893 B/s
+11-16 22:10:05  step 22,450/25,824  0.735 GB  loss 0.5454  rate 4.13e-05  105,945 B/s
+11-16 22:10:20  step 22,500/25,824  0.737 GB  loss 0.5421  rate 4.10e-05  105,932 B/s
+11-16 22:10:36  step 22,550/25,824  0.739 GB  loss 0.5607  rate 4.07e-05  105,857 B/s
+11-16 22:10:49  eval  eval_web 1.3610  eval_logic 0.1308  eval_unseen_singles 0.1421  eval_unseen_pairs 0.1161  eval_oor 0.3927
+11-16 22:10:59  step 22,600/25,824  0.740 GB  loss 0.6109  rate 4.03e-05  106,395 B/s
+11-16 22:11:15  step 22,650/25,824  0.742 GB  loss 0.6743  rate 4.00e-05  105,759 B/s
+11-16 22:11:30  step 22,700/25,824  0.743 GB  loss 0.6837  rate 3.97e-05  105,714 B/s
+11-16 22:11:46  step 22,750/25,824  0.745 GB  loss 0.6747  rate 3.94e-05  105,764 B/s
+11-16 22:12:01  step 22,800/25,824  0.747 GB  loss 0.6788  rate 3.91e-05  105,779 B/s
+11-16 22:12:17  step 22,850/25,824  0.748 GB  loss 0.6724  rate 3.88e-05  105,783 B/s
+11-16 22:12:25  checkpoint at step 22,875 (0.749 GB)
+11-16 22:12:33  step 22,900/25,824  0.750 GB  loss 0.6677  rate 3.85e-05  103,667 B/s
+11-16 22:12:54  step 22,950/25,824  0.752 GB  loss 0.6847  rate 3.83e-05  79,236 B/s
+11-16 22:13:20  step 23,000/25,824  0.753 GB  loss 0.6828  rate 3.80e-05  63,096 B/s
+11-16 22:13:45  step 23,050/25,824  0.755 GB  loss 0.6870  rate 3.77e-05  65,293 B/s
+11-16 22:14:11  step 23,100/25,824  0.757 GB  loss 0.6838  rate 3.74e-05  65,411 B/s
+11-16 22:14:36  step 23,150/25,824  0.758 GB  loss 0.6686  rate 3.72e-05  66,020 B/s
+11-16 22:15:03  eval  eval_web 1.3620  eval_logic 0.1311  eval_unseen_singles 0.1422  eval_unseen_pairs 0.1168  eval_oor 0.3960
+11-16 22:15:13  step 23,200/25,824  0.760 GB  loss 0.6591  rate 3.69e-05  67,299 B/s
+11-16 22:15:32  step 23,250/25,824  0.761 GB  loss 0.6764  rate 3.66e-05  83,776 B/s
+11-16 22:15:48  step 23,300/25,824  0.763 GB  loss 0.6704  rate 3.64e-05  105,895 B/s
+11-16 22:16:04  step 23,350/25,824  0.765 GB  loss 0.5791  rate 3.61e-05  105,820 B/s
+11-16 22:16:19  step 23,400/25,824  0.766 GB  loss 0.5726  rate 3.59e-05  105,775 B/s
+11-16 22:16:35  step 23,450/25,824  0.768 GB  loss 0.5816  rate 3.56e-05  105,783 B/s
+11-16 22:16:51  step 23,500/25,824  0.770 GB  loss 0.5697  rate 3.54e-05  105,760 B/s
+11-16 22:17:06  step 23,550/25,824  0.771 GB  loss 0.5719  rate 3.52e-05  105,714 B/s
+11-16 22:17:22  step 23,600/25,824  0.773 GB  loss 0.5912  rate 3.50e-05  105,778 B/s
+11-16 22:17:37  step 23,650/25,824  0.775 GB  loss 0.6748  rate 3.47e-05  105,688 B/s
+11-16 22:17:53  step 23,700/25,824  0.776 GB  loss 0.6656  rate 3.45e-05  105,705 B/s
+11-16 22:18:09  step 23,750/25,824  0.778 GB  loss 0.6596  rate 3.43e-05  105,738 B/s
+11-16 22:18:29  eval  eval_web 1.3548  eval_logic 0.1306  eval_unseen_singles 0.1419  eval_unseen_pairs 0.1159  eval_oor 0.3905
+11-16 22:18:32  step 23,800/25,824  0.779 GB  loss 0.5424  rate 3.41e-05  109,758 B/s
+11-16 22:18:47  step 23,850/25,824  0.781 GB  loss 0.5520  rate 3.39e-05  105,794 B/s
+11-16 22:19:03  step 23,900/25,824  0.783 GB  loss 0.5688  rate 3.37e-05  105,688 B/s
+11-16 22:19:19  step 23,950/25,824  0.784 GB  loss 0.5449  rate 3.35e-05  105,720 B/s
+11-16 22:19:34  step 24,000/25,824  0.786 GB  loss 0.5543  rate 3.33e-05  105,702 B/s
+11-16 22:19:50  step 24,050/25,824  0.788 GB  loss 0.5658  rate 3.32e-05  105,715 B/s
+11-16 22:20:06  step 24,100/25,824  0.789 GB  loss 0.5500  rate 3.30e-05  105,696 B/s
+11-16 22:20:21  step 24,150/25,824  0.791 GB  loss 0.6339  rate 3.28e-05  105,723 B/s
+11-16 22:20:37  step 24,200/25,824  0.793 GB  loss 0.6697  rate 3.27e-05  105,765 B/s
+11-16 22:20:52  step 24,250/25,824  0.794 GB  loss 0.6646  rate 3.25e-05  105,730 B/s
+11-16 22:21:08  step 24,300/25,824  0.796 GB  loss 0.6730  rate 3.23e-05  105,697 B/s
+11-16 22:21:24  step 24,350/25,824  0.797 GB  loss 0.6807  rate 3.22e-05  105,754 B/s
+11-16 22:21:39  step 24,400/25,824  0.799 GB  loss 0.6695  rate 3.20e-05  105,728 B/s
+11-16 22:21:47  eval  eval_web 1.3588  eval_logic 0.1312  eval_unseen_singles 0.1421  eval_unseen_pairs 0.1165  eval_oor 0.3935
+11-16 22:21:47  checkpoint at step 24,400 (0.799 GB)
+11-16 22:22:03  step 24,450/25,824  0.801 GB  loss 0.6813  rate 3.19e-05  99,894 B/s
+11-16 22:22:27  step 24,500/25,824  0.802 GB  loss 0.6732  rate 3.18e-05  69,188 B/s
+11-16 22:22:53  step 24,550/25,824  0.804 GB  loss 0.6724  rate 3.16e-05  63,488 B/s
+11-16 22:23:19  step 24,600/25,824  0.806 GB  loss 0.6630  rate 3.15e-05  65,044 B/s
+11-16 22:23:44  step 24,650/25,824  0.807 GB  loss 0.6596  rate 3.14e-05  65,610 B/s
+11-16 22:24:09  step 24,700/25,824  0.809 GB  loss 0.6639  rate 3.13e-05  65,805 B/s
+11-16 22:24:34  step 24,750/25,824  0.811 GB  loss 0.6606  rate 3.12e-05  66,240 B/s
+11-16 22:24:56  step 24,800/25,824  0.812 GB  loss 0.6707  rate 3.11e-05  73,616 B/s
+11-16 22:25:12  step 24,850/25,824  0.814 GB  loss 0.6747  rate 3.10e-05  105,904 B/s
+11-16 22:25:27  step 24,900/25,824  0.815 GB  loss 0.6697  rate 3.09e-05  105,713 B/s
+11-16 22:25:43  step 24,950/25,824  0.817 GB  loss 0.6792  rate 3.08e-05  105,758 B/s
+11-16 22:25:59  step 25,000/25,824  0.819 GB  loss 0.6716  rate 3.07e-05  105,735 B/s
+11-16 22:26:09  eval  eval_web 1.3608  eval_logic 0.1310  eval_unseen_singles 0.1421  eval_unseen_pairs 0.1164  eval_oor 0.3983
+11-16 22:26:22  step 25,050/25,824  0.820 GB  loss 0.6733  rate 3.06e-05  106,003 B/s
+11-16 22:26:37  step 25,100/25,824  0.822 GB  loss 0.6679  rate 3.05e-05  105,731 B/s
+11-16 22:26:53  step 25,150/25,824  0.824 GB  loss 0.6726  rate 3.05e-05  105,768 B/s
+11-16 22:27:09  step 25,200/25,824  0.825 GB  loss 0.6697  rate 3.04e-05  105,748 B/s
+11-16 22:27:24  step 25,250/25,824  0.827 GB  loss 0.6574  rate 3.03e-05  105,796 B/s
+11-16 22:27:40  step 25,300/25,824  0.829 GB  loss 0.6736  rate 3.03e-05  105,806 B/s
+11-16 22:27:56  step 25,350/25,824  0.830 GB  loss 0.6638  rate 3.02e-05  105,754 B/s
+11-16 22:28:11  step 25,400/25,824  0.832 GB  loss 0.6651  rate 3.02e-05  105,734 B/s
+11-16 22:28:27  step 25,450/25,824  0.833 GB  loss 0.6569  rate 3.01e-05  105,746 B/s
+11-16 22:28:42  step 25,500/25,824  0.835 GB  loss 0.5723  rate 3.01e-05  105,789 B/s
+11-16 22:28:58  step 25,550/25,824  0.837 GB  loss 0.5322  rate 3.01e-05  105,776 B/s
+11-16 22:29:14  step 25,600/25,824  0.838 GB  loss 0.5435  rate 3.00e-05  105,727 B/s
+11-16 22:29:27  eval  eval_web 1.3505  eval_logic 0.1304  eval_unseen_singles 0.1414  eval_unseen_pairs 0.1160  eval_oor 0.4004
+11-16 22:29:37  step 25,650/25,824  0.840 GB  loss 0.5483  rate 3.00e-05  106,353 B/s
+11-16 22:29:52  step 25,700/25,824  0.842 GB  loss 0.5509  rate 3.00e-05  105,738 B/s
+11-16 22:30:08  step 25,750/25,824  0.843 GB  loss 0.5603  rate 3.00e-05  105,787 B/s
+11-16 22:30:24  step 25,800/25,824  0.845 GB  loss 0.5424  rate 3.00e-05  105,758 B/s
+11-16 22:30:39  eval  eval_web 1.3459  eval_logic 0.1308  eval_unseen_singles 0.1418  eval_unseen_pairs 0.1164  eval_oor 0.3987
+11-16 22:30:39  checkpoint at step 25,824 (0.846 GB)
+11-16 22:30:39  done

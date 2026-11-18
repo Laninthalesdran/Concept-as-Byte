@@ -1,0 +1,97 @@
+{
+ "layout": "v2ns",
+ "checkpoint": "runs/sw2_v2ns/final.pt",
+ "families": {
+  "f1": {
+   "kind": 69.0,
+   "exact": 19.0,
+   "wording": 41.5,
+   "constant": 26.0,
+   "n": 400
+  },
+  "f2": {
+   "kind": 90.2,
+   "exact": 78.5,
+   "wording": 56.0,
+   "constant": 31.8,
+   "n": 400
+  },
+  "f3": {
+   "kind": 81.9,
+   "exact": 75.3,
+   "wording": 43.8,
+   "constant": 26.0,
+   "n": 365
+  },
+  "f4": {
+   "kind": 100.0,
+   "exact": 46.4,
+   "wording": 50.9,
+   "constant": 24.4,
+   "n": 373
+  },
+  "f5": {
+   "kind": 70.3,
+   "exact": 43.6,
+   "wording": 49.9,
+   "constant": 23.9,
+   "n": 381
+  },
+  "f6": {
+   "kind": 54.8,
+   "exact": 2.8,
+   "wording": 51.2,
+   "constant": 27.0,
+   "n": 400
+  },
+  "f7": {
+   "kind": 93.7,
+   "exact": 90.7,
+   "wording": 59.2,
+   "constant": 29.0,
+   "n": 365
+  },
+  "f8": {
+   "kind": 71.5,
+   "exact": 43.0,
+   "wording": 43.8,
+   "constant": 25.5,
+   "n": 400
+  },
+  "f9": {
+   "kind": 74.4,
+   "exact": 45.6,
+   "wording": 54.6,
+   "constant": 25.6,
+   "n": 379
+  },
+  "f10": {
+   "kind": 72.3,
+   "exact": 46.2,
+   "wording": 48.6,
+   "constant": 26.4,
+   "n": 364
+  },
+  "f11": {
+   "kind": 90.1,
+   "exact": 48.9,
+   "wording": 52.2,
+   "constant": 25.4,
+   "n": 362
+  },
+  "pairs": {
+   "kind": 100.0,
+   "exact": 100.0,
+   "wording": 49.1,
+   "constant": 25.0,
+   "n": 1996
+  }
+ },
+ "all": {
+  "kind": 85.5,
+  "exact": 65.2,
+  "wording": 49.8,
+  "constant": 26.0,
+  "n": 6185
+ }
+}

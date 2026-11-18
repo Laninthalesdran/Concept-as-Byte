@@ -1,0 +1,399 @@
+{
+ "model": "bytes:../lightweight_run2/final.pt",
+ "layout": "sep",
+ "limit": null,
+ "bos": true,
+ "date": "2026-11-17 21:15",
+ "headline_metric": "acc_norm (multiple choice), qem (generation)",
+ "table": [
+  {
+   "task": "hellaswag",
+   "ours": 34.76,
+   "published": 42.1,
+   "diff": -7.34,
+   "n": 10042
+  },
+  {
+   "task": "piqa",
+   "ours": 60.39,
+   "published": 68.4,
+   "diff": -8.01,
+   "n": 1838
+  },
+  {
+   "task": "mmlu_cloze",
+   "ours": 27.87,
+   "published": 31.5,
+   "diff": -3.63,
+   "n": 14042
+  },
+  {
+   "task": "commonsense_qa",
+   "ours": 29.48,
+   "published": 33.9,
+   "diff": -4.42,
+   "n": 1221
+  },
+  {
+   "task": "trivia_qa",
+   "ours": 0.95,
+   "published": 4.1,
+   "diff": -3.15,
+   "n": 17944
+  },
+  {
+   "task": "winogrande",
+   "ours": 50.28,
+   "published": 51.3,
+   "diff": -1.02,
+   "n": 1267
+  },
+  {
+   "task": "openbookqa",
+   "ours": 29.2,
+   "published": 34.6,
+   "diff": -5.4,
+   "n": 500
+  },
+  {
+   "task": "gsm8k",
+   "ours": 0.3,
+   "published": 1.4,
+   "diff": -1.1,
+   "n": 1319
+  },
+  {
+   "task": "arc",
+   "ours": 40.88,
+   "published": 43.9,
+   "diff": -3.02,
+   "n": null
+  }
+ ],
+ "tasks": {
+  "hellaswag": {
+   "n": 10042,
+   "n_full": 10042,
+   "metric_published": "acc_norm",
+   "score": 34.76,
+   "published": 42.1,
+   "scores": {
+    "acc": 30.13,
+    "acc_norm": 34.76,
+    "acc_norm_char": 34.77,
+    "acc_norm_unit": 34.78
+   },
+   "truncated_inputs": 0,
+   "secs": 81.0,
+   "paths": {
+    "prefix": 40160,
+    "fallback": 8
+   },
+   "encoding": {
+    "items": 10042,
+    "choices": 40168,
+    "prefix": 40160,
+    "fallback": 8,
+    "error": 0,
+    "items_with_untrained_codes": 264,
+    "items_with_spelled_words": 360,
+    "items_with_encoder_error": 0,
+    "ctx_bytes_mean": 130.8,
+    "cont_bytes_mean": 78.0
+   }
+  },
+  "arc_easy": {
+   "n": 2376,
+   "n_full": 2376,
+   "metric_published": "acc_norm",
+   "score": 54.88,
+   "published": null,
+   "scores": {
+    "acc": 57.66,
+    "acc_norm": 54.88,
+    "acc_norm_char": 55.77,
+    "acc_norm_unit": 56.73
+   },
+   "truncated_inputs": 0,
+   "secs": 8.7,
+   "paths": {
+    "prefix": 9501
+   },
+   "encoding": {
+    "items": 2376,
+    "choices": 9501,
+    "prefix": 9501,
+    "fallback": 0,
+    "error": 0,
+    "items_with_untrained_codes": 4,
+    "items_with_spelled_words": 0,
+    "items_with_encoder_error": 0,
+    "ctx_bytes_mean": 69.8,
+    "cont_bytes_mean": 12.7
+   }
+  },
+  "arc_challenge": {
+   "n": 1172,
+   "n_full": 1172,
+   "metric_published": "acc_norm",
+   "score": 26.88,
+   "published": null,
+   "scores": {
+    "acc": 24.32,
+    "acc_norm": 26.88,
+    "acc_norm_char": 27.22,
+    "acc_norm_unit": 30.12
+   },
+   "truncated_inputs": 0,
+   "secs": 5.1,
+   "paths": {
+    "prefix": 4687
+   },
+   "encoding": {
+    "items": 1172,
+    "choices": 4687,
+    "prefix": 4687,
+    "fallback": 0,
+    "error": 0,
+    "items_with_untrained_codes": 2,
+    "items_with_spelled_words": 1,
+    "items_with_encoder_error": 0,
+    "ctx_bytes_mean": 80.0,
+    "cont_bytes_mean": 16.7
+   }
+  },
+  "piqa": {
+   "n": 1838,
+   "n_full": 1838,
+   "metric_published": "acc_norm",
+   "score": 60.39,
+   "published": 68.4,
+   "scores": {
+    "acc": 60.66,
+    "acc_norm": 60.39,
+    "acc_norm_char": 60.66,
+    "acc_norm_unit": 60.61
+   },
+   "truncated_inputs": 0,
+   "secs": 4.0,
+   "paths": {
+    "prefix": 3676
+   },
+   "encoding": {
+    "items": 1838,
+    "choices": 3676,
+    "prefix": 3676,
+    "fallback": 0,
+    "error": 0,
+    "items_with_untrained_codes": 20,
+    "items_with_spelled_words": 10,
+    "items_with_encoder_error": 0,
+    "ctx_bytes_mean": 31.4,
+    "cont_bytes_mean": 60.2
+   }
+  },
+  "mmlu_cloze": {
+   "n": 14042,
+   "n_full": 14042,
+   "metric_published": "acc_norm",
+   "score": 27.87,
+   "published": 31.5,
+   "scores": {
+    "acc": 26.36,
+    "acc_norm": 27.87,
+    "acc_norm_char": 27.75,
+    "acc_norm_unit": 28.21
+   },
+   "truncated_inputs": 20,
+   "secs": 116.1,
+   "paths": {
+    "prefix": 56168
+   },
+   "encoding": {
+    "items": 14042,
+    "choices": 56168,
+    "prefix": 56168,
+    "fallback": 0,
+    "error": 0,
+    "items_with_untrained_codes": 258,
+    "items_with_spelled_words": 176,
+    "items_with_encoder_error": 0,
+    "ctx_bytes_mean": 189.6,
+    "cont_bytes_mean": 23.1
+   }
+  },
+  "commonsense_qa": {
+   "n": 1221,
+   "n_full": 1221,
+   "metric_published": "acc_norm",
+   "score": 29.48,
+   "published": 33.9,
+   "scores": {
+    "acc": 24.41,
+    "acc_norm": 29.48,
+    "acc_norm_char": 29.89,
+    "acc_norm_unit": 29.65
+   },
+   "truncated_inputs": 0,
+   "secs": 3.2,
+   "paths": {
+    "prefix": 6105
+   },
+   "encoding": {
+    "items": 1221,
+    "choices": 6105,
+    "prefix": 6105,
+    "fallback": 0,
+    "error": 0,
+    "items_with_untrained_codes": 14,
+    "items_with_spelled_words": 5,
+    "items_with_encoder_error": 0,
+    "ctx_bytes_mean": 38.3,
+    "cont_bytes_mean": 5.3
+   }
+  },
+  "trivia_qa": {
+   "n": 17944,
+   "n_full": 17944,
+   "metric_published": "qem",
+   "score": 0.95,
+   "published": 4.1,
+   "scores": {
+    "qem": 0.95,
+    "qem_tasks_py_stops": 0.38
+   },
+   "truncated_inputs": 0,
+   "secs": 365.8,
+   "max_new": 48,
+   "stop": [
+    "\n",
+    ".",
+    ","
+   ],
+   "encoding": {
+    "items": 17944,
+    "choices": 0,
+    "prefix": 0,
+    "fallback": 0,
+    "error": 0,
+    "items_with_untrained_codes": 272,
+    "items_with_spelled_words": 132,
+    "items_with_encoder_error": 0,
+    "ctx_bytes_mean": 56.8,
+    "cont_bytes_mean": 0.0
+   }
+  },
+  "winogrande": {
+   "n": 1267,
+   "n_full": 1267,
+   "metric_published": "acc_norm",
+   "score": 50.28,
+   "published": 51.3,
+   "scores": {
+    "acc": 52.64,
+    "acc_norm": 50.28,
+    "acc_norm_char": 50.28,
+    "acc_norm_unit": 52.49
+   },
+   "truncated_inputs": 0,
+   "secs": 1.9,
+   "paths": {
+    "prefix": 2534
+   },
+   "encoding": {
+    "items": 1267,
+    "choices": 2534,
+    "prefix": 2534,
+    "fallback": 0,
+    "error": 0,
+    "items_with_untrained_codes": 3,
+    "items_with_spelled_words": 0,
+    "items_with_encoder_error": 0,
+    "ctx_bytes_mean": 41.7,
+    "cont_bytes_mean": 19.4
+   }
+  },
+  "openbookqa": {
+   "n": 500,
+   "n_full": 500,
+   "metric_published": "acc_norm",
+   "score": 29.2,
+   "published": 34.6,
+   "scores": {
+    "acc": 17.6,
+    "acc_norm": 29.2,
+    "acc_norm_char": 29.0,
+    "acc_norm_unit": 25.2
+   },
+   "truncated_inputs": 0,
+   "secs": 1.2,
+   "paths": {
+    "prefix": 1968,
+    "fallback": 32
+   },
+   "encoding": {
+    "items": 500,
+    "choices": 2000,
+    "prefix": 1968,
+    "fallback": 32,
+    "error": 0,
+    "items_with_untrained_codes": 3,
+    "items_with_spelled_words": 0,
+    "items_with_encoder_error": 0,
+    "ctx_bytes_mean": 29.7,
+    "cont_bytes_mean": 11.0
+   }
+  },
+  "gsm8k": {
+   "n": 1319,
+   "n_full": 1319,
+   "metric_published": "qem",
+   "score": 0.3,
+   "published": 1.4,
+   "scores": {
+    "qem": 0.3
+   },
+   "truncated_inputs": 1319,
+   "secs": 873.9,
+   "max_new": 512,
+   "stop": [
+    "Question:",
+    "Question"
+   ],
+   "encoding": {
+    "items": 1319,
+    "choices": 0,
+    "prefix": 0,
+    "fallback": 0,
+    "error": 0,
+    "items_with_untrained_codes": 41,
+    "items_with_spelled_words": 28,
+    "items_with_encoder_error": 0,
+    "ctx_bytes_mean": 2434.1,
+    "cont_bytes_mean": 0.0
+   }
+  },
+  "arc": {
+   "members": [
+    "arc_easy",
+    "arc_challenge"
+   ],
+   "metric_published": "acc_norm",
+   "score": 40.88,
+   "published": 43.9,
+   "scores": {
+    "acc": 40.99,
+    "acc_norm": 40.88,
+    "acc_norm_char": 41.5,
+    "acc_norm_unit": 43.42
+   },
+   "note": "unweighted mean of the members (model card: ARC average)"
+  }
+ },
+ "checkpoint": {
+  "preset": "135m",
+  "step": 286102,
+  "bytes_seen": 74957612936,
+  "window": 2048
+ }
+}

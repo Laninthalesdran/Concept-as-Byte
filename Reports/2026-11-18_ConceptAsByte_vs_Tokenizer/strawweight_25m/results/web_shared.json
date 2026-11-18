@@ -1,0 +1,19 @@
+{
+ "v2": {
+  "bits_per_char": 1.1319921804613704,
+  "units": 630114,
+  "loss_per_unit": 1.451865325904269
+ },
+ "v2ns": {
+  "bits_per_char": 1.1601972713271114,
+  "units": 385787,
+  "loss_per_unit": 2.4304477342689745
+ },
+ "tok": {
+  "bits_per_char": 1.2702824075306722,
+  "units": 235017,
+  "loss_per_unit": 4.368205292937238
+ },
+ "_documents": 843,
+ "_characters": 1165941
+}

@@ -1,0 +1,75 @@
+22:36:23 preparing 10 tasks (encodings cached in eval\cache)
+22:36:35 loading training table (codes_train.tsv) for the coverage check
+22:36:37   hellaswag: {"items": 10042, "choices": 40168, "prefix": 40160, "fallback": 8, "error": 0, "items_with_untrained_codes": 264, "items_with_spelled_words": 360, "items_with_encoder_error": 0, "ctx_bytes_mean": 130.8, "cont_bytes_mean": 78.0}
+22:36:37   arc_easy: {"items": 2376, "choices": 9501, "prefix": 9501, "fallback": 0, "error": 0, "items_with_untrained_codes": 4, "items_with_spelled_words": 0, "items_with_encoder_error": 0, "ctx_bytes_mean": 69.8, "cont_bytes_mean": 12.7}
+22:36:37   arc_challenge: {"items": 1172, "choices": 4687, "prefix": 4687, "fallback": 0, "error": 0, "items_with_untrained_codes": 2, "items_with_spelled_words": 1, "items_with_encoder_error": 0, "ctx_bytes_mean": 80.0, "cont_bytes_mean": 16.7}
+22:36:37   piqa: {"items": 1838, "choices": 3676, "prefix": 3676, "fallback": 0, "error": 0, "items_with_untrained_codes": 20, "items_with_spelled_words": 10, "items_with_encoder_error": 0, "ctx_bytes_mean": 31.4, "cont_bytes_mean": 60.2}
+22:36:38   mmlu_cloze: {"items": 14042, "choices": 56168, "prefix": 56168, "fallback": 0, "error": 0, "items_with_untrained_codes": 258, "items_with_spelled_words": 176, "items_with_encoder_error": 0, "ctx_bytes_mean": 189.6, "cont_bytes_mean": 23.1}
+22:36:38   commonsense_qa: {"items": 1221, "choices": 6105, "prefix": 6105, "fallback": 0, "error": 0, "items_with_untrained_codes": 14, "items_with_spelled_words": 5, "items_with_encoder_error": 0, "ctx_bytes_mean": 38.3, "cont_bytes_mean": 5.3}
+22:36:39   trivia_qa: {"items": 17944, "choices": 0, "prefix": 0, "fallback": 0, "error": 0, "items_with_untrained_codes": 272, "items_with_spelled_words": 132, "items_with_encoder_error": 0, "ctx_bytes_mean": 56.8, "cont_bytes_mean": 0.0}
+22:36:39   winogrande: {"items": 1267, "choices": 2534, "prefix": 2534, "fallback": 0, "error": 0, "items_with_untrained_codes": 3, "items_with_spelled_words": 0, "items_with_encoder_error": 0, "ctx_bytes_mean": 41.7, "cont_bytes_mean": 19.4}
+22:36:39   openbookqa: {"items": 500, "choices": 2000, "prefix": 1968, "fallback": 32, "error": 0, "items_with_untrained_codes": 3, "items_with_spelled_words": 0, "items_with_encoder_error": 0, "ctx_bytes_mean": 29.7, "cont_bytes_mean": 11.0}
+22:36:39   gsm8k: {"items": 1319, "choices": 0, "prefix": 0, "fallback": 0, "error": 0, "items_with_untrained_codes": 41, "items_with_spelled_words": 28, "items_with_encoder_error": 0, "ctx_bytes_mean": 2434.1, "cont_bytes_mean": 0.0}
+22:36:43 model bytes:../strawweight/runs/sw2_v2/final.pt loaded
+22:36:44     hellaswag: 166/40,168
+22:37:13     hellaswag: 40,168/40,168
+22:37:13 hellaswag: acc_norm 28.85 (published 42.1) | {"acc": 27.49, "acc_norm": 28.85, "acc_norm_char": 28.78, "acc_norm_unit": 28.89} | n=10042 | 30.5s
+22:37:14     arc_easy: 143/9,501
+22:37:17     arc_easy: 9,501/9,501
+22:37:17 arc_easy: acc_norm 36.57 (published None) | {"acc": 38.17, "acc_norm": 36.57, "acc_norm_char": 36.36, "acc_norm_unit": 36.83} | n=2376 | 3.6s
+22:37:17     arc_challenge: 131/4,687
+22:37:19     arc_challenge: 4,687/4,687
+22:37:19 arc_challenge: acc_norm 20.73 (published None) | {"acc": 18.34, "acc_norm": 20.73, "acc_norm_char": 20.65, "acc_norm_unit": 24.32} | n=1172 | 2.0s
+22:37:19     piqa: 94/3,676
+22:37:20     piqa: 3,676/3,676
+22:37:21 piqa: acc_norm 52.83 (published 68.4) | {"acc": 54.13, "acc_norm": 52.83, "acc_norm_char": 52.77, "acc_norm_unit": 51.63} | n=1838 | 1.6s
+22:37:21     mmlu_cloze: 32/56,168
+22:37:51     mmlu_cloze: 24,466/56,168
+22:38:03     mmlu_cloze: 56,168/56,168
+22:38:03 mmlu_cloze: acc_norm 26.06 (published 31.5) | {"acc": 24.01, "acc_norm": 26.06, "acc_norm_char": 25.79, "acc_norm_unit": 26.11} | n=14042 | 42.9s
+22:38:04     commonsense_qa: 256/6,105
+22:38:05     commonsense_qa: 6,105/6,105
+22:38:05 commonsense_qa: acc_norm 23.26 (published 33.9) | {"acc": 18.43, "acc_norm": 23.26, "acc_norm_char": 23.01, "acc_norm_unit": 22.93} | n=1221 | 1.4s
+22:38:05     trivia_qa: 32/17,944
+22:38:36     trivia_qa: 1,984/17,944
+22:39:06     trivia_qa: 3,936/17,944
+22:39:36     trivia_qa: 5,888/17,944
+22:40:07     trivia_qa: 7,808/17,944
+22:40:37     trivia_qa: 9,760/17,944
+22:41:07     trivia_qa: 11,712/17,944
+22:41:38     trivia_qa: 13,664/17,944
+22:42:08     trivia_qa: 15,616/17,944
+22:42:38     trivia_qa: 17,568/17,944
+22:42:44     trivia_qa: 17,944/17,944
+22:42:45 trivia_qa: qem 0.04 (published 4.1) | {"qem": 0.04, "qem_tasks_py_stops": 0.0} | n=17944 | 280.4s
+22:42:46     winogrande: 256/2,534
+22:42:46     winogrande: 2,534/2,534
+22:42:46 winogrande: acc_norm 48.86 (published 51.3) | {"acc": 49.64, "acc_norm": 48.86, "acc_norm_char": 48.86, "acc_norm_unit": 50.04} | n=1267 | 0.9s
+22:42:46     openbookqa: 256/2,000
+22:42:47     openbookqa: 2,000/2,000
+22:42:47 openbookqa: acc_norm 24.80 (published 34.6) | {"acc": 12.8, "acc_norm": 24.8, "acc_norm_char": 24.0, "acc_norm_unit": 16.4} | n=500 | 0.5s
+22:42:55     gsm8k: 32/1,319
+22:43:30     gsm8k: 160/1,319
+22:44:04     gsm8k: 288/1,319
+22:44:38     gsm8k: 416/1,319
+22:45:12     gsm8k: 544/1,319
+22:45:47     gsm8k: 672/1,319
+22:46:21     gsm8k: 800/1,319
+22:46:55     gsm8k: 928/1,319
+22:47:29     gsm8k: 1,056/1,319
+22:48:04     gsm8k: 1,184/1,319
+22:48:38     gsm8k: 1,312/1,319
+22:48:43     gsm8k: 1,319/1,319
+22:48:43 gsm8k: qem 0.00 (published 1.4) | {"qem": 0.0} | n=1319 | 356.6s
+
+task                ours published   diff      n
+hellaswag          28.85      42.1  -13.2  10042
+piqa               52.83      68.4  -15.6   1838
+mmlu_cloze         26.06      31.5   -5.4  14042
+commonsense_qa     23.26      33.9  -10.6   1221
+trivia_qa           0.04       4.1   -4.1  17944
+winogrande         48.86      51.3   -2.4   1267
+openbookqa         24.80      34.6   -9.8    500
+gsm8k               0.00       1.4   -1.4   1319
+arc                28.65      43.9  -15.2       
+22:48:43 wrote ../strawweight/results/bench_v2.json

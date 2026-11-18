@@ -1,0 +1,277 @@
+C:\bigfiles\competition\train\stream.py:38: SyntaxWarning: "\s" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\s"? A raw string is also an option.
+  Separated layout (train\sep.py): cut right after the last SPACE / NEWLINE / PARAGRAPH / QA that
+11-17 08:04:37  model 25m vocab 49,152: 62,929,280 parameters (25,180,544 body, 37,748,736 table + head) | window 1024 | batch 32
+11-17 08:04:37  data: 16 shards, 318,012,696 tokens -> 9,704 steps of 32,768 tokens, one pass
+11-17 08:04:37  eval_web: 51,656 tokens
+11-17 08:04:37  eval_logic: 96,255 tokens
+11-17 08:04:37  eval_unseen_singles: 400,000 tokens
+11-17 08:04:37  eval_unseen_pairs: 209,550 tokens
+11-17 08:04:37  eval_oor: 130,097 tokens
+11-17 08:04:40  eval  eval_web 10.9576  eval_logic 11.0240  eval_unseen_singles 11.0063  eval_unseen_pairs 11.0601  eval_oor 11.0787
+11-17 08:04:58  step 50/9,704  1.6M tokens  loss 8.6300  rate 3.00e-04  91,538 tok/s
+11-17 08:05:16  step 100/9,704  3.3M tokens  loss 5.0957  rate 3.00e-04  91,829 tok/s
+11-17 08:05:34  step 150/9,704  4.9M tokens  loss 4.3033  rate 3.00e-04  92,111 tok/s
+11-17 08:05:52  step 200/9,704  6.6M tokens  loss 3.8202  rate 3.00e-04  92,133 tok/s
+11-17 08:06:05  eval  eval_web 6.4890  eval_logic 1.6602  eval_unseen_singles 1.9825  eval_unseen_pairs 1.1149  eval_oor 1.7427
+11-17 08:06:13  step 250/9,704  8.2M tokens  loss 3.4749  rate 3.00e-04  92,322 tok/s
+11-17 08:06:30  step 300/9,704  9.8M tokens  loss 3.3087  rate 3.00e-04  92,203 tok/s
+11-17 08:06:48  step 350/9,704  11.5M tokens  loss 3.1391  rate 2.99e-04  92,183 tok/s
+11-17 08:07:06  step 400/9,704  13.1M tokens  loss 3.0455  rate 2.99e-04  91,174 tok/s
+11-17 08:07:24  step 450/9,704  14.7M tokens  loss 2.9250  rate 2.99e-04  91,872 tok/s
+11-17 08:07:30  eval  eval_web 6.0286  eval_logic 0.8341  eval_unseen_singles 1.0210  eval_unseen_pairs 0.5261  eval_oor 1.3171
+11-17 08:07:45  step 500/9,704  16.4M tokens  loss 2.7461  rate 2.99e-04  91,740 tok/s
+11-17 08:08:03  step 550/9,704  18.0M tokens  loss 2.7628  rate 2.98e-04  91,450 tok/s
+11-17 08:08:12  checkpoint at step 573 (18.8M tokens)
+11-17 08:08:22  step 600/9,704  19.7M tokens  loss 2.6978  rate 2.98e-04  87,917 tok/s
+11-17 08:08:50  step 650/9,704  21.3M tokens  loss 2.6431  rate 2.97e-04  57,392 tok/s
+11-17 08:09:16  eval  eval_web 5.7193  eval_logic 0.5788  eval_unseen_singles 0.7170  eval_unseen_pairs 0.3785  eval_oor 1.2249
+11-17 08:09:23  step 700/9,704  22.9M tokens  loss 2.5244  rate 2.97e-04  59,567 tok/s
+11-17 08:09:47  step 750/9,704  24.6M tokens  loss 2.4948  rate 2.96e-04  69,055 tok/s
+11-17 08:10:05  step 800/9,704  26.2M tokens  loss 2.5598  rate 2.96e-04  91,854 tok/s
+11-17 08:10:23  step 850/9,704  27.9M tokens  loss 2.4334  rate 2.95e-04  91,466 tok/s
+11-17 08:10:41  step 900/9,704  29.5M tokens  loss 2.4073  rate 2.95e-04  91,146 tok/s
+11-17 08:10:50  eval  eval_web 5.5144  eval_logic 0.4857  eval_unseen_singles 0.5954  eval_unseen_pairs 0.3357  eval_oor 1.1915
+11-17 08:11:02  step 950/9,704  31.1M tokens  loss 2.4799  rate 2.94e-04  92,005 tok/s
+11-17 08:11:20  step 1,000/9,704  32.8M tokens  loss 2.3512  rate 2.94e-04  92,004 tok/s
+11-17 08:11:38  step 1,050/9,704  34.4M tokens  loss 2.3650  rate 2.93e-04  91,709 tok/s
+11-17 08:11:56  step 1,100/9,704  36.0M tokens  loss 2.3739  rate 2.92e-04  91,583 tok/s
+11-17 08:12:15  eval  eval_web 5.3388  eval_logic 0.4443  eval_unseen_singles 0.5347  eval_unseen_pairs 0.3239  eval_oor 1.1813
+11-17 08:12:16  checkpoint at step 1,146 (37.6M tokens)
+11-17 08:12:17  step 1,150/9,704  37.7M tokens  loss 2.2991  rate 2.91e-04  68,521 tok/s
+11-17 08:12:43  step 1,200/9,704  39.3M tokens  loss 2.2605  rate 2.91e-04  63,707 tok/s
+11-17 08:13:11  step 1,250/9,704  41.0M tokens  loss 2.4260  rate 2.90e-04  58,996 tok/s
+11-17 08:13:34  step 1,300/9,704  42.6M tokens  loss 2.2607  rate 2.89e-04  72,633 tok/s
+11-17 08:13:52  step 1,350/9,704  44.2M tokens  loss 2.2265  rate 2.88e-04  91,339 tok/s
+11-17 08:14:03  eval  eval_web 5.2373  eval_logic 0.4237  eval_unseen_singles 0.5033  eval_unseen_pairs 0.3201  eval_oor 1.1915
+11-17 08:14:13  step 1,400/9,704  45.9M tokens  loss 2.2387  rate 2.87e-04  92,251 tok/s
+11-17 08:14:30  step 1,450/9,704  47.5M tokens  loss 2.1926  rate 2.86e-04  92,147 tok/s
+11-17 08:14:48  step 1,500/9,704  49.2M tokens  loss 2.2402  rate 2.85e-04  92,142 tok/s
+11-17 08:15:06  step 1,550/9,704  50.8M tokens  loss 2.2210  rate 2.84e-04  92,159 tok/s
+11-17 08:15:24  step 1,600/9,704  52.4M tokens  loss 2.2951  rate 2.83e-04  92,131 tok/s
+11-17 08:15:28  eval  eval_web 5.1054  eval_logic 0.4079  eval_unseen_singles 0.4795  eval_unseen_pairs 0.3165  eval_oor 1.1936
+11-17 08:15:45  step 1,650/9,704  54.1M tokens  loss 2.1955  rate 2.82e-04  92,134 tok/s
+11-17 08:16:03  step 1,700/9,704  55.7M tokens  loss 2.1637  rate 2.81e-04  92,134 tok/s
+11-17 08:16:10  checkpoint at step 1,719 (56.3M tokens)
+11-17 08:16:22  step 1,750/9,704  57.3M tokens  loss 2.1551  rate 2.80e-04  86,127 tok/s
+11-17 08:16:47  step 1,800/9,704  59.0M tokens  loss 2.1930  rate 2.79e-04  65,913 tok/s
+11-17 08:17:09  eval  eval_web 5.0076  eval_logic 0.3980  eval_unseen_singles 0.4624  eval_unseen_pairs 0.3167  eval_oor 1.2030
+11-17 08:17:20  step 1,850/9,704  60.6M tokens  loss 2.1241  rate 2.77e-04  59,483 tok/s
+11-17 08:17:40  step 1,900/9,704  62.3M tokens  loss 2.1501  rate 2.76e-04  81,508 tok/s
+11-17 08:17:58  step 1,950/9,704  63.9M tokens  loss 2.2233  rate 2.75e-04  92,122 tok/s
+11-17 08:18:15  step 2,000/9,704  65.5M tokens  loss 2.0953  rate 2.74e-04  92,117 tok/s
+11-17 08:18:33  step 2,050/9,704  67.2M tokens  loss 2.1241  rate 2.72e-04  92,154 tok/s
+11-17 08:18:40  eval  eval_web 4.9164  eval_logic 0.3907  eval_unseen_singles 0.4519  eval_unseen_pairs 0.3145  eval_oor 1.2282
+11-17 08:18:54  step 2,100/9,704  68.8M tokens  loss 2.0465  rate 2.71e-04  92,155 tok/s
+11-17 08:19:12  step 2,150/9,704  70.5M tokens  loss 2.1987  rate 2.70e-04  92,116 tok/s
+11-17 08:19:30  step 2,200/9,704  72.1M tokens  loss 2.0359  rate 2.68e-04  92,136 tok/s
+11-17 08:19:48  step 2,250/9,704  73.7M tokens  loss 2.1161  rate 2.67e-04  92,109 tok/s
+11-17 08:20:05  eval  eval_web 4.8584  eval_logic 0.3869  eval_unseen_singles 0.4454  eval_unseen_pairs 0.3130  eval_oor 1.1998
+11-17 08:20:07  checkpoint at step 2,292 (75.1M tokens)
+11-17 08:20:09  step 2,300/9,704  75.4M tokens  loss 2.1100  rate 2.65e-04  78,494 tok/s
+11-17 08:20:27  step 2,350/9,704  77.0M tokens  loss 2.1069  rate 2.64e-04  92,112 tok/s
+11-17 08:20:55  step 2,400/9,704  78.6M tokens  loss 2.1135  rate 2.62e-04  59,986 tok/s
+11-17 08:21:22  step 2,450/9,704  80.3M tokens  loss 2.0945  rate 2.61e-04  59,248 tok/s
+11-17 08:21:43  step 2,500/9,704  81.9M tokens  loss 2.0484  rate 2.59e-04  78,597 tok/s
+11-17 08:21:53  eval  eval_web 4.7815  eval_logic 0.3841  eval_unseen_singles 0.4415  eval_unseen_pairs 0.3118  eval_oor 1.2221
+11-17 08:22:04  step 2,550/9,704  83.6M tokens  loss 2.0567  rate 2.58e-04  92,241 tok/s
+11-17 08:22:22  step 2,600/9,704  85.2M tokens  loss 2.0371  rate 2.56e-04  92,192 tok/s
+11-17 08:22:40  step 2,650/9,704  86.8M tokens  loss 2.0906  rate 2.54e-04  92,134 tok/s
+11-17 08:22:58  step 2,700/9,704  88.5M tokens  loss 2.0929  rate 2.53e-04  92,120 tok/s
+11-17 08:23:18  eval  eval_web 4.7191  eval_logic 0.3787  eval_unseen_singles 0.4314  eval_unseen_pairs 0.3132  eval_oor 1.2396
+11-17 08:23:19  step 2,750/9,704  90.1M tokens  loss 1.9862  rate 2.51e-04  95,341 tok/s
+11-17 08:23:37  step 2,800/9,704  91.8M tokens  loss 1.9994  rate 2.49e-04  92,182 tok/s
+11-17 08:23:54  step 2,850/9,704  93.4M tokens  loss 2.0767  rate 2.48e-04  92,133 tok/s
+11-17 08:24:00  checkpoint at step 2,865 (93.9M tokens)
+11-17 08:24:13  step 2,900/9,704  95.0M tokens  loss 1.9806  rate 2.46e-04  88,976 tok/s
+11-17 08:24:40  step 2,950/9,704  96.7M tokens  loss 2.0182  rate 2.44e-04  60,394 tok/s
+11-17 08:25:00  eval  eval_web 4.6692  eval_logic 0.3755  eval_unseen_singles 0.4279  eval_unseen_pairs 0.3126  eval_oor 1.2307
+11-17 08:25:13  step 3,000/9,704  98.3M tokens  loss 2.0921  rate 2.42e-04  59,444 tok/s
+11-17 08:25:32  step 3,050/9,704  99.9M tokens  loss 2.0647  rate 2.41e-04  87,576 tok/s
+11-17 08:25:49  step 3,100/9,704  101.6M tokens  loss 1.9709  rate 2.39e-04  92,123 tok/s
+11-17 08:26:07  step 3,150/9,704  103.2M tokens  loss 2.0245  rate 2.37e-04  92,075 tok/s
+11-17 08:26:25  step 3,200/9,704  104.9M tokens  loss 1.9879  rate 2.35e-04  92,128 tok/s
+11-17 08:26:30  eval  eval_web 4.6128  eval_logic 0.3710  eval_unseen_singles 0.4226  eval_unseen_pairs 0.3112  eval_oor 1.2360
+11-17 08:26:46  step 3,250/9,704  106.5M tokens  loss 2.0014  rate 2.33e-04  92,125 tok/s
+11-17 08:27:04  step 3,300/9,704  108.1M tokens  loss 2.0051  rate 2.31e-04  92,123 tok/s
+11-17 08:27:22  step 3,350/9,704  109.8M tokens  loss 1.9968  rate 2.29e-04  92,125 tok/s
+11-17 08:27:40  step 3,400/9,704  111.4M tokens  loss 1.9639  rate 2.27e-04  92,107 tok/s
+11-17 08:27:55  eval  eval_web 4.5585  eval_logic 0.3678  eval_unseen_singles 0.4176  eval_unseen_pairs 0.3123  eval_oor 1.2521
+11-17 08:27:57  checkpoint at step 3,438 (112.7M tokens)
+11-17 08:28:01  step 3,450/9,704  113.0M tokens  loss 1.9700  rate 2.25e-04  82,506 tok/s
+11-17 08:28:20  step 3,500/9,704  114.7M tokens  loss 1.9935  rate 2.23e-04  87,391 tok/s
+11-17 08:28:48  step 3,550/9,704  116.3M tokens  loss 2.0010  rate 2.21e-04  58,719 tok/s
+11-17 08:29:16  step 3,600/9,704  118.0M tokens  loss 1.9689  rate 2.19e-04  59,250 tok/s
+11-17 08:29:36  step 3,650/9,704  119.6M tokens  loss 2.0336  rate 2.17e-04  81,427 tok/s
+11-17 08:29:44  eval  eval_web 4.5188  eval_logic 0.3654  eval_unseen_singles 0.4119  eval_unseen_pairs 0.3108  eval_oor 1.2710
+11-17 08:29:57  step 3,700/9,704  121.2M tokens  loss 1.9887  rate 2.15e-04  92,159 tok/s
+11-17 08:30:15  step 3,750/9,704  122.9M tokens  loss 1.9721  rate 2.13e-04  92,133 tok/s
+11-17 08:30:33  step 3,800/9,704  124.5M tokens  loss 1.9545  rate 2.11e-04  92,105 tok/s
+11-17 08:30:50  step 3,850/9,704  126.2M tokens  loss 1.9210  rate 2.09e-04  92,112 tok/s
+11-17 08:31:09  eval  eval_web 4.4797  eval_logic 0.3613  eval_unseen_singles 0.4054  eval_unseen_pairs 0.3108  eval_oor 1.2633
+11-17 08:31:12  step 3,900/9,704  127.8M tokens  loss 1.9817  rate 2.07e-04  93,021 tok/s
+11-17 08:31:29  step 3,950/9,704  129.4M tokens  loss 2.0104  rate 2.05e-04  92,128 tok/s
+11-17 08:31:47  step 4,000/9,704  131.1M tokens  loss 1.8809  rate 2.03e-04  92,154 tok/s
+11-17 08:31:52  checkpoint at step 4,011 (131.4M tokens)
+11-17 08:32:06  step 4,050/9,704  132.7M tokens  loss 1.9044  rate 2.01e-04  88,965 tok/s
+11-17 08:32:34  step 4,100/9,704  134.3M tokens  loss 1.9428  rate 1.99e-04  58,510 tok/s
+11-17 08:32:51  eval  eval_web 4.4499  eval_logic 0.3581  eval_unseen_singles 0.4001  eval_unseen_pairs 0.3108  eval_oor 1.2732
+11-17 08:33:06  step 4,150/9,704  136.0M tokens  loss 1.9237  rate 1.97e-04  59,402 tok/s
+11-17 08:33:25  step 4,200/9,704  137.6M tokens  loss 1.9412  rate 1.94e-04  88,525 tok/s
+11-17 08:33:43  step 4,250/9,704  139.3M tokens  loss 1.9418  rate 1.92e-04  92,136 tok/s
+11-17 08:34:01  step 4,300/9,704  140.9M tokens  loss 1.8716  rate 1.90e-04  92,143 tok/s
+11-17 08:34:18  step 4,350/9,704  142.5M tokens  loss 1.9087  rate 1.88e-04  92,180 tok/s
+11-17 08:34:22  eval  eval_web 4.4188  eval_logic 0.3570  eval_unseen_singles 0.3971  eval_unseen_pairs 0.3110  eval_oor 1.2699
+11-17 08:34:39  step 4,400/9,704  144.2M tokens  loss 1.9320  rate 1.86e-04  92,147 tok/s
+11-17 08:34:57  step 4,450/9,704  145.8M tokens  loss 1.8906  rate 1.84e-04  92,132 tok/s
+11-17 08:35:15  step 4,500/9,704  147.5M tokens  loss 1.8836  rate 1.81e-04  92,161 tok/s
+11-17 08:35:33  step 4,550/9,704  149.1M tokens  loss 1.8839  rate 1.79e-04  92,138 tok/s
+11-17 08:35:47  eval  eval_web 4.3887  eval_logic 0.3548  eval_unseen_singles 0.3931  eval_unseen_pairs 0.3096  eval_oor 1.2827
+11-17 08:35:49  checkpoint at step 4,584 (150.2M tokens)
+11-17 08:35:55  step 4,600/9,704  150.7M tokens  loss 1.8773  rate 1.77e-04  84,963 tok/s
+11-17 08:36:14  step 4,650/9,704  152.4M tokens  loss 1.8739  rate 1.75e-04  86,225 tok/s
+11-17 08:36:42  step 4,700/9,704  154.0M tokens  loss 1.8391  rate 1.73e-04  58,680 tok/s
+11-17 08:37:09  step 4,750/9,704  155.6M tokens  loss 1.8979  rate 1.71e-04  59,083 tok/s
+11-17 08:37:29  step 4,800/9,704  157.3M tokens  loss 1.8438  rate 1.68e-04  85,050 tok/s
+11-17 08:37:35  eval  eval_web 4.3516  eval_logic 0.3536  eval_unseen_singles 0.3898  eval_unseen_pairs 0.3100  eval_oor 1.2728
+11-17 08:37:50  step 4,850/9,704  158.9M tokens  loss 1.8824  rate 1.66e-04  92,157 tok/s
+11-17 08:38:08  step 4,900/9,704  160.6M tokens  loss 1.8664  rate 1.64e-04  92,136 tok/s
+11-17 08:38:25  step 4,950/9,704  162.2M tokens  loss 1.9121  rate 1.62e-04  92,172 tok/s
+11-17 08:38:43  step 5,000/9,704  163.8M tokens  loss 1.8535  rate 1.60e-04  92,165 tok/s
+11-17 08:39:00  eval  eval_web 4.3177  eval_logic 0.3519  eval_unseen_singles 0.3879  eval_unseen_pairs 0.3102  eval_oor 1.2761
+11-17 08:39:04  step 5,050/9,704  165.5M tokens  loss 1.8336  rate 1.57e-04  92,614 tok/s
+11-17 08:39:22  step 5,100/9,704  167.1M tokens  loss 1.8882  rate 1.55e-04  92,168 tok/s
+11-17 08:39:40  step 5,150/9,704  168.8M tokens  loss 1.8613  rate 1.53e-04  92,131 tok/s
+11-17 08:39:43  checkpoint at step 5,157 (169.0M tokens)
+11-17 08:39:59  step 5,200/9,704  170.4M tokens  loss 1.8870  rate 1.51e-04  86,855 tok/s
+11-17 08:40:27  step 5,250/9,704  172.0M tokens  loss 1.8097  rate 1.49e-04  57,889 tok/s
+11-17 08:40:41  eval  eval_web 4.2990  eval_logic 0.3505  eval_unseen_singles 0.3864  eval_unseen_pairs 0.3100  eval_oor 1.2736
+11-17 08:40:59  step 5,300/9,704  173.7M tokens  loss 1.8426  rate 1.46e-04  61,516 tok/s
+11-17 08:41:17  step 5,350/9,704  175.3M tokens  loss 1.8674  rate 1.44e-04  92,208 tok/s
+11-17 08:41:35  step 5,400/9,704  176.9M tokens  loss 1.9138  rate 1.42e-04  92,236 tok/s
+11-17 08:41:53  step 5,450/9,704  178.6M tokens  loss 1.8545  rate 1.40e-04  92,221 tok/s
+11-17 08:42:12  eval  eval_web 4.2780  eval_logic 0.3496  eval_unseen_singles 0.3847  eval_unseen_pairs 0.3095  eval_oor 1.2808
+11-17 08:42:14  step 5,500/9,704  180.2M tokens  loss 1.7867  rate 1.38e-04  93,364 tok/s
+11-17 08:42:32  step 5,550/9,704  181.9M tokens  loss 1.8418  rate 1.36e-04  91,318 tok/s
+11-17 08:42:50  step 5,600/9,704  183.5M tokens  loss 1.8170  rate 1.33e-04  91,384 tok/s
+11-17 08:43:08  step 5,650/9,704  185.1M tokens  loss 1.7875  rate 1.31e-04  91,599 tok/s
+11-17 08:43:26  step 5,700/9,704  186.8M tokens  loss 1.8523  rate 1.29e-04  91,587 tok/s
+11-17 08:43:38  eval  eval_web 4.2523  eval_logic 0.3479  eval_unseen_singles 0.3821  eval_unseen_pairs 0.3091  eval_oor 1.2613
+11-17 08:43:40  checkpoint at step 5,730 (187.8M tokens)
+11-17 08:43:47  step 5,750/9,704  188.4M tokens  loss 1.8006  rate 1.27e-04  85,803 tok/s
+11-17 08:44:08  step 5,800/9,704  190.1M tokens  loss 1.8108  rate 1.25e-04  78,024 tok/s
+11-17 08:44:36  step 5,850/9,704  191.7M tokens  loss 1.8093  rate 1.23e-04  58,658 tok/s
+11-17 08:45:04  step 5,900/9,704  193.3M tokens  loss 1.7666  rate 1.21e-04  59,003 tok/s
+11-17 08:45:22  step 5,950/9,704  195.0M tokens  loss 1.8879  rate 1.19e-04  90,568 tok/s
+11-17 08:45:27  eval  eval_web 4.2347  eval_logic 0.3471  eval_unseen_singles 0.3804  eval_unseen_pairs 0.3102  eval_oor 1.2934
+11-17 08:45:44  step 6,000/9,704  196.6M tokens  loss 1.8458  rate 1.17e-04  90,410 tok/s
+11-17 08:46:02  step 6,050/9,704  198.2M tokens  loss 1.8278  rate 1.15e-04  90,327 tok/s
+11-17 08:46:20  step 6,100/9,704  199.9M tokens  loss 1.8225  rate 1.13e-04  90,573 tok/s
+11-17 08:46:38  step 6,150/9,704  201.5M tokens  loss 1.9014  rate 1.11e-04  90,534 tok/s
+11-17 08:46:53  eval  eval_web 4.2132  eval_logic 0.3451  eval_unseen_singles 0.3794  eval_unseen_pairs 0.3087  eval_oor 1.2694
+11-17 08:47:00  step 6,200/9,704  203.2M tokens  loss 1.7819  rate 1.09e-04  90,737 tok/s
+11-17 08:47:18  step 6,250/9,704  204.8M tokens  loss 1.7897  rate 1.07e-04  90,507 tok/s
+11-17 08:47:36  step 6,300/9,704  206.4M tokens  loss 1.8377  rate 1.05e-04  90,529 tok/s
+11-17 08:47:38  checkpoint at step 6,303 (206.5M tokens)
+11-17 08:48:00  step 6,350/9,704  208.1M tokens  loss 1.8423  rate 1.03e-04  67,371 tok/s
+11-17 08:48:28  step 6,400/9,704  209.7M tokens  loss 1.8035  rate 1.01e-04  58,678 tok/s
+11-17 08:48:40  eval  eval_web 4.1969  eval_logic 0.3452  eval_unseen_singles 0.3778  eval_unseen_pairs 0.3094  eval_oor 1.2866
+11-17 08:48:57  step 6,450/9,704  211.4M tokens  loss 1.8265  rate 9.88e-05  75,826 tok/s
+11-17 08:49:15  step 6,500/9,704  213.0M tokens  loss 1.7929  rate 9.69e-05  90,705 tok/s
+11-17 08:49:33  step 6,550/9,704  214.6M tokens  loss 1.7946  rate 9.51e-05  90,666 tok/s
+11-17 08:49:51  step 6,600/9,704  216.3M tokens  loss 1.8486  rate 9.32e-05  90,513 tok/s
+11-17 08:50:09  eval  eval_web 4.1773  eval_logic 0.3446  eval_unseen_singles 0.3760  eval_unseen_pairs 0.3088  eval_oor 1.2942
+11-17 08:50:12  step 6,650/9,704  217.9M tokens  loss 1.7538  rate 9.13e-05  91,076 tok/s
+11-17 08:50:30  step 6,700/9,704  219.5M tokens  loss 1.7733  rate 8.95e-05  90,535 tok/s
+11-17 08:50:49  step 6,750/9,704  221.2M tokens  loss 1.8431  rate 8.77e-05  90,538 tok/s
+11-17 08:51:07  step 6,800/9,704  222.8M tokens  loss 1.7694  rate 8.59e-05  90,525 tok/s
+11-17 08:51:25  step 6,850/9,704  224.5M tokens  loss 1.8062  rate 8.41e-05  90,530 tok/s
+11-17 08:51:35  eval  eval_web 4.1686  eval_logic 0.3436  eval_unseen_singles 0.3759  eval_unseen_pairs 0.3081  eval_oor 1.2822
+11-17 08:51:38  checkpoint at step 6,876 (225.3M tokens)
+11-17 08:51:47  step 6,900/9,704  226.1M tokens  loss 1.7723  rate 8.24e-05  85,582 tok/s
+11-17 08:52:13  step 6,950/9,704  227.7M tokens  loss 1.7455  rate 8.07e-05  62,566 tok/s
+11-17 08:52:41  step 7,000/9,704  229.4M tokens  loss 1.8288  rate 7.90e-05  58,504 tok/s
+11-17 08:53:04  step 7,050/9,704  231.0M tokens  loss 1.8521  rate 7.73e-05  71,364 tok/s
+11-17 08:53:25  eval  eval_web 4.1581  eval_logic 0.3423  eval_unseen_singles 0.3740  eval_unseen_pairs 0.3080  eval_oor 1.2887
+11-17 08:53:26  step 7,100/9,704  232.7M tokens  loss 1.7266  rate 7.56e-05  96,062 tok/s
+11-17 08:53:44  step 7,150/9,704  234.3M tokens  loss 1.8147  rate 7.40e-05  90,631 tok/s
+11-17 08:54:02  step 7,200/9,704  235.9M tokens  loss 1.8357  rate 7.24e-05  90,641 tok/s
+11-17 08:54:20  step 7,250/9,704  237.6M tokens  loss 1.8163  rate 7.08e-05  90,647 tok/s
+11-17 08:54:38  step 7,300/9,704  239.2M tokens  loss 1.8452  rate 6.92e-05  90,658 tok/s
+11-17 08:54:51  eval  eval_web 4.1452  eval_logic 0.3422  eval_unseen_singles 0.3732  eval_unseen_pairs 0.3084  eval_oor 1.2912
+11-17 08:55:00  step 7,350/9,704  240.8M tokens  loss 1.7898  rate 6.77e-05  90,659 tok/s
+11-17 08:55:18  step 7,400/9,704  242.5M tokens  loss 1.7567  rate 6.62e-05  90,486 tok/s
+11-17 08:55:36  checkpoint at step 7,449 (244.1M tokens)
+11-17 08:55:36  step 7,450/9,704  244.1M tokens  loss 1.7787  rate 6.47e-05  87,520 tok/s
+11-17 08:55:55  step 7,500/9,704  245.8M tokens  loss 1.7735  rate 6.32e-05  90,200 tok/s
+11-17 08:56:21  step 7,550/9,704  247.4M tokens  loss 1.8029  rate 6.18e-05  62,438 tok/s
+11-17 08:56:30  eval  eval_web 4.1362  eval_logic 0.3413  eval_unseen_singles 0.3718  eval_unseen_pairs 0.3080  eval_oor 1.2867
+11-17 08:56:54  step 7,600/9,704  249.0M tokens  loss 1.8114  rate 6.04e-05  58,628 tok/s
+11-17 08:57:15  step 7,650/9,704  250.7M tokens  loss 1.7631  rate 5.90e-05  79,988 tok/s
+11-17 08:57:33  step 7,700/9,704  252.3M tokens  loss 1.8208  rate 5.77e-05  90,324 tok/s
+11-17 08:57:51  step 7,750/9,704  254.0M tokens  loss 1.7661  rate 5.64e-05  90,354 tok/s
+11-17 08:58:07  eval  eval_web 4.1230  eval_logic 0.3407  eval_unseen_singles 0.3706  eval_unseen_pairs 0.3078  eval_oor 1.2900
+11-17 08:58:13  step 7,800/9,704  255.6M tokens  loss 1.7570  rate 5.51e-05  90,500 tok/s
+11-17 08:58:25  checkpoint at step 7,833 (256.7M tokens)
+11-17 08:58:25  stopped on request
+C:\bigfiles\competition\train\stream.py:38: SyntaxWarning: "\s" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\s"? A raw string is also an option.
+  Separated layout (train\sep.py): cut right after the last SPACE / NEWLINE / PARAGRAPH / QA that
+11-17 09:03:01  resumed at step 7,833
+11-17 09:03:01  model 25m vocab 49,152: 62,929,280 parameters (25,180,544 body, 37,748,736 table + head) | window 1024 | batch 32
+11-17 09:03:01  data: 16 shards, 318,012,696 tokens -> 9,704 steps of 32,768 tokens, one pass
+11-17 09:03:01  eval_web: 51,656 tokens
+11-17 09:03:01  eval_logic: 96,255 tokens
+11-17 09:03:01  eval_unseen_singles: 400,000 tokens
+11-17 09:03:01  eval_unseen_pairs: 209,550 tokens
+11-17 09:03:01  eval_oor: 130,097 tokens
+11-17 09:03:10  step 7,850/9,704  257.2M tokens  loss 1.8605  rate 5.38e-05  69,030 tok/s
+11-17 09:03:38  step 7,900/9,704  258.9M tokens  loss 1.8088  rate 5.26e-05  57,299 tok/s
+11-17 09:04:07  step 7,950/9,704  260.5M tokens  loss 1.7538  rate 5.14e-05  57,380 tok/s
+11-17 09:04:27  step 8,000/9,704  262.1M tokens  loss 1.7647  rate 5.02e-05  81,069 tok/s
+11-17 09:04:36  eval  eval_web 4.1138  eval_logic 0.3404  eval_unseen_singles 0.3706  eval_unseen_pairs 0.3075  eval_oor 1.2892
+11-17 09:04:39  checkpoint at step 8,022 (262.9M tokens)
+11-17 09:04:50  step 8,050/9,704  263.8M tokens  loss 1.7999  rate 4.91e-05  85,789 tok/s
+11-17 09:05:16  step 8,100/9,704  265.4M tokens  loss 1.7202  rate 4.80e-05  62,975 tok/s
+11-17 09:05:44  step 8,150/9,704  267.1M tokens  loss 1.7558  rate 4.69e-05  58,342 tok/s
+11-17 09:06:07  step 8,200/9,704  268.7M tokens  loss 1.6851  rate 4.58e-05  69,901 tok/s
+11-17 09:06:27  eval  eval_web 4.1051  eval_logic 0.3393  eval_unseen_singles 0.3698  eval_unseen_pairs 0.3069  eval_oor 1.2932
+11-17 09:06:29  step 8,250/9,704  270.3M tokens  loss 1.7338  rate 4.48e-05  90,389 tok/s
+11-17 09:06:47  step 8,300/9,704  272.0M tokens  loss 1.7916  rate 4.38e-05  89,693 tok/s
+11-17 09:07:06  step 8,350/9,704  273.6M tokens  loss 1.7342  rate 4.29e-05  88,585 tok/s
+11-17 09:07:24  step 8,400/9,704  275.3M tokens  loss 1.7810  rate 4.20e-05  89,650 tok/s
+11-17 09:07:42  step 8,450/9,704  276.9M tokens  loss 1.7587  rate 4.11e-05  89,679 tok/s
+11-17 09:07:54  eval  eval_web 4.0969  eval_logic 0.3392  eval_unseen_singles 0.3691  eval_unseen_pairs 0.3070  eval_oor 1.2937
+11-17 09:08:04  step 8,500/9,704  278.5M tokens  loss 1.7872  rate 4.02e-05  88,280 tok/s
+11-17 09:08:22  step 8,550/9,704  280.2M tokens  loss 1.7363  rate 3.94e-05  89,658 tok/s
+11-17 09:08:40  checkpoint at step 8,595 (281.6M tokens)
+11-17 09:08:42  step 8,600/9,704  281.8M tokens  loss 1.8084  rate 3.86e-05  85,902 tok/s
+11-17 09:09:00  step 8,650/9,704  283.4M tokens  loss 1.7710  rate 3.79e-05  89,669 tok/s
+11-17 09:09:28  step 8,700/9,704  285.1M tokens  loss 1.7397  rate 3.71e-05  57,643 tok/s
+11-17 09:09:34  eval  eval_web 4.0875  eval_logic 0.3392  eval_unseen_singles 0.3679  eval_unseen_pairs 0.3073  eval_oor 1.2964
+11-17 09:10:02  step 8,750/9,704  286.7M tokens  loss 1.7251  rate 3.65e-05  58,204 tok/s
+11-17 09:10:21  step 8,800/9,704  288.4M tokens  loss 1.7493  rate 3.58e-05  86,372 tok/s
+11-17 09:10:39  step 8,850/9,704  290.0M tokens  loss 1.7693  rate 3.52e-05  89,799 tok/s
+11-17 09:10:57  step 8,900/9,704  291.6M tokens  loss 1.7807  rate 3.46e-05  89,721 tok/s
+11-17 09:11:12  eval  eval_web 4.0833  eval_logic 0.3389  eval_unseen_singles 0.3673  eval_unseen_pairs 0.3077  eval_oor 1.2914
+11-17 09:11:19  step 8,950/9,704  293.3M tokens  loss 1.7172  rate 3.40e-05  90,023 tok/s
+11-17 09:11:37  step 9,000/9,704  294.9M tokens  loss 1.7266  rate 3.35e-05  88,871 tok/s
+11-17 09:11:56  step 9,050/9,704  296.6M tokens  loss 1.7520  rate 3.30e-05  89,914 tok/s
+11-17 09:12:14  step 9,100/9,704  298.2M tokens  loss 1.7231  rate 3.26e-05  89,871 tok/s
+11-17 09:12:32  step 9,150/9,704  299.8M tokens  loss 1.7569  rate 3.22e-05  89,808 tok/s
+11-17 09:12:39  eval  eval_web 4.0753  eval_logic 0.3387  eval_unseen_singles 0.3673  eval_unseen_pairs 0.3068  eval_oor 1.2957
+11-17 09:12:43  checkpoint at step 9,168 (300.4M tokens)
+11-17 09:12:55  step 9,200/9,704  301.5M tokens  loss 1.8122  rate 3.18e-05  82,221 tok/s
+11-17 09:13:18  step 9,250/9,704  303.1M tokens  loss 1.7332  rate 3.15e-05  72,279 tok/s
+11-17 09:13:46  step 9,300/9,704  304.7M tokens  loss 1.7456  rate 3.12e-05  58,074 tok/s
+11-17 09:14:12  step 9,350/9,704  306.4M tokens  loss 1.7168  rate 3.09e-05  62,458 tok/s
+11-17 09:14:30  eval  eval_web 4.0695  eval_logic 0.3385  eval_unseen_singles 0.3668  eval_unseen_pairs 0.3070  eval_oor 1.3021
+11-17 09:14:34  step 9,400/9,704  308.0M tokens  loss 1.6922  rate 3.07e-05  90,045 tok/s
+11-17 09:14:53  step 9,450/9,704  309.7M tokens  loss 1.8049  rate 3.05e-05  88,475 tok/s
+11-17 09:15:11  step 9,500/9,704  311.3M tokens  loss 1.7609  rate 3.03e-05  88,788 tok/s
+11-17 09:15:29  step 9,550/9,704  312.9M tokens  loss 1.7792  rate 3.02e-05  89,849 tok/s
+11-17 09:15:48  step 9,600/9,704  314.6M tokens  loss 1.7932  rate 3.01e-05  89,823 tok/s
+11-17 09:15:57  eval  eval_web 4.0633  eval_logic 0.3385  eval_unseen_singles 0.3670  eval_unseen_pairs 0.3068  eval_oor 1.3018
+11-17 09:16:09  step 9,650/9,704  316.2M tokens  loss 1.7801  rate 3.00e-05  89,894 tok/s
+11-17 09:16:28  step 9,700/9,704  317.8M tokens  loss 1.7529  rate 3.00e-05  89,832 tok/s
+11-17 09:16:32  eval  eval_web 4.0614  eval_logic 0.3388  eval_unseen_singles 0.3671  eval_unseen_pairs 0.3069  eval_oor 1.3030
+11-17 09:16:33  checkpoint at step 9,704 (318.0M tokens)
+11-17 09:16:33  done

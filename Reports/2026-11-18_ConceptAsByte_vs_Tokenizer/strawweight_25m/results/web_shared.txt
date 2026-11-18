@@ -1,0 +1,5 @@
+v1: 1.1351 bits per original character (630,114 bytes, 1.4558 per unit)
+v2: 1.1320 bits per original character (630,114 bytes, 1.4519 per unit)
+v3: 1.1276 bits per original character (635,494 bytes, 1.4341 per unit)
+v4: 1.1314 bits per original character (642,775 bytes, 1.4226 per unit)
+tok: 1.2703 bits per original character (235,017 tokens, 4.3682 per unit)

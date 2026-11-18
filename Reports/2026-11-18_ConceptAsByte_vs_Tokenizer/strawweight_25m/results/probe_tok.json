@@ -1,0 +1,97 @@
+{
+ "model": "tok",
+ "checkpoint": "runs/tok_v2/final.pt",
+ "families": {
+  "f1": {
+   "kind": 62.5,
+   "exact": 13.8,
+   "wording": 41.5,
+   "constant": 26.0,
+   "n": 400
+  },
+  "f2": {
+   "kind": 81.8,
+   "exact": 74.5,
+   "wording": 56.0,
+   "constant": 31.8,
+   "n": 400
+  },
+  "f3": {
+   "kind": 83.8,
+   "exact": 74.0,
+   "wording": 43.8,
+   "constant": 26.0,
+   "n": 365
+  },
+  "f4": {
+   "kind": 99.7,
+   "exact": 49.3,
+   "wording": 50.9,
+   "constant": 24.4,
+   "n": 373
+  },
+  "f5": {
+   "kind": 70.9,
+   "exact": 38.3,
+   "wording": 49.9,
+   "constant": 23.9,
+   "n": 381
+  },
+  "f6": {
+   "kind": 54.8,
+   "exact": 3.5,
+   "wording": 51.2,
+   "constant": 27.0,
+   "n": 400
+  },
+  "f7": {
+   "kind": 91.0,
+   "exact": 89.0,
+   "wording": 59.2,
+   "constant": 29.0,
+   "n": 365
+  },
+  "f8": {
+   "kind": 70.2,
+   "exact": 42.2,
+   "wording": 43.8,
+   "constant": 25.5,
+   "n": 400
+  },
+  "f9": {
+   "kind": 70.4,
+   "exact": 45.1,
+   "wording": 54.6,
+   "constant": 25.6,
+   "n": 379
+  },
+  "f10": {
+   "kind": 76.6,
+   "exact": 44.8,
+   "wording": 48.6,
+   "constant": 26.4,
+   "n": 364
+  },
+  "f11": {
+   "kind": 87.6,
+   "exact": 48.1,
+   "wording": 52.2,
+   "constant": 25.4,
+   "n": 362
+  },
+  "pairs": {
+   "kind": 100.0,
+   "exact": 100.0,
+   "wording": 49.1,
+   "constant": 25.0,
+   "n": 1996
+  }
+ },
+ "all": {
+  "kind": 84.3,
+  "exact": 64.1,
+  "wording": 49.8,
+  "constant": 26.0,
+  "n": 6185
+ }
+}

@@ -1,0 +1,163 @@
+{
+ "model": "../lightweight_run2/final.pt",
+ "layout": "sep",
+ "max_per_task": -1,
+ "CORE": 0.1439118057634438,
+ "tasks": {
+  "hellaswag_zeroshot": {
+   "accuracy": 0.34694284007169884,
+   "centered": 0.12925712009559845,
+   "n": 10042,
+   "not_encodable_scored_wrong": 0,
+   "with_spelled_words": 360
+  },
+  "jeopardy": {
+   "accuracy": 0.005668398677373642,
+   "centered": 0.005668398677373642,
+   "n": 2117,
+   "not_encodable_scored_wrong": 0,
+   "with_spelled_words": 100
+  },
+  "bigbench_qa_wikidata": {
+   "accuracy": 0.06259534471728753,
+   "centered": 0.06259534471728753,
+   "n": 20321,
+   "not_encodable_scored_wrong": 0,
+   "with_spelled_words": 254
+  },
+  "arc_easy": {
+   "accuracy": 0.5854377104377104,
+   "centered": 0.4472502805836139,
+   "n": 2376,
+   "not_encodable_scored_wrong": 0,
+   "with_spelled_words": 0
+  },
+  "arc_challenge": {
+   "accuracy": 0.30802047781569963,
+   "centered": 0.07736063708759951,
+   "n": 1172,
+   "not_encodable_scored_wrong": 0,
+   "with_spelled_words": 11
+  },
+  "copa": {
+   "accuracy": 0.59,
+   "centered": 0.17999999999999994,
+   "n": 100,
+   "not_encodable_scored_wrong": 0,
+   "with_spelled_words": 0
+  },
+  "commonsense_qa": {
+   "accuracy": 0.3963963963963964,
+   "centered": 0.24549549549549549,
+   "n": 1221,
+   "not_encodable_scored_wrong": 0,
+   "with_spelled_words": 37
+  },
+  "piqa": {
+   "accuracy": 0.5952121871599565,
+   "centered": 0.190424374319913,
+   "n": 1838,
+   "not_encodable_scored_wrong": 0,
+   "with_spelled_words": 70
+  },
+  "openbook_qa": {
+   "accuracy": 0.26,
+   "centered": 0.013333333333333345,
+   "n": 500,
+   "not_encodable_scored_wrong": 0,
+   "with_spelled_words": 0
+  },
+  "lambada_openai": {
+   "accuracy": 0.21928973413545508,
+   "centered": 0.21928973413545508,
+   "n": 5153,
+   "not_encodable_scored_wrong": 295,
+   "with_spelled_words": 268
+  },
+  "hellaswag": {
+   "accuracy": 0.33827922724556864,
+   "centered": 0.11770563632742485,
+   "n": 10042,
+   "not_encodable_scored_wrong": 0,
+   "with_spelled_words": 807
+  },
+  "winograd": {
+   "accuracy": 0.5164835164835165,
+   "centered": 0.03296703296703307,
+   "n": 273,
+   "not_encodable_scored_wrong": 0,
+   "with_spelled_words": 0
+  },
+  "winogrande": {
+   "accuracy": 0.4980268350434096,
+   "centered": -0.003946329913180779,
+   "n": 1267,
+   "not_encodable_scored_wrong": 0,
+   "with_spelled_words": 0
+  },
+  "bigbench_dyck_languages": {
+   "accuracy": 0.273,
+   "centered": 0.273,
+   "n": 1000,
+   "not_encodable_scored_wrong": 0,
+   "with_spelled_words": 0
+  },
+  "agi_eval_lsat_ar": {
+   "accuracy": 0.26956521739130435,
+   "centered": 0.08695652173913042,
+   "n": 230,
+   "not_encodable_scored_wrong": 0,
+   "with_spelled_words": 77
+  },
+  "bigbench_cs_algorithms": {
+   "accuracy": 0.4356060606060606,
+   "centered": 0.4356060606060606,
+   "n": 1320,
+   "not_encodable_scored_wrong": 0,
+   "with_spelled_words": 1258
+  },
+  "bigbench_operators": {
+   "accuracy": 0.20952380952380953,
+   "centered": 0.20952380952380953,
+   "n": 210,
+   "not_encodable_scored_wrong": 0,
+   "with_spelled_words": 0
+  },
+  "bigbench_repeat_copy_logic": {
+   "accuracy": 0.03125,
+   "centered": 0.03125,
+   "n": 32,
+   "not_encodable_scored_wrong": 0,
+   "with_spelled_words": 0
+  },
+  "squad": {
+   "accuracy": 0.09470198675496688,
+   "centered": 0.09470198675496688,
+   "n": 10570,
+   "not_encodable_scored_wrong": 0,
+   "with_spelled_words": 1989
+  },
+  "coqa": {
+   "accuracy": 0.14894150068896406,
+   "centered": 0.14894150068896406,
+   "n": 7983,
+   "not_encodable_scored_wrong": 0,
+   "with_spelled_words": 1169
+  },
+  "boolq": {
+   "accuracy": 0.6162079510703364,
+   "centered": -0.009979076130693581,
+   "n": 3270,
+   "not_encodable_scored_wrong": 0,
+   "with_spelled_words": 796
+  },
+  "bigbench_language_identification": {
+   "accuracy": 0.2534,
+   "centered": 0.17865786578657866,
+   "n": 10000,
+   "not_encodable_scored_wrong": 18,
+   "with_spelled_words": 9982
+  }
+ },
+ "seconds": 2675.4038989543915
+}

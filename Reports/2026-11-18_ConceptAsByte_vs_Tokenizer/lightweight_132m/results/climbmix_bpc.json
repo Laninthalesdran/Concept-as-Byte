@@ -1,0 +1,22 @@
+{
+ "documents": 2000,
+ "characters": 4566535,
+ "lightweight_135m": {
+  "bits_per_char": 1.0122555122029238,
+  "loss_per_unit": 1.2619717182928583,
+  "perplexity_per_unit": 3.532379482751247,
+  "units": 2538942
+ },
+ "strawweight_v1_25m": {
+  "bits_per_char": 1.3826974885319727,
+  "loss_per_unit": 1.7237990847632088,
+  "perplexity_per_unit": 5.6057849132338005,
+  "units": 2538942
+ },
+ "tokenizer_63m": {
+  "bits_per_char": 1.4962578218330838,
+  "loss_per_unit": 4.858097069433303,
+  "perplexity_per_unit": 128.7789114688907,
+  "units": 974883
+ }
+}

@@ -40,9 +40,11 @@ acceptance of these same terms.
 
 ## 1. The Materials
 
-This license covers the ZophiaE Flyweight release: the Talkit software
-(source and binaries), the ZophiaE Flyweight model weights and every
-checkpoint of them, the LidiaE translator, the ZofiaE codec, the
+This license covers the ZophiaE model releases, including ZophiaE
+Strawweight (25M; called Flyweight during development) and ZophiaE
+Lightweight (132.5M): the Talkit software (source and binaries), the
+ZophiaE model weights and every checkpoint of them, the LidiaE
+translator, the ZofiaE codec, the
 dictionary tables (`lemmas.tsv`, `forms.tsv`, `aliases.tsv`,
 `substitutions_approved.tsv` and companions), the Eagle-lite and
 Bat-lite converters, the documentation, and the example code —
